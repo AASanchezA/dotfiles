@@ -1,0 +1,24 @@
+[$Version]
+update_info=kopete-pluginloader.upd:kopete0.7/r1,kopete-initialstatus.upd:kopete0.60.80/r1,kopete-update_icq_server.upd:kopete-update-icq-server/r1,kopete-jabberpriorityaddition-kconf_update.upd:kopete0.9/r1,kopete-account-kconf_update.upd:kopete0.7/r1,kopete-account-kconf_update.upd:kopete0.10/r1,kopete-gaim_to_pidgin_style.upd:kopete0.70.85/r1,kopete-pluginloader2.upd:kopete0.8/r1,kopete-update_yahoo_server.upd:kopete-update-yahoo-server/r1,kopete-jabberproxytype-kconf_update.upd:kopete0.9/r1
+
+[General Options]
+Geometry=1366,752
+Height 768=752
+Position=-5,-10
+ShownIdentityId=elohsbjSdO
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHABxAHUAaQBjAGsAUwBlAGEAcgBjAGgAQgBhAHIBAAAA4/////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1366=1366
+WindowState=Hidden
+
+[IdentityManager]
+DefaultIdentity=elohsbjSdO
+
+[Identity_elohsbjSdO]
+Id=elohsbjSdO
+Label=Default Identity
+
+[Status Manager]
+GlobalStatusCategory=2
+GlobalStatusMessage=
+GlobalStatusTitle=Online

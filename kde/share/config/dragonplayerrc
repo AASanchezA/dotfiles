@@ -1,0 +1,58 @@
+[General]
+Recent Urls[$e]=file:///Respaldo/Pictures/matrimonio++prima/matrimonio%20 prima/MVI_6302.avi,file:///Respaldo/Film/Climbing/Tomas/102GOPRO/GOPR0026.MP4,file://$HOME/out-3.ogv,file:///Respaldo/BMC/Thesis/code/FishDetector/output.avi
+TimeFormat=1
+Volume=1
+
+[MainWindow]
+Height 768=512
+State=AAAA/wAAAAD9AAAAAAAAA44AAAG1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=910
+
+[file:///Respaldo/BMC/Thesis/code/FishDetector/output.avi]
+Brightness=0
+Contrast=0
+Hue=0
+IsVideo=true
+Position=7034
+Preferred Size=910,437
+Saturation=0
+Subtitle=0
+
+[file:///Respaldo/Film/Climbing/Tomas/102GOPRO/GOPR0026.MP4]
+Brightness=0
+Contrast=0
+Hue=0
+IsVideo=true
+Position=4863
+Preferred Size=910,437
+Saturation=0
+Subtitle=0
+
+[file:///Respaldo/Pictures/matrimonio++prima/matrimonio%20 prima/MVI_6302.avi]
+Brightness=0
+Contrast=0
+Hue=0
+IsVideo=true
+Position=20564
+Preferred Size=640,437
+Saturation=0
+Subtitle=0
+
+[file:///Respaldo/Project/FishScan/Doc/FISHSCAN-PC (264 913 129)_2013-02-04 19.19.tvs]
+Brightness=0
+Contrast=0
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0
+
+[file:///home/andres/out-3.ogv]
+Brightness=0
+Contrast=0
+Hue=0
+IsVideo=true
+Position=312133
+Preferred Size=910,437
+Saturation=0
+Subtitle=0

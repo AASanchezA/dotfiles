@@ -1,0 +1,46 @@
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAAK9AAAABAAAAAQAAAAIAAAACPwAAAAA
+Width 1366=1367
+
+[General]
+GameDifficulty=50
+Theme=themes/mountain.desktop
+
+[KHighscore_Hard]
+0_LastPlayer=andres
+10_Level=-
+10_Name=-
+10_Score=-
+1_Level=2
+1_Name=andres
+1_Score=9540
+2_Level=1
+2_Name=andres
+2_Score=2530
+3_Level=-
+3_Name=-
+3_Score=-
+4_Level=-
+4_Name=-
+4_Score=-
+5_Level=-
+5_Name=-
+5_Score=-
+6_Level=-
+6_Name=-
+6_Score=-
+7_Level=-
+7_Name=-
+7_Score=-
+8_Level=-
+8_Name=-
+8_Score=-
+9_Level=-
+9_Name=-
+9_Score=-
+
+[MainWindow]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAAK9AAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1367

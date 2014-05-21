@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget">
+  <layout class="QFormLayout">
+
+   <item row="0" column="0">
+    <widget class="QLabel">
+     <property name="text">
+      <string>Simulation steps per second</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QWidget">
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QSlider" name="kcfg_sps">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="sps_spinbox"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+
+   <item row="1" column="0">
+    <widget class="QLabel">
+     <property name="text">
+      <string>Frames per second</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QWidget">
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QSlider" name="kcfg_fps">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="fps_spinbox"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+
+   <item row="2" column="0">
+    <widget class="QLabel">
+     <property name="text">
+      <string>Number of features</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QWidget">
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QSlider" name="kcfg_features">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="features_spinbox"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+
+   <item row="3" column="0">
+    <widget class="QLabel">
+     <property name="text">
+      <string>Number of entities</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QWidget">
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QSlider" name="kcfg_entities">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="entities_spinbox"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>kcfg_sps</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>sps_spinbox</receiver>
+   <slot>setValue(int)</slot>
+  </connection>
+  <connection>
+   <sender>sps_spinbox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>kcfg_sps</receiver>
+   <slot>setValue(int)</slot>
+  </connection>
+  <connection>
+   <sender>kcfg_fps</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>fps_spinbox</receiver>
+   <slot>setValue(int)</slot>
+  </connection>
+  <connection>
+   <sender>fps_spinbox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>kcfg_fps</receiver>
+   <slot>setValue(int)</slot>
+  </connection>
+  <connection>
+   <sender>kcfg_features</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>features_spinbox</receiver>
+   <slot>setValue(int)</slot>
+  </connection>
+  <connection>
+   <sender>features_spinbox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>kcfg_features</receiver>
+   <slot>setValue(int)</slot>
+  </connection>
+  <connection>
+   <sender>kcfg_entities</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>entities_spinbox</receiver>
+   <slot>setValue(int)</slot>
+  </connection>
+  <connection>
+   <sender>entities_spinbox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>kcfg_entities</receiver>
+   <slot>setValue(int)</slot>
+  </connection>
+ </connections>
+</ui>

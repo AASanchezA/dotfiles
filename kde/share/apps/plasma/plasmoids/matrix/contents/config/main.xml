@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="startMessage" type="String">
+      <label>Start message label</label>
+      <default>Wake up Neo...</default>
+    </entry>
+    <entry name="stopMessage" type="String">
+      <label>Stop message Label</label>
+      <default></default>
+    </entry>
+    <entry name="matrixString" type="String">
+      <label>Matrix String</label>
+      <default></default>
+    </entry>
+    <entry name="speed" type="Int">
+      <label>Speed Label</label>
+      <default>3</default>
+    </entry>
+    <entry name="wakeUpToStart" type="Bool">
+      <label>Wake up to start Matrix</label>
+      <default>true</default>
+    </entry>
+    <!--
+    <entry name="notSleeping" type="Bool">
+      <label>No time for sleeping</label>
+      <default>false</default>
+    </entry>
+    -->
+    <entry name="standardColorSettings" type="Bool">
+      <label>Standard color settings</label>
+      <default>true</default>
+    </entry>
+    <entry name="customColorSettings" type="Bool">
+      <label>Custom color settings</label>
+      <default>false</default>
+    </entry>
+    <entry name="threeDEffect" type="Bool">
+      <label>Extended 3D Effect</label>
+      <default>false</default>
+    </entry>
+    <!--
+    <entry name="startSound" type="Bool">
+      <label>Start Sound</label>
+      <default>false</default>
+    </entry>
+    -->
+    <entry name="showMonitor" type="Bool">
+      <label>Show Monitor</label>
+      <default>true</default>
+    </entry>
+    <entry name="showFrame" type="Bool">
+      <label>Show Frame</label>
+      <default>false</default>
+    </entry>
+    <entry name="transparency" type="Bool">
+      <label>transparency</label>
+      <default>false</default>
+    </entry>
+    <entry name="customCharacterColor" type="String">
+      <label>Custom Character Color</label>
+	  <!--<default>#4cbfcc</default>-->
+      <default>#a3fef7</default>
+    </entry>
+    <entry name="customBackgroundColor" type="String">
+      <label>Custom Background Color</label>
+      <!--<default>#94C1CE</default>-->
+      <!--<default>#C0DAFF</default>-->
+      <!--<default>#BAD5F7</default>-->
+      <default>#235966</default>
+    </entry>
+  </group>
+
+</kcfg>

@@ -1,0 +1,5454 @@
+[$Version]
+update_info=kate-2.4.upd:kate2.4
+
+[Colors]
+CurrentPalette=Forty Colors
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Document 0]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=None
+Indentation Mode=
+Mode=
+ReadWrite=false
+URL=file:///home/andres/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
+
+[Document 1]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=JSON
+Indentation Mode=
+Mode=JSON
+ReadWrite=true
+URL=file:///Respaldo/kinect/fancytree/demo/ajax-sub2.json
+
+[Document 10]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=JSON
+Indentation Mode=
+Mode=JSON
+ReadWrite=true
+URL=file:///Respaldo/kinect/fancytree/demo/ajax-tree.json
+
+[Document 11]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+ReadWrite=true
+URL=file:///usr/share/OpenCV/samples/cpp/grabcut.cpp
+
+[Document 12]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+ReadWrite=true
+URL=file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/calibration.cpp
+
+[Document 13]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+ReadWrite=true
+URL=file:///Respaldo/TOF/CaptureSimpleStereo_online/main.cpp
+
+[Document 14]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+ReadWrite=true
+URL=file:///Respaldo/TOF/CaptureSimpleStereo_online/stereo_calib.cpp
+
+[Document 15]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+ReadWrite=true
+URL=file:///Respaldo/TOF/CaptureSimpleStereo_online/stereo_calib.h
+
+[Document 16]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+ReadWrite=true
+URL=file:///usr/share/OpenCV/samples/cpp/stereo_match.cpp
+
+[Document 17]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=YAML
+Indentation Mode=
+Mode=YAML
+ReadWrite=true
+URL=file:///Respaldo/BMC/Thesis/code/STEREO_CALIB_OPENCV/cam1calib.yml
+
+[Document 18]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+ReadWrite=true
+URL=file:///usr/share/OpenCV/samples/cpp/stereo_calib.cpp
+
+[Document 2]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=JSON
+Indentation Mode=
+Mode=JSON
+ReadWrite=true
+URL=file:///Respaldo/kinect/fancytree/demo/ajax-tree-decide.json
+
+[Document 3]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=JSON
+Indentation Mode=
+Mode=JSON
+ReadWrite=true
+URL=file:///Respaldo/kinect/fancytree/demo/ajax-tree-dom.json
+
+[Document 4]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=JSON
+Indentation Mode=
+Mode=JSON
+ReadWrite=true
+URL=file:///Respaldo/kinect/fancytree/demo/ajax-tree-fs.json
+
+[Document 5]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=JSON
+Indentation Mode=
+Mode=JSON
+ReadWrite=true
+URL=file:///Respaldo/kinect/fancytree/demo/ajax-tree-instruments.json
+
+[Document 6]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=JSON
+Indentation Mode=
+Mode=JSON
+ReadWrite=true
+URL=file:///Respaldo/kinect/fancytree/demo/ajax-tree-local.json
+
+[Document 7]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=JSON
+Indentation Mode=
+Mode=JSON
+ReadWrite=true
+URL=file:///Respaldo/kinect/fancytree/demo/ajax-tree-plain.json
+
+[Document 8]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=JSON
+Indentation Mode=
+Mode=JSON
+ReadWrite=true
+URL=file:///Respaldo/kinect/fancytree/demo/ajax-tree-products.json
+
+[Document 9]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=JSON
+Indentation Mode=
+Mode=JSON
+ReadWrite=true
+URL=file:///Respaldo/kinect/fancytree/demo/ajax-tree-taxonomy.json
+
+[Favorite Profiles]
+Favorites=
+
+[Filelist]
+Sort Type=
+
+[General]
+Days Meta Infos=30
+Last Session=
+Modified Notification=false
+Restore Window Configuration=true
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Status Bar=true
+
+[KFileDialog Settings]
+Height 768=450
+Recent Files[$e]=/Respaldo/BMC/Thesis/datatest/stereoCalibBest_mod02calibOpenCv/cam_1/inte/tif/objpoint.xml,/Respaldo/BMC/Third/AdvanceProgramming/coding/pointers01.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/functions02.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/functions.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/exampreparation.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/IOfiles02.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/fig16_06.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/vendedor.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/vendedor.h,/Respaldo/BMC/Third/AdvanceProgramming/coding/hora1.h,/Respaldo/BMC/Third/AdvanceProgramming/coding/hora1.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/fig16_04.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/fig16_03.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/fig16_02.cpp,/Respaldo/BMC/Third/AdvanceProgramming/coding/fig16_01.cpp
+Width 1366=720
+
+[KTEXTEDITOR:]
+DEVELOPER_INFO=NEVER TRY TO USE VALUES FROM THAT GROUP, THEY ARE SUBJECT TO CHANGES
+
+[Kate Document Defaults]
+Allow End of Line Detection=true
+Allow Simple Mode=true
+Automatically Insert Closing Brackets=false
+BOM=false
+Backup Config Flags=1
+Backup Prefix=
+Backup Suffix=~
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=false
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=
+Indentation Width=2
+Keep Extra Spaces=false
+Line Length Limit=1024
+No sync=false
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=false
+RemoveTrailingDyn=false
+ReplaceTabsDyn=false
+Search Dir Config Depth=3
+Show Spaces=false
+Show Tabs=true
+Smart Home=true
+Tab Handling=2
+Tab Width=8
+Word Wrap=false
+Word Wrap Column=80
+Wrap Cursor=true
+
+[Kate Part Defaults]
+Encoding Prober Type=1
+Fallback Encoding=ISO-8859-15
+
+[Kate Plugins]
+kate_kttsd=false
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katectagsplugin=false
+kateexternaltoolsplugin=false
+katefilebrowserplugin=false
+katefiletemplates=false
+katefiletreeplugin=true
+kategdbplugin=false
+katekonsoleplugin=true
+katemailfilesplugin=false
+kateopenheaderplugin=false
+katequickdocumentswitcherplugin=false
+katesearchplugin=false
+katesnippets_tngplugin=true
+katesqlplugin=false
+katesymbolviewerplugin=false
+katetabbarextensionplugin=false
+katetabifyplugin=false
+katetextfilterplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+
+[Kate Renderer Defaults]
+Schema=kate - Normal
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[Kate Vi Input Mode Settings]
+Normal Mode Mapping Keys=
+Normal Mode Mappings=
+
+[Kate View Defaults]
+Allow Mark Menu=true
+Auto Center Lines=0
+Auto Completion=true
+Bookmark Menu Sorting=0
+Default Mark Type=1
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap Indicators=1
+Folding Bar=true
+Icon Bar=false
+Line Modification=true
+Line Numbers=false
+Maximum Search History Size=100
+Persistent Selection=false
+Replacement Text History=SURF_descriptor,.o
+Scroll Bar Marks=false
+Scroll Past End=false
+Search Pattern History=Triggers,Parts,cvPointSeqFromMat,CheckContourConvexity,cvCheckContourConvexity,OpenCVReprojectImageToPointCloud ,class41,.cpp,findSquares,imagePoints,vector,lines,#include,0,Clone,gray,dista,fchmod,OpenCv,OpenCV,OPENCV,live,OPENNI,32,panel,phi,figure,\\\\ref,\\\\section
+Search/Replace Flags=140
+Smart Copy Cut=false
+Vi Input Mode=false
+Vi Input Mode Hide Status Bar=false
+Vi Input Mode Steal Keys=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+
+[MainWindow]
+Height 200=201
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAAK9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAAAAADGgAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=1025
+Width 1360=1361
+Width 1366=1367
+Width 320=321
+
+[MainWindow0]
+Active ViewSpace=0
+Characters Count Visible=false
+Cursor Position Visible=true
+Document Name Visible=true
+Encoding Visible=true
+Height 768=769
+Insertion Mode Visible=true
+Kate-MDI-H-Splitter=231,1104,200
+Kate-MDI-Sidebar-0-Splitter=701,0
+Kate-MDI-Sidebar-3-Splitter=0
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-ToolView-kate_plugin_snippets_tng-Persistent=false
+Kate-MDI-ToolView-kate_plugin_snippets_tng-Position=0
+Kate-MDI-ToolView-kate_plugin_snippets_tng-Sidebar-Position=1
+Kate-MDI-ToolView-kate_plugin_snippets_tng-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Persistent=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Sidebar-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Visible=true
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Persistent=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Position=3
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Sidebar-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
+Kate-MDI-ToolView-katefindinfilesplugin_1-Persistent=false
+Kate-MDI-ToolView-katefindinfilesplugin_1-Position=3
+Kate-MDI-ToolView-katefindinfilesplugin_1-Sidebar-Position=1
+Kate-MDI-ToolView-katefindinfilesplugin_1-Visible=false
+Kate-MDI-V-Splitter=150,675,214
+Selection Mode Visible=true
+State=AAAA/wAAAAD9AAAAAAAABVYAAAK9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAAAAADGgAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=1025
+Width 1366=1367
+
+[MainWindow0 Settings]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAAK9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAAAAADGgAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=1025
+Width 1366=1367
+WindowState=2
+
+[MainWindow0-Splitter 0]
+Children=MainWindow0-ViewSpace 0
+Sizes=1104
+
+[MainWindow0-ViewSpace 0]
+Active View=file:///home/andres/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
+Count=1
+View 0=file:///home/andres/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
+View 1=file:///Respaldo/kinect/fancytree/demo/ajax-tree-local.json
+View 10=file:///Respaldo/kinect/fancytree/demo/ajax-tree-decide.json
+View 2=file:///Respaldo/kinect/fancytree/demo/ajax-tree-instruments.json
+View 3=file:///Respaldo/kinect/fancytree/demo/ajax-tree-fs.json
+View 4=file:///Respaldo/kinect/fancytree/demo/ajax-tree-dom.json
+View 5=file:///Respaldo/kinect/fancytree/demo/ajax-sub2.json
+View 6=file:///Respaldo/kinect/fancytree/demo/ajax-empty.json
+View 7=file:///Respaldo/kinect/fancytree/demo/ajax-tree.json
+View 8=file:///Respaldo/kinect/fancytree/demo/ajax-tree-taxonomy.json
+View 9=file:///Respaldo/kinect/fancytree/demo/ajax-tree-plain.json
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/03-OpenGLWindow/main.cpp]
+CursorColumn=0
+CursorLine=49
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/3DComputerVision/Excercise02/angle2matrix.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/3DComputerVision/Excercise02/draw_ideal.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/3DComputerVision/Excercise02/draw_lines.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/3DComputerVision/Excercise02/draw_points.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/3DComputerVision/Excercise02/matrix2angle.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/3DComputerVision/Excercise03/Excercise03.m]
+CursorColumn=4
+CursorLine=31
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/Camp2/04_Exercise4/RandomWalks/runRandomWalks.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/Camp2/04_Exercise4/RandomWalks/solveRw.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/Camp2/09_Excercise/confMatrixQualityMeasures.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/Camp2/09_Excercise/cross_validation.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/Camp2/09_Excercise/main.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/Camp2/09_Excercise/normalizeExample.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Second/Tutorial C++/Opencv_excercise/OpenCV_exercise/main.cpp]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/CV/coverletter_Cognitec.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/CV/coverletter_DLR.tex]
+CursorColumn=449
+CursorLine=79
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/CV/curriculum vitae.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/Latex/Thesis/README]
+CursorColumn=0
+CursorLine=4
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/Latex/Thesis/chapters/Introduction.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/Latex/Thesis/chapters/oneAppendix.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/Latex/Thesis/components/outline.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/Latex/Thesis/components/text.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/Latex/Thesis/components/titlepage.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/blender/Parameters/Camera Transform.bak]
+CursorColumn=22
+CursorLine=184
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/blender/Parameters/Camera Transform.txt]
+CursorColumn=7
+CursorLine=399
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/blender/Parameters/Fish.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/.cproject]
+CursorColumn=49
+CursorLine=22
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/.metadata/.log]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/.metadata/version.ini]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/CalibrationHRTOF/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/CalibrationHRTOF/src/CalibrationHRTOF.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/CalibrationHRTOF/src/CalibrationHRTOF.h]
+CursorColumn=0
+CursorLine=61
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/CalibrationHRTOF/src/main.cpp]
+CursorColumn=60
+CursorLine=351
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/CommCam/boardcontroller.cpp]
+CursorColumn=10
+CursorLine=88
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/CommCam/boardcontroller.h]
+CursorColumn=44
+CursorLine=45
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/CommCam/comm.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/CommCam/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/CommCam/messages.h]
+CursorColumn=24
+CursorLine=93
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/Controller_commander_firmware_v0/%23fishscan_commander.c%23]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/Controller_commander_firmware_v0/control_commander.c]
+CursorColumn=1
+CursorLine=253
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/Controller_commander_firmware_v0/control_commander.c.backup]
+CursorColumn=3
+CursorLine=329
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/Controller_commander_firmware_v0/controller_commander.c]
+CursorColumn=41
+CursorLine=311
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/DOT_VS_1.0_ia32/Makefile]
+CursorColumn=58
+CursorLine=9
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/DOT_VS_1.0_x86_64/Makefile]
+CursorColumn=1
+CursorLine=20
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/DOT_VS_1.0_x86_64/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/DOT_VS_1.0_x86_64/include/cv_define.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/DOT_VS_1.0_x86_64/include/cv_dot_template.h]
+CursorColumn=34
+CursorLine=1596
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/DOT_VS_1.0_x86_64/src/cv_utilities.cc]
+CursorColumn=12
+CursorLine=59
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/DOT_VS_1.0_x86_64/src/main_dot2D.cc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/DOT_VS_1.0_x86_64/src/main_dot3D.cc]
+CursorColumn=11
+CursorLine=451
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/DOT_vs_1.0/.settings/org.eclipse.cdt.codan.core.prefs]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishDetector/CMakeLists.txt]
+CursorColumn=21
+CursorLine=116
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishDetector/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishDetector/src/CMakeLists.txt]
+CursorColumn=7
+CursorLine=25
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/50-0503329099.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/camcubeproc.W32.ppp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/fischscanConfigFile.cfg]
+CursorColumn=6
+CursorLine=50
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/fishscanAVTConfigFile.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/fishscanTOFConfigFile.txt]
+CursorColumn=15
+CursorLine=13
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/main.cpp]
+CursorColumn=19
+CursorLine=2393
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/main.cpp.backup]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/messages.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/GEPARD_VS_1.0_x86_64/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/LINE2D_DETECTOR/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/LINE2D_DETECTOR/include/cv_utilities.h]
+CursorColumn=0
+CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/LINE2D_OPENCV/fishtest.yaml]
+CursorColumn=101
+CursorLine=1001
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/LINE2D_OPENCV/linemod_templates.yml]
+CursorColumn=23
+CursorLine=6161
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/LINE2D_OPENCV/src/cv_utilities.cc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/LINE2D_OPENCV/src/line2d.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/LINEMOD_OPENCV/src/linemod.cpp]
+CursorColumn=0
+CursorLine=705
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/OpenCVReprojectImageToPointCloud/CMakeLists.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/OpenCVReprojectImageToPointCloud/opencv_reproject_image_pcl.cpp]
+CursorColumn=6
+CursorLine=205
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/PartsBasedDetector/.gitmodules]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/PartsBasedDetector/doc/Doxyfile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/PartsBasedDetector/matlab/learning/fprintflush.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/PartsBasedDetector/matlab/training_demo.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/PartsBasedDetector/ros/CMakeLists.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/PartsBasedDetector/src/CMakeLists.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/STEREO_CALIB_OPENCV/calibcam1Opencv.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/STEREO_CALIB_OPENCV/cam1calib.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/STEREO_CALIB_OPENCV/intrinsics.yml.bak]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/STEREO_CALIB_OPENCV/src/stereo_calib.cpp]
+CursorColumn=5
+CursorLine=908
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/STEREO_MATCH_OPENCV/extrinsics.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/STEREO_MATCH_OPENCV/intrinsics.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/STEREO_MATCH_OPENCV/pointcloud]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/STEREO_MATCH_OPENCV/pointcloud.pcd]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/TriggeringCam/main.cpp]
+CursorColumn=0
+CursorLine=124
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/TriggeringCam/messages.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/anotation/CMakeLists.txt]
+CursorColumn=1
+CursorLine=4
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/anotationOpencv/01_dataset/dataset.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/boardController/boardController.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/boardController/boardController.cpp (Case Conflict 1)]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/captCamS/fishscanAVTConfigFile.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/captCamS/fishscanTOFConfigFile.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/captCamS/src/camera3Dtof.cpp]
+CursorColumn=13
+CursorLine=15
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/imagelistCreator/CMakeLists.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/imagelistCreator/fishlist.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/imagelistCreator/fishlisttest.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/linemod/include/icp.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/linemod/src/linemod.cpp]
+CursorColumn=10
+CursorLine=58
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/linemod/src/main_linemod.bak]
+CursorColumn=0
+CursorLine=19
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/matlabWS/bin2pmd.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/matlabWS/ex2.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/matlabWS/exp.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/matlabWS/file.pmd]
+CursorColumn=0
+CursorLine=403
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/matlabWS/mat2opencv.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/matlabWS/mip4calibration.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/matlabWS/readtofbin.m]
+CursorColumn=0
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/ofKinectCoreVision/config.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/pclsimpleviewer/CMakeLists.txt]
+CursorColumn=26
+CursorLine=11
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/pclsimpleviewer/pclvisualizer.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/stereoPointConverter/COPYING]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/stereoPointConverter/data/extrinsics.yml]
+CursorColumn=1
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/stereoPointConverter/data/intrinsics.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/stereoPointConverter/pointcloud]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/datatest/stereoCalibBest/cam_1/pmd/data_st12_led2_0045.pmd]
+CursorColumn=866
+CursorLine=25
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/datatest/stereoCalibBest_mod01/cam_1/pmd/data_st12_led2_0001.pmd]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/datatest/stereoCalibBest_mod01/cam_1/pmd/data_st12_led2_0041.pmd]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/datatest/stereoCalibBest_mod01/cam_1/pmd/data_st12_led2_0043.pmd]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/datatest/stereoCalibBest_mod01/cam_1/pmd/data_st12_led2_0049.pmd]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/datatest/stereoCalibBest_mod02calibOpenCv/cam_2/cam2list.yaml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/datatest/stereoCalibBest_mod02calibOpenCv/cam_2/tif/Calib_Results.m]
+CursorColumn=24
+CursorLine=444
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/datatest/stereoCalibBest_mod02calibOpenCv/cam_2/tif/Calib_Results.mat]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/datatest/stereoCalibBest_mod02calibOpenCv/cam_2/tif/calibWH.yml1]
+CursorColumn=0
+CursorLine=29
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/datatest/stereoCalibBest_mod02calibOpenCv/cam_2/tif/calibWH.yml35]
+CursorColumn=76
+CursorLine=29
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/presentation_kickOff/abstract]
+CursorColumn=81
+CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/ARforPose/TUMdata/README.txt]
+CursorColumn=0
+CursorLine=24
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/ARforPose/src/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/ARforPose/src/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/DOT_VS_1.0_x86_64/src/main_dot2D.cc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/DOT_vs_1.0/AUTHORS]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/DOT_vs_1.0/README]
+CursorColumn=7
+CursorLine=10
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/DOT_vs_1.0/include/cv_camera.h]
+CursorColumn=0
+CursorLine=117
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/DOT_vs_1.0/src/main_dot3D.cc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/LEOPAR_vs_1.0/AUTHORS]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/LEOPAR_vs_1.0/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/LEOPAR_vs_1.0/src/cv_leopar.cc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/CMakeCache.txt]
+CursorColumn=11
+CursorLine=628
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/CMakeLists.txt]
+CursorColumn=22
+CursorLine=131
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/build64/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/build64/bin/camera.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/build64/bin/stereo_calib.xml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/cmake/OpenCVFindOpenNI.cmake]
+CursorColumn=2
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/doc/tutorials/core/basic_linear_transform/basic_linear_transform.rst]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/opencv2/opencv_modules.hpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/samples/CMakeLists.txt]
+CursorColumn=0
+CursorLine=13
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/samples/cpp/3calibration.cpp]
+CursorColumn=18
+CursorLine=17
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/samples/cpp/calibration.cpp]
+CursorColumn=5
+CursorLine=411
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/samples/cpp/linemod.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/samples/cpp/openni_capture.cpp]
+CursorColumn=17
+CursorLine=193
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/software/opencv/samples/cpp/stereo_calib.cpp]
+CursorColumn=18
+CursorLine=38
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/AdvanceProgramming/coding/fig15_05.cpp]
+CursorColumn=7
+CursorLine=18
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/AdvanceProgramming/coding/pointer01.cpp]
+CursorColumn=44
+CursorLine=10
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/AdvanceProgramming/coding/pointer02.cpp]
+CursorColumn=1
+CursorLine=29
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/AdvanceProgramming/exer/3_src/pi.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/AdvanceProgramming/exer/3_src/pipp.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/AdvanceProgramming/exer/exer_2/simpleCalculator.c]
+CursorColumn=0
+CursorLine=81
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/AdvanceProgramming/exer/exer_6/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/Business Plan/AS_business plan_WS12-13.txt]
+CursorColumn=165
+CursorLine=43
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/Seminar/CAMP-latex-template/macro.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/Seminar/llncs2e/llncs.cls]
+CursorColumn=25
+CursorLine=641
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/Seminar/llncs2e/llncs.dem]
+CursorColumn=10
+CursorLine=980
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/Seminar/llncs2e/llncs.doc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/Seminar/llncs2e/readme.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/Seminar/llncs2e/typeinst.tex]
+CursorColumn=70
+CursorLine=188
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/Rebecca/detect.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/Rebecca/ex2.m]
+CursorColumn=19
+CursorLine=10
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/Traking 1/adaboost.m]
+CursorColumn=60
+CursorLine=4
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/Traking 1/example.m]
+CursorColumn=0
+CursorLine=23
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/ViolaJones_version0b/SubFunctions/GetHaarCasade.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/ViolaJones_version0b/SubFunctions/GetIntergralImages.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/ViolaJones_version0b/SubFunctions/GetSumRect.m]
+CursorColumn=0
+CursorLine=4
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/ViolaJones_version0b/SubFunctions/HaarCasadeObjectDetection.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/ViolaJones_version0b/SubFunctions/OneScaleObjectDetection.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/fdtool_release/fdtool_release/generate_fa_features.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/fdtool_release/fdtool_release/generate_face_features.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/integralImage.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/phone/mesh.ply]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Downloads/TorBrowser_en-US.app/README-TorBrowserBundle]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Downloads/cpp_studio_xe_2013_update3/license.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Downloads/raspberrypi/Raspbian/interfaces.backup]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Downloads/skittles_berry.bin]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/BMC-3rd/tutorial/tutorial_1/hello.cpp]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/FishScan/04062013/Fish length and weight.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/PMD_windows/PMDRecord/main.cpp]
+CursorColumn=1
+CursorLine=125
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 2/Final/ex1.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 2/Final/ex2.m]
+CursorColumn=18
+CursorLine=44
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 3/FINAL/Harris.m]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 3/FINAL/HarrisLaplace.m]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 3/Harris.m]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 3/ex1.m]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 4/ex3.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 4/ransac.m]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 4/ransac_adaptive.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 4/stitch.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 5/Final/main.m]
+CursorColumn=5
+CursorLine=108
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 5/Nici_at_work/find_robust.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 5/Rebecca/find_robust.m]
+CursorColumn=0
+CursorLine=44
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 5/andres/find_robust.m]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 5/exercise 5_Mads/exercise 5/find_robust_keypoints.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 6/andres/main.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Olli/adaboosty.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Olli/adaboosty2.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Olli/q1.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Olli/q2.m]
+CursorColumn=46
+CursorLine=47
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/adaboost.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/comp_rectangle.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/ex1.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/ex2.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/getSumRec.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/get_features.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/haar_features.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/integral_image.m]
+CursorColumn=0
+CursorLine=12
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 8/main.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/andres_ergün_markus/PresentationNote.txt]
+CursorColumn=26
+CursorLine=19
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/andres_ergün_markus/business plan seminar/Businessplan/AS_BPG_template_business plan_WS12-13.docx]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/testMIP/2dlist.lst]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/testMIP/3dlist.lst]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/tofDoc/PMDCamCube3.0/PMDSDK2/Linux_x86_64/doc/INSTALL]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Extend3d/JavaJquery/LearnJquery/learnjquery01.js]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Extend3d/html/helloworld.html]
+CursorColumn=0
+CursorLine=3
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Extend3d/projects/etrackd.sublime-project]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Extend3d/www/js/helloworld.js]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/2dcalibdata/Calib_Results.m]
+CursorColumn=29
+CursorLine=12
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/Air 1.5m/New mechanical setup/Checkerboard/cam_1/ampl/imglist.yaml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/Air 1.5m/Old mechanical setup/Checkerboard/cam_1/inte/inten.lst]
+CursorColumn=0
+CursorLine=30
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/Water 1.5m/Old mechanical setup/stereocalib/HR/Calib_Results.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/Water 1.5m/Old mechanical setup/stereocalib/inten/Calib_Results.m]
+CursorColumn=37
+CursorLine=4
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/distortion_matrix_Old_water_11.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/intrinsic_matrix_Old_water_11.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/intrinsic_matrix_Old_water_all.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/stereoCalibAir/MultiCameraCalibration.log]
+CursorColumn=0
+CursorLine=25
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/stereoCalibAir/cam_1/pmd/data_st12_led2_0150.pmd]
+CursorColumn=723
+CursorLine=7
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/stereoCalibAir/cam_2/cam_2list.lst]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/04062013-Final/stereoCalibAir/shortlistcorners.corners]
+CursorColumn=0
+CursorLine=2451
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/06052013 - Box/Sequence 1m (Box)/cam_1/testfile.cvs]
+CursorColumn=71
+CursorLine=29970
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/06052013 - Fish in air/Sequence 1,95m 3/cam_2/fishlist.yaml]
+CursorColumn=0
+CursorLine=102
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167 grams(avg) group/03/tiff/fish2list.yaml]
+CursorColumn=101
+CursorLine=501
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/01/tiff/fishlist.yml]
+CursorColumn=0
+CursorLine=502
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/bodylist01.yml]
+CursorColumn=0
+CursorLine=67
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/bodylist02.yml]
+CursorColumn=0
+CursorLine=67
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/bodymasklist01.yml]
+CursorColumn=0
+CursorLine=67
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/bodymasklist02]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/bodymasklist02.yml]
+CursorColumn=0
+CursorLine=67
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/combineheadlist.yml]
+CursorColumn=103
+CursorLine=55
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/combineheadmasklist.yml]
+CursorColumn=102
+CursorLine=55
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/combinelist.yml]
+CursorColumn=0
+CursorLine=110
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/combinemasklist.yml]
+CursorColumn=0
+CursorLine=110
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/combinetaillist.yml]
+CursorColumn=0
+CursorLine=56
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/combinetailmasklist.yml]
+CursorColumn=103
+CursorLine=55
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/entirelist.yml]
+CursorColumn=3
+CursorLine=67
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/entiremasklist.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/fishinverlist.yml]
+CursorColumn=0
+CursorLine=67
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/fishlist.yaml]
+CursorColumn=0
+CursorLine=132
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headinverlist.yml]
+CursorColumn=0
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headinvermasklist.yml]
+CursorColumn=0
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headlist.yml]
+CursorColumn=0
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headlist01.yml]
+CursorColumn=0
+CursorLine=74
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headlist02.yml]
+CursorColumn=0
+CursorLine=74
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headmasklist.yml]
+CursorColumn=0
+CursorLine=146
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headmasklist01.yml]
+CursorColumn=0
+CursorLine=74
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headmasklist02.yml]
+CursorColumn=0
+CursorLine=74
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/maskinverlist.yml]
+CursorColumn=0
+CursorLine=67
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/masklist.yaml]
+CursorColumn=0
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/rungenerateList]
+CursorColumn=93
+CursorLine=22
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/rungenerateList02]
+CursorColumn=15
+CursorLine=22
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailinvermasklist.yml]
+CursorColumn=0
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/taillist.yml]
+CursorColumn=47
+CursorLine=125
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/taillist01.yml]
+CursorColumn=0
+CursorLine=74
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/taillist02.yml]
+CursorColumn=0
+CursorLine=74
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist.yml]
+CursorColumn=0
+CursorLine=146
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist01.yml]
+CursorColumn=0
+CursorLine=74
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist02.yml]
+CursorColumn=0
+CursorLine=74
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/13062013 - Kristiansund/Fish - Alternating LED/cam_2/fishlist.yaml]
+CursorColumn=0
+CursorLine=788
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/Checkerboard_Test/1-2m/bin/inte/Calib_Results.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/LineRama/images_1911_02/data]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/LineRama/training/head/image/headlist.yml]
+CursorColumn=0
+CursorLine=132
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/LineRama/training/head/mask/headmasklist.yml]
+CursorColumn=0
+CursorLine=132
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/LineRama/training/tail/image/taillist.yml]
+CursorColumn=0
+CursorLine=220
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/LineRama/training/tail/mask/tailmasklist.yml]
+CursorColumn=0
+CursorLine=220
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/RamananResult/model5/result_best/part_1/headImage.yml]
+CursorColumn=0
+CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/RamananResult/model5/result_best/part_2/taillist.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/ekkilsøya/test11B.pmd]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/MATLAB/R2012a/bin/license.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/MATLAB/R2012a/license.txt]
+CursorColumn=0
+CursorLine=1263
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/MATLAB/R2012a/student_license.txt]
+CursorColumn=0
+CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/MATLAB/R2012a/toolbox/matpcl/license.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Mis Documentos/Visa y Otros/Elster2014/asanchez_elster_2048.pfx]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/BoostSamples/Daytime1/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/AVT/AVT GigE SDK/examples/CamSetup/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/PMDCamCube3.0/Documentation/pmdfile plugin readme.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/PMDCamCube3.0/PMDSDK2/Linux_x86_64/doc/INSTALL]
+CursorColumn=0
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/PMDCamCube3.0/PMDSDK2/Linux_x86_64/examples/separate/separate.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/PMDCamCube3.0/PMDSDK2/Linux_x86_64/examples/simple/simple.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/PMDCamCube3.0/PMDSDK2/Win64/examples/simple/simple.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/pointGrey/PointGreyToOpenCV/FlyCaptureToOpenCV/FlyCaptureToOpenCV.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/pointGrey/PointGreyToOpenCV/FlyCaptureToOpenCV/FlyCaptureToOpenCV.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/pointGrey/PointGreyToOpenCV/FlyCaptureToOpenCV/ReadMe.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/pointGrey/PointGreyToOpenCV/FlyCaptureToOpenCV/Resource.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/pointGrey/PointGreyToOpenCV/FlyCaptureToOpenCV/stdafx.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/Cameras/pointGrey/flycapture2-2.3.3.18-i386/README]
+CursorColumn=0
+CursorLine=52
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Doc/FISHSCAN-PC (264 913 129)_2013-02-04 19.19.tvs]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Commander/Comm1/Comm1.depend]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Commander/testmyAvr/ledan.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishScan-2.0/FishScan-2.0.bas]
+CursorColumn=9
+CursorLine=174
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishScanTofPointGrey_Sync/main.cpp]
+CursorColumn=0
+CursorLine=270
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishScanTofPointGrey_SyncHW/stereo_calib.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishScanTofPointGrey_SyncHW/stereo_calib.h]
+CursorColumn=112
+CursorLine=24
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishScanTofPointGrey_SyncHW/util.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishScanTofPointGrey_SyncHW/utils_show.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishScan_commander_firmware_v0/fishscan_commander.c]
+CursorColumn=14
+CursorLine=179
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishScan_commander_firmware_v0/messages.h]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishscanAVTHW/main.cpp]
+CursorColumn=0
+CursorLine=429
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishscanSyncHW/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishscanSyncHW/messages.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/FishscanSyncHW/util.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/ViewerCamCube2.0/main.cpp]
+CursorColumn=0
+CursorLine=190
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/Comm1/comm.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/Comm1/comm.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/Comm1/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/Comm1/messages.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/FishscanSyncHW/HardTrigger.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/FishscanSyncHW/comm.cpp]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/FishscanSyncHW/main.cpp]
+CursorColumn=0
+CursorLine=613
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/FishscanSyncHW_02/main.cpp]
+CursorColumn=0
+CursorLine=780
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/FishscanSyncHW_02/messages.h]
+CursorColumn=21
+CursorLine=24
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/New folder/FishscanSyncHW/FishscanSyncHW.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/New folder/FishscanSyncHW/main.cpp]
+CursorColumn=0
+CursorLine=196
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/New folder/FishscanSyncHW_02/main.cpp]
+CursorColumn=0
+CursorLine=144
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/FishSync/Windows/example/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Sequences/Sequence - calib1/cam_0/data_0006_0.bin]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/Sequences/Sequence - calib2/cam_0/Calib_Results.m]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/FishScan/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/StereoTof/CaptureSimpleStereo_online/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/StereoTof/CaptureSimpleStereo_online/stereo_calib.cpp]
+CursorColumn=11
+CursorLine=145
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Project/Tesis_ing/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Sequences/Sequence/cam_0/data_0000_1.bin]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Sequences/create_dir]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/CaptureSimpleStereo_online/StereoCamera.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/CaptureSimpleStereo_online/StereoCamera.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/CaptureSimpleStereo_online/main.cpp]
+CursorColumn=12
+CursorLine=424
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/CaptureSimpleStereo_online/stereo_calib.cpp]
+CursorColumn=0
+CursorLine=333
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/CaptureSimple_online/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/Documents/PMDCamCube3.0/Documentation/thirdparty/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/PMDCamCube3.0/PMDSDK2/Linux_x86_64/doc/INSTALL]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/PMDCamCube3.0/PMDSDK2/Linux_x86_64/examples/separate/separate.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/PMDCamCube3.0/PMDSDK2/Linux_x86_64/examples/simple/simple.cpp]
+CursorColumn=0
+CursorLine=69
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/Stereo_CamCube/CapturePMDCamCube2.0/Old/CaptureSimpleStereo/main.cpp]
+CursorColumn=0
+CursorLine=189
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/Stereo_CamCube/Matlab/stereo_tof_simulator.mdl]
+CursorColumn=0
+CursorLine=1871
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/TOF/Stereo_CamCube/Matlab/tof_simulator.mdl]
+CursorColumn=0
+CursorLine=76
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/Calibration/.gitignore]
+CursorColumn=2
+CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/Calibration/Calibration/Makefile]
+CursorColumn=37
+CursorLine=18
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/Calibration/Calibration/out_camera_data.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/FishScanTrigger/FishScanTrigger/src/FishScanTrigger.cpp]
+CursorColumn=0
+CursorLine=919
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/FishScanTrigger/FishScanTrigger/src/camera2Davt.cpp]
+CursorColumn=0
+CursorLine=24
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/FishScanTrigger/FishScanTrigger/src/camera2Davt.h]
+CursorColumn=20
+CursorLine=185
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/FishScanTrigger/FishScanTrigger/src/camera3Dtof.cpp]
+CursorColumn=0
+CursorLine=70
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/FishScanTrigger/FishScanTrigger/src/camera3Dtof.h]
+CursorColumn=0
+CursorLine=89
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/FishScanTrigger/FishScanTrigger/src/comm.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/FishScanTrigger/FishScanTrigger/src/readConfTOF.cpp]
+CursorColumn=0
+CursorLine=73
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/FishScanTrigger/FishScanTrigger/src/util.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/FishScanTrigger/FishScanTrigger/src/util.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/chrollusion/README.markdown]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/git/chrollusion/chrollusion.safariextension/chrome/scripts/background.js]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-empty.json]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-sub2.json]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-tree-decide.json]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-tree-dom.json]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-tree-fs.json]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-tree-instruments.json]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-tree-local.json]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-tree-plain.json]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-tree-products.json]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-tree-taxonomy.json]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/kinect/fancytree/demo/ajax-tree.json]
+CursorColumn=2
+CursorLine=21
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/myScript/tiff2jpg]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxBt/libs/bullet/include/bullet/BulletSoftBody/btSoftBody.h]
+CursorColumn=7
+CursorLine=118
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxKinect/example/Makefile]
+CursorColumn=0
+CursorLine=55
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxKinect/example/ofxKinectExample.xcodeproj/project.pbxproj]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxKinect/src/ofxKinect.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxKinect/src/ofxKinect.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxOpenNI/include/libusb/libusb.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxOpenNI/src/ofxHardwareDriver.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxOpenNI/src/ofxHardwareDriver.h]
+CursorColumn=0
+CursorLine=68
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxOpenNI/src/ofxImageGenerator.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxOpenNI/src/ofxOpenNIRecorder.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/addons/ofxPCL/README.md]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/.project]
+CursorColumn=15
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/ProCamToolkit/SharedCode/LineArt.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/ProCamToolkit/readme.md]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/RAMDanceToolkit/addons/ofxUI.patch]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/RGBDToolkit/ExampleMediaBin/_calibration/_calibration/matrices/rgbCalibrationBase.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/RGBDToolkit/ExampleMediaBin/_calibration/matrices/depthCalib.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/RGBDToolkit/ExampleMediaBin/_calibration/matrices/rgbCalib.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/RGBDToolkit/ExampleMediaBin/_calibration/matrices/rgbCalibrationBase.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/RGBDToolkit/ExampleMediaBin/_calibration/matrices/rotationDepthToRGB.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/RGBDToolkit/ExampleMediaBin/_calibration/matrices/translationDepthToRGB.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/examples/YCAMInterlab/RAMDanceToolkit/submodules.sh]
+CursorColumn=1
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/of_v0.7.4_linux64_release/libs/openFrameworks/utils/ofLog.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/pmd0000.pmd]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/stereo_example/leftlist.lst]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/stereo_example/rightlist.lst]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///etc/apache2/sites-enabled/000-default]
+CursorColumn=15
+CursorLine=5
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///etc/udev/rules.d/10-vboxdrv.rules]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///etc/udev/rules.d/40-pgr.rules]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///etc/udev/rules.d/50-primesense-usb.rules]
+CursorColumn=0
+CursorLine=7
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///etc/udev/rules.d/50-tofcam.rules]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///etc/udev/rules.d/51-android.rules]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///etc/udev/rules.d/51-kinect.rules]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///etc/udev/rules.d/51-primesense-usb.rules]
+CursorColumn=84
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///etc/udev/udev.conf]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/.arduino/preferences.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/.config/sublime-text-3/Packages/User/Package Control.last-run]
+CursorColumn=0
+CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/.kde/share/config/plasma-desktoprc]
+CursorColumn=8
+CursorLine=81
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/.vim/bundle/ultisnips/README.rst]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/.vim/bundle/ultisnips/doc/UltiSnips.txt]
+CursorColumn=0
+CursorLine=226
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/.vim/bundle/ultisnips/doc/tags]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/.vim/plugin/bufexplorer.vim]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Documents/04-Rendering/main.cpp]
+CursorColumn=32
+CursorLine=49
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Documents/05-Primitives/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Documents/05-Primitives/main.cpp]
+CursorColumn=0
+CursorLine=17
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Documents/05-Primitives/readme]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Documents/06-PrimitiveAttributes/main.cpp]
+CursorColumn=23
+CursorLine=55
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/02-KeyboardInput/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/Dropbox-WGET.js]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/MultiCameraCalibration.log]
+CursorColumn=0
+CursorLine=52
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/fore_arm.bin]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/linux_ssh-rsa.txt]
+CursorColumn=0
+CursorLine=30
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/openSUSE-12.3-KDE-Live-x86_64.iso.meta4]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/res1.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/usbip-0.1.7/drivers/README]
+CursorColumn=16
+CursorLine=10
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/usbip-0.1.7/src/README]
+CursorColumn=25
+CursorLine=11
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/vimrc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/dotfiles/kde/share/apps/kwallet/kdewallet.kwl]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/flycapture/src/AsyncTriggerEx/AsyncTriggerEx.cpp]
+CursorColumn=6
+CursorLine=281
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/flycapture/src/AsyncTriggerEx/stdafx.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/flycapture/src/AsyncTriggerEx/stdafx.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/git/FishScanTrigger/FishScanTrigger/src/camera2Davt.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/git/FishScanTrigger/FishScanTrigger/src/comm.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BIAS-2.8.0/Base/Image/ImageIO.cpp]
+CursorColumn=0
+CursorLine=25
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BIAS-2.8.0/Base/Image/ImageIO.hh]
+CursorColumn=21
+CursorLine=32
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BIAS-2.8.0/CMakeLists.txt]
+CursorColumn=0
+CursorLine=613
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BIAS-2.8.0/CMakeModules/FindBLAS.cmake]
+CursorColumn=3
+CursorLine=37
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BIAS-2.8.0/CMakeModules/FindLAPACK.cmake]
+CursorColumn=35
+CursorLine=90
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BIAS-2.8.0/CMakeModules/FindOpenCV.cmake]
+CursorColumn=54
+CursorLine=159
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BIAS-2.8.0/CMakeModules/FindOpenSceneGraph.cmake]
+CursorColumn=6
+CursorLine=115
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BIAS-2.8.0/Geometry/EpipolarLine.cpp]
+CursorColumn=4
+CursorLine=57
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BIAS-2.8.0/Image/CylindricDepthPanorama.cpp]
+CursorColumn=4
+CursorLine=23
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BIAS-2.8.0/VideoSource/VideoSource_Shm.cpp]
+CursorColumn=14
+CursorLine=49
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BSpline/README.txt]
+CursorColumn=14
+CursorLine=60
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BSpline/examples/Makefile]
+CursorColumn=16
+CursorLine=3
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BSpline/include/bspline.h]
+CursorColumn=0
+CursorLine=58
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/BSpline/src/ginput.cpp]
+CursorColumn=0
+CursorLine=28
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/ESMkitLin/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/ESMkitLin/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/ESMkitLin/inc/ESMlibry.h]
+CursorColumn=30
+CursorLine=33
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/ESMkitLin/lib/ESMlib.a]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/ESMkitLin/src/ESMexample.c]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/ESMkitLin_x86_64_v0.4.1/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/ESMkitLin_x86_64_v0.4.1/inc/ESMlibry.h]
+CursorColumn=0
+CursorLine=79
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/ESMkitLin_x86_64_v0.4.1/src/ESMexample.c]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/HandTracker_0.4b/HandTracker_0.4_linux_x64/LICENSE.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/HandTracker_0.4b/HandTracker_0.4_linux_x64/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/KinectCoreVision/config.make]
+CursorColumn=57
+CursorLine=8
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/Leap_Developer_Kit_0.8.0_5302_Linux/Examples/FingerVisualizer/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/Leap_Developer_Kit_0.8.0_5302_Linux/Examples/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/Leap_Developer_Kit_0.8.0_5302_Linux/LeapSDK/samples/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/NiTE-2.0.0/install.sh]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.0/CMakeLists.txt]
+CursorColumn=0
+CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.0/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/include/opencv2/opencv.hpp]
+CursorColumn=0
+CursorLine=61
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/modules/core/src/array.cpp]
+CursorColumn=27
+CursorLine=961
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/modules/highgui/include/opencv2/highgui/cap_ios.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/modules/highgui/include/opencv2/highgui/highgui.hpp]
+CursorColumn=40
+CursorLine=210
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/modules/highgui/src/cap_ios_photo_camera.mm]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/modules/highgui/src/cap_ios_video_camera.mm]
+CursorColumn=0
+CursorLine=148
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/modules/highgui/src/cap_libv4l.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/modules/highgui/src/cap_pvapi.cpp]
+CursorColumn=1
+CursorLine=120
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/modules/highgui/src/window.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/modules/highgui/src/window_carbon.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/CMakeLists.txt]
+CursorColumn=0
+CursorLine=49
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/calibration.cpp]
+CursorColumn=0
+CursorLine=192
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/linemod.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/tutorial_code/HighGUI/AddingImagesTrackbar.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/tutorial_code/HighGUI/BasicLinearTransformsTrackbar.cpp]
+CursorColumn=3
+CursorLine=25
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/tutorial_code/ShapeDescriptors/generalContours_demo2.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/tutorial_code/core/Matrix/Drawing_2.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/tutorial_code/core/how_to_scan_images/how_to_scan_images.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/tutorial_code/core/interoperability_with_OpenCV_1/interoperability_with_OpenCV_1.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/tutorial_code/core/mat_mask_operations/mat_mask_operations.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/tutorial_code/core/mat_the_basic_image_container/mat_the_basic_image_container.cpp]
+CursorColumn=0
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/tutorial_code/gpu/gpu-basics-similarity/gpu-basics-similarity.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/tutorial_code/objectDetection/objectDetection2.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI-2.1.0-x64/NOTICE]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI-2.1.0-x64/OpenNIDevEnvironment]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI-Linux-x64-2.2/OpenNIDevEnvironment]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI-Linux-x64-2.2/install.sh]
+CursorColumn=45
+CursorLine=44
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Bin/Intermediate/x64-Release/libFreenectDriver.so/FreenectDriver.d]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Config/OpenNI.ini]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Include/Linux-x86/OniPlatformLinux-x86.h]
+CursorColumn=43
+CursorLine=82
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Packaging/OpenNI-2.2.0-x64/Redist/OpenNI.ini]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Packaging/OpenNI-2.2.0-x64/install.sh]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Packaging/Redist.py]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Documentation/Doxyfile]
+CursorColumn=0
+CursorLine=111
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Documentation/Text/Conventions.txt]
+CursorColumn=0
+CursorLine=44
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Documentation/Text/GettingStarted.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Documentation/Text/MainPage.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Drivers/Freenect/FreenectDepthStream.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Drivers/Freenect/FreenectDeviceNI.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Drivers/Freenect/FreenectDriver.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Drivers/Freenect/FreenectVideoStream.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Drivers/Freenect/Makefile]
+CursorColumn=68
+CursorLine=21
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Drivers/Freenect/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Drivers/Freenect/libfreenect.hpp]
+CursorColumn=24
+CursorLine=28
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Tools/NiViewer/Capture.cpp]
+CursorColumn=0
+CursorLine=72
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Tools/NiViewer/Device.cpp]
+CursorColumn=33
+CursorLine=253
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Tools/NiViewer/Device.h]
+CursorColumn=36
+CursorLine=62
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Tools/NiViewer/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Tools/NiViewer/Menu.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Tools/NiViewer/MouseInput.h]
+CursorColumn=0
+CursorLine=70
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Tools/NiViewer/NiViewer.cpp]
+CursorColumn=0
+CursorLine=599
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2-FreenectDriver/ThirdParty/PSCommon/BuildSystem/CommonCppMakefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2/Config/OpenNI.ini]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2/Config/PS1080.ini]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2/LICENSE]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2/Source/Core/Makefile]
+CursorColumn=5
+CursorLine=28
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2/Source/Core/OpenNI.cpp]
+CursorColumn=0
+CursorLine=33
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2/Source/Core/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2/Source/Documentation/Text/GettingStarted.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/OpenNI2/Source/Tools/NiViewer/Makefile]
+CursorColumn=32
+CursorLine=24
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/PTAMM/Makefile]
+CursorColumn=12
+CursorLine=19
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/PartsBasedDetector/INSTALL]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/PartsBasedDetector/README.md]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/PartsBasedDetector/doc/Doxyfile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/RGBDToolkit/RGBDVisualize/Makefile]
+CursorColumn=1
+CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/RGBDToolkit/RGBDVisualize/addons.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/RGBDToolkit/RGBDVisualize/config.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/RGBDToolkit_preRelease_005_Windows_example/ExampleMediaBin/_calibration/matrices/depthCalib.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/RGBDToolkit_preRelease_005_Windows_example/ExampleMediaBin/_calibration/matrices/rgbCalib.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/RGBDToolkit_preRelease_005_Windows_example/ExampleMediaBin/_calibration/matrices/rotationDepthToRGB.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/RGBDToolkit_preRelease_005_Windows_example/ExampleMediaBin/_calibration/matrices/rotationRGBToDepth.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/camcube/CamBoard_Nano_Demo_CD_1.3.2/Linux/driver/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/camcube/CamBoard_Nano_Demo_CD_1.3.2/Linux/linux64bit/10-pmd.rules]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/camcube/CamBoard_Nano_Demo_CD_1.3.2/Linux/linux64bit/readme.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/camcube/simple gui/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/camcube/simple opencv/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/camcube/simple opencv/opencv_example.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/camcube/simple opengl/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/camcube/simple opengl/opengldisplaywidget.cpp]
+CursorColumn=0
+CursorLine=138
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/camcube/simple opengl/opengldisplaywidget.hpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/camcube/simple opengl/simpleopengl.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/face/face-release1.0-full/compile.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/kineticspace/kineticspace 2.0.linux64/kineticspace]
+CursorColumn=9
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/lapack-3.4.2/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/libfreenect/platform/linux/udev/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/mrpt-1.0.1/CMakeLists.txt]
+CursorColumn=34
+CursorLine=189
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/mrpt-1.0.1/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/addons/ofxBox2d/example-Bodies/config.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/addons/ofxCv/example-ar/src/testApp.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/addons/ofxCv1/example-flow-distort/addons.make]
+CursorColumn=6
+CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/addons/ofxFX/example-sandbox/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/addons/ofxGameCamera/example/addons.make]
+CursorColumn=14
+CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/addons/ofxPuppet/example/Project.xcconfig]
+CursorColumn=0
+CursorLine=7
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/addons/ofxPuppet/example/config.make]
+CursorColumn=0
+CursorLine=19
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/addons/ofxPuppet/readme.md]
+CursorColumn=1
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/examples/FaceSubstitution/CloningWrapper/config.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/examples/FaceSubstitution/FaceSubstitution/FaceSubstitution.xcodeproj/project.pbxproj]
+CursorColumn=35
+CursorLine=80
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/examples/FaceSubstitution/FaceSubstitution/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/examples/FaceSubstitution/FaceSubstitution/Project.xcconfig]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/examples/FaceSubstitution/FaceSubstitution/addons.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/examples/FaceSubstitution/FaceSubstitution/config.make]
+CursorColumn=0
+CursorLine=20
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/examples/RGBDToolkit/cloneaddons.sh]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/of_v0.7.4_linux64_release/scripts/linux/ubuntu/install_dependencies.sh]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxKinect/example/config.make]
+CursorColumn=0
+CursorLine=22
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxObjLoader/libs/glm/glm.h]
+CursorColumn=11
+CursorLine=19
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/example/config.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/example/src/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/example/src/testApp.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/example/src/testApp.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/PTAMM/include/ARDriver.cc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/PTAMM/include/PTAMM/ATANCamera.cc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/PTAMM/include/PTAMM/Bundle.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/PTAMM/include/PTAMM/CalibCornerPatch.cc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/PTAMM/include/PTAMM/CalibCornerPatch.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/PTAMM/include/PTAMM/KeyFrame.cc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/PTAMM/include/PTAMM/MapSerializer.cc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/TooN/include/TooN/lapack.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/cvd/include/cvd/camera.h]
+CursorColumn=0
+CursorLine=111
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/cvd/include/cvd/colourspace.h]
+CursorColumn=0
+CursorLine=57
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/cvd/include/cvd/config.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/cvd/include/cvd/connected_components.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/cvd/include/cvd/cpu_hacks.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/cvd/include/cvd/harris_corner.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/cvd/include/cvd/wls.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/libs/gvars3/include/gvars3/config.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/src/ofxATANCamera.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/src/ofxCalibImage.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/src/ofxCameraCalibrator.cpp]
+CursorColumn=0
+CursorLine=188
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/src/ofxCameraCalibrator.h]
+CursorColumn=0
+CursorLine=58
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/src/ofxPTAMM.cpp]
+CursorColumn=0
+CursorLine=43
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/src/ofxPTAMM.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/src/ofxTracker.cpp]
+CursorColumn=0
+CursorLine=105
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxPTAMM/src/ofxTracker.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxRGBDepth/README.md]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/addons/ofxTimeline/clone_addons.sh]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/apps/_Examples_Moved.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/3d/meshFromCamera/src/testApp.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/README.md]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/addons.make]
+CursorColumn=9
+CursorLine=7
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/config.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/src/testApp.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/ReleaseProcedure.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/cloneaddons.sh]
+CursorColumn=26
+CursorLine=31
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/addons/allAddonsExample/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/addons/opencvExample/config.make]
+CursorColumn=0
+CursorLine=11
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/addons/oscChatSystemExample/config.make]
+CursorColumn=0
+CursorLine=54
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/graphics/colorsExtended/addons.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/graphics/imageSequenceExample/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/graphics/imageSequenceExample/addons.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/graphics/imageSequenceExample/config.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/graphics/polygonExample/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/graphics/polygonExample/addons.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/graphics/polygonExample/config.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/graphics/polygonExample/makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/graphics/polygonExample/src/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/ios/iPhoneGuiExample/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/examples/ios/iPhoneGuiExample/config.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/libs/openFrameworksCompiled/project/makefileCommon/Makefile.examples]
+CursorColumn=36
+CursorLine=114
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/libs/openFrameworksCompiled/project/makefileCommon/Makefile.linux]
+CursorColumn=89
+CursorLine=42
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/readme.linux]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/openFrameworks/scripts/linux/buildAllExamples.sh]
+CursorColumn=1
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/doc/Doxyfile.in]
+CursorColumn=0
+CursorLine=65
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/doc/tutorials/features2d/feature_description/feature_description.rst]
+CursorColumn=0
+CursorLine=105
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/doc/tutorials/features2d/feature_homography/feature_homography.rst]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/doc/tutorials/tutorials.rst]
+CursorColumn=0
+CursorLine=54
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/doc/user_guide/ug_highgui.rst]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/modules/calib3d/src/calibration.cpp]
+CursorColumn=0
+CursorLine=2891
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/modules/highgui/include/opencv2/highgui/cap_ios.h]
+CursorColumn=0
+CursorLine=169
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/modules/highgui/include/opencv2/highgui/highgui.hpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/modules/highgui/include/opencv2/highgui/highgui_c.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/modules/highgui/include/opencv2/highgui/ios.h]
+CursorColumn=0
+CursorLine=48
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/modules/highgui/src/cap_openni.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/modules/objdetect/include/opencv2/objdetect/objdetect.hpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/modules/objdetect/src/linemod.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/samples/cpp/tutorial_code/TrackingMotion/cornerDetector_Demo.cpp]
+CursorColumn=5
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/samples/cpp/tutorial_code/calib3d/camera_calibration/camera_calibration.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/samples/cpp/tutorial_code/calib3d/stereoBM/SBM_Sample.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/samples/cpp/tutorial_code/features2D/CMakeLists.txt]
+CursorColumn=39
+CursorLine=12
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/samples/cpp/tutorial_code/features2D/SURF_FlannMatcher.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv-2.4.6.1/samples/cpp/tutorial_code/features2D/SURF_descriptor.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv/CMakeLists.txt]
+CursorColumn=12
+CursorLine=429
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/opencv/README.md]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/partapp-r2/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/BUFFY/README.txt]
+CursorColumn=0
+CursorLine=193
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/BUFFY_demo.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/FISH_data.m]
+CursorColumn=0
+CursorLine=22
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/FISH_demo.m]
+CursorColumn=22
+CursorLine=46
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/FISH_eval_pcp.m]
+CursorColumn=22
+CursorLine=9
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/INRIA_data.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/PARSE/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/PARSE_data.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/PARSE_demo.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/PARSE_eval_pcp.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/pose-release-ver1.2/code-full/detection/detect.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/resume.github.com/README.markdown]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/resume.github.com/config.ru]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/tbb41_20130314oss/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/kinect/tiered/README]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/matlab_crash_dump.1873]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/uml-generated-code/camera2D.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/uml-generated-code/camera2D.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/workspace/composicion/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///lib/plymouth/themes/kubuntu-logo/kubuntu-logo.plymouth]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///lib/plymouth/themes/kubuntu-logo/kubuntu-logo.script]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///lib/plymouth/themes/text/text.plymouth]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/10b4c001-2137-4418-b29e-57b7d15a6cbc/etc/network/interfaces]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/8B12-9112/cmdline.txt]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///media/8B12-9112/config.txt]
+CursorColumn=0
+CursorLine=32
+
+[MainWindow0-ViewSpace 0 file:///media/CEC6-297F/LICENCE.broadcom]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/E1D0-B815/Getpoints/Getpoints/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/E4BE-DCA5/FishscanSyncHW/FishscanSyncHW.cpp]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///media/E4BE-DCA5/FishscanSyncHW/main.cpp]
+CursorColumn=22
+CursorLine=468
+
+[MainWindow0-ViewSpace 0 file:///media/Expansion Drive/Documents/New Sequences May 2010/Group_2/Results_Seq0/CameraPosition_hr_tof_SLAM_noise_3.0_adaptive_new_interpolation_new_autoinitialization_threshold_0.35.txt]
+CursorColumn=0
+CursorLine=3070
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/Expansion Drive/Documents/New Sequences May 2010/Group_2/Results_Seq0/viewer/viewer.cpp]
+CursorColumn=0
+CursorLine=189
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/F3E3-DC09/stereo/MIP01Calib_01.proj]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/OptimizerCamCube2.0_with_3d_reco/images/depth_cam_0.dat]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/OptimizerCamCube2.0_with_3d_reco/images/matlab/draw_surface_5_.m]
+CursorColumn=0
+CursorLine=35
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/OptimizerCamCube2.0_with_3d_reco/images/matlab/draw_surface_7.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/OptimizerCamCube2.0_with_3d_reco/images/matlab/generate_figures.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/OptimizerCamCube2.0_with_3d_reco/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/OptimizerCamCube2.0_with_3d_reco/optimization.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/OptimizerCamCube2.0_with_3d_reco/optimization.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/OptimizerCamCube2.0_with_3d_reco/tofcamera.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/OptimizerCamCube2.0_with_3d_reco/viewer.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/SHARED/Fish data/Fish_Data_Reader/fish_data.cpp]
+CursorColumn=0
+CursorLine=116
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/SHARED/TOF/Calibration_Demo/Calibration_Demo.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/SHARED/TOF/Class TOFCapture/TOFCapture.h]
+CursorColumn=0
+CursorLine=78
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/SHARED/TOF/ImageCapture_HR&TOF/ImageCapture/DisplayHandler.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/SHARED/TOF/ImageCapture_HR&TOF/ImageCapture/ImageDispatcher.h]
+CursorColumn=0
+CursorLine=49
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/SHARED/TOF/ImageCapture_HR&TOF/ImageCapture/main.cpp]
+CursorColumn=0
+CursorLine=235
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/SHARED/TOF/Matlab/TOFReconstruct.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/SHARED/TOF/TOF Reconstruct/RealTimeReconstructionServer/main.cpp]
+CursorColumn=0
+CursorLine=302
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Stereo_ToF/SHARED/openvis3d lib/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF/Calibration_SLAM/calibration.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF/calibration_SLAM_HR_Tof.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Anisotropic/main.cpp]
+CursorColumn=0
+CursorLine=13
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/K_6500135.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/K_6500157.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/Makefile]
+CursorColumn=0
+CursorLine=54
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/calibration.cpp]
+CursorColumn=0
+CursorLine=184
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/calibration.h]
+CursorColumn=0
+CursorLine=11
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/defines.h]
+CursorColumn=0
+CursorLine=55
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/main.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/marchingCubes.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibration_SLAM/Calibration_Demo.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibration_SLAM/calibration.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibration_SLAM/read_data.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibration_SLAM/read_data.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibration_SLAM/resource.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibration_SLAM/utilitarios.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/MonoSLAMGlow/mainglow.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/MonoSLAMGlow/mainglow.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/MonoSLAMGlow/monoslamglow.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/MonoSLAMGlow/sequencer_hr_tof_file.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/MonoSLAMGlow/sequencer_hr_tof_fileglow.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/MonoSLAMGlow/sequencer_tof_file.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/MonoSLAMGlow/tofcamerareader.cpp]
+CursorColumn=0
+CursorLine=103
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/MonoSLAMGlow/tofcamerareader.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/SceneLib/INSTALL]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/TOFReco_cuda/tof.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/TOFReco_cuda/tof.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/TOFReco_cuda/triangle.c]
+CursorColumn=0
+CursorLine=243
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/TOFReco_cuda/triangle.h]
+CursorColumn=0
+CursorLine=259
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/VW34/INSTALL]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/VW34/install-sh]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/calibration_SLAM_HR_Tof.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/SHARED/TOF/ImageCapture_HR&TOF/ImageCapture/ControlListener.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/SHARED/TOF/ImageCapture_HR&TOF/ImageCapture/DisplayHandler.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/SHARED/TOF/ImageCapture_HR&TOF/ImageCapture/TOFCapture.cpp]
+CursorColumn=0
+CursorLine=223
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/SHARED/TOF/ImageCapture_HR&TOF/ImageCapture/TOFCapture.h]
+CursorColumn=2
+CursorLine=78
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/SHARED/TOF/ImageCapture_HR&TOF/ImageCapture/main.cpp]
+CursorColumn=8
+CursorLine=79
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/SHARED/TOF/PMDTest/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/SHARED/TOF/TOOLBOX_calib/README.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/Stereo_CamCube/CapturePMDCamCube2.0/OptimizerCamCube2.0_with_3d_reco/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/Stereo_CamCube/CapturePMDCamCube2.0/OptimizerCamCube2.0_with_3d_reco/optimization.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/Stereo_CamCube/CapturePMDCamCube2.0/Stereo_ToF_Library/stereo-tof.cfg]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/Stereo_CamCube/CapturePMDCamCube2.0/ViewerCamCube2.0/main.cpp]
+CursorColumn=0
+CursorLine=382
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/Stereo_CamCube/Matlab/stereo_tof_simulator.mdl]
+CursorColumn=0
+CursorLine=1873
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///media/TOSHIBA EXT/Victor/Stereo_CamCube/Matlab/tof_simulator.mdl]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///tmp/lookAtToFImages.m]
+CursorColumn=0
+CursorLine=25
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/include/boost/asio.hpp]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///usr/include/opencv/cv.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/include/opencv/cv.hpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/include/opencv/cvaux.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/include/opencv2/core/core.hpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/local/AVT GigE SDK/examples/AdjustPacket/AdjustPacket.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/local/AVT GigE SDK/examples/CamSetup/CamSetup.cpp]
+CursorColumn=12
+CursorLine=480
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/local/AVT GigE SDK/examples/GetXMLFile/GetXMLFile.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/local/MATLAB/R2013a/toolbox/mexopencv/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/local/MATLAB/R2013a/toolbox/mexopencv/include/MxArray.hpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/local/MATLAB/R2013a/toolbox/mexopencv/include/mexopencv.hpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/local/cuda-5.0/samples/2_Graphics/Mandelbrot/Mandelbrot_gold.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/local/include/opencv2/opencv.hpp]
+CursorColumn=65
+CursorLine=31
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/local/include/opencv2/opencv_modules.hpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/calibration.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/extrinsics.yml]
+CursorColumn=0
+CursorLine=55
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/fishlist.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/grabcut.cpp]
+CursorColumn=35
+CursorLine=247
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/intrinsics.yml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/linemod.cpp]
+CursorColumn=3
+CursorLine=39
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/openni_capture.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/pointcloudtest.pcd]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/pointcloudtest.xyz]
+CursorColumn=0
+CursorLine=1511
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/starter_imagelist.cpp]
+CursorColumn=28
+CursorLine=79
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/stereo_calib.cpp]
+CursorColumn=70
+CursorLine=104
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/stereo_match.cpp]
+CursorColumn=15
+CursorLine=306
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/tutorial_code/ShapeDescriptors/findContours_demo.cpp]
+CursorColumn=25
+CursorLine=32
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/tutorial_code/ShapeDescriptors/generalContours_demo1.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/tutorial_code/ShapeDescriptors/generalContours_demo2.cpp]
+CursorColumn=11
+CursorLine=68
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/OpenCV/samples/cpp/tutorial_code/core/mat_the_basic_image_container/mat_the_basic_image_container.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/doc/texlive-doc/latex/moderncv/examples/letter.tex.gz]
+CursorColumn=7
+CursorLine=92
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///usr/share/kde4/apps/ksplash/Themes/None/Theme.rc]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 smb://sanchez@192.168.1.10/EXTEND3D Share/00 HIER_NIX_ABLEGEN_UNTERORDNER_BENUTZEN]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1]
+Active View=file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/addons.make
+Count=1
+View 0=file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/addons.make
+View 1=file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/addons.make
+View 2=file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/HowToGetExampleData.txt
+View 3=file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/tof.h
+View 4=file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/tof.cpp
+View 5=file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/SceneLib/INSTALL
+View 6=file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/SceneLib/README
+View 7=file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/execute.perl
+View 8=file:///media/TOSHIBA EXT/Victor/Stereo_CamCube/Matlab/stereo_tof_simulator.mdl
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/fishscanAVTConfigFile.txt]
+CursorColumn=21
+CursorLine=57
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/fishscanTOFConfigFile.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/BMC/Thesis/code/FishScanHardTrigger/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/BMC/Thesis/code/TriggeringCam/messages.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/BMC/Third/Seminar/CAMP-latex-template/macro.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/Rebecca/detect.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/BMC/Third/TrakingandDetection/Exercise/Exer_7/Rebecca/ex2.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Olli/q2.m]
+CursorColumn=26
+CursorLine=16
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/comp_rectangle.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/ex2.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/getSumRec.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/get_features.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/Dropbox/Tracking & Detection/Exercise 7/Rebecca/haar_features.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/FishscanData/04062013-Final/Water 1.5m/Old mechanical setup/stereocalib/HR/Calib_Results.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/FishscanData/04062013-Final/Water 1.5m/Old mechanical setup/stereocalib/inten/Calib_Results.m]
+CursorColumn=115
+CursorLine=2
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/Project/FishScan/FishSync/Commander/testmyAvr/ledan.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/Project/FishScan/FishSync/FishscanSyncHW/messages.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///Respaldo/Project/FishScan/FishSync/FishscanSyncHW/util.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/ESMkitLin/inc/ESMlibry.h]
+CursorColumn=2
+CursorLine=35
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/ESMkitLin_x86_64_v0.4.1/src/ESMexample.c]
+CursorColumn=22
+CursorLine=9
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/imagelist_creator.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/stereo_calib.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/OpenCV-2.4.3/samples/cpp/stereo_calib.xml]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/OpenNI2-FreenectDriver/Config/OpenNI.ini]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/OpenNI2-FreenectDriver/Include/OpenNI.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/OpenNI2-FreenectDriver/Packaging/OpenNI-2.2.0-x64/Redist/OpenNI.ini]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Tools/NiViewer/Device.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/OpenNI2-FreenectDriver/Source/Tools/NiViewer/NiViewer.cpp]
+CursorColumn=0
+CursorLine=44
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/HowToGetExampleData.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/addons.make]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/config.make]
+CursorColumn=14
+CursorLine=12
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/openFrameworks/examples/RGBDToolkit/RGBDVisualize/src/testApp.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/openFrameworks/examples/addons/opencvExample/config.make]
+CursorColumn=0
+CursorLine=6
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/openFrameworks/libs/openFrameworksCompiled/project/makefileCommon/Makefile.examples]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///home/andres/kinect/openFrameworks/libs/openFrameworksCompiled/project/makefileCommon/Makefile.linux]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF/Calibrate_TOF_checkerboard_ART/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF/Calibrate_TOF_checkerboard_ART/mycvcalibration.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF/Calibration_SLAM/calibration.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/tof.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/Calibrate_marker_TOF/tof.h]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/SceneLib/INSTALL]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/SceneLib/README]
+CursorColumn=0
+CursorLine=16
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///media/TOSHIBA EXT/Victor/MonoSLAM-HR-ToF_depth_correction/execute.perl]
+CursorColumn=82
+CursorLine=50
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 1 file:///media/TOSHIBA EXT/Victor/Stereo_CamCube/Matlab/stereo_tof_simulator.mdl]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[Open Documents]
+Count=1
+
+[Open MainWindows]
+Count=1
+
+[Plugin:katefindinfilesplugin::find-in-files]
+CaseSensitive=true
+FollowDirectorySymlinks=false
+IncludeHiddenFiles=false
+LastSearchFiles=*,*.h\\,*.hxx\\,*.cpp\\,*.cc\\,*.C\\,*.cxx\\,*.idl\\,*.c,*.cpp\\,*.cc\\,*.C\\,*.cxx\\,*.c,*.h\\,*.hxx\\,*.idl
+LastSearchItems=
+LastSearchPaths=
+Recursive=true
+RegExp=false
+
+[Plugin:katesnippets_tngplugin:enabled-snippets]
+count=2
+enabled_0[$e]=/usr/share/kde4/apps/ktexteditor_snippets/data/testsnippetscpp.xml
+enabled_1[$e]=/usr/share/kde4/apps/ktexteditor_snippets/data/testsnippets.xml
+
+[Recent Files]
+File1[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-dom.json
+File10[$e]=$HOME/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
+File2[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-fs.json
+File3[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-instruments.json
+File4[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-local.json
+File5[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-plain.json
+File6[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-products.json
+File7[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-taxonomy.json
+File8[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree.json
+File9[$e]=/Respaldo/Mis Documentos/Visa y Otros/Elster2014/asanchez_elster_2048.pfx
+Name1[$e]=ajax-tree-dom.json
+Name10[$e]=kdewallet.kwl
+Name2[$e]=ajax-tree-fs.json
+Name3[$e]=ajax-tree-instruments.json
+Name4[$e]=ajax-tree-local.json
+Name5[$e]=ajax-tree-plain.json
+Name6[$e]=ajax-tree-products.json
+Name7[$e]=ajax-tree-taxonomy.json
+Name8[$e]=ajax-tree.json
+Name9[$e]=asanchez_elster_2048.pfx
+
+[filetree]
+editShade=255,201,241
+listMode=false
+shadingEnabled=true
+showFullPathOnRoots=false
+sortRole=0
+viewShade=185,178,206

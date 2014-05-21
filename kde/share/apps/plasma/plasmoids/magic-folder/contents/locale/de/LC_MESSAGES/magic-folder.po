@@ -1,0 +1,116 @@
+# Copyright (C) 2009, 2010 Benjamin Kleiner
+#
+# Benjamin Kleiner <bizzl@users.sourceforge.net>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: magic-folder\n"
+"POT-Creation-Date: 2009-05-30 21:09+CEST\n"
+"PO-Revision-Date: 2010-07-04 13:15+0200\n"
+"Last-Translator: Benjamin Kleiner <bizzl@users.sourceforge.net>\n"
+"Language-Team: Deutsch <kde-i18n-de@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../code/configuration.py:44
+msgid "Video Files"
+msgstr "Videodateien"
+
+#: ../code/configuration.py:45
+msgid "Image Files"
+msgstr "Bilddateien"
+
+#: ../code/configuration.py:46
+msgid "Audio Files"
+msgstr "Audiodateien"
+
+#: ../code/configuration.py:47
+msgid "Text Files"
+msgstr "Textdateien"
+
+#: ../code/configuration.py:48
+msgid "Anything"
+msgstr "Alles"
+
+#: ../code/configuration.py:299
+msgid "Scripting is a relativly stiff feature, please press the button next to the checkbox to inform yourself further."
+msgstr "Die Programmunterstützung ist etwas steif, drücke den Knopf neben dem Kontrollkästchen um mehr zu erfahren."
+
+#: ../code/configuration.py:299
+msgid "scripting"
+msgstr "Programmunterstützung"
+
+#: ../code/configuration.py:319
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../code/configuration.py:320
+msgid "New"
+msgstr "Neu"
+
+#: ../code/configuration.py:321
+msgid "Up"
+msgstr "Nach oben"
+
+#: ../code/configuration.py:322
+msgid "Down"
+msgstr "Nach unten"
+
+#: ../code/configuration.py:323
+msgid "Export"
+msgstr "Exportieren..."
+
+#: ../code/configuration.py:324
+msgid "Import"
+msgstr "Importieren..."
+
+#: ../code/configuration.py:325
+msgid "About Scripts..."
+msgstr "Über die Programmunterstützung..."
+
+#: ../code/configuration.py:326
+msgid "Regex"
+msgstr "Suchausdruck"
+
+#: ../code/configuration.py:327
+msgid "Destiny"
+msgstr "Ziel"
+
+#: ../code/configuration.py:328
+msgid "Wildcard"
+msgstr "einfache Platzhalter"
+
+#: ../code/configuration.py:329
+msgid "Case Sensitive"
+msgstr "schreibungsabhängig"
+
+#: ../code/configuration.py:330
+msgid "Destiny is a Script"
+msgstr "Ziel ist ein Programm"
+
+#: ../code/configuration.py:331
+msgid "Copy Only"
+msgstr "Nur kopieren"
+
+#: ../code/configuration.py:370
+msgid "Icon"
+msgstr "Icon"
+
+#: ../code/configuration.py:371
+msgid "Label"
+msgstr "Beschriftung"
+
+#: ../code/main.py:65
+msgid "Magic Folder"
+msgstr "Magischer Ordner"
+
+#: ../code/main.py:162
+msgid "Rules"
+msgstr "Regeln"
+
+#: ../code/main.py:166
+msgid "Display"
+msgstr "Anzeige"

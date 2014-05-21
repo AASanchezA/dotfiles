@@ -1,0 +1,29 @@
+[General]
+SideBarPage=folders
+
+[KFileDialog Settings]
+Height 768=450
+Width 1366=720
+
+[KPropertiesDialog]
+Height 768=374
+Width 1366=277
+
+[MainWindow]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAAK9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=1025
+Width 1366=1367
+
+[SideBar-BrowseMode]
+IsVisible=false
+
+[SideBar-FullScreenMode]
+IsVisible=false
+
+[SideBar-ViewMode]
+IsVisible=false
+
+[ThumbnailView]
+Sorting=Sorting::Date

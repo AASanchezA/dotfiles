@@ -1,0 +1,11 @@
+[Favorites]
+FavoriteURLs=/usr/share/applications/kde4/rekonq.desktop,/usr/share/applications/kde4/Kontact.desktop,/usr/share/applications/kde4/systemsettings.desktop,/usr/share/applications/kde4/dolphin.desktop,/usr/share/applications/kde4/kopete.desktop,/usr/share/applications/kde4/amarok.desktop
+
+[KRunner]
+loadAll=false
+
+[KRunner][PlasmaRunnerManager]
+pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations
+
+[RecentlyUsed]
+Applications=kde4-systemsettings.desktop,kde4-dolphin.desktop,skype.desktop,ubuntu-software-center.desktop,kde4-rekonq.desktop

@@ -1,0 +1,375 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Donatas G. <dgvirtual@akl.lt>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-14 08:35+0200\n"
+"PO-Revision-Date: 2011-04-18 12:27+0300\n"
+"Last-Translator: Donatas G. <dgvirtual@akl.lt>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10==1 && n%100!=11 ? 1 : n"
+"%10>=2 && (n%100<10 || n%100>=20) ? 2 : 3);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: rc.py:3 rc.py:18 rc.py:81
+msgid "Form"
+msgstr "Iš"
+
+#: rc.py:6 rc.py:75
+msgid "Version"
+msgstr "Versija"
+
+#: rc.py:9 rc.py:69
+msgid "Homepage"
+msgstr "Namų puslapis"
+
+#: rc.py:12 rc.py:72
+msgid ""
+"<a href=\"http://code.google.com/p/veromix-plasmoid/\">http://code.google."
+"com/p/veromix-plasmoid/</A>"
+msgstr ""
+
+#: rc.py:15 rc.py:78
+msgid "X.Y"
+msgstr "X.Y"
+
+#: rc.py:21
+msgid "Popup Mode"
+msgstr "Iššokančio lango veiksena"
+
+#: rc.py:24
+#, fuzzy
+msgid "Close when losing focus"
+msgstr "Užverti praradus fokusą"
+
+#: rc.py:27
+msgid "Close manually"
+msgstr "Užverti rankiniu būdu"
+
+#: rc.py:30
+msgid "Background"
+msgstr "Fonas"
+
+#: rc.py:33
+msgid "No background"
+msgstr "Be fono"
+
+#: rc.py:36
+msgid "Translucent background"
+msgstr "Permatomas fonas"
+
+#: rc.py:39
+msgid "Standard background"
+msgstr "Numatytasis fonas"
+
+#: rc.py:42
+msgid "Notification "
+msgstr "Perspėjimas "
+
+#: rc.py:45
+msgid "Show toolip"
+msgstr "Rodyti mygtuko paaiškinimą"
+
+#: rc.py:48
+msgid "Layout"
+msgstr "Išdėstymas"
+
+#: rc.py:51
+msgid "Use tabs"
+msgstr "Naudoti korteles"
+
+#: rc.py:54
+msgid "Always show sources"
+msgstr "Visuomet rodyti šaltinius"
+
+#: rc.py:57
+msgid "Show context menu button"
+msgstr ""
+
+#: rc.py:60
+msgid "Show unit values"
+msgstr ""
+
+#: rc.py:63
+msgid "Autostart meters"
+msgstr ""
+
+#: rc.py:66
+msgid ""
+"Meters can be very CPU intensive! You can always enable meters by double "
+"clicking a channel."
+msgstr ""
+
+#: rc.py:84
+#, fuzzy
+msgid "Use KDE nowplaying dataengine"
+msgstr "Naudoti KDE „dabar groja“ duomenų variklį"
+
+#: rc.py:87
+msgid "Use mpris2"
+msgstr "Naudoti mpris2"
+
+#: rc.py:90
+#, fuzzy
+msgid "Media player blacklist:"
+msgstr "Leistuvo valdymo juodasis sąrašas"
+
+#: rc.py:93
+#, fuzzy
+msgid "Running media players:"
+msgstr "Veikiantys leistuvai"
+
+#: rc.py:96
+msgid "Show album art"
+msgstr ""
+
+#: plasma/contents/code/Channel.py:140
+msgid "Muted"
+msgstr ""
+
+#: plasma/contents/code/Channel.py:147 gtk/ContextMenu.py:134
+#, fuzzy
+msgid "Volume meter"
+msgstr "Rodyti metrą"
+
+#: plasma/contents/code/Channel.py:154
+msgid "Unlock channels"
+msgstr ""
+
+#: plasma/contents/code/Channel.py:163 gtk/ContextMenu.py:167
+msgid "Ports"
+msgstr ""
+
+#: plasma/contents/code/Channel.py:187 gtk/ContextMenu.py:190
+msgid "Profile"
+msgstr ""
+
+#: plasma/contents/code/Channel.py:216
+msgid "Veromix Settings"
+msgstr ""
+
+#: plasma/contents/code/Channel.py:413
+msgid "Presets"
+msgstr ""
+
+#: plasma/contents/code/Channel.py:415 plasma/contents/code/SinkMbeqUI.py:294
+#: gtk/ContextMenu.py:260
+msgid "Save"
+msgstr ""
+
+#: plasma/contents/code/Channel.py:420 gtk/ContextMenu.py:265
+msgid "Save As..."
+msgstr ""
+
+#: plasma/contents/code/Channel.py:434 gtk/ContextMenu.py:284
+msgid "Effect"
+msgstr ""
+
+#: plasma/contents/code/MediaPlayerUI.py:206
+msgid "Show position"
+msgstr ""
+
+#: plasma/contents/code/SinkInputUI.py:48
+#: plasma/contents/code/SinkMbeqUI.py:131 gtk/ContextMenu.py:118
+msgid "Disconnect/kill"
+msgstr "Atjungti/nužudyti"
+
+#: plasma/contents/code/SinkInputUI.py:56
+#: plasma/contents/code/SourceOutputUI.py:53 gtk/ContextMenu.py:148
+msgid "Move To"
+msgstr ""
+
+#: plasma/contents/code/SinkInputUI.py:95
+#: plasma/contents/code/veromixcommon/PulseProxyObjects.py:305
+msgid "Event Sounds"
+msgstr ""
+
+#: plasma/contents/code/SinkInputUI.py:99
+#: plasma/contents/code/veromixcommon/PulseProxyObjects.py:309
+msgid "Flash Player"
+msgstr ""
+
+#: plasma/contents/code/SinkInputUI.py:103
+#: plasma/contents/code/veromixcommon/PulseProxyObjects.py:313
+msgid "Chromium Browser"
+msgstr ""
+
+#: plasma/contents/code/SinkInputUI.py:107
+#: plasma/contents/code/veromixcommon/PulseProxyObjects.py:317
+msgid "Event Sound"
+msgstr ""
+
+#: plasma/contents/code/SinkInputUI.py:109
+#: plasma/contents/code/veromixcommon/PulseProxyObjects.py:319
+#, fuzzy
+msgid "Voice Output"
+msgstr "Išvestis"
+
+#: plasma/contents/code/SinkMbeqUI.py:279
+msgid "Name"
+msgstr ""
+
+#: plasma/contents/code/SinkMbeqUI.py:290
+msgid "Cancel"
+msgstr ""
+
+#: plasma/contents/code/SinkUI.py:39
+msgid "Default Sink"
+msgstr "Numatytoji audio išvestis"
+
+#: plasma/contents/code/SinkUI.py:53
+msgid "Uncombine"
+msgstr ""
+
+#: plasma/contents/code/SinkUI.py:61 gtk/ContextMenu.py:244
+msgid "Add Effect"
+msgstr ""
+
+#: plasma/contents/code/VeroMix.py:101
+msgid "Playback"
+msgstr "Grojimas"
+
+#: plasma/contents/code/VeroMix.py:102
+msgid "Record"
+msgstr "Įrašymas"
+
+#: plasma/contents/code/VeroMix.py:125
+msgid ""
+"There is a problem with the backgroud-"
+"service.                                                         "
+"<ul>                                                         <li>If you just "
+"upgraded try killing the process named: VeromixServiceMain.py and relaunch "
+"this plasmoid</li>                                                         "
+"<li>If you don't know how to do that consider rebooting</li></ul><br/"
+">                                                        <a href=\"http://"
+"code.google.com/p/veromix-plasmoid/wiki/Debugging\">See wiki for more "
+"details</a> <span style=\"font-size: small;\">(right click and copy url)</"
+"span>."
+msgstr ""
+
+#: plasma/contents/code/main.py:59
+msgid "Veromix is a mixer for the Pulseaudio sound server. "
+msgstr "Veromix yra Pulseaudio serverio maišiklis. "
+
+#: plasma/contents/code/main.py:141 plasma/contents/code/main.py:408
+msgid "Veromix volume up"
+msgstr "Veromix - padidinti garsą"
+
+#: plasma/contents/code/main.py:146 plasma/contents/code/main.py:413
+msgid "Veromix volume down"
+msgstr "Veromix - sumažinti garsą"
+
+#: plasma/contents/code/main.py:151
+#, fuzzy
+msgid "Veromix toggle mute"
+msgstr "Veromix - sukeisti iš/į begarsį"
+
+# Не уверен что это такое
+#: plasma/contents/code/main.py:159
+msgid "Main Volume"
+msgstr "Pagrindinis garso reguliuoklis"
+
+#: plasma/contents/code/main.py:277
+msgid "Appearance"
+msgstr "Išvaizda"
+
+#: plasma/contents/code/main.py:297
+msgid "Media Player Controls"
+msgstr "Leistuvo valdymas"
+
+#: plasma/contents/code/main.py:323
+msgid "Max volume value"
+msgstr "Maksimalus  garsas"
+
+#: plasma/contents/code/main.py:329
+msgid "Mute if volume reaches zero"
+msgstr "Užtildyti garsą valdikliui pasiekus nulį"
+
+#: plasma/contents/code/main.py:333
+msgid "Sound Card Profiles"
+msgstr "Garso plokštės profiliai"
+
+#: plasma/contents/code/main.py:355
+msgid "Pulseaudio"
+msgstr "Pulseaudio"
+
+#: plasma/contents/code/main.py:362
+msgid ""
+"LADSPA is a standard for handling audio filters and effects. Every linux "
+"software archive offers a large number of effects - search for LADSPA to get "
+"more.            Not every effect is supported by Pulseaudio and others "
+"simple don't make sense (or create only noise).<br/><br/>            The "
+"following list shows all available effects on your system: Only checked "
+"effects will appear in the context-menu."
+msgstr ""
+
+#: plasma/contents/code/main.py:367
+msgid ""
+"<br/><br/><b>Warning:</b> Cannot find the executables 'listplugins' and "
+"'analyseplugin' which are required for dynamically detecting installed "
+"effects.<br/>               In OpenSUSE, Fedora and Arch Linux the package "
+"is named 'ladspa', in Debian/Ubuntu 'ladspa-sdk'.<br/><br/>"
+msgstr ""
+
+#: plasma/contents/code/main.py:376
+msgid "Enable LADSPA effects."
+msgstr ""
+
+#: plasma/contents/code/main.py:397
+msgid "Effects / Equalizer"
+msgstr ""
+
+#: plasma/contents/code/main.py:418
+msgid "Veromix toggle  mute"
+msgstr "Veromix - sukeisti iš/į begarsį"
+
+#: plasma/contents/code/main.py:422
+#, fuzzy
+msgid "Volume Keyboard Shortcuts"
+msgstr "Globalieji spartieji klavišai"
+
+#: gtk/ContextMenu.py:112
+#, fuzzy
+msgid "Default device"
+msgstr "Numatytoji audio išvestis"
+
+#: gtk/ContextMenu.py:126
+msgid "Mute"
+msgstr ""
+
+#: gtk/ContextMenu.py:141
+msgid "Unlock Channels"
+msgstr ""
+
+#: gtk/ContextMenu.py:253
+msgid "Preset"
+msgstr ""
+
+#: gtk/ContextMenu.py:321
+msgid "Save Preset"
+msgstr ""
+
+#: gtk/main.py:42
+msgid "Veromix"
+msgstr ""
+
+#~ msgid "Please remove and re-add myself"
+#~ msgstr "Prašome pašalinti ir iš naujo pridėti plazmoidą"
+
+#~ msgid "Output"
+#~ msgstr "Išvestis"
+
+#, fuzzy
+#~ msgid "Enable media player controls"
+#~ msgstr "Įgalinti leistuvo valdymą"
+
+#, fuzzy
+#~ msgid "System Notifications"
+#~ msgstr "Perspėjimas "

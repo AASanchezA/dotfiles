@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=image-png
+Name=process-working-kde.png
+Type=Link
+URL[$e]=file://$HOME/dotfiles/kde/share/icons/Iceglass%204.0/32x32/animations/process-working-kde.png
+X-KDE-LastOpenedWith=gpicview

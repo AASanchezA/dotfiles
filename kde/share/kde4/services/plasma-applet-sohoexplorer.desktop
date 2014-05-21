@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment=Real time images from the Solar and Heliospheric Observatory (SOHO).
+Encoding=UTF-8
+Icon=/home/andres/.kde/share/apps/plasma/plasmoids//sohoexplorer/icons/icon.png
+Name=SOHO Explorer
+ServiceTypes=Plasma/Applet
+Type=Service
+X-KDE-PluginInfo-Author=eightmillion
+X-KDE-PluginInfo-Category=Astronomy
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-Email=eightmillion@gmail.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=sohoexplorer
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=http://plasma.kde.org/
+X-Plasma-API=python
+X-Plasma-MainScript=code/main.py

@@ -1,0 +1,96 @@
+[Devices]
+PLDS DVD+-RW DS-8A5SH=11080,11080
+
+[External Programs]
+cdrdao default=/usr/bin/cdrdao
+cdrdao last seen newest version=1.2.3
+cdrdao user parameters=
+cdrecord default=/usr/bin/wodim
+cdrecord last seen newest version=1.1.11
+cdrecord user parameters=
+dvd+rw-format default=/usr/bin/dvd+rw-format
+dvd+rw-format last seen newest version=7.1
+dvd+rw-format user parameters=
+eMovix user parameters=
+growisofs default=/usr/bin/growisofs
+growisofs last seen newest version=7.1
+growisofs user parameters=
+mkisofs default=/usr/bin/genisoimage
+mkisofs last seen newest version=1.1.11
+mkisofs user parameters=
+normalize-audio user parameters=
+readcd default=/usr/bin/readom
+readcd last seen newest version=1.1.11
+readcd user parameters=
+search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/opt/schily/bin/,/sbin
+sox user parameters=
+transcode user parameters=
+vcdxbuild user parameters=
+vcdxminfo user parameters=
+vcdxrip user parameters=
+
+[General Options]
+Allow overburning=false
+Fifo buffer=4
+Force unsafe operations=false
+Last system check version=2.0.2
+Lock Panels=true
+Manual buffer size=false
+Navigator breadcrumb mode=true
+No cd eject=false
+Show Document Header=true
+Temp Dir=/tmp/kde-andres/
+action dialog startup settings=1
+burnfree=true
+check system config=true
+config version=2.0.2
+current theme=quant
+current_writer=/dev/sr0
+
+[KFileDialog Settings]
+Height 768=450
+Recent Files[$e]=EN_WINDOWS_XP_PROFESSIONAL_X64.ISO,/Respaldo/Downloads/Windows 7 Service Pack 1 (x64)/EN_WINDOWS_7_PROFESSIONAL_WITH_SP1_X64_DVD_621750.ISO,/Respaldo/Downloads/EN_WINDOWS_XP_PROFESSIONAL_X64.ISO
+Width 1366=720
+
+[OSD Position]
+Position=36,186
+Screen=0
+
+[Welcome Widget]
+welcome_actions=file_new_data,file_new_audio,tools_copy_medium
+
+[file view]
+Decoration position=0
+Previews=false
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+View Style=Simple
+last url[$e]=/Respaldo/Downloads/
+show bookmarks=false
+
+[image writing]
+last written image[$e]=/Respaldo/Downloads/EN_VISUAL_STUDIO_2008_PROFESSIONAL_X86_X64WOW_DVD_X14-26326.ISO
+recent images[$e]=/Respaldo/Downloads/EN_VISUAL_STUDIO_2008_PROFESSIONAL_X86_X64WOW_DVD_X14-26326.ISO,/Respaldo/Downloads/Windows 7 Service Pack 1 (x64)/EN_WINDOWS_7_PROFESSIONAL_WITH_SP1_X64_DVD_621750.ISO,/Respaldo/Downloads/EN_WINDOWS_7_PROFESSIONAL_X86_DVD_X15-65804.ISO,/Respaldo/Downloads/EN_WINDOWS_XP_PROFESSIONAL_X64.ISO
+
+[last used image writing]
+copies=1
+data_track_mode=auto
+image path[$e]=/Respaldo/Downloads/EN_VISUAL_STUDIO_2008_PROFESSIONAL_X86_X64WOW_DVD_X14-26326.ISO
+image type=auto
+multisession=false
+on_the_fly=true
+simulate=false
+verify_data=true
+writer_device=/dev/sr0
+writing_app=Auto
+writing_mode=auto
+writing_speed=0
+
+[main_window_settings]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAgAAAAIAAAVWAAABU/wBAAAAAvsAAAAWAGQAaQByAHQAcgBlAGUAZABvAGMAawEAAAAAAAABTQAAAFIBAAAF+wAAABgAYwBvAG4AdABlAG4AdABzAGQAbwBjAGsBAAABUAAABAYAAADgAQAABQAAAAMAAAVWAAABUvwBAAAAAfsAAAAYAGQAbwBjAHUAbQBlAG4AdABkAG8AYwBrAQAAAAAAAAVWAAAB2QEAAAUAAAVWAAAAAAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1366=1367

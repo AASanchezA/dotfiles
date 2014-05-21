@@ -1,0 +1,12 @@
+[Layout]
+DisplayNames=,
+LayoutList=de,es
+LayoutLoopCount=-1
+Model=latitude
+ResetOldOptions=false
+ShowFlag=false
+ShowLabel=true
+ShowLayoutIndicator=true
+ShowSingle=false
+SwitchMode=Global
+Use=true

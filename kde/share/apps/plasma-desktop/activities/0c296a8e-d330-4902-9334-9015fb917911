@@ -1,0 +1,26 @@
+[Containments][61]
+ActionPluginsSource=Global
+activity=Desktop Icons
+activityId=0c296a8e-d330-4902-9334-9015fb917911
+blankLabel=false
+customLabel=
+desktop=-1
+formfactor=0
+geometry=1372,924,1366,768
+immutability=1
+lastDesktop=-1
+lastScreen=0
+location=0
+plugin=folderview
+screen=-1
+wallpaperplugin=image
+wallpaperpluginmode=SingleImage
+zvalue=0
+
+[Containments][61][Wallpaper][image]
+slideTimer=10
+slidepaths=/usr/share/wallpapers/
+userswallpapers=/home/andres/Pictures/board-circuit_00281588.jpg
+wallpaper=/home/andres/Pictures/board-circuit_00281588.jpg
+wallpapercolor=0,0,0
+wallpaperposition=0

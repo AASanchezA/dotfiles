@@ -1,0 +1,187 @@
+0.16.1
+- Danish translation updated thanks to Ole Holm Frandsen
+
+0.16.0
+- Support for Dropbox client >= 1.2
+- Dropbox folder location is now determined by get_dropbox_folder.sh (written by Andrew Scheller)
+- Dropbox-servicemenu now requires uudecode (contained in sharutils package), recode and perl to be installed
+- Shareable links support removed (currently i do not know how to get the user key from dropbox database)
+
+0.15.4
+- Dutch translation added thanks to Ruben Van Laerhoven
+
+0.15.3
+- Hungarian translation added thanks to Akos Toth
+
+0.15.2
+- German translation updated thanks to Felix Mauch
+- Portuguese translation updated thanks to Ricardo Fernandes
+
+0.15.1
+- Fix python dependency check
+- Removed xdg-open dependency check (KDE depends on xdg-utils, so it shouldn't be necessary)
+
+0.15.0
+- Added dependencies check
+
+0.14.6
+- Russian translation updated thanks to Stanislav Kosolapov
+
+0.14.5
+- Lithuanian translation updated thanks to Donatas G.
+
+0.14.4
+- Spanish translation updated thanks to Axel
+
+0.14.3
+- Italian translation updated - thanks to NevidS Sogaro
+
+0.14.2
+- German translation updated - thanks to Felix Mauch
+- Traditional Chinese (Taiwan) translation added - thanks to Ray Chen
+
+0.14.1
+- Italian translation updated - thanks to NevidS Sogaro
+- Czech translation updated - thanks to Pavel Fric
+- French translation updated - thanks to Samuel Girard
+
+0.14.0
+- Add support for dropbox's new sharing model (dropbox 0.8 or higher required) - http://forums.dropbox.com/topic.php?id=21441&replies=155
+- Merge "Copy public URL to klipper" with dropbox's new sharing model - if you use dropbox 0.8 or higher then you can generate public links for directories and files outside your Public folder
+
+0.13.5
+- Second attempt to make this servicemenu compatible with KHNS - scripts are now placed in servicemenu directory, install script doesn't require user interaction
+
+0.13.4
+- Spanish translation updated - thanks to Omar Campagne Polaino
+
+0.13.3
+- Removed wrong line in previous version thus "copy file to public.." was broken :P
+
+0.13.2
+- First attempt to make this servicemenu compatible with KHNS
+
+0.13.1
+- Small bugfix
+
+0.13.0
+- Use freedesktop notifications instead of kdialog, should be less obtrusive - feel free to share your opinions about this (is it better or worse?)
+- Move script translations to separate file
+
+0.12.2
+- German translation updated
+
+0.12.1
+- Added passive popup after copying public URL to Klipper
+
+0.12.0
+- Support for translations in script file (KDialogs) made by Felix Mauch
+
+0.11.1
+- German and Turkish translation updated
+- Added passive popup after successful encryption
+
+0.11.0
+- Switch from dropbox-index to pyndexer
+- You can now encrypt directory listing with password (requires python-m2crypto; only works for directories in public folder)
+- Change in .desktop files naming - make sure to remove previous dropbox-servicemenu files or you'll have duplicated items in menu!
+
+0.10.0
+- Added support for overwriting existing file/directory when copying/moving to public directory
+- Small bugfixes
+
+0.9.1
+- Small change in menu option text
+
+0.9.0
+- Send Public URL via KMail, now uses default email client (tested with KMail and Thunderbird)
+
+0.8.5
+- License and Changelog files added
+
+0.8.4
+- Fix Dropbox folder autodetection (when using default dropbox path) in experimental dropbox version
+
+0.8.3
+- Portuguese translation added thanks to Francisco D.
+
+0.8.2
+- Another fix in install script
+
+0.8.1
+- Small fix in install script
+
+0.8.0
+- Moved scripts from servicemenu to $PATH. Install script uses /usr/bin.
+
+0.7.4
+- Added Danish translation thanks to jepaan
+
+0.7.3
+- Fix in install.sh, thanks to Felix Mauch for finding this out
+
+0.7.2
+- Updated German translation
+
+0.7.1
+- Updated Turkish translation
+
+0.7.0
+- Added "View previous versions..."
+
+0.6.4
+- Added French translation thanks to Thibaut Francois
+
+0.6.3
+- Added Italian translation thanks to NevidS Sogaro
+
+0.6.2
+- Added Spanish translation thanks to Axel
+
+0.6.1
+- Major code cleanup
+- Fix installation script
+
+0.6
+- Added Lithuanian translation thanks to Donatas G.
+- "Share folder..." is now only available for directories thanks to Donatas G. for his advice
+- Fixed bug with generating urls for files/directories with space in name
+
+0.5.3
+- Small bug in .desktop file
+
+0.5.2
+- German translation added thanks to Felix Mauch
+- Installation script fixed
+
+0.5.1
+- Russian translation added thanks to Yura Mityakov
+
+0.5
+- Added "Send public URL via GMail"
+
+0.4.1
+- Little change in dropbox path detection
+
+0.4
+- Fixed an issue with script not detecting dropbox path when using dropbox older than 0.8
+- Merged all scripts into one file
+- Added kdialog error message when trying to send via kmail/copy public link/share folder that is outside of Dropbox
+
+
+0.3
+- Added "Send public URL via KMail"
+- Changed icons to reflect actual actions
+- Added installation script (supports installing servicemenu system-wide or only for current user)
+
+0.2
+- Added "Move file/directory to public folder and paste the URL to clipboard"
+- Added Turkish translation thanks to Anıl Özbek
+
+0.1.1
+- Added Czech translation thanks to Pavel Fric
+
+0.1
+- Initial release
+
+

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-x-kwallet
+Name=kdewallet.kwl
+Type=Link
+URL[$e]=file://$HOME/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
+X-KDE-LastOpenedWith=

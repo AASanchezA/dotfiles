@@ -1,0 +1,13 @@
+[Auto Allow]
+kdewallet=kwalletmanager,KDE Daemon
+
+[Auto Deny]
+kdewallet=
+
+[Wallet]
+Close on Screensaver=true
+Default Wallet[$d]
+Enabled=false
+Local Wallet=
+Prompt on Open=true
+Use One Wallet=false

@@ -1,0 +1,232 @@
+[AudioDevice_/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:1b.0/sound/card0/pcmC0D0c:capture]
+cardName=HDA Intel PCH (ALC665 Analog)
+deleted=false
+deviceNumber=0
+hotpluggable=false
+iconName=audio-card
+index=-13
+initialPreference=36
+isAdvanced=false
+
+[AudioDevice_/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:1b.0/sound/card0/pcmC0D0p:playback]
+cardName=HDA Intel PCH (ALC665 Analog)
+deleted=false
+deviceNumber=0
+hotpluggable=false
+iconName=audio-card
+index=-1
+initialPreference=36
+isAdvanced=false
+
+[AudioDevice_/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:1b.0/sound/card0/pcmC0D1p:playback]
+cardName=HDA Intel PCH (ALC665 Digital)
+deleted=false
+deviceNumber=1
+hotpluggable=false
+iconName=audio-card
+index=-2
+initialPreference=35
+isAdvanced=true
+
+[AudioDevice_/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:1b.0/sound/card0/pcmC0D3p:playback]
+cardName=HDA Intel PCH (HDMI 0)
+deleted=false
+deviceNumber=3
+hotpluggable=false
+iconName=audio-card
+index=-3
+initialPreference=33
+isAdvanced=true
+
+[AudioDevice_HDA Intel PCH, ALC665 Analog\nDefault Audio Device_capture]
+cardName=HDA Intel PCH, ALC665 Analog (Default Audio Device)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-22
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Analog\nDefault Audio Device_playback]
+cardName=HDA Intel PCH, ALC665 Analog (Default Audio Device)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-23
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Analog\nDirect hardware device without any conversions_capture]
+cardName=HDA Intel PCH, ALC665 Analog (Direct hardware device without any conversions)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-17
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Analog\nDirect hardware device without any conversions_playback]
+cardName=HDA Intel PCH, ALC665 Analog (Direct hardware device without any conversions)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-21
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Analog\nDirect sample mixing device_playback]
+cardName=HDA Intel PCH, ALC665 Analog (Direct sample mixing device)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-20
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Analog\nDirect sample snooping device_capture]
+cardName=HDA Intel PCH, ALC665 Analog (Direct sample snooping device)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-16
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Analog\nHardware device with all software conversions_capture]
+cardName=HDA Intel PCH, ALC665 Analog (Hardware device with all software conversions)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-14
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Analog\nHardware device with all software conversions_playback]
+cardName=HDA Intel PCH, ALC665 Analog (Hardware device with all software conversions)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-19
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Digital\nDirect hardware device without any conversions_playback]
+cardName=HDA Intel PCH, ALC665 Digital (Direct hardware device without any conversions)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-10
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Digital\nDirect sample mixing device_playback]
+cardName=HDA Intel PCH, ALC665 Digital (Direct sample mixing device)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-5
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Digital\nHardware device with all software conversions_playback]
+cardName=HDA Intel PCH, ALC665 Digital (Hardware device with all software conversions)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-6
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, ALC665 Digital\nIEC958 (S/PDIF) Digital Audio Output_playback]
+cardName=HDA Intel PCH, ALC665 Digital (IEC958 (S/PDIF) Digital Audio Output)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-11
+initialPreference=30
+isAdvanced=true
+
+[AudioDevice_HDA Intel PCH, HDMI 0\nDirect hardware device without any conversions_playback]
+cardName=HDA Intel PCH, HDMI 0 (Direct hardware device without any conversions)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-12
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, HDMI 0\nDirect sample mixing device_playback]
+cardName=HDA Intel PCH, HDMI 0 (Direct sample mixing device)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-9
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, HDMI 0\nHDMI Audio Output_playback]
+cardName=HDA Intel PCH, HDMI 0 (HDMI Audio Output)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-8
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel PCH, HDMI 0\nHardware device with all software conversions_playback]
+cardName=HDA Intel PCH, HDMI 0 (Hardware device with all software conversions)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-4
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_Playback/recording through the PulseAudio sound server_capture]
+cardName=Playback/recording through the PulseAudio sound server
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-15
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_Playback/recording through the PulseAudio sound server_playback]
+cardName=Playback/recording through the PulseAudio sound server
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-7
+initialPreference=30
+isAdvanced=false
+
+[Globals]
+nextIndex=24
+
+[VideoDevice_/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.4/1-1.4:1.0/video4linux/video0]
+cardName=Laptop_Integrated_Webcam_2HDM
+deleted=false
+deviceNumber=-1
+hotpluggable=true
+iconName=camera-web
+index=-18
+initialPreference=50
+isAdvanced=false

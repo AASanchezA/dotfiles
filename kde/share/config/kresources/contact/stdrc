@@ -1,0 +1,12 @@
+[General]
+PassiveResourceKeys=
+ResourceKeys=fbEyAbkmcM
+Standard=fbEyAbkmcM
+
+[Resource_fbEyAbkmcM]
+FileFormat=vcard
+ResourceIdentifier=fbEyAbkmcM
+ResourceIsActive=true
+ResourceIsReadOnly=false
+ResourceName=Default Address Book
+ResourceType=file

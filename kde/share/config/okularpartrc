@@ -1,0 +1,5 @@
+[General]
+UseKTTSD=false
+
+[Main View]
+SplitterSizes=400,891

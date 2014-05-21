@@ -1,0 +1,37 @@
+[1]
+Description=(Default) Disable focus stealing prevention for XV
+fsplevel=0
+fsplevelrule=2
+types=4294967295
+wmclass=^xv .*
+wmclasscomplete=true
+wmclassmatch=3
+
+[Directories-default]
+prefixes[$d]
+
+[Emoticons]
+emoticonsTheme[$d]
+
+[General]
+BrowserApplication[$d]
+XftHintStyle[$d]
+count=1
+desktopFont[$d]
+font[$d]
+menuFont[$d]
+smallestReadableFont[$d]
+taskbarFont[$d]
+toolBarFont[$d]
+
+[Notification Messages]
+:confirmNewSession[$d]
+
+[PreviewSettings]
+UseFileThumbnails[$d]
+
+[Toolbar style]
+ToolButtonStyle[$d]
+
+[WM]
+activeFont[$d]

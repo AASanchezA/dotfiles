@@ -1,0 +1,13 @@
+[Event]
+hideApportNotifier=true
+hideHookNotifier=false
+hideInstallNotifier=false
+hideRestartNotifier=false
+
+[NotificationType]
+NotifyType=KNotifyOnly
+
+[updateNotifications]
+3f86cf82defcedf38d3c45ea5226593a=true
+a86253e84cd37d43082d03de0e882ce1=true
+f232238cd2cb24249f6e0b4169cf351d=true

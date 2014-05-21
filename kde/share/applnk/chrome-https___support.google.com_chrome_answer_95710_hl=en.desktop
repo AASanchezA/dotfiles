@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Create application shortcuts - Chrome Help
+Exec=/usr/lib/chromium-browser/chromium-browser "--app=https://support.google.com/chrome/answer/95710?hl=en"
+Icon=chrome-https___support.google.com_chrome_answer_95710_hl=en
+StartupWMClass=support.google.com__chrome_answer_95710
+OnlyShowIn=Old;

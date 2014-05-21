@@ -1,0 +1,130 @@
+/*
+ *   Matrix Plasmoid (Stylesheet-File) - an other kool widget for KDE
+ *
+ *   Copyright (C) 2010 Gerhard A. Dittes <g-a-d@web.de>
+ *
+ *   This program is free software; you can redistribute it and/or modify it
+ *   under the terms of the GNU General Public License as published by the
+ *   Free Software Foundation; either version 3 of the License, or (at your option)
+ *   any later version.
+ *
+ *   This program is distributed in the hope that it will be useful, but
+ *   WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ *   or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+ *   more details.
+ * 
+ *   You should have received a copy of the GNU General Public License along with
+ *   this program; if not, see <http://www.gnu.org/licenses/>.
+ */
+
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+	/*opacity:0.4;*/
+}
+
+#canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: #00ff00;
+    background-color: #000000;
+
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#monitor {
+	z-index: 200000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#monitor img {
+	z-index: 200000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: #00ff00;
+}
+
+
+/* normal column/speed */
+#canvas span.present {
+    color: #bfffbf;
+}
+
+/* The one which goeas up in "extended 3d mode"*/
+#canvas span.present.big {
+    color: #ffffbf;
+}
+
+#canvas span.past {
+    color: #00ff00;
+}
+
+#canvas span.future {
+/*     color: #040d00; */
+    color: transparent;
+}
+
+#canvas span.dead {
+/*     color: #061800; */
+    color: transparent;
+}
+
+#canvas span.nearlyDead {
+    color: #009900;
+}
+
+/* mini column/speed */
+#canvas span.present.mini {
+    color: #80bb66;
+}
+
+#canvas span.past.mini {
+    color: #00b000;
+}
+
+#canvas span.future.mini {
+/*     color: #000000; */
+}
+
+#canvas span.dead.mini {
+/*     color: #000000; */
+}
+
+#canvas span.nearlyDead.mini {
+    color: #006600;
+}
+
+/* tiny column/speed */
+#canvas span.present.tiny {
+    color: #447834;
+}
+
+#canvas span.past.tiny {
+    color: #005600;
+}
+
+#canvas span.future.tiny {
+/*     color: #020800; */
+}
+
+#canvas span.dead.tiny {
+/*     color: #040d00; */
+}
+
+#canvas span.nearlyDead.tiny {
+    color: #003600;
+}

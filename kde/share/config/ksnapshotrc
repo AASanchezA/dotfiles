@@ -1,0 +1,16 @@
+[GENERAL]
+delay=0
+filename[$e]=file://$HOME/Pictures/include1.png
+includeDecorations=true
+includePointer=false
+mode=2
+
+[KFileDialog Settings]
+Height 768=450
+Recent Files[$e]=$HOME/Pictures/snapshot1.png,$HOME/Pictures/include.png,$HOME/Pictures/paper1.png,$HOME/Pictures/retinaface.png,$HOME/Pictures/MCC_error.png,$HOME/Pictures/kinec-pmd-leap4.png,$HOME/Pictures/kinec-pmd-leap3.png,$HOME/Pictures/kinec-pmd-leap2.png,$HOME/Pictures/kinec-pmd-leap1.png,$HOME/Pictures/kinec-pmd-leap.png,$HOME/Pictures/leap.png,$HOME/Pictures/oscilloCosilo.png,/Respaldo/BMC/Thesis/presentation/pic03.png,/Respaldo/BMC/Thesis/presentation/pic02.png,/Respaldo/BMC/Thesis/presentation/pic01.png,/Respaldo/BMC/Thesis/presentation/setup.png
+Width 1024=720
+Width 1366=720
+
+[MainWindow]
+Height 768=737
+Width 1366=673

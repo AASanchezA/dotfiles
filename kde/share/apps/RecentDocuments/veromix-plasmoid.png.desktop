@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=image-png
+Name=veromix-plasmoid.png
+Type=Link
+URL[$e]=file://$HOME/dotfiles/kde/share/icons/hicolor/128x128/apps/veromix-plasmoid.png
+X-KDE-LastOpenedWith=gpicview

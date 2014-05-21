@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>Ghost</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=jmtodaro">jmtodaro</author>
+  <homepage>http://opendesktop.org/content/show.php?content=107902</homepage>
+  <licence>1</licence>
+  <version>2.0.2</version>
+  <rating>87</rating>
+  <downloads>5401</downloads>
+  <installedfile>/tmp/kde-andres///107902-ghost.tar.gz</installedfile>
+  <id>107902</id>
+  <releasedate>2010-04-09</releasedate>
+  <summary>A futuristic theme inspired by Ghost in the Shell.&#xd;
+&#xd;
+[b]Aurorae Window Decoration &amp; KDE Color Scheme:[/b] [url]http://jmtodaro.com/ghost.html[/url]</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m107902-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/107902-1.jpeg</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/107902-ghost.tar.gz</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Volatile</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=bionegative">bionegative</author>
+  <homepage>http://opendesktop.org/content/show.php?content=128110</homepage>
+  <licence>1</licence>
+  <version>1.8</version>
+  <rating>85</rating>
+  <downloads>5136</downloads>
+  <installedfile>/tmp/kde-andres///128110-Volatile-v1.8.tar.gz</installedfile>
+  <id>128110</id>
+  <releasedate>2011-07-24</releasedate>
+  <summary>Volatile plasma theme.&#xd;
+&#xd;
+Looks great on dark or colorful wallpapers, be sure to enable the blur effect if you are using compiz instead of kwin.&#xd;
+&#xd;
+&#xd;
+Credits to the authors of glassified and vistar7.&#xd;
+&#xd;
+SEE ALSO: The emerald theme&#xd;
+http://kde-look.org/content/show.php/Volatile?content=127543</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m128110-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/128110-1.png</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/128110-Volatile-v1.8.tar.gz</payload>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

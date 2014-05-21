@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Plasmacon
+Name[en]=Plasmacon
+Comment=Terminal emulator on your desktop.
+Type=Service
+ServiceTypes=Plasma/Applet,Plasma/PopupApplet,Plasma/IconWidget
+Icon=utilities-terminal
+X-Plasma-API=python
+X-Plasma-MainScript=code/main.py
+X-KDE-PluginInfo-Author=Andrey Shamakhov
+X-KDE-PluginInfo-Email=shamakhov.a@gmail.com
+X-KDE-PluginInfo-Name=Plasmacon
+X-KDE-PluginInfo-Version=0.3
+X-KDE-PluginInfo-Website=http://www.kde-look.org/
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=PYQT
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true

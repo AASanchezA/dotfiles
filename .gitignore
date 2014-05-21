@@ -1,0 +1,4 @@
+/vim/vimtmp/*
+/vim/vimtmp/.*
+.*~
+*~

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biasedPlaylists version="2" current="0">
+    <playlist>
+        <title>Random</title>
+        <randomBias/>
+    </playlist>
+    <playlist>
+        <title>Rock and Pop</title>
+        <searchQueryBias>
+            <filter>genre:Rock OR genre:Pop</filter>
+        </searchQueryBias>
+    </playlist>
+    <playlist>
+        <title>Album play</title>
+        <ifElseBias>
+            <albumPlayBias>
+                <follow>directlyFollow</follow>
+            </albumPlayBias>
+            <searchQueryBias>
+                <filter>tracknumber:1</filter>
+            </searchQueryBias>
+        </ifElseBias>
+    </playlist>
+    <playlist>
+        <title>Rating</title>
+        <partBias>
+            <randomBias weight="0.3"/>
+            <tagMatchBias weight="0.5">
+                <field>rating</field>
+                <numValue>5</numValue>
+                <numValue2>0</numValue2>
+                <condition>greater</condition>
+            </tagMatchBias>
+            <tagMatchBias weight="0.2">
+                <field>rating</field>
+                <numValue>8</numValue>
+                <numValue2>0</numValue2>
+                <condition>greater</condition>
+            </tagMatchBias>
+        </partBias>
+    </playlist>
+</biasedPlaylists>

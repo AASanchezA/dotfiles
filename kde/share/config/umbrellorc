@@ -1,0 +1,26 @@
+[Colors]
+CurrentPalette=Forty Colors
+
+[General Options]
+Geometry=1366,752
+autosavetime=5
+imageMimeType=image/jpeg
+
+[KFileDialog Settings]
+Height 768=510
+Recent Files[$e]=$HOME/Documents/testulm.xmi,$HOME/Documents/testulm.xmi
+Width 1366=816
+listViewIconSize=0
+
+[MainWindow]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEuAAACgfwCAAAAAvsAAAAYAFQAcgBlAGUAVgBpAGUAdwBEAG8AYwBrAQAAAFEAAAEYAAAAaAEAAAX8AAABbAAAAWYAAACFAQAAHPoAAAABAgAAAAL7AAAAIgBEAG8AYwB1AG0AZQBuAHQAYQB0AGkAbwBuAEQAbwBjAGsBAAAAAP////8AAABoAQAABfsAAAAcAEMAbQBkAEgAaQBzAHQAbwByAHkARABvAGMAawEAAAAA/////wAAAGgBAAAFAAAEJQAAAoEAAAAEAAAABAAAAAgAAAAI/AAAAAIAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAACAAAAAQAAABYAdwBvAHIAawB0AG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1024=1025
+Width 1366=1367
+
+[MainWindow][Toolbar worktoolbar]
+ToolButtonStyle=IconOnly
+
+[workbar]
+ToolButtonStyle=IconOnly

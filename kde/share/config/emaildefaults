@@ -1,0 +1,11 @@
+[Defaults]
+Profile=Default
+
+[PROFILE_Default]
+EmailAddress=andres-sanchez@gmx.net
+EmailClient[$e]=thunderbird %u
+FullName=andres
+Organization=
+ReplyAddr=
+ServerType=
+TerminalClient=false

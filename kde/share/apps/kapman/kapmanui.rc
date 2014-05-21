@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1" xmlns="http://www.kde.org/standards/kxmlgui/1.0" xsi:schemaLocation="http://www.kde.org/standards/kxmlgui/1.0&#xa;                         http://www.kde.org/standards/kxmlgui/1.0/kxmlgui.xsd" name="Kapman">
+ <MenuBar>
+  <Menu name="game">
+   <Action name="level"/>
+  </Menu>
+  <Menu name="settings">
+   <Action name="sounds"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default"/>
+</gui>

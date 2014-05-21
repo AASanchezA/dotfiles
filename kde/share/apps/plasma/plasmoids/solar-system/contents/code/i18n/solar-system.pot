@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR John Ramen
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: solar-system 0.4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-18 18:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../main.py:580
+msgctxt "Name of the star at the center of Solar System"
+msgid "Sun"
+msgstr ""
+
+#: ../main.py:582
+msgid "Mercury"
+msgstr ""
+
+#: ../main.py:583
+msgid "Venus"
+msgstr ""
+
+#: ../main.py:584
+msgid "Earth"
+msgstr ""
+
+#: ../main.py:585
+msgid "Mars"
+msgstr ""
+
+#: ../main.py:586
+msgid "Jupiter"
+msgstr ""
+
+#: ../main.py:587
+msgid "Saturn"
+msgstr ""
+
+#: ../main.py:588
+msgid "Uranus"
+msgstr ""
+
+#: ../main.py:589
+msgid "Neptune"
+msgstr ""
+
+#: ../main.py:591
+msgid "Pluto"
+msgstr ""
+
+#: ../main.py:609
+msgid "Configure Me"
+msgstr ""
+
+#: ../ui_configparameters.py:116
+msgid "Show planet names"
+msgstr ""
+
+#: ../ui_configparameters.py:117
+msgid "Select font color: "
+msgstr ""
+
+#: ../ui_configparameters.py:118
+msgid "Show planet orbits"
+msgstr ""
+
+#: ../ui_configparameters.py:119
+msgid "Select orbits color:"
+msgstr ""
+
+#: ../ui_configparameters.py:120
+msgid "Show Pluto  (and possibly other dwarf planets)"
+msgstr ""

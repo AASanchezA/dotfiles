@@ -1,0 +1,29 @@
+[Desktop Entry]
+Name=Shit Happens!
+Name[es]=¡Qué pasa!
+Name[gl]=Hai que roelo!
+Name[nds]=Schiet kummt vör!
+Name[tr]=Hatalar Oluştu!
+Name[x-test]=xxShit Happens!xx
+Name[zh_TW]=壞事會發生
+Comment=Shit Happens!
+Comment[es]=¡Qué pasa!
+Comment[gl]=Hai que roelo!
+Comment[nds]=Schiet kummt vör!
+Comment[tr]=Hatalar Oluştu!
+Comment[x-test]=xxShit Happens!xx
+Comment[zh_TW]=壞事會發生
+Type=Service
+X-KDE-ServiceTypes=Plasma/Comic
+Icon=icon.png
+
+X-KDE-Library=plasma_comic_krossprovider
+X-KDE-PluginInfo-Author=Matthias Fuchs
+X-KDE-PluginInfo-Email=mat69@gmx.net
+X-KDE-PluginInfo-Name=shithappens
+X-KDE-PluginInfo-Version=1.3
+X-KDE-PluginInfo-Website=http://plasma.kde.org/
+X-KDE-PluginInfo-License=GPLv2
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PlasmaComicProvider-SuffixType=Number
+

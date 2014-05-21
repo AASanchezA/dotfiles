@@ -1,0 +1,864 @@
+2012-06-18T00:43:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2012-06-18T00:43:17 kded.upd: Found new update 'kde3.0'
+2012-06-18T00:43:17 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2012-06-18T00:43:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2012-06-18T00:43:17 kcookiescfg.upd: Found new update 'kde2.2/b1'
+2012-06-18T00:43:17 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2012-06-18T00:43:17 kcookiescfg.upd: Found new update 'kde3.1/cvs'
+2012-06-18T00:43:17 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2012-06-18T00:43:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kate-2.4.upd' for new updates
+2012-06-18T00:43:17 kate-2.4.upd: Found new update 'kate2.4'
+2012-06-18T00:43:17 kate-2.4.upd: Updating katerc:Filelist:Sort Type to ''
+2012-06-18T00:43:17 kate-2.4.upd: Removing katerc:General:Sort Type of File List, moved.
+2012-06-18T00:43:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2012-06-18T00:43:17 kioslave.upd: Found new update 'kde2.2/r1'
+2012-06-18T00:43:17 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2012-06-18T00:43:17 kioslave.upd: Skipping update 'kde2.2/r1'
+2012-06-18T00:43:17 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2012-06-18T00:43:17 kioslave.upd: Found new update 'kde2.2/r2'
+2012-06-18T00:43:17 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2012-06-18T00:43:17 kioslave.upd: Found new update 'kde2.2/r3'
+2012-06-18T00:43:17 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2012-06-18T00:43:17 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2012-06-18T00:43:17 plasma_popupapplet_fix_groups.upd: Found new update 'PlasmaPopupAppletFixGroups1'
+2012-06-18T00:43:17 plasma_popupapplet_fix_groups.upd: File 'plasma-appletsrc' does not exist or empty, skipping
+2012-06-18T00:43:17 plasma_popupapplet_fix_groups.upd: Found new update 'PlasmaPopupAppletFixGroups2'
+2012-06-18T00:43:17 plasma_popupapplet_fix_groups.upd: File 'plasmarc' does not exist or empty, skipping
+2012-06-18T00:43:17 plasma_popupapplet_fix_groups.upd: Found new update 'PlasmaPopupAppletFixGroups3'
+2012-06-18T00:43:17 plasma_popupapplet_fix_groups.upd: File 'plasmoidviewer-appletsrc' does not exist or empty, skipping
+2012-06-18T00:43:17 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2012-06-18T00:43:17 devicepreference.upd: Found new update 'DevicesMovedToPlatformPlugin'
+2012-06-18T00:43:17 devicepreference.upd: Running script 'phonon_devicepreference_update'
+2012-06-18T00:43:17 devicepreference.upd: Found new update 'DevicesUIDsChanged'
+2012-06-18T00:43:17 devicepreference.upd: Running script 'phonon_deviceuids_update'
+2012-06-18T00:43:17 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2012-06-18T00:43:17 ksslcertificatemanager.upd: Found new update 'kde4.2'
+2012-06-18T00:43:17 ksslcertificatemanager.upd: Running script 'ksslcertificatemanager.upd.sh'
+2012-06-18T00:43:17 [Script] rm: cannot remove `/home/andres/.kde//share/config/ksslcertificatemanager': No such file or directory
+2012-06-18T00:43:17 ksslcertificatemanager.upd: !! An error occurred while running 'sh /usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh'
+2012-06-18T00:43:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2012-06-18T00:43:17 kio_help.upd: Found new update 'kde3_2'
+2012-06-18T00:43:17 kio_help.upd: Running script 'move_kio_help_cache.sh'
+2012-06-18T00:43:17 [Script] mv: cannot stat `/home/andres/.kde/share/apps/kio_help/cache': No such file or directory
+2012-06-18T00:43:17 [Script] rmdir: failed to remove `/home/andres/.kde/share/apps/kio_help': No such file or directory
+2012-06-18T00:43:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2012-06-18T00:43:17 kuriikwsfilter.upd: Found new update 'post-kde3.1/cvs'
+2012-06-18T00:43:17 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2012-09-17T14:22:28 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2012-09-17T14:22:28 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2012-09-17T14:22:28 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2012-09-17T14:22:28 kioslave.upd: Found new update 'kde2.2/r1'
+2012-09-17T14:22:28 kioslave.upd: Skipping update 'kde2.2/r1'
+2012-09-17T14:22:28 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2012-09-17T14:22:28 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2012-09-17T14:22:28 Checking update-file '/usr/share/kde4/apps/kconf_update/kile.upd' for new updates
+2012-09-17T14:22:28 kile.upd: Found new update 'Kile1.5v1'
+2012-09-17T14:22:28 kile.upd: File 'kilerc' does not exist or empty, skipping
+2012-09-17T14:22:28 kile.upd: Found new update 'Kile1.6v1'
+2012-09-17T14:22:28 kile.upd: File 'kilerc' does not exist or empty, skipping
+2012-09-17T14:22:28 kile.upd: Found new update 'Kile1.7v1'
+2012-09-17T14:22:28 kile.upd: File 'kilerc' does not exist or empty, skipping
+2012-09-17T14:22:28 kile.upd: Found new update 'Kile1.9v1'
+2012-09-17T14:22:28 kile.upd: File 'kilerc' does not exist or empty, skipping
+2012-09-17T14:22:28 kile.upd: Found new update 'Kile1.9v2'
+2012-09-17T14:22:28 kile.upd: File 'kilerc' does not exist or empty, skipping
+2012-09-17T14:22:28 kile.upd: Found new update 'Kile2.0v1'
+2012-09-17T14:22:28 kile.upd: File 'kilerc' does not exist or empty, skipping
+2012-09-17T14:22:28 kile.upd: Found new update 'Kile2.0v2'
+2012-09-17T14:22:28 kile.upd: File 'kilerc' does not exist or empty, skipping
+2012-09-17T14:22:28 kile.upd: Found new update 'Kile2.0v3'
+2012-09-17T14:22:28 kile.upd: File 'kilerc' does not exist or empty, skipping
+2012-09-17T14:22:28 kile.upd: Found new update 'Kile2.0v4'
+2012-09-17T14:22:28 kile.upd: File 'kilerc' does not exist or empty, skipping
+2012-09-17T14:22:28 kile.upd: Found new update 'Kile2.0v5'
+2012-09-17T14:22:28 kile.upd: File 'kilerc' does not exist or empty, skipping
+2012-09-17T14:22:28 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2012-09-17T14:22:28 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2012-10-28T10:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin.upd' for new updates
+2012-10-28T10:05:14 kwin.upd: Found new update 'kde3.0r1'
+2012-10-28T10:05:14 kwin.upd: Running script 'pluginlibFix.pl'
+2012-10-28T10:05:14 kwin.upd: Found new update 'kde3.2Xinerama'
+2012-10-28T10:05:14 kwin.upd: Updating kdeglobals:Windows:XineramaEnabled to ''
+2012-10-28T10:05:14 kwin.upd: Removing kwinrc:Windows:XineramaEnabled, moved.
+2012-10-28T10:05:14 kwin.upd: Updating kdeglobals:Windows:XineramaMovementEnabled to ''
+2012-10-28T10:05:14 kwin.upd: Removing kwinrc:Windows:XineramaMovementEnabled, moved.
+2012-10-28T10:05:14 kwin.upd: Updating kdeglobals:Windows:XineramaPlacementEnabled to ''
+2012-10-28T10:05:14 kwin.upd: Removing kwinrc:Windows:XineramaPlacementEnabled, moved.
+2012-10-28T10:05:14 kwin.upd: Updating kdeglobals:Windows:XineramaMaximizeEnabled to ''
+2012-10-28T10:05:14 kwin.upd: Removing kwinrc:Windows:XineramaMaximizeEnabled, moved.
+2012-10-28T10:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader.upd' for new updates
+2012-10-28T10:05:14 kopete-pluginloader.upd: Found new update 'kopete0.7/r1'
+2012-10-28T10:05:14 kopete-pluginloader.upd: Running script 'kopete-pluginloader.pl'
+2012-10-28T10:05:14 kopete-pluginloader.upd: Script removes kopeterc::Modules
+2012-10-28T10:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2012-10-28T10:05:14 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2012-10-28T10:05:14 plasma-add-shortcut-to-menu.upd:2:'Script=plasma-add-shortcut-to-menu-update': Script 'plasma-add-shortcut-to-menu-update' not found
+2012-10-28T10:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus2.upd' for new updates
+2012-10-28T10:05:14 kwin_focus2.upd: Found new update 'kwin_focus2'
+2012-10-28T10:05:14 kwin_focus2.upd: Running script 'kwin_focus2.sh'
+2012-10-28T10:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-initialstatus.upd' for new updates
+2012-10-28T10:05:14 kopete-initialstatus.upd: Found new update 'kopete0.60.80/r1'
+2012-10-28T10:05:14 kopete-initialstatus.upd: Running script 'kopete-initialstatus.pl'
+2012-10-28T10:05:14 kopete-initialstatus.upd: Script removes kopeterc:Behavior:autoConnect
+2012-10-28T10:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2012-10-28T10:05:14 kcmdisplayrc.upd: Found new update 'kde3'
+2012-10-28T10:05:14 kcmdisplayrc.upd: File 'kcmdisplayrc' does not exist or empty, skipping
+2012-10-28T10:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kcalcrc.upd' for new updates
+2012-10-28T10:05:14 kcalcrc.upd: Found new update 'KDE_3_2_0'
+2012-10-28T10:05:14 kcalcrc.upd: File 'kcalcrc' does not exist or empty, skipping
+2012-10-28T10:05:14 kcalcrc.upd: Found new update 'KDE_4_3_0'
+2012-10-28T10:05:14 kcalcrc.upd: File 'kcalcrc' does not exist or empty, skipping
+2012-10-28T10:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2012-10-28T10:05:14 plasma-to-plasmadesktop-shortcuts.upd: Found new update '4.3plasma-desktop-shortcuts'
+2012-10-28T10:05:14 plasma-to-plasmadesktop-shortcuts.upd: File 'kglobalshortcutsrc' does not exist or empty, skipping
+2012-10-28T10:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2012-10-28T10:05:14 kmail.upd: Found new update '1'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '4'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '5'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '6'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '7'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '8'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '9'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.1-update-identities'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.1-use-identity-uoids'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.1-new-mail-notification'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.2-update-loop-on-goto-unread-settings'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.1.4-dont-use-UOID-0-for-any-identity'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.2-misc'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.2-moves'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.3-use-ID-for-accounts'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.3-update-filter-rules'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.3-move-identities-to-own-file'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.3-aegypten-kpgprc-to-kmailrc'
+2012-10-28T10:05:14 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2012-10-28T10:05:14 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2012-10-28T10:05:14 kmail.upd: File 'emailidentities' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.3-misc'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.3b1-misc'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.4'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.4a'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.4b'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.4.1'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.5.4'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '3.5.7-imap-flag-migration'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '4.0-misc'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '4.2'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 kmail.upd: Found new update '4.4-akonadi'
+2012-10-28T10:05:14 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-10-28T10:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2012-10-28T10:05:14 plasmarc-to-plasmadesktoprc.upd: Found new update '4.3plasma-desktop'
+2012-10-28T10:05:14 plasmarc-to-plasmadesktoprc.upd: Running script 'plasma-to-plasma-desktop'
+2012-10-28T10:05:15 [Script] QDBusObjectPath: invalid path ""
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/audiocd.upd' for new updates
+2012-10-28T10:05:15 audiocd.upd: Found new update '1'
+2012-10-28T10:05:15 audiocd.upd: File 'kcmaudiocdrc' does not exist or empty, skipping
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/korganizer.upd' for new updates
+2012-10-28T10:05:15 korganizer.upd: Found new update 'korganizer_3.4_GroupwareCleanup'
+2012-10-28T10:05:15 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2012-10-28T10:05:15 korganizer.upd: Found new update 'korganizer_3.4_WebExport'
+2012-10-28T10:05:15 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2012-10-28T10:05:15 korganizer.upd: Found new update 'korganizer_3.4_FilterAction'
+2012-10-28T10:05:15 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2012-10-28T10:05:15 korganizer.upd: Found new update 'korganizer_3.4_HolidayPlugin'
+2012-10-28T10:05:15 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2012-10-28T10:05:15 korganizer.upd: Found new update 'korganizer_4.3_ShowTodos'
+2012-10-28T10:05:15 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2012-10-28T10:05:15 korganizer.upd: Found new update 'korganizer_4.4_MoveFreeBusy'
+2012-10-28T10:05:15 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2012-10-28T10:05:15 kwin_update_tabbox_settings.upd: Found new update 'Kwin-4.4'
+2012-10-28T10:05:15 kwin_update_tabbox_settings.upd: Running script 'kwin_update_tabbox_settings'
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kwiniconify.upd' for new updates
+2012-10-28T10:05:15 kwiniconify.upd: Found new update 'iconifyupd3.1'
+2012-10-28T10:05:15 kwiniconify.upd: File 'kwin.eventsrc' does not exist or empty, skipping
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_icq_server.upd' for new updates
+2012-10-28T10:05:15 kopete-update_icq_server.upd: Found new update 'kopete-update-icq-server/r1'
+2012-10-28T10:05:15 kopete-update_icq_server.upd: Running script 'kopete-update_icq_server.pl'
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_on_off.upd' for new updates
+2012-10-28T10:05:15 kwin_on_off.upd: Found new update 'kwin_on_off'
+2012-10-28T10:05:15 kwin_on_off.upd: Running script 'on-off_to_true-false.sh'
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2012-10-28T10:05:15 kwin_fsp_workarounds_1.upd: Found new update 'kde351'
+2012-10-28T10:05:15 kwin_fsp_workarounds_1.upd: Running script 'kwin_update_default_rules' with arguments 'fsp_workarounds_1.kwinrules'
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberpriorityaddition-kconf_update.upd' for new updates
+2012-10-28T10:05:15 kopete-jabberpriorityaddition-kconf_update.upd: Found new update 'kopete0.9/r1'
+2012-10-28T10:05:15 kopete-jabberpriorityaddition-kconf_update.upd: Running script 'kopete-jabberpriorityaddition-kconf_update.sh'
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_effects.upd' for new updates
+2012-10-28T10:05:15 kwin_remove_effects.upd: Found new update 'kwin4.7_effects'
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/amarok.upd' for new updates
+2012-10-28T10:05:15 amarok.upd: Found new update '1'
+2012-10-28T10:05:15 amarok.upd: Running script 'amarok-2.4.1-tokens_syntax_update.pl'
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2012-10-28T10:05:15 klipper-kconfigxt.upd: Found new update 'KlipperNoSpacesInKeyNames'
+2012-10-28T10:05:15 klipper-kconfigxt.upd: Updating klipperrc:General:NoActionsForWM_CLASS to ''
+2012-10-28T10:05:15 klipper-kconfigxt.upd: Removing klipperrc:General:No Actions for WM_CLASS, moved.
+2012-10-28T10:05:15 klipper-kconfigxt.upd: Updating klipperrc:General:StripWhiteSpace to ''
+2012-10-28T10:05:15 klipper-kconfigxt.upd: Removing klipperrc:General:Strip Whitespace before exec, moved.
+2012-10-28T10:05:15 klipper-kconfigxt.upd: Updating klipperrc:General:TimeoutForActionPopups to ''
+2012-10-28T10:05:15 klipper-kconfigxt.upd: Removing klipperrc:General:Timeout for Action popups (seconds), moved.
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2012-10-28T10:05:15 kwin_window_shortcuts.upd: Found new update 'kde414'
+2012-10-28T10:05:15 kwin_window_shortcuts.upd: File 'kglobalshortcutsrc' does not exist or empty, skipping
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-account-kconf_update.upd' for new updates
+2012-10-28T10:05:15 kopete-account-kconf_update.upd: Found new update 'kopete0.7/r1'
+2012-10-28T10:05:15 kopete-account-kconf_update.upd: Running script 'kopete-account-kconf_update.sh'
+2012-10-28T10:05:15 [Script] /usr/share/kde4/apps/kconf_update/kopete-account-kconf_update.sh: 9: kde-config: not found
+2012-10-28T10:05:15 kopete-account-kconf_update.upd: Found new update 'kopete0.10/r1'
+2012-10-28T10:05:15 kopete-account-kconf_update.upd: Running script 'kopete-account-0.10.pl'
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/mailtransports.upd' for new updates
+2012-10-28T10:05:15 mailtransports.upd: Found new update 'initial-kmail-migration'
+2012-10-28T10:05:15 mailtransports.upd: Running script 'migrate-transports.pl' with arguments 'kmail'
+2012-10-28T10:05:15 mailtransports.upd: Found new update 'initial-knode-migration'
+2012-10-28T10:05:15 mailtransports.upd: File 'knoderc' does not exist or empty, skipping
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-gaim_to_pidgin_style.upd' for new updates
+2012-10-28T10:05:15 kopete-gaim_to_pidgin_style.upd: Found new update 'kopete0.70.85/r1'
+2012-10-28T10:05:15 kopete-gaim_to_pidgin_style.upd: Running script 'kopete-gaim_to_pidgin_style.pl'
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kpgp.upd' for new updates
+2012-10-28T10:05:15 kpgp.upd: Found new update 'preKDE3_a'
+2012-10-28T10:05:15 kpgp.upd: File 'kpgprc' does not exist or empty, skipping
+2012-10-28T10:05:15 kpgp.upd: Found new update '3.1-1'
+2012-10-28T10:05:15 kpgp.upd: File 'kpgprc' does not exist or empty, skipping
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader2.upd' for new updates
+2012-10-28T10:05:15 kopete-pluginloader2.upd: Found new update 'kopete0.8/r1'
+2012-10-28T10:05:15 kopete-pluginloader2.upd: Running script 'kopete-pluginloader2.sh'
+2012-10-28T10:05:15 [Script] /usr/share/kde4/apps/kconf_update/kopete-pluginloader2.sh: 9: kde-config: not found
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kaccel.upd' for new updates
+2012-10-28T10:05:15 kaccel.upd: Found new update 'kde3.3/r1'
+2012-10-28T10:05:15 kaccel.upd: Running script 'convertShortcuts.pl'
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinsticky.upd' for new updates
+2012-10-28T10:05:15 kwinsticky.upd: Found new update 'stickyupd3.1'
+2012-10-28T10:05:15 kwinsticky.upd: File 'kwin.eventsrc' does not exist or empty, skipping
+2012-10-28T10:05:15 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2012-10-28T10:05:15 kwinupdatewindowsettings.upd: Found new update 'kde33b1'
+2012-10-28T10:05:15 kwinupdatewindowsettings.upd: Running script 'kwin_update_window_settings'
+2012-10-28T10:05:16 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_yahoo_server.upd' for new updates
+2012-10-28T10:05:16 kopete-update_yahoo_server.upd: Found new update 'kopete-update-yahoo-server/r1'
+2012-10-28T10:05:16 kopete-update_yahoo_server.upd: Running script 'kopete-update_yahoo_server.pl'
+2012-10-28T10:05:16 Checking update-file '/usr/share/kde4/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2012-10-28T10:05:16 mouse_cursor_theme.upd: Found new update 'kde3.4.99'
+2012-10-28T10:05:16 mouse_cursor_theme.upd: Updating kcminputrc:Mouse:cursorTheme to ''
+2012-10-28T10:05:16 mouse_cursor_theme.upd: Removing kdeglobals:KDE:cursorTheme, moved.
+2012-10-28T10:05:16 Checking update-file '/usr/share/kde4/apps/kconf_update/favicons.upd' for new updates
+2012-10-28T10:05:16 favicons.upd: Found new update 'kde3_2'
+2012-10-28T10:05:16 favicons.upd: Running script 'move_favicons.sh'
+2012-10-28T10:05:16 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver.upd' for new updates
+2012-10-28T10:05:16 ksmserver.upd: Found new update 'kde3'
+2012-10-28T10:05:16 ksmserver.upd: File 'ksmserverrc' does not exist or empty, skipping
+2012-10-28T10:05:16 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin3_plugin.upd' for new updates
+2012-10-28T10:05:16 kwin3_plugin.upd: Found new update 'kde3.2'
+2012-10-28T10:05:16 kwin3_plugin.upd: Running script 'kwin3_plugin.pl'
+2012-10-28T10:05:16 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver_shortcuts.upd' for new updates
+2012-10-28T10:05:16 ksmserver_shortcuts.upd: Found new update 'kde45'
+2012-10-28T10:05:16 ksmserver_shortcuts.upd: File 'kglobalshortcutsrc' does not exist or empty, skipping
+2012-10-28T10:05:16 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-nameTracking.upd' for new updates
+2012-10-28T10:05:16 kopete-nameTracking.upd: Found new update 'kopete0.9/r1'
+2012-10-28T10:05:16 kopete-nameTracking.upd:3:'Script=kopete-nameTracking-kconf_update': Script 'kopete-nameTracking-kconf_update' not found
+2012-10-28T10:05:16 Checking update-file '/usr/share/kde4/apps/kconf_update/krdb_libpathwipe.upd' for new updates
+2012-10-28T10:05:16 krdb_libpathwipe.upd: Found new update 'LibraryPathWipeOutKubuntu'
+2012-10-28T10:05:16 krdb_libpathwipe.upd: Running script 'krdb_clearlibrarypath'
+2012-10-28T10:05:16 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberproxytype-kconf_update.upd' for new updates
+2012-10-28T10:05:16 kopete-jabberproxytype-kconf_update.upd: Found new update 'kopete0.9/r1'
+2012-10-28T10:05:16 kopete-jabberproxytype-kconf_update.upd: Running script 'kopete-jabberproxytype-kconf_update.sh'
+2012-10-28T10:05:16 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus1.upd' for new updates
+2012-10-28T10:05:16 kwin_focus1.upd: Found new update 'kwin_focus1'
+2012-10-28T10:05:16 kwin_focus1.upd: Running script 'kwin_focus1.sh'
+2012-11-14T13:08:59 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2012-11-14T13:08:59 kmail.upd: Checking update '1'
+2012-11-14T13:08:59 kmail.upd: Skipping update '1'
+2012-11-14T13:08:59 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:08:59 kmail.upd: Checking update '4'
+2012-11-14T13:08:59 kmail.upd: Skipping update '4'
+2012-11-14T13:08:59 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:08:59 kmail.upd: Checking update '5'
+2012-11-14T13:08:59 kmail.upd: Skipping update '5'
+2012-11-14T13:08:59 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:08:59 kmail.upd: Checking update '6'
+2012-11-14T13:08:59 kmail.upd: Skipping update '6'
+2012-11-14T13:08:59 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:08:59 kmail.upd: Checking update '7'
+2012-11-14T13:08:59 kmail.upd: Skipping update '7'
+2012-11-14T13:08:59 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '8'
+2012-11-14T13:09:00 kmail.upd: Skipping update '8'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '9'
+2012-11-14T13:09:00 kmail.upd: Skipping update '9'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1-update-identities'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1-update-identities'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1-use-identity-uoids'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1-use-identity-uoids'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1-new-mail-notification'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1-new-mail-notification'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.2-update-loop-on-goto-unread-settings'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.2-update-loop-on-goto-unread-settings'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1.4-dont-use-UOID-0-for-any-identity'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1.4-dont-use-UOID-0-for-any-identity'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.2-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.2-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.2-moves'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.2-moves'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-use-ID-for-accounts'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-use-ID-for-accounts'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-update-filter-rules'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-update-filter-rules'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-move-identities-to-own-file'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-move-identities-to-own-file'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-kmailrc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-kmailrc'
+2012-11-14T13:09:00 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2012-11-14T13:09:00 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2012-11-14T13:09:00 kmail.upd: File 'emailidentities' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3b1-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3b1-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4a'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4a'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4b'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4b'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4.1'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4.1'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.5.4'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.5.4'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.5.7-imap-flag-migration'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.5.7-imap-flag-migration'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4.0-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4.0-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4.2'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4.2'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4.4-akonadi'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4.4-akonadi'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2012-11-14T13:09:00 kmail.upd: Checking update '1'
+2012-11-14T13:09:00 kmail.upd: Skipping update '1'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '5'
+2012-11-14T13:09:00 kmail.upd: Skipping update '5'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '6'
+2012-11-14T13:09:00 kmail.upd: Skipping update '6'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '7'
+2012-11-14T13:09:00 kmail.upd: Skipping update '7'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '8'
+2012-11-14T13:09:00 kmail.upd: Skipping update '8'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '9'
+2012-11-14T13:09:00 kmail.upd: Skipping update '9'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1-update-identities'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1-update-identities'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1-use-identity-uoids'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1-use-identity-uoids'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1-new-mail-notification'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1-new-mail-notification'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.2-update-loop-on-goto-unread-settings'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.2-update-loop-on-goto-unread-settings'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1.4-dont-use-UOID-0-for-any-identity'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1.4-dont-use-UOID-0-for-any-identity'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.2-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.2-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.2-moves'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.2-moves'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-use-ID-for-accounts'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-use-ID-for-accounts'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-update-filter-rules'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-update-filter-rules'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-move-identities-to-own-file'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-move-identities-to-own-file'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-kmailrc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-kmailrc'
+2012-11-14T13:09:00 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2012-11-14T13:09:00 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2012-11-14T13:09:00 kmail.upd: File 'emailidentities' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3b1-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3b1-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4a'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4a'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4b'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4b'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4.1'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4.1'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.5.4'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.5.4'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.5.7-imap-flag-migration'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.5.7-imap-flag-migration'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4.0-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4.0-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4.2'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4.2'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4.4-akonadi'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4.4-akonadi'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2012-11-14T13:09:00 kmail.upd: Checking update '1'
+2012-11-14T13:09:00 kmail.upd: Skipping update '1'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '5'
+2012-11-14T13:09:00 kmail.upd: Skipping update '5'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '6'
+2012-11-14T13:09:00 kmail.upd: Skipping update '6'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '7'
+2012-11-14T13:09:00 kmail.upd: Skipping update '7'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '8'
+2012-11-14T13:09:00 kmail.upd: Skipping update '8'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '9'
+2012-11-14T13:09:00 kmail.upd: Skipping update '9'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1-update-identities'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1-update-identities'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1-use-identity-uoids'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1-use-identity-uoids'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1-new-mail-notification'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1-new-mail-notification'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.2-update-loop-on-goto-unread-settings'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.2-update-loop-on-goto-unread-settings'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.1.4-dont-use-UOID-0-for-any-identity'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.1.4-dont-use-UOID-0-for-any-identity'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.2-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.2-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.2-moves'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.2-moves'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-use-ID-for-accounts'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-use-ID-for-accounts'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-update-filter-rules'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-update-filter-rules'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-move-identities-to-own-file'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-move-identities-to-own-file'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-kmailrc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-kmailrc'
+2012-11-14T13:09:00 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2012-11-14T13:09:00 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2012-11-14T13:09:00 kmail.upd: File 'emailidentities' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.3b1-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.3b1-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4a'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4a'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4b'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4b'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.4.1'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.4.1'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.5.4'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.5.4'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '3.5.7-imap-flag-migration'
+2012-11-14T13:09:00 kmail.upd: Skipping update '3.5.7-imap-flag-migration'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4.0-misc'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4.0-misc'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4.2'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4.2'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-11-14T13:09:00 kmail.upd: Checking update '4.4-akonadi'
+2012-11-14T13:09:00 kmail.upd: Skipping update '4.4-akonadi'
+2012-11-14T13:09:00 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2012-12-11T03:44:31 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2012-12-11T03:44:57 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2012-12-11T03:44:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2012-12-11T03:45:02 Checking update-file '/usr/share/kde4/apps/kconf_update/nepomukstrigiservice-migrate.upd' for new updates
+2012-12-11T03:45:02 nepomukstrigiservice-migrate.upd: Found new update 'nepomukstrigiservice-migrate'
+2012-12-11T03:45:02 nepomukstrigiservice-migrate.upd: Updating nepomukserverrc:Service-nepomukfileindexer:autostart to 'false'
+2012-12-11T03:45:02 nepomukstrigiservice-migrate.upd: Removing nepomukserverrc:Service-nepomukstrigiservice:autostart, moved.
+2012-12-11T03:45:02 nepomukstrigiservice-migrate.upd: RemoveGroup removes group nepomukserverrc:Service-nepomukstrigiservice
+2012-12-11T03:45:02 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2012-12-11T03:45:02 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2012-12-11T03:45:04 Checking update-file '/usr/share/kde4/apps/kconf_update/kate-2.4.upd' for new updates
+2012-12-11T03:45:09 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2012-12-11T03:45:09 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2012-12-11T03:45:09 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2012-12-11T03:45:09 kioslave.upd: Found new update 'kde2.2/r1'
+2012-12-11T03:45:09 kioslave.upd: Skipping update 'kde2.2/r1'
+2012-12-11T03:45:09 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2012-12-11T03:45:09 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2012-12-11T03:49:08 Checking update-file '/usr/share/kde4/apps/kconf_update/mailtransports.upd' for new updates
+2012-12-11T03:49:15 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2012-12-11T03:49:15 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2012-12-11T03:49:15 plasma-add-shortcut-to-menu.upd:2:'Script=plasma-add-shortcut-to-menu-update': Script 'plasma-add-shortcut-to-menu-update' not found
+2012-12-11T03:49:15 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2012-12-11T03:49:15 Checking update-file '/usr/share/kde4/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2012-12-11T03:49:23 Checking update-file '/usr/share/kde4/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2012-12-11T03:49:23 Checking update-file '/usr/share/kde4/apps/kconf_update/kaccel.upd' for new updates
+2012-12-11T03:49:23 Checking update-file '/usr/share/kde4/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2012-12-11T03:49:23 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver.upd' for new updates
+2012-12-11T03:49:23 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver_shortcuts.upd' for new updates
+2012-12-11T03:49:23 Checking update-file '/usr/share/kde4/apps/kconf_update/krdb_libpathwipe.upd' for new updates
+2012-12-11T03:50:16 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2012-12-11T03:50:16 Checking update-file '/usr/share/kde4/apps/kconf_update/mailfilteragent.upd' for new updates
+2012-12-11T03:50:16 mailfilteragent.upd: Found new update 'initial-mailfilteragent-migration'
+2012-12-11T03:50:16 mailfilteragent.upd: Running script 'migrate-kmail-filters.pl'
+2012-12-11T03:50:17 mailfilteragent.upd: Script removes kmail2rc:General:filters
+2012-12-11T03:50:22 Checking update-file '/usr/share/kde4/apps/kconf_update/korganizer.upd' for new updates
+2012-12-11T03:50:41 Checking update-file '/usr/share/kde4/apps/kconf_update/kpgp.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus2.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_qml_settings.upd' for new updates
+2012-12-11T03:51:17 kwin_update_tabbox_qml_settings.upd: Found new update 'Kwin-4.8'
+2012-12-11T03:51:17 kwin_update_tabbox_qml_settings.upd: Running script 'kwin_update_tabbox_qml_settings'
+2012-12-11T03:51:17 [Script] QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwiniconify.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_on_off.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_delay_focus.upd' for new updates
+2012-12-11T03:51:17 kwin_remove_delay_focus.upd: Found new update 'Kwin-4.8'
+2012-12-11T03:51:17 kwin_remove_delay_focus.upd: Running script 'kwin_remove_delay_focus.sh'
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_effects.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinsticky.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin3_plugin.upd' for new updates
+2012-12-11T03:51:17 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus1.upd' for new updates
+2012-12-11T03:54:29 Checking update-file '/usr/share/kde4/apps/kconf_update/favicons.upd' for new updates
+2012-12-11T04:04:37 Checking update-file '/usr/share/kde4/apps/kconf_update/amarok.upd' for new updates
+2012-12-11T04:04:39 Checking update-file '/usr/share/kde4/apps/kconf_update/amarok.upd' for new updates
+2012-12-11T04:11:14 Checking update-file '/usr/share/kde4/apps/kconf_update/audiocd.upd' for new updates
+2012-12-11T04:11:23 Checking update-file '/usr/share/kde4/apps/kconf_update/kcalcrc.upd' for new updates
+2012-12-11T04:11:28 Checking update-file '/usr/share/kde4/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2012-12-11T04:11:51 Checking update-file '/usr/share/kde4/apps/kconf_update/kile.upd' for new updates
+2012-12-11T04:12:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader.upd' for new updates
+2012-12-11T04:12:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-initialstatus.upd' for new updates
+2012-12-11T04:12:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_icq_server.upd' for new updates
+2012-12-11T04:12:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberpriorityaddition-kconf_update.upd' for new updates
+2012-12-11T04:12:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-account-kconf_update.upd' for new updates
+2012-12-11T04:12:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-gaim_to_pidgin_style.upd' for new updates
+2012-12-11T04:12:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader2.upd' for new updates
+2012-12-11T04:12:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_yahoo_server.upd' for new updates
+2012-12-11T04:12:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-nameTracking.upd' for new updates
+2012-12-11T04:12:00 kopete-nameTracking.upd: Found new update 'kopete0.9/r1'
+2012-12-11T04:12:00 kopete-nameTracking.upd:3:'Script=kopete-nameTracking-kconf_update': Script 'kopete-nameTracking-kconf_update' not found
+2012-12-11T04:12:00 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberproxytype-kconf_update.upd' for new updates
+2012-12-11T04:12:01 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader.upd' for new updates
+2012-12-11T04:12:01 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-initialstatus.upd' for new updates
+2012-12-11T04:12:02 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_icq_server.upd' for new updates
+2012-12-11T04:12:02 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberpriorityaddition-kconf_update.upd' for new updates
+2012-12-11T04:12:02 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-account-kconf_update.upd' for new updates
+2012-12-11T04:12:02 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-gaim_to_pidgin_style.upd' for new updates
+2012-12-11T04:12:02 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader2.upd' for new updates
+2012-12-11T04:12:02 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_yahoo_server.upd' for new updates
+2012-12-11T04:12:02 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-nameTracking.upd' for new updates
+2012-12-11T04:12:02 kopete-nameTracking.upd: Found new update 'kopete0.9/r1'
+2012-12-11T04:12:02 kopete-nameTracking.upd:3:'Script=kopete-nameTracking-kconf_update': Script 'kopete-nameTracking-kconf_update' not found
+2012-12-11T04:12:02 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberproxytype-kconf_update.upd' for new updates
+2012-12-25T12:40:43 Checking update-file '/usr/share/kde4/apps/kconf_update/knemo.upd' for new updates
+2012-12-25T12:40:43 knemo.upd: Found new update '0.5.1-misc'
+2012-12-25T12:40:43 knemo.upd: File 'knemorc' does not exist or empty, skipping
+2012-12-25T12:40:43 knemo.upd: Found new update '0.5.1-iconset'
+2012-12-25T12:40:43 knemo.upd: File 'knemorc' does not exist or empty, skipping
+2012-12-25T12:40:43 knemo.upd: Found new update '0.5.2-misc'
+2012-12-25T12:40:43 knemo.upd: File 'knemorc' does not exist or empty, skipping
+2012-12-25T12:40:43 knemo.upd: Found new update '0.6.0'
+2012-12-25T12:40:43 knemo.upd: File 'knemorc' does not exist or empty, skipping
+2012-12-25T12:40:43 knemo.upd: Found new update '0.6.1-misc'
+2012-12-25T12:40:43 knemo.upd: File 'knemorc' does not exist or empty, skipping
+2012-12-25T12:40:43 knemo.upd: Found new update '0.6.3-misc'
+2012-12-25T12:40:43 knemo.upd: File 'knemorc' does not exist or empty, skipping
+2012-12-25T12:40:43 knemo.upd: Found new update '0.7.0-misc'
+2012-12-25T12:40:43 knemo.upd: File 'knemorc' does not exist or empty, skipping
+2013-01-08T15:46:26 Checking update-file '/usr/share/kde4/apps/kconf_update/kfmclient_3_2.upd' for new updates
+2013-01-08T15:46:26 kfmclient_3_2.upd: Found new update 'kfmclient_3_2'
+2013-01-08T15:46:26 kfmclient_3_2.upd: File 'kfmclientrc' does not exist or empty, skipping
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus2.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_qml_settings.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwiniconify.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_on_off.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_delay_focus.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_effects.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinsticky.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin3_plugin.upd' for new updates
+2013-02-27T09:33:56 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus1.upd' for new updates
+2013-02-27T09:33:57 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin.upd' for new updates
+2013-02-27T09:33:57 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus2.upd' for new updates
+2013-02-27T09:33:57 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_qml_settings.upd' for new updates
+2013-02-27T09:34:17 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2013-02-27T09:34:17 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2013-02-27T09:34:17 plasma-add-shortcut-to-menu.upd:2:'Script=plasma-add-shortcut-to-menu-update': Script 'plasma-add-shortcut-to-menu-update' not found
+2013-02-27T09:34:17 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2013-02-27T09:34:17 Checking update-file '/usr/share/kde4/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2013-02-27T09:34:32 Checking update-file '/usr/share/kde4/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2013-02-27T09:34:32 Checking update-file '/usr/share/kde4/apps/kconf_update/kaccel.upd' for new updates
+2013-02-27T09:34:32 Checking update-file '/usr/share/kde4/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2013-02-27T09:34:32 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver.upd' for new updates
+2013-02-27T09:34:32 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver_shortcuts.upd' for new updates
+2013-02-27T09:34:32 Checking update-file '/usr/share/kde4/apps/kconf_update/krdb_libpathwipe.upd' for new updates
+2013-02-27T09:34:33 Checking update-file '/usr/share/kde4/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2013-02-27T09:34:33 Checking update-file '/usr/share/kde4/apps/kconf_update/kaccel.upd' for new updates
+2013-02-27T09:34:33 Checking update-file '/usr/share/kde4/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2013-02-27T09:34:33 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver.upd' for new updates
+2013-02-27T09:34:33 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver_shortcuts.upd' for new updates
+2013-02-27T09:34:33 Checking update-file '/usr/share/kde4/apps/kconf_update/krdb_libpathwipe.upd' for new updates
+2013-02-27T09:34:41 Checking update-file '/usr/share/kde4/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2013-06-11T10:13:34 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2013-06-11T10:14:03 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2013-06-11T10:14:03 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2013-06-11T10:14:03 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2013-06-11T10:14:03 kioslave.upd: Found new update 'kde2.2/r1'
+2013-06-11T10:14:03 kioslave.upd: Skipping update 'kde2.2/r1'
+2013-06-11T10:14:03 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2013-06-11T10:14:03 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus2.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_qml_settings.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwiniconify.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_on_off.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_delay_focus.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_effects.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinsticky.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin3_plugin.upd' for new updates
+2013-07-21T22:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus1.upd' for new updates
+2013-07-21T22:45:49 Checking update-file '/usr/share/kde4/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2013-07-22T12:57:31 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin.upd' for new updates
+2013-07-22T12:57:31 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus2.upd' for new updates
+2013-07-22T12:57:31 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_qml_settings.upd' for new updates
+2013-07-22T12:57:31 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2013-07-22T12:57:31 Checking update-file '/usr/share/kde4/apps/kconf_update/kwiniconify.upd' for new updates
+2013-07-22T12:57:31 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_on_off.upd' for new updates
+2013-07-22T12:57:31 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_delay_focus.upd' for new updates
+2013-07-22T12:57:31 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2013-07-22T12:57:31 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_effects.upd' for new updates
+2013-07-22T12:57:31 Checking update-file '/usr/share/kde4/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2013-07-22T12:57:32 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2013-07-22T12:57:32 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinsticky.upd' for new updates
+2013-07-22T12:57:32 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2013-07-22T12:57:32 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin3_plugin.upd' for new updates
+2013-07-22T12:57:32 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus1.upd' for new updates
+2013-07-22T17:37:48 Checking update-file '/usr/share/kde4/apps/kconf_update/mailtransports.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/krdb_libpathwipe.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/amarok.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kpgp.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus2.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin3_plugin.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwiniconify.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-initialstatus.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/audiocd.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/favicons.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus1.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-nameTracking.upd' for new updates
+2013-07-22T17:37:49 kopete-nameTracking.upd: Found new update 'kopete0.9/r1'
+2013-07-22T17:37:49 kopete-nameTracking.upd:3:'Script=kopete-nameTracking-kconf_update': Script 'kopete-nameTracking-kconf_update' not found
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kaccel.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2013-07-22T17:37:49 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2013-07-22T17:37:49 plasma-add-shortcut-to-menu.upd:2:'Script=plasma-add-shortcut-to-menu-update': Script 'plasma-add-shortcut-to-menu-update' not found
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader2.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberproxytype-kconf_update.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_delay_focus.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-gaim_to_pidgin_style.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_qml_settings.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberpriorityaddition-kconf_update.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_icq_server.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kcalcrc.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_effects.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2013-07-22T17:37:49 kioslave.upd: Found new update 'kde2.2/r1'
+2013-07-22T17:37:49 kioslave.upd: Skipping update 'kde2.2/r1'
+2013-07-22T17:37:49 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/nepomukstrigiservice-migrate.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kate-2.4.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_on_off.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_yahoo_server.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/korganizer.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinsticky.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-account-kconf_update.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver_shortcuts.upd' for new updates
+2013-07-22T17:37:49 Checking update-file '/usr/share/kde4/apps/kconf_update/mailfilteragent.upd' for new updates
+2013-07-22T17:46:43 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2013-07-22T17:47:04 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2013-07-22T17:47:04 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2013-07-22T17:47:04 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2013-07-22T17:47:04 kioslave.upd: Found new update 'kde2.2/r1'
+2013-07-22T17:47:04 kioslave.upd: Skipping update 'kde2.2/r1'
+2013-07-22T17:47:04 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2013-07-22T17:47:04 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2013-09-18T18:27:31 Checking update-file '/usr/share/kde4/apps/kconf_update/cervisia.upd' for new updates
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20021228'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20021229'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030116'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiarc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030117'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030118'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Skipping update 'kde3.2/20030118'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030205'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030210'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030211'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030212'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030216'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030725'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030730'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20030829'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.2/20031014'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.4/20041112'
+2013-09-18T18:27:31 cervisia.upd: File 'cvsservicerc' does not exist or empty, skipping
+2013-09-18T18:27:31 cervisia.upd: Found new update 'kde3.4/20041207'
+2013-09-18T18:27:31 cervisia.upd: File 'cervisiapartrc' does not exist or empty, skipping
+2013-11-28T19:13:11 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2013-11-28T19:13:11 Checking update-file '/usr/share/kde4/apps/kconf_update/nepomukstrigiservice-migrate.upd' for new updates
+2013-11-28T19:13:11 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2013-11-28T19:13:14 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2013-11-28T19:13:14 Checking update-file '/usr/share/kde4/apps/kconf_update/nepomukstrigiservice-migrate.upd' for new updates
+2013-11-28T19:13:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2014-01-07T22:10:03 Checking update-file '/usr/share/kde4/apps/kconf_update/kfmclient_3_2.upd' for new updates

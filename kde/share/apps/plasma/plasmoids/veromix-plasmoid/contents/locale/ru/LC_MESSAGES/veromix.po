@@ -1,0 +1,423 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# prodoomman, 2010.
+# proDOOMman <prodoomman@gmail.com>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-14 08:35+0200\n"
+"PO-Revision-Date: 2012-05-25 13:06+0300\n"
+"Last-Translator: Roman Timushev <rtimush@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: rc.py:3 rc.py:18 rc.py:81
+msgid "Form"
+msgstr ""
+
+#: rc.py:6 rc.py:75
+msgid "Version"
+msgstr "Версия"
+
+#: rc.py:9 rc.py:69
+msgid "Homepage"
+msgstr "Домашняя страница"
+
+#: rc.py:12 rc.py:72
+msgid ""
+"<a href=\"http://code.google.com/p/veromix-plasmoid/\">http://code.google."
+"com/p/veromix-plasmoid/</A>"
+msgstr ""
+"<a href=\"http://code.google.com/p/veromix-plasmoid/\">http://code.google."
+"com/p/veromix-plasmoid/</A>"
+
+#: rc.py:15 rc.py:78
+msgid "X.Y"
+msgstr "X.Y"
+
+#: rc.py:21
+msgid "Popup Mode"
+msgstr "Окно микшера"
+
+#: rc.py:24
+msgid "Close when losing focus"
+msgstr "Закрывать при потере фокуса"
+
+#: rc.py:27
+msgid "Close manually"
+msgstr "Закрывать вручную"
+
+#: rc.py:30
+msgid "Background"
+msgstr "Фон"
+
+#: rc.py:33
+msgid "No background"
+msgstr "Без фона"
+
+#: rc.py:36
+msgid "Translucent background"
+msgstr "Полупрозрачный фон"
+
+#: rc.py:39
+msgid "Standard background"
+msgstr "Стандартный фон"
+
+#: rc.py:42
+msgid "Notification "
+msgstr "Уведомления"
+
+#: rc.py:45
+msgid "Show toolip"
+msgstr "Показывать подсказки"
+
+#: rc.py:48
+msgid "Layout"
+msgstr "Размещение"
+
+#: rc.py:51
+msgid "Use tabs"
+msgstr "Использовать вкладки"
+
+#: rc.py:54
+msgid "Always show sources"
+msgstr "Всегда показывать источники"
+
+#: rc.py:57
+msgid "Show context menu button"
+msgstr "Показывать кнопку вызова контекстного меню"
+
+#: rc.py:60
+msgid "Show unit values"
+msgstr "Показывать численные значения"
+
+#: rc.py:63
+msgid "Autostart meters"
+msgstr "Автоматически запускать измерители"
+
+#: rc.py:66
+msgid ""
+"Meters can be very CPU intensive! You can always enable meters by double "
+"clicking a channel."
+msgstr ""
+"Измерители могут сильно нагружать процессор! Вы всегда можете включить "
+"измеритель двойным щелчком по каналу."
+
+#: rc.py:84
+msgid "Use KDE nowplaying dataengine"
+msgstr "Использовать источник данных KDE"
+
+#: rc.py:87
+msgid "Use mpris2"
+msgstr "Использовать mpris2"
+
+#: rc.py:90
+msgid "Media player blacklist:"
+msgstr "Черный список проигрывателей:"
+
+#: rc.py:93
+msgid "Running media players:"
+msgstr "Запущенные проигрыватели:"
+
+#: rc.py:96
+msgid "Show album art"
+msgstr "Показывать обложку альбома"
+
+#: plasma/contents/code/Channel.py:140
+msgid "Muted"
+msgstr "Выключен"
+
+#: plasma/contents/code/Channel.py:147 gtk/ContextMenu.py:134
+#, fuzzy
+msgid "Volume meter"
+msgstr "Отображать метки громкости"
+
+#: plasma/contents/code/Channel.py:154
+msgid "Unlock channels"
+msgstr "Разблокировать каналы"
+
+#: plasma/contents/code/Channel.py:163 gtk/ContextMenu.py:167
+msgid "Ports"
+msgstr "Разъёмы"
+
+#: plasma/contents/code/Channel.py:187 gtk/ContextMenu.py:190
+msgid "Profile"
+msgstr "Профиль"
+
+#: plasma/contents/code/Channel.py:216
+msgid "Veromix Settings"
+msgstr "Настроить Veromix"
+
+#: plasma/contents/code/Channel.py:413
+msgid "Presets"
+msgstr "Предустановки"
+
+#: plasma/contents/code/Channel.py:415 plasma/contents/code/SinkMbeqUI.py:294
+#: gtk/ContextMenu.py:260
+msgid "Save"
+msgstr "Сохранить"
+
+#: plasma/contents/code/Channel.py:420 gtk/ContextMenu.py:265
+msgid "Save As..."
+msgstr "Сохранить как..."
+
+#: plasma/contents/code/Channel.py:434 gtk/ContextMenu.py:284
+msgid "Effect"
+msgstr "Эффект"
+
+#: plasma/contents/code/MediaPlayerUI.py:206
+msgid "Show position"
+msgstr "Показывать позицию воспроизведения"
+
+#: plasma/contents/code/SinkInputUI.py:48
+#: plasma/contents/code/SinkMbeqUI.py:131 gtk/ContextMenu.py:118
+msgid "Disconnect/kill"
+msgstr "Отключить/завершить"
+
+#: plasma/contents/code/SinkInputUI.py:56
+#: plasma/contents/code/SourceOutputUI.py:53 gtk/ContextMenu.py:148
+msgid "Move To"
+msgstr "Переместить в"
+
+#: plasma/contents/code/SinkInputUI.py:95
+#: plasma/contents/code/veromixcommon/PulseProxyObjects.py:305
+msgid "Event Sounds"
+msgstr "Звуки уведомлений"
+
+#: plasma/contents/code/SinkInputUI.py:99
+#: plasma/contents/code/veromixcommon/PulseProxyObjects.py:309
+msgid "Flash Player"
+msgstr "Flash Player"
+
+#: plasma/contents/code/SinkInputUI.py:103
+#: plasma/contents/code/veromixcommon/PulseProxyObjects.py:313
+msgid "Chromium Browser"
+msgstr "Браузер Chromium"
+
+#: plasma/contents/code/SinkInputUI.py:107
+#: plasma/contents/code/veromixcommon/PulseProxyObjects.py:317
+msgid "Event Sound"
+msgstr "Звуки уведомлений"
+
+#: plasma/contents/code/SinkInputUI.py:109
+#: plasma/contents/code/veromixcommon/PulseProxyObjects.py:319
+msgid "Voice Output"
+msgstr "Голос"
+
+#: plasma/contents/code/SinkMbeqUI.py:279
+msgid "Name"
+msgstr ""
+
+#: plasma/contents/code/SinkMbeqUI.py:290
+msgid "Cancel"
+msgstr ""
+
+#: plasma/contents/code/SinkUI.py:39
+msgid "Default Sink"
+msgstr "Аудиовыход по умолчанию"
+
+#: plasma/contents/code/SinkUI.py:53
+msgid "Uncombine"
+msgstr "Разъеденить"
+
+#: plasma/contents/code/SinkUI.py:61 gtk/ContextMenu.py:244
+msgid "Add Effect"
+msgstr "Добавить эффект"
+
+#: plasma/contents/code/VeroMix.py:101
+msgid "Playback"
+msgstr "Воспроизведение"
+
+#: plasma/contents/code/VeroMix.py:102
+msgid "Record"
+msgstr "Запись"
+
+#: plasma/contents/code/VeroMix.py:125
+msgid ""
+"There is a problem with the backgroud-"
+"service.                                                         "
+"<ul>                                                         <li>If you just "
+"upgraded try killing the process named: VeromixServiceMain.py and relaunch "
+"this plasmoid</li>                                                         "
+"<li>If you don't know how to do that consider rebooting</li></ul><br/"
+">                                                        <a href=\"http://"
+"code.google.com/p/veromix-plasmoid/wiki/Debugging\">See wiki for more "
+"details</a> <span style=\"font-size: small;\">(right click and copy url)</"
+"span>."
+msgstr ""
+"Обнаружена проблема с фоновым "
+"процессом.                                                         "
+"<ul>                                                         <li>Если вы "
+"только что обновились, попробуйте завершить процесс с названием "
+"VeromixServiceMain.py и перезапустить этот плазмоид</"
+"li>                                                         <li>Если вы не "
+"знаете как это сделать, просто перезаргузитесь</li></ul><br/"
+">                                                        <a href=\"http://"
+"code.google.com/p/veromix-plasmoid/wiki/VeromixComponents#The_service:"
+"_VeromixServiceMain.py\">Детали в вики</a> <span style=\"font-size: small;\">"
+"(скопируйте адрес из контекстного меню)</span>."
+
+#: plasma/contents/code/main.py:59
+msgid "Veromix is a mixer for the Pulseaudio sound server. "
+msgstr "Veromix — это микшер для звукового сервера Pulseaudio."
+
+#: plasma/contents/code/main.py:141 plasma/contents/code/main.py:408
+msgid "Veromix volume up"
+msgstr "Veromix — увеличить громкость"
+
+#: plasma/contents/code/main.py:146 plasma/contents/code/main.py:413
+msgid "Veromix volume down"
+msgstr "Veromix — уменьшить громкость"
+
+#: plasma/contents/code/main.py:151
+msgid "Veromix toggle mute"
+msgstr "Veromix — включить или выключить звук"
+
+# Не уверен что это такое
+#: plasma/contents/code/main.py:159
+msgid "Main Volume"
+msgstr "Основной канал"
+
+#: plasma/contents/code/main.py:277
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: plasma/contents/code/main.py:297
+msgid "Media Player Controls"
+msgstr "Управление проигрывателями"
+
+#: plasma/contents/code/main.py:323
+msgid "Max volume value"
+msgstr "Максимальная громкость"
+
+#: plasma/contents/code/main.py:329
+msgid "Mute if volume reaches zero"
+msgstr "Выключать звук при уменьшении громкости до нуля"
+
+#: plasma/contents/code/main.py:333
+msgid "Sound Card Profiles"
+msgstr "Профили звуковых карт"
+
+#: plasma/contents/code/main.py:355
+msgid "Pulseaudio"
+msgstr "Pulseaudio"
+
+#: plasma/contents/code/main.py:362
+msgid ""
+"LADSPA is a standard for handling audio filters and effects. Every linux "
+"software archive offers a large number of effects - search for LADSPA to get "
+"more.            Not every effect is supported by Pulseaudio and others "
+"simple don't make sense (or create only noise).<br/><br/>            The "
+"following list shows all available effects on your system: Only checked "
+"effects will appear in the context-menu."
+msgstr ""
+"LADSPA является стандартом для аудио-фильтров и эффектов. В любом "
+"репозитории пакетов для Linux вы сможете найти множество эффектов по "
+"ключевому слову LADSPA. Не все эффекты поддерживаются PulseAudio, а "
+"некоторые просто не имеют смысла (или производят исключительно шум).<br/><br/"
+">В списке ниже представленны все эфекты установленные в вашей системе. "
+"Только отмеченные эффекты будут доступны в контекстном меню."
+
+#: plasma/contents/code/main.py:367
+msgid ""
+"<br/><br/><b>Warning:</b> Cannot find the executables 'listplugins' and "
+"'analyseplugin' which are required for dynamically detecting installed "
+"effects.<br/>               In OpenSUSE, Fedora and Arch Linux the package "
+"is named 'ladspa', in Debian/Ubuntu 'ladspa-sdk'.<br/><br/>"
+msgstr ""
+"<br/><br/><b>Предупреждение:</b> Не найдены исполняемые файлы 'listplugins' "
+"и 'analyseplugin', которые необходимы для поиска установленных эффектов.<br/"
+">               В OpenSUSE, Fedora и Arch Linux пакет называется 'ladspa', В "
+"Debian/Ubuntu — 'ladspa-sdk'.<br/><br/>"
+
+#: plasma/contents/code/main.py:376
+msgid "Enable LADSPA effects."
+msgstr "Использовать эффекты LADSPA"
+
+#: plasma/contents/code/main.py:397
+msgid "Effects / Equalizer"
+msgstr "Эффекты / Эквалайзер"
+
+#: plasma/contents/code/main.py:418
+msgid "Veromix toggle  mute"
+msgstr "Veromix — включить или выключить звук"
+
+#: plasma/contents/code/main.py:422
+msgid "Volume Keyboard Shortcuts"
+msgstr "Глобальные комбинации клавиш"
+
+#: gtk/ContextMenu.py:112
+#, fuzzy
+msgid "Default device"
+msgstr "Аудиовыход по умолчанию"
+
+#: gtk/ContextMenu.py:126
+#, fuzzy
+msgid "Mute"
+msgstr "Выключен"
+
+#: gtk/ContextMenu.py:141
+#, fuzzy
+msgid "Unlock Channels"
+msgstr "Разблокировать каналы"
+
+#: gtk/ContextMenu.py:253
+#, fuzzy
+msgid "Preset"
+msgstr "Предустановки"
+
+#: gtk/ContextMenu.py:321
+#, fuzzy
+msgid "Save Preset"
+msgstr "Предустановки"
+
+#: gtk/main.py:42
+#, fuzzy
+msgid "Veromix"
+msgstr "Настроить Veromix"
+
+# myself = меня или себя?
+# Где вообще будет юзаться этот текст?
+#~ msgid "Please remove and re-add myself"
+#~ msgstr "Пожалуйста, удалите и заново добавьте меня"
+
+#~ msgid ""
+#~ "<b>Configuration updated</b><br/>             Because of a known bug in "
+#~ "KDE 4.4 initialization of Veromix failed.<br/><br/>            A "
+#~ "workaround is now installed.<br/><br/>            Please <b>remove</b> "
+#~ "this applet and <b>add</b> Veromix again to your desktop/panel "
+#~ "(alternatively you can restart plasma-desktop).<br/><br/>             "
+#~ "Sorry for the inconvenience.<br/><br/>            <a href=\"http://code."
+#~ "google.com/p/veromix-plasmoid/wiki/VeromixComponents#KDE_4.4_compatibility"
+#~ "\">See wiki for more details</a> <span style=\"font-size: small;\">(right "
+#~ "click and copy url)</span>. "
+#~ msgstr ""
+#~ "<b>Конфигурация обновлена</b><br/>             Из-за известной ошибки KDE "
+#~ "4.4 инициализация Veromix не удалась.<br/><br/>            Будет "
+#~ "использован костыль. <br/><br/>            Пожалуйста, <b>удалите</b> "
+#~ "этот плазмоид и <b>добавьте</b> его снова на вашу панель или рабочий стол "
+#~ "(также можно перезапустить plasma-desktop).<br/><br/>             "
+#~ "Извините за неудобство.<br/><br/>            <a href=\"http://code.google."
+#~ "com/p/veromix-plasmoid/wiki/VeromixComponents#KDE_4.4_compatibility"
+#~ "\">Детали в вики</a> <span style=\"font-size: small;\">(скопируйте адрес "
+#~ "из контекстного меню)</span>. "
+
+#~ msgid "Output"
+#~ msgstr "Вывод"
+
+#~ msgid "Enable media player controls"
+#~ msgstr "Включить управление проигрывателями"
+
+#~ msgid "mpris2 Mediaplayers"
+#~ msgstr "Mpris2 проигрыватели"
+
+#~ msgid "Use tabs (requires plasma restart)"
+#~ msgstr "Использовать табы (нужен перезапуск plasma)"

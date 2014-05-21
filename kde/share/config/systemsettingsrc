@@ -1,0 +1,40 @@
+[Colors]
+CurrentPalette=Forty Colors
+
+[ConfigDialog]
+Height 768=242
+Width 1366=358
+
+[DownloadDialog Settings]
+Height 768=752
+Width 1366=1366
+
+[KFileDialog Settings]
+Height 768=450
+Recent Files[$e]=Iceglass-4.0.tar.xz,$HOME/Documents/linux/KdmGreeterTheme.desktop,$HOME/Downloads/126482-palmscan.tar.gz,$HOME/Downloads/Iceglass-4.0.tar.xz
+Width 1366=720
+
+[KPropertiesDialog]
+Height 768=381
+Width 1366=540
+
+[MainWindow]
+Height 200=201
+Height 480=430
+Height 768=769
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA4QAAALiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=672
+Width 1360=1361
+Width 1366=900
+Width 320=321
+Width 640=620
+
+[Open-with settings]
+CompletionMode=5
+History=yakuake,knotes,/usr/bin/chromium-browser %U,thunderbird %u
+
+[classic_mode]
+autoExpandOneLevel=false
+viewLayout=454,909

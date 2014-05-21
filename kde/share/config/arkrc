@@ -1,0 +1,42 @@
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KFileDialog Settings]
+Height 768=450
+Width 1366=720
+
+[MainWindow]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKlAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=1025
+Width 1366=1367
+splitterSizes=909,454
+
+[Recent Dirs]
+ArkAddFiles[$e]=file://$HOME/Downloads,$HOME/Documents
+
+[Recent Files]
+File1[$e]=$HOME/CMakeEd-1.1.6.zip
+File2[$e]=/Respaldo/Downloads/Helvetica Neue Font.zip
+File3[$e]=$HOME/Downloads/cudamultilabeloptimization-v1.0.zip
+File4[$e]=/Respaldo/Project/FishScan/Doc/Cameras/Commander/adafruit-Adafruit-Eagle-Library-81ea27c.tar.gz
+File5[$e]=$HOME/Downloads/GPS_2_0.tar.gz
+File6[$e]=$HOME/Downloads/change_libraries_to_olimex_drills.zip
+File7[$e]=$HOME/Downloads/DA (3).zip
+File8[$e]=/Respaldo/Extend3d/Document/revK_00002630372_a_ug_anschwt_asm_001.zip
+File9[$e]=/Respaldo/Downloads/installer.img.gz
+Name1[$e]=CMakeEd-1.1.6.zip
+Name2[$e]=Helvetica Neue Font.zip
+Name3[$e]=cudamultilabeloptimization-v1.0.zip
+Name4[$e]=adafruit-Adafruit-Eagle-Library-81ea27c.tar.gz
+Name5[$e]=GPS_2_0.tar.gz
+Name6[$e]=change_libraries_to_olimex_drills.zip
+Name7[$e]=DA (3).zip
+Name8[$e]=revK_00002630372_a_ug_anschwt_asm_001.zip
+Name9[$e]=installer.img.gz
+
+[Viewer]
+Height 768=752
+Width 1024=900
+Width 1366=1366

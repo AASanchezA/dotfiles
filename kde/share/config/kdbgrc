@@ -1,0 +1,39 @@
+[Debugger]
+DebuggerCmdStr=
+
+[KFileDialog Settings]
+Height 768=450
+Recent Files[$e]=runline2ddetector,/Respaldo/BMC/Thesis/code/pclsimpleviewer/pclvisualizer,/Respaldo/BMC/Thesis/code/OpenCVReprojectImageToPointCloud/OpenCVReprojectImageToPointCloud,/Respaldo/BMC/Thesis/code/helloworldGlut/helloworldGlut,/Respaldo/BMC/Thesis/code/LINE2D_DETECTOR/line2ddetector,/Respaldo/BMC/Thesis/code/LINE2D_DETECTOR/runline2ddetector
+Width 1366=720
+
+[LastSession]
+Width0Locals=100
+Width0Watches=100
+
+[MainWindow]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAFaAAABh/wCAAAAAfsAAAAMAEwAbwBjAGEAbABzAQAAADMAAAGHAAAAaAEAAAUAAAADAAAFVgAAAR38AQAAAAL8AAAAAAAAAz8AAADTAP////oAAAAAAQAAAAX7AAAACgBTAHQAYQBjAGsBAAAAAP////8AAABSAQAABfsAAAAWAEIAcgBlAGEAawBwAG8AaQBuAHQAcwEAAAAA/////wAAANMBAAAF+wAAAAwATwB1AHQAcAB1AHQBAAAAAP////8AAABSAQAABfsAAAAMAE0AZQBtAG8AcgB5AQAAAAD/////AAAAXAEAAAX7AAAAEgBSAGUAZwBpAHMAdABlAHIAcwEAAAAA/////wAAAFIBAAAF/AAAA0IAAAIUAAAAngD////6AAAAAAEAAAAC+wAAAA4AVwBhAHQAYwBoAGUAcwEAAAAA/////wAAAJ4BAAAF+wAAAA4AVABoAHIAZQBhAGQAcwEAAAIeAAABWQAAAFIBAAAFAAAD+QAAAYcAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAAAAAN3AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=1367
+
+[OutputWindow]
+TermCmdStr=xterm -name kdbgio -title %T -e sh -c %C
+
+[Preferences]
+BackTimeout=1000
+HeaderFileFilter=*.h *.hh *.hpp *.h++
+PopForeground=false
+SourceFileFilter=*.c *.cc *.cpp *.c++ *.C *.CC
+TabWidth=0
+
+[RecentExecutables]
+File1[$e]=/Respaldo/BMC/Thesis/code/LINE2D_DETECTOR/runline2ddetector
+File2[$e]=/Respaldo/BMC/Thesis/code/LINE2D_DETECTOR/line2ddetector
+File3[$e]=/Respaldo/BMC/Thesis/code/helloworldGlut/helloworldGlut
+File4[$e]=/Respaldo/BMC/Thesis/code/OpenCVReprojectImageToPointCloud/OpenCVReprojectImageToPointCloud
+File5[$e]=/Respaldo/BMC/Thesis/code/pclsimpleviewer/pclvisualizer
+Name1[$e]=runline2ddetector
+Name2[$e]=line2ddetector
+Name3[$e]=helloworldGlut
+Name4[$e]=OpenCVReprojectImageToPointCloud
+Name5[$e]=pclvisualizer

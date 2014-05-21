@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Generator" content="Kate, the KDE Advanced Text Editor" />
+<title>&Uuml;ber die Programmunterst&uuml;tzung...</title>
+</head>
+<body>
+
+Die <i>Programmunterst&uuml;tzung</i> ist etwas steif, hier eine kurze Erkl&auml;rung wie sie funktionert: <br/>
+<ul>
+<li>Das Programm muss eine ausf&uuml;hrbare Datei sein welches einen Dateinamen als ersten und einzigen Parameter erwartet.</li>
+<li>Das Programm sollte anfallende neue Dateien auf stdout ausgeben, aber nichts anderes. Debugging-Ausgaben sollten nach stderr gehen.</li>
+<li>Das Programm muss die urspr&uuml;ngliche Datei selbst l&ouml;schen, sofern dies gew&uuml;nscht ist.</li>
+</ul>
+Eine gute Idee ist es <i>~/bin</i> oder <i>~/.bin</i> zur globalen PATH-Variable hinzuzuf&uuml;gen und die Programme dort zu platzieren.
+<br/><br/>
+Hier ein kleines Beispiel welches Zip-Dateien entpackt damit ihr Inhalt vom Magischen Ordner sortiert werden kann:
+<pre style="border: 1px solid black; background: #ddd; padding: 2px">
+<span style='color: #755019'><i>#!/bin/bash</i></span>
+
+<span style='color: #644a9b'>_echo()</span> <b>{</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>while</b> <span style='color: #cc00cc'><b>true</b></span>; <b>do</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color: #880088'><b>read</b></span> <span style='color: #00892b'>a</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>if</b><span style='color: #880088'><b> [</b></span> <span style='color: #00892b'>-z</span> <span style='color: #bf0303'>"</span><span style='color: #00892b'>$a</span><span style='color: #bf0303'>"</span><span style='color: #880088'><b> ]</b></span>; <b>then</b> <span style='color: #880088'><b>return</b></span>; <b>fi</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>if</b><span style='color: #880088'><b> [</b></span> <span style='color: #00892b'>-d</span> <span style='color: #bf0303'>"</span><span style='color: #00892b'>$a</span><span style='color: #bf0303'>"</span><span style='color: #880088'><b> ]</b></span>; <b>then</b> <span style='color: #880088'><b>:</b></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>else</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color: #880088'><b>echo</b></span> <span style='color: #00892b'>$a</span> <span style='color: #223388'><b>&gt;&gt;</b></span> /dev/stdout
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>fi</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>done</b>
+<b>}</b>
+
+<span style='color: #00892b'>zip=$(</span><span style='color: #880088'><b>echo</b></span> <span style='color: #00892b'>$1</span> <b>|</b> <span style='color: #cc00cc'><b>perl</b></span> -p -e <span style='color: #bf0303'>'s#^.*?/##; s#/+#/#g;'</span><span style='color: #00892b'>)</span>
+<span style='color: #cc00cc'><b>rm</b></span> -rf <span style='color: #bf0303'>"/tmp/</span><span style='color: #00892b'>$USER</span><span style='color: #bf0303'>-unzip"</span> <span style='color: #223388'><b>1&gt;&amp;2</b></span>
+<span style='color: #cc00cc'><b>mkdir</b></span> <span style='color: #bf0303'>"/tmp/</span><span style='color: #00892b'>$USER</span><span style='color: #bf0303'>-unzip"</span> <span style='color: #223388'><b>1&gt;&amp;2</b></span>
+<span style='color: #cc00cc'><b>unzip</b></span> <span style='color: #bf0303'>"</span><span style='color: #00892b'>$zip</span><span style='color: #bf0303'>"</span> -d <span style='color: #bf0303'>"/tmp/</span><span style='color: #00892b'>$USER</span><span style='color: #bf0303'>-unzip"</span> <span style='color: #223388'><b>1&gt;&amp;2</b></span> <b>||</b> <b>{</b> <span style='color: #880088'><b>echo</b></span> <span style='color: #00892b'>$zip</span>; <span style='color: #880088'><b>exit</b></span> 1; <b>}</b>
+<span style='color: #cc00cc'><b>find</b></span> <span style='color: #bf0303'>"/tmp/</span><span style='color: #00892b'>$USER</span><span style='color: #bf0303'>-unzip"</span> <b>|</b> _echo
+kde-mv <span style='color: #bf0303'>"</span><span style='color: #00892b'>$zip</span><span style='color: #bf0303'>"</span> <span style='color: #bf0303'>"trash:/"</span> <span style='color: #223388'><b>1&gt;&amp;2</b></span>
+</pre>
+
+</body>
+</html>

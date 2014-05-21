@@ -1,0 +1,20 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Aquarium
+Comment=A simple aquarium based on the boids algorithm from Craig Reynolds
+Icon=contents/images/fish1.svg
+
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+X-Plasma-DefaultSize=200,200
+
+X-KDE-PluginInfo-Author=Ontje Lünsdorf
+X-KDE-PluginInfo-Email=The_COM@gmx.de
+X-KDE-PluginInfo-Name=aquarium
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=http://bitbucket.org/luensdorf/aquarium/
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true

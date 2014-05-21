@@ -1,0 +1,108 @@
+[Devices][/org/freedesktop/UDisks/devices/loop0]
+EverMounted=true
+Icon=media-optical
+LastNameSeen=707.0 MiB Hard Drive
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/mmcblk0p1]
+EverMounted=true
+Icon=media-flash-sd-mmc
+LastNameSeen=3.7 GiB Removable Media
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/mmcblk0p2]
+EverMounted=true
+Icon=media-flash-sd-mmc
+LastNameSeen=7,4 GiB Removable Media
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/mmcblk0p3]
+Icon=media-flash-sd-mmc
+LastNameSeen=SETTINGS
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/mmcblk0p5]
+EverMounted=true
+Icon=media-flash-sd-mmc
+LastNameSeen=BOOT
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/mmcblk0p6]
+Icon=media-flash-sd-mmc
+LastNameSeen=root
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sda1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=46.6 GiB Hard Drive
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/sda2]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=46.6 GiB Hard Drive
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/sda4]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=601.8 GiB Hard Drive
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/sdb]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=SAMSUNG P1 Card
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/sdb1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=SAMSUNG
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdb2]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=BackUp
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdc]
+Icon=drive-removable-media-usb
+LastNameSeen=Generic Flash Disk
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdc1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=SAMSUNG
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdc2]
+Icon=drive-harddisk
+LastNameSeen=BackUp
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdd1]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=1.9 GiB Removable Media
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdd2]
+Icon=drive-harddisk
+LastNameSeen=BackUp
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sde1]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=30,5 GiB Removable Media
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sr0:media]
+EverMounted=true
+Icon=media-optical-data
+LastNameSeen=UDF Volume
+LastSeenMounted=false

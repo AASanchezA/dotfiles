@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name="aquariumrc"/>
+  <group name="aquarium">
+    <entry name="sps" type="Int">
+      <label>Simulation steps per second</label>
+        <default>5</default>
+        <min>1</min>
+        <max>20</max>
+    </entry>
+    <entry name="fps" type="Int">
+        <label>Frames per second</label>
+        <default>10</default>
+        <min>1</min>
+        <max>20</max>
+    </entry>
+    <entry name="features" type="Int">
+        <label>Number of features</label>
+        <default>5</default>
+        <min>0</min>
+        <max>20</max>
+    </entry>
+    <entry name="entities" type="Int">
+        <label>Number of entities</label>
+        <default>25</default>
+        <min>10</min>
+        <max>100</max>
+    </entry>
+  </group>
+</kcfg>

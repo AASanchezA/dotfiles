@@ -1,0 +1,25 @@
+[Colors]
+CurrentPalette=Forty Colors
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Favorite Profiles]
+Favorites=/home/andres/.kde/share/apps/konsole/Shell.profile
+
+[KFileDialog Settings]
+Height 768=450
+Recent Files[$e]=vim-shortcuts.png,$HOME/Pictures/vim-shortcuts.png
+Width 1366=720
+
+[MainWindow]
+Height 200=201
+Height 480=481
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAALbAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1024=1025
+Width 1366=1367
+Width 1368=659
+Width 320=321
+Width 640=641

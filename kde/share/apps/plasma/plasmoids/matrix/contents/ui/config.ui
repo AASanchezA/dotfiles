@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+	<class>Form</class>
+	<widget class="QWidget" name="Form">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>400</width>
+				<height>38</height>
+			</rect>
+		</property>
+		<layout class="QGridLayout" name="gridLayout">
+			<!-- row 0: Start message -->
+			<item row="0" column="0">
+				<widget class="QLabel" name="label_startMessage">
+					<property name="text">
+						<string>Start message:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_startMessage</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="0" column="1">
+				<widget class="QLineEdit" name="kcfg_startMessage" native="true"/>
+			</item>
+			<!-- Stop message -->
+			<item row="1" column="0">
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>Stop message:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_stopMessage</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="1" column="1">
+				<widget class="QLineEdit" name="kcfg_stopMessage"/>
+			</item>
+			<!-- Matrix String -->
+			<item row="2" column="0">
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>Custom characters:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_matrixString</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="2" column="1">
+				<widget class="QLineEdit" name="kcfg_matrixString"/>
+			</item>
+			<!-- Speed -->
+			<item row="3" column="0">
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>Matrix speed:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_speed</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="3" column="1">
+				<widget class="QComboBox" name="kcfg_speed">
+					<item>
+						<property name="text">
+							<string>ultra slow</string>
+						</property>
+					</item>
+					<item>
+						<property name="text">
+							<string>very slow</string>
+						</property>
+					</item>
+					<item>
+						<property name="text">
+							<string>slow</string>
+						</property>
+					</item>
+					<item>
+						<property name="text">
+							<string>normal</string>
+						</property>
+					</item>
+					<item>
+						<property name="text">
+							<string>fast</string>
+						</property>
+					</item>
+					<item>
+						<property name="text">
+							<string>very fast</string>
+						</property>
+					</item>
+					<item>
+						<property name="text">
+							<string>ultra fast</string>
+						</property>
+					</item>
+				</widget>
+			</item>
+
+			<!-- Vertical Space -->
+			<item row="4" column="1">
+				<spacer name="verticalSpacer">
+					<property name="orientation">
+						<enum>Qt::Vertical</enum>
+					</property>
+					<property name="sizeHint" stdset="0">
+						<size>
+							<width>20</width>
+							<height>20</height>
+						</size>
+					</property>
+				</spacer>
+			</item>
+
+			<!-- Extended 3D Effect -->
+			<item row="5" column="0">
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>Extended 3D effect:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_threeDEffect</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="5" column="1">
+				<widget class="QCheckBox" name="kcfg_threeDEffect"/>
+			</item>
+			<!-- Wake up to start -->
+			<item row="6" column="0">
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>Wake up to start:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_wakeUpToStart</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="6" column="1">
+				<widget class="QCheckBox" name="kcfg_wakeUpToStart"/>
+			</item>
+			<!-- Start Sound -->
+			<!--
+			<item row="7" column="0">
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>Sound at start:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_startSound</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="7" column="1">
+				<widget class="QCheckBox" name="kcfg_startSound"/>
+			</item>
+			-->
+			<!-- Show Monitor -->
+			<item row="7" column="0">
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>Show monitor:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_showMonitor</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="7" column="1">
+				<widget class="QCheckBox" name="kcfg_showMonitor"/>
+			</item>
+			<!-- Show Frame -->
+			<item row="8" column="0">
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>Show frame:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_showFrame</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="8" column="1">
+				<widget class="QCheckBox" name="kcfg_showFrame"/>
+			</item>
+
+			<!-- Vertical Space -->
+			<item row="9" column="1">
+				<spacer name="verticalSpacer">
+					<property name="orientation">
+						<enum>Qt::Vertical</enum>
+					</property>
+					<property name="sizeHint" stdset="0">
+						<size>
+							<width>20</width>
+							<height>20</height>
+						</size>
+					</property>
+				</spacer>
+			</item>
+
+			<!-- Standard Color Settings -->
+			<item row="10" column="0">
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>Standard color settings:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_standardColorSettings</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="10" column="1">
+				<widget class="QRadioButton" name="kcfg_standardColorSettings"/>
+			</item>
+			<!-- Custom Color Settings -->
+			<item row="11" column="0">
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>Custom colors:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_customColorSettings</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="11" column="1">
+				<widget class="QRadioButton" name="kcfg_customColorSettings"/>
+			</item>
+
+			<!-- Vertical Space -->
+			<item row="12" column="1">
+				<spacer name="verticalSpacer">
+					<property name="orientation">
+						<enum>Qt::Vertical</enum>
+					</property>
+					<property name="sizeHint" stdset="0">
+						<size>
+							<width>20</width>
+							<height>20</height>
+						</size>
+					</property>
+				</spacer>
+			</item>
+
+			<!-- Color Selection -->
+			<item row="13" column="0">
+				<widget class="QLabel" name="label_customCharacterColor">
+					<property name="text">
+						<string>Character color:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_customCharacterColor</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="13" column="1">
+			<!--
+			<widget class="KColorButton" name="kcfg_customCharacterColor">
+				<property name="color">
+				<color>
+					<red>255</red>
+					<green>255</green>
+					<blue>255</blue>
+				</color>
+				</property>
+				<property name="defaultColor">
+				<color>
+					<red>0</red>
+					<green>255</green>
+					<blue>0</blue>
+				</color>
+				</property>
+			</widget>
+			-->
+			<widget class="QLineEdit" name="kcfg_customCharacterColor"/>
+			</item>
+
+			<!-- Background Color Selection -->
+			<item row="14" column="0">
+				<widget class="QLabel" name="label_customBackgroundColor">
+					<property name="text">
+						<string>Background color:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_customBackgroundColor</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="14" column="1">
+			<!--
+			<widget class="KColorButton" name="kcfg_customBackgroundColor">
+				<property name="color">
+				<color>
+					<red>255</red>
+					<green>255</green>
+					<blue>255</blue>
+				</color>
+				</property>
+				<property name="defaultColor">
+				<color>
+					<red>0</red>
+					<green>255</green>
+					<blue>0</blue>
+				</color>
+				</property>
+			</widget>
+		-->
+			<widget class="QLineEdit" name="kcfg_customBackgroundColor"/>
+			</item>
+
+			<!-- Transparency -->
+			<item row="15" column="0">
+				<widget class="QLabel" name="label_transparency">
+					<property name="text">
+						<string>Transparent background:</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+					</property>
+					<property name="buddy">
+						<cstring>kcfg_transparency</cstring>
+					</property>
+				</widget>
+			</item>
+			<item row="15" column="1">
+				<widget class="QCheckBox" name="kcfg_transparency"/>
+			</item>
+
+			<!-- Vertical Space -->
+			<item row="16" column="1">
+				<spacer name="verticalSpacer">
+					<property name="orientation">
+						<enum>Qt::Vertical</enum>
+					</property>
+					<property name="sizeHint" stdset="0">
+						<size>
+							<width>20</width>
+							<height>3</height>
+						</size>
+					</property>
+				</spacer>
+			</item>
+		</layout>
+	</widget>
+	<customwidgets>
+	<!--<customwidget>
+		<class>KColorButton</class>
+		<extends>QPushButton</extends>
+		<header>kcolorbutton.h</header>
+	</customwidget>-->
+	</customwidgets>
+	<resources/>
+	<connections>
+		<!--<connection>
+			<sender>kcfg_notSleeping</sender>
+			<signal>toggled(bool)</signal>
+			<receiver>kcfg_startMessage</receiver>
+			<slot>setDisabled(bool)</slot>
+		</connection>-->
+		<connection>
+			<sender>kcfg_wakeUpToStart</sender>
+			<signal>toggled(bool)</signal>
+			<receiver>kcfg_startMessage</receiver>
+			<slot>setEnabled(bool)</slot>
+		</connection>
+		<connection>
+			<sender>kcfg_standardColorSettings</sender>
+			<signal>toggled(bool)</signal>
+			<receiver>kcfg_customCharacterColor</receiver>
+			<slot>setDisabled(bool)</slot>
+		</connection>
+		<connection>
+			<sender>kcfg_standardColorSettings</sender>
+			<signal>toggled(bool)</signal>
+			<receiver>kcfg_customBackgroundColor</receiver>
+			<slot>setDisabled(bool)</slot>
+		</connection>
+		<connection>
+			<sender>kcfg_standardColorSettings</sender>
+			<signal>toggled(bool)</signal>
+			<receiver>kcfg_transparency</receiver>
+			<slot>setDisabled(bool)</slot>
+		</connection>
+		<connection>
+			<sender>kcfg_standardColorSettings</sender>
+			<signal>toggled(bool)</signal>
+			<receiver>label_customCharacterColor</receiver>
+			<slot>setDisabled(bool)</slot>
+		</connection>
+		<connection>
+			<sender>kcfg_standardColorSettings</sender>
+			<signal>toggled(bool)</signal>
+			<receiver>label_customBackgroundColor</receiver>
+			<slot>setDisabled(bool)</slot>
+		</connection>
+		<connection>
+			<sender>kcfg_standardColorSettings</sender>
+			<signal>toggled(bool)</signal>
+			<receiver>label_transparency</receiver>
+			<slot>setDisabled(bool)</slot>
+		</connection>
+		<!--<connection>
+			<sender>kcfg_transparency</sender>
+			<signal>toggled(bool)</signal>
+			<receiver>kcfg_customBackgroundColor</receiver>
+			<slot>setDisabled(bool)</slot>
+		</connection>
+		<connection>
+			<sender>kcfg_transparency</sender>
+			<signal>toggled(bool)</signal>
+			<receiver>label_customBackgroundColor</receiver>
+			<slot>setDisabled(bool)</slot>
+		</connection>-->
+	</connections>
+</ui>

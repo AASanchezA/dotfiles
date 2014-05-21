@@ -1,0 +1,10 @@
+syntax: glob
+*~
+*.pyc
+*swp
+src/applet/*.zip
+src/engine/*.zip
+*.egg-info
+src/applet/contents/themes/*.zip
+src/themes/doom/dist
+src/themes/doom/build

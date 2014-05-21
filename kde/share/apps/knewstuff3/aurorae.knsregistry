@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>Air-black</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=mcder">mcder</author>
+  <homepage>http://opendesktop.org/content/show.php?content=128220</homepage>
+  <licence>1</licence>
+  <version></version>
+  <rating>86</rating>
+  <downloads>1422</downloads>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//Air-black/maximize.svg</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//Air-black/metadata.desktop</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//Air-black/close.svg</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//Air-black/Air-blackrc</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//Air-black/minimize.svg</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//Air-black/CMakeLists.txt</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//Air-black/metadata.desktop~</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//Air-black/decoration.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//Air-black/</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//</installedfile>
+  <id>128220</id>
+  <releasedate>2010-08-01</releasedate>
+  <summary>es el mismo Airglass-black pero usando los botones de Aeroambience&#xd;
+&#xd;
+is the same but using Airglass-black buttons Aeroambience&#xd;
+&#xd;
+Aeroambience&#xd;
+&#xd;
+http://kde-look.org/content/show.php/Aeroambience?content=124689&#xd;
+&#xd;
+Airglass-black&#xd;
+&#xd;
+http://kde-look.org/content/show.php/Airglass-black++[AURORAE]?content=108353&#xd;
+&#xd;
+&#xd;
+</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m128220-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/128220-1.png</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/128220-Air-black.tar.gz</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Glowglass-Cupertino</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=Strahlex">Strahlex</author>
+  <homepage>http://opendesktop.org/content/show.php?content=108333</homepage>
+  <licence>1</licence>
+  <version>0.1</version>
+  <rating>86</rating>
+  <downloads>3074</downloads>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//glowglass-cupertino/minimize.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//glowglass-cupertino/metadata.desktop</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//glowglass-cupertino/restore.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//glowglass-cupertino/close.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//glowglass-cupertino/maximize.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//glowglass-cupertino/glowglass-cupertinorc</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//glowglass-cupertino/CMakeLists.txt</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//glowglass-cupertino/metadata.desktop~</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//glowglass-cupertino/decoration.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//glowglass-cupertino/</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//</installedfile>
+  <id>108333</id>
+  <releasedate>2009-07-12</releasedate>
+  <summary>glowglass-cupertino is a window decoration theme for the Aurorae engine:  [url]http://www.kde-look.org/content/show.php/Aurorae+Theme+Engine?content=107158[/url]&#xd;
+&#xd;
+ This theme is based on the glowglass: [url]http://www.kde-look.org/content/show.php/glowglass+%28aurorae%29?content=107473[/url]&#xd;
+&#xd;
+and the cupertino-ish-air theme: [url]http://www.kde-look.org/content/show.php/cupertino-ish-air+aurorae?content=108252[/url]&#xd;
+&#xd;
+Thanks to vicko!&#xd;
+</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m108333-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/108333-1.jpeg</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/108333-glowglass-cupertino.tar.gz</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Dark Perfection Aurorae</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=Scnd101">Scnd101</author>
+  <homepage>http://opendesktop.org/content/show.php?content=115681</homepage>
+  <licence>1</licence>
+  <version>0.8</version>
+  <rating>74</rating>
+  <downloads>543</downloads>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//perfection-dark/minimize.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//perfection-dark/metadata.desktop</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//perfection-dark/perfection-darkrc</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//perfection-dark/close.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//perfection-dark/restore.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//perfection-dark/maximize.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//perfection-dark/decoration.svgz</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//perfection-dark/</installedfile>
+  <installedfile>/home/andres/.kde/share/apps/aurorae/themes//</installedfile>
+  <id>115681</id>
+  <releasedate>2009-11-18</releasedate>
+  <summary>Dark version of perfection theme</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m115681-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/115681-1.png</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/115681-perfection-dark.tar.gz</payload>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

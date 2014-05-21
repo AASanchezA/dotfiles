@@ -1,0 +1,5 @@
+[$Version]
+update_info=mailfilteragent.upd:initial-mailfilteragent-migration
+
+[General]
+filters=0

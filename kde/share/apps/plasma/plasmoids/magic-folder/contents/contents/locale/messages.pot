@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-05-30 21:09+CEST\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: ../code/configuration.py:44
+msgid "Video Files"
+msgstr ""
+
+#: ../code/configuration.py:45
+msgid "Image Files"
+msgstr ""
+
+#: ../code/configuration.py:46
+msgid "Audio Files"
+msgstr ""
+
+#: ../code/configuration.py:47
+msgid "Text Files"
+msgstr ""
+
+#: ../code/configuration.py:48
+msgid "Anything"
+msgstr ""
+
+#: ../code/configuration.py:296
+msgid "Scripting is a relativly stiff feature, please press the button next to the checkbox to inform yourself further."
+msgstr ""
+
+#: ../code/configuration.py:296
+msgid "scripting"
+msgstr ""
+
+#: ../code/configuration.py:316
+msgid "Delete"
+msgstr ""
+
+#: ../code/configuration.py:317
+msgid "New"
+msgstr ""
+
+#: ../code/configuration.py:318
+msgid "Up"
+msgstr ""
+
+#: ../code/configuration.py:319
+msgid "Down"
+msgstr ""
+
+#: ../code/configuration.py:320
+msgid "Export"
+msgstr ""
+
+#: ../code/configuration.py:321
+msgid "Import"
+msgstr ""
+
+#: ../code/configuration.py:322
+msgid "About Scripts..."
+msgstr ""
+
+#: ../code/configuration.py:323
+msgid "Regex"
+msgstr ""
+
+#: ../code/configuration.py:324
+msgid "Destiny"
+msgstr ""
+
+#: ../code/configuration.py:325
+msgid "Wildcard"
+msgstr ""
+
+#: ../code/configuration.py:326
+msgid "Case Sensitive"
+msgstr ""
+
+#: ../code/configuration.py:327
+msgid "Destiny is a Script"
+msgstr ""
+
+#: ../code/configuration.py:328
+msgid "Copy Only"
+msgstr ""
+
+#: ../code/configuration.py:360
+msgid "Icon"
+msgstr ""
+
+#: ../code/main.py:104
+msgid "Rules"
+msgstr ""
+
+#: ../code/main.py:108
+msgid "Display"
+msgstr ""
+

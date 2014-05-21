@@ -1,0 +1,28 @@
+[Desktop Entry]
+Name=Magic Folder
+Comment=A widget that sorts files dropped onto it into the users personal file system, following custom made rules.
+Name[de]=Magischer Ordner
+Comment[de]=Ein Dateiverteiler mit Drag'n'Drop-Support
+Name[pl]=Magiczny Folder
+Comment[pl]=Widżet który sortuje pliki odrzucone przez indywidualny system plików użytkownika, kolejne niestandardowe zasady.
+# Name[pt]=
+# Comment[pt]=
+
+Type=Service
+ServiceTypes=Plasma/Applet
+Icon=folder-green
+
+X-Plasma-API=python
+X-Plasma-MainScript=code/main.py
+
+X-KDE-PluginInfo-Author=Benjamin Kleiner
+X-KDE-PluginInfo-Email=bizzl@users.sourceforge.net
+X-KDE-PluginInfo-Name=magic-folder
+X-KDE-PluginInfo-Version=1.2.3
+X-KDE-PluginInfo-Website=http://www.kde-look.org/content/show.php/Magic+Folder?content=100348
+X-KDE-PluginInfo-Category=Utilities
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-DefautSize=64,64
+

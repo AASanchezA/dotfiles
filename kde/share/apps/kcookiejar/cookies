@@ -1,0 +1,62 @@
+# KDE Cookie File v2
+#
+# Host               Domain               Path         Exp.date   Prot Name                 Sec  Value
+[.google.com]
+www.google.com       ".google.com"        "/"          1418264334    0 PREF                 4    ID=3c0c0172f5f7413b:U=9532e9645a34bc75:FF=0:TM=1351430894:LM=1355192334:S=V8BHDJK6H2e6Ht4P
+[.google.de]
+www.google.de        ".google.de"         "/"          1418264334    0 PREF                 4    ID=f64e54e664f1f239:U=86ea212b6812a548:FF=0:TM=1351430894:LM=1355192334:S=GNlBP2ShjFqD9Iqj
+[.opendesktop.org]
+api.opendesktop.org  ""                   "/v1/content" 1666792899    0 H01TC                0    73ea212a7a1883a20eb85e01d9be8365
+api.opendesktop.org  ""                   "/v1"        1668252039    0 H01TC                0    b2493900df0111d114c9e4de8d078a8e
+[.climbing.com]
+www.climbing.com     ".climbing.com"      "/"          1414509571    0 __utma               4    176320119.666724873.1351437558.1351437558.1351437558.1
+www.climbing.com     ""                   "/"          1414509573    0 __atuvc              4    2%7C44
+[.player.vimeo.com]
+player.vimeo.com     ".player.vimeo.com"  "/"          1414509559    0 __utma               4    256147786.984986794.1351437559.1351437559.1351437559.1
+[.youtube.com]
+www.youtube.com      ".youtube.com"       "/"          1666797603    0 PREF                 4    fv=11.2.202
+[.facebook.com]
+iphone.facebook.com  ".facebook.com"      "/"          1415963180    0 datr                 6    LHujUOXZyxHxf_nquBAbsOWe
+[.2shared.com]
+www.2shared.com      ""                   "/"          1668516668    0 hostid               4    -114165016
+[opendesktop.org]
+opendesktop.org      ""                   "/content"   1668517645    0 H01TC                0    15557a5801b283859ad7412f58ecd036
+opendesktop.org      ""                   "/"          1416229785    0 __utma               4    145449326.1414405660.1353157649.1353157649.1353157649.1
+[.kde.org]
+cdn.kde.org          ".kde.org"           "/"          1416561123    0 visid_incap_15950    4    MP3hT/zfQ6GzeBX+9+NaVd14rVAAAAAAAAAAAAAAAAC8bLZpcySREhdiCshzxcD9
+api.kde.org          ".kde.org"           "/"          1420711434    0 visid_incap_14632    4    LzJqARutT4GJRPPmbcDrossz7FAAAAAAAAAAAAAAAADUzxSshNtVwmZFqzdAS4dM
+dot.kde.org          ".kde.org"           "/"          1420711435    0 visid_incap_18892    4    gF51t4xHTnuQjz4PXs9X2d0z7FAAAAAAAAAAAAAAAACvE1Lxbhb5RdGaH/VndHI1
+[www.dw.de]
+www.dw.de            ""                   "/"          1670552680    0 xtidc                4    12111103190282763
+[.kde-apps.org]
+kde-apps.org         ".kde-apps.org"      "/"          1420729055    0 __gads               4    ID=f683364fa4e3136a:T=1357657055:S=ALNI_MZ41069DqUL6yARZCQuEBlvi8MnQQ
+kde-apps.org         ".kde-apps.org"      "/"          1404992447    0 __qca                4    P0-791207480-1357657058577
+[kde-apps.org]
+kde-apps.org         ""                   "/"          1420729058    0 __utma               4    145449326.885823558.1357657059.1357657059.1357657059.1
+[.kde-look.org]
+kde-look.org         ".kde-look.org"      "/"          1420729055    0 __gads               4    ID=0a180c2f25b2e715:T=1357657055:S=ALNI_MZAeOS70XnV4BljJrgiHCszmKNnCw
+kde-look.org         ".kde-look.org"      "/"          1404992447    0 __qca                4    P0-1825647128-1357657058580
+kde-look.org         ".kde-look.org"      "/"          1420729058    0 __utma               4    145449326.1746096202.1357657055.1357657055.1357657055.1
+[.google.cl]
+www.google.cl        ".google.cl"         "/"          1420768409    0 PREF                 4    ID=17c2191b3f9af97e:U=1178798fc8538e81:FF=0:TM=1357696398:LM=1357696409:S=kzlss7hWs4VbvnJU
+[.desnivel.com]
+desnivel.com         ".desnivel.com"      "/"          1420768442    0 __utma               4    15067427.610498164.1357696416.1357696416.1357696416.1
+[.aol.de]
+o2suche.aol.de       ".aol.de"            "/"          1420768476    0 s_pers               4    %20s_getnr%3D1357696476126-New%7C1420768476126%3B%20s_nrgvo%3DNew%7C1420768476129%3B
+[.veoverde.com]
+www.veoverde.com     ".veoverde.com"      "/"          1420768557    0 __utma               4    142426293.44306911.1357696477.1357696477.1357696477.1
+www.veoverde.com     ""                   "/"          1420768557    0 __utma               4    142426293.44306911.1357696477.1357696477.1357696477.1
+[.www.dropbox.com]
+www.dropbox.com      ".www.dropbox.com"   "/"          1423311499    0 __utma               4    74146836.1930272011.1358114103.1360094388.1360238179.9
+[.dropbox.com]
+www.dropbox.com      ""                   "/"          1515794088    0 gvc                  6    MTc2MTk4NDIwMDcxMzkyNzY4NTQ5NzE0OTQyNTMyMTU4NjcwNTkz
+www.dropbox.com      ""                   "/"          1515794089    0 locale               4    en
+www.dropbox.com      ""                   "/"          1515794089    0 puc                  6    NTczYzIzNg%3D%3D
+[.rememberthemilk.com]
+www.rememberthemilk.com ".rememberthemilk.com" "/"          1437670012    0 __utma               4    12062263.254678030.1374598012.1374598012.1374598012.1
+[.arxiv.org]
+arxiv.org            ".arxiv.org"         "/"          2331747975    0 browser              4    g224217196.adsl.alicedsl.de.1385667975714166
+[.springer.com]
+link.springer.com    ".springer.com"      "/"          1417224877    0 MigrationBanner      4    On
+[.ruthe.de]
+www.ruthe.de         ".ruthe.de"          "/"          1577145000    0 __cfduid             6    d18400fbfbc0163fc5824b2b6ed21995a1395865664784

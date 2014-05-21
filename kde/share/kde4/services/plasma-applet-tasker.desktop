@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Tasker
+Comment=Flexible ToDo widget
+Icon=chronometer
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-DefaultSize=300,100
+
+X-KDE-PluginInfo-Author=Mike "rysiek" Woźniak
+X-KDE-PluginInfo-Email=rysiek@hackerspace.pl
+X-KDE-PluginInfo-Website=http://rys.io/en/71
+X-KDE-PluginInfo-Category=Todo
+X-KDE-PluginInfo-Name=tasker
+X-KDE-PluginInfo-Version=0.9.2
+
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPLv3, LGPLv2.1
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-ServiceTypes=Plasma/Applet
+Type=Service
