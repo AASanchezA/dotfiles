@@ -332,7 +332,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][66][Applets][104]
-geometry=911,0,354,25
+geometry=915,0,354,25
 immutability=2
 plugin=systemtray
 zvalue=168
@@ -401,7 +401,7 @@ sourceAppletPluginName=notifications
 
 [Containments][66][Applets][104][Configuration][Applets][107][PopupApplet]
 DialogHeight=312
-DialogWidth=443
+DialogWidth=351
 
 [Containments][66][Applets][104][Configuration][Applets][107][Shortcuts]
 global=
@@ -502,7 +502,7 @@ DialogHeight=243
 DialogWidth=252
 
 [Containments][66][Applets][126]
-geometry=638,0,102,25
+geometry=638,0,106,25
 immutability=2
 plugin=fuzzy-clock
 zvalue=42
@@ -595,7 +595,7 @@ DialogHeight=212
 DialogWidth=322
 
 [Containments][66][Applets][135]
-geometry=744,0,163,25
+geometry=748,0,163,25
 immutability=2
 plugin=panelspacer_internal
 zvalue=181
