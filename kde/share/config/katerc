@@ -15,8 +15,8 @@ FoldedLines=
 Highlighting=None
 Indentation Mode=
 Mode=
-ReadWrite=false
-URL=file:///home/andres/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
+ReadWrite=true
+URL=
 
 [Document 1]
 Bookmarks=
@@ -395,7 +395,7 @@ Children=MainWindow0-ViewSpace 0
 Sizes=1104
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/andres/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
+Active View=
 Count=1
 View 0=file:///home/andres/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
 View 1=file:///Respaldo/kinect/fancytree/demo/ajax-tree-local.json
@@ -5424,26 +5424,26 @@ enabled_0[$e]=/usr/share/kde4/apps/ktexteditor_snippets/data/testsnippetscpp.xml
 enabled_1[$e]=/usr/share/kde4/apps/ktexteditor_snippets/data/testsnippets.xml
 
 [Recent Files]
-File1[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-dom.json
-File10[$e]=$HOME/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
-File2[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-fs.json
-File3[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-instruments.json
-File4[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-local.json
-File5[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-plain.json
-File6[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-products.json
-File7[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-taxonomy.json
-File8[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree.json
-File9[$e]=/Respaldo/Mis Documentos/Visa y Otros/Elster2014/asanchez_elster_2048.pfx
-Name1[$e]=ajax-tree-dom.json
-Name10[$e]=kdewallet.kwl
-Name2[$e]=ajax-tree-fs.json
-Name3[$e]=ajax-tree-instruments.json
-Name4[$e]=ajax-tree-local.json
-Name5[$e]=ajax-tree-plain.json
-Name6[$e]=ajax-tree-products.json
-Name7[$e]=ajax-tree-taxonomy.json
-Name8[$e]=ajax-tree.json
-Name9[$e]=asanchez_elster_2048.pfx
+File1[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-fs.json
+File10[$e]=$HOME/dotfiles/oh-my-zsh/README.textile
+File2[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-instruments.json
+File3[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-local.json
+File4[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-plain.json
+File5[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-products.json
+File6[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-taxonomy.json
+File7[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree.json
+File8[$e]=/Respaldo/Mis Documentos/Visa y Otros/Elster2014/asanchez_elster_2048.pfx
+File9[$e]=$HOME/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
+Name1[$e]=ajax-tree-fs.json
+Name10[$e]=README.textile
+Name2[$e]=ajax-tree-instruments.json
+Name3[$e]=ajax-tree-local.json
+Name4[$e]=ajax-tree-plain.json
+Name5[$e]=ajax-tree-products.json
+Name6[$e]=ajax-tree-taxonomy.json
+Name7[$e]=ajax-tree.json
+Name8[$e]=asanchez_elster_2048.pfx
+Name9[$e]=kdewallet.kwl
 
 [filetree]
 editShade=255,201,241

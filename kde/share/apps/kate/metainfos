@@ -24,6 +24,19 @@ ReadWrite=false
 Time=2014,5,21,0,26,16
 URL=file:///home/andres/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
 
+[file:///home/andres/dotfiles/oh-my-zsh/README.textile]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=None
+Indentation Mode=
+MD5=1e03f57c777e785d0f97f038323f3d17
+Mode=
+ReadWrite=true
+Time=2014,5,22,0,59,9
+URL=file:///home/andres/dotfiles/oh-my-zsh/README.textile
+
 [file:///media/CEC6-297F/LICENCE.broadcom]
 Bookmarks=
 Encoding=UTF-8
