@@ -7,7 +7,7 @@ RightButton;NoModifier=contextmenu
 wheel:Vertical;NoModifier=switchdesktop
 
 [AppletGlobals][plasma_applet_comic]
-lastUpdate=2014,5,25,22,56,25
+lastUpdate=2014,5,29,9,31,5
 updateIntervall=3
 
 [AppletGlobals][plasma_applet_launcher]
@@ -138,7 +138,7 @@ use_nowplaying=False
 Order=5
 
 [Containments][3][Applets][200][PopupApplet]
-DialogHeight=123
+DialogHeight=77
 DialogWidth=734
 
 [Containments][3][Applets][208]
@@ -332,7 +332,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][66][Applets][104]
-geometry=915,0,354,25
+geometry=911,0,326,25
 immutability=2
 plugin=systemtray
 zvalue=168
@@ -349,7 +349,7 @@ alwaysShown=battery,KDE Daemon,KMix,KDE Daemon,message-indicator,org.kde.network
 hidden=
 
 [Containments][66][Applets][104][Configuration][Applets][105]
-geometry=304,0.5,24,24
+geometry=276,0.5,24,24
 immutability=1
 plugin=org.kde.networkmanagement
 zvalue=0
@@ -400,14 +400,14 @@ sourceAppletId=107
 sourceAppletPluginName=notifications
 
 [Containments][66][Applets][104][Configuration][Applets][107][PopupApplet]
-DialogHeight=312
-DialogWidth=351
+DialogHeight=249
+DialogWidth=362
 
 [Containments][66][Applets][104][Configuration][Applets][107][Shortcuts]
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][108]
-geometry=276,0.5,24,24
+geometry=248,0.5,24,24
 immutability=1
 plugin=battery
 zvalue=0
@@ -425,7 +425,7 @@ DialogWidth=409
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][110]
-geometry=57,0.5,24,24
+geometry=29,0.5,24,24
 immutability=1
 plugin=weather
 zvalue=0
@@ -447,14 +447,14 @@ DialogWidth=267
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][127]
-geometry=29,0.5,24,24
+geometry=57,0.5,24,24
 immutability=1
 plugin=message-indicator
 zvalue=0
 
 [Containments][66][Applets][104][Configuration][Applets][127][PopupApplet]
-DialogHeight=70
-DialogWidth=184
+DialogHeight=171
+DialogWidth=334
 
 [Containments][66][Applets][104][Configuration][Applets][127][Shortcuts]
 global=
@@ -502,7 +502,7 @@ DialogHeight=243
 DialogWidth=252
 
 [Containments][66][Applets][126]
-geometry=638,0,106,25
+geometry=638,0,102,25
 immutability=2
 plugin=fuzzy-clock
 zvalue=42
@@ -595,7 +595,7 @@ DialogHeight=212
 DialogWidth=322
 
 [Containments][66][Applets][135]
-geometry=748,0,163,25
+geometry=744,0,163,25
 immutability=2
 plugin=panelspacer_internal
 zvalue=181
