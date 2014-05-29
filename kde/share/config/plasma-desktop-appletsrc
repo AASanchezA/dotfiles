@@ -332,7 +332,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][66][Applets][104]
-geometry=911,0,326,25
+geometry=882,0,354,25
 immutability=2
 plugin=systemtray
 zvalue=168
@@ -349,7 +349,7 @@ alwaysShown=battery,KDE Daemon,KMix,KDE Daemon,message-indicator,org.kde.network
 hidden=
 
 [Containments][66][Applets][104][Configuration][Applets][105]
-geometry=276,0.5,24,24
+geometry=304,0.5,24,24
 immutability=1
 plugin=org.kde.networkmanagement
 zvalue=0
@@ -407,7 +407,7 @@ DialogWidth=362
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][108]
-geometry=248,0.5,24,24
+geometry=276,0.5,24,24
 immutability=1
 plugin=battery
 zvalue=0
@@ -502,7 +502,7 @@ DialogHeight=243
 DialogWidth=252
 
 [Containments][66][Applets][126]
-geometry=638,0,102,25
+geometry=638,0,73,25
 immutability=2
 plugin=fuzzy-clock
 zvalue=42
@@ -595,7 +595,7 @@ DialogHeight=212
 DialogWidth=322
 
 [Containments][66][Applets][135]
-geometry=744,0,163,25
+geometry=715,0,163,25
 immutability=2
 plugin=panelspacer_internal
 zvalue=181
