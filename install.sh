@@ -29,3 +29,7 @@ for file in $files; do
 	echo "Creating symlink to $file in home directory."
 	ln -s $dir/$file ~/.$file
 done
+
+# linking also bash alias file
+echo "Creating symlink to bash_aliases in home directory."
+ln -s $dir/bash_aliases ~/.bash_aliases

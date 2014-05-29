@@ -16,3 +16,8 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias hg='history | grep --color=auto'
+
+
+# Example aliases
+alias zshconfig="vi ~/.zshrc"
+alias ohmyzsh="vi ~/.oh-my-zsh"
