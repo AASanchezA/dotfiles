@@ -69,24 +69,24 @@ xterm*|rxvt*)
     ;;
 esac
 
-# enable color support of ls and also add handy aliases
-if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+## enable color support of ls and also add handy aliases
+#if [ -x /usr/bin/dircolors ]; then
+    #test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    #alias ls='ls --color=auto'
+    ##alias dir='dir --color=auto'
+    ##alias vdir='vdir --color=auto'
 
-    alias grep='grep --color=auto'
-    # export GREP_COLORS='0;32;42'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
-fi
+    #alias grep='grep --color=auto'
+    ## export GREP_COLORS='0;32;42'
+    #alias fgrep='fgrep --color=auto'
+    #alias egrep='egrep --color=auto'
+#fi
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias hg='history | grep --color=auto'
+## some more ls aliases
+#alias ll='ls -alF'
+#alias la='ls -A'
+#alias l='ls -CF'
+#alias hg='history | grep --color=auto'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -151,7 +151,7 @@ source ~/.git-completion.sh
 source ~/.git-prompt.sh
 
 #ROS setup
-source /opt/ros/hydro/setup.bash
+#source /opt/ros/hydro/setup.bash
 
 
 # added by Anaconda 1.9.2 installer

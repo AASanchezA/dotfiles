@@ -6,5 +6,6 @@ tmp-devPC
 tmp-XPS-L502X
 kde/share/apps/neppomuk/*
 kde/share/apps/RecentDocuments/*
+kde/share/apps/*
 *.desktop
 *.desktop
