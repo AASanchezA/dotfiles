@@ -332,7 +332,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][66][Applets][104]
-geometry=908,0,354,25
+geometry=938,0,354,25
 immutability=2
 plugin=systemtray
 zvalue=168
@@ -502,7 +502,7 @@ DialogHeight=243
 DialogWidth=252
 
 [Containments][66][Applets][126]
-geometry=638,0,99,25
+geometry=638,0,129,25
 immutability=2
 plugin=fuzzy-clock
 zvalue=42
@@ -595,7 +595,7 @@ DialogHeight=212
 DialogWidth=322
 
 [Containments][66][Applets][135]
-geometry=741,0,163,25
+geometry=771,0,163,25
 immutability=2
 plugin=panelspacer_internal
 zvalue=181
