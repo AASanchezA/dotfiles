@@ -125,6 +125,17 @@ endif
 
 
 "=================================================================
+"=================== Setting Up Tab size  ========================
+"=================================================================
+set smartindent
+set noexpandtab
+set copyindent
+set preserveindent
+set softtabstop=0
+set shiftwidth=4
+set tabstop=4
+
+"=================================================================
 "=================== Setting Up temp file ========================
 "=================================================================
 " controls where backup files (with ~ extension by default) go.
@@ -351,3 +362,4 @@ smap <C-f> <Plug>snipMateNextOrTrigger
 	
 "" YouCompleteMe
 "let g:ycm_key_list_previous_completion=['<Up>']
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
