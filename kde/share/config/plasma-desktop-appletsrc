@@ -332,7 +332,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][66][Applets][104]
-geometry=882,0,354,25
+geometry=883,0,354,25
 immutability=2
 plugin=systemtray
 zvalue=168
@@ -400,8 +400,8 @@ sourceAppletId=107
 sourceAppletPluginName=notifications
 
 [Containments][66][Applets][104][Configuration][Applets][107][PopupApplet]
-DialogHeight=249
-DialogWidth=362
+DialogHeight=312
+DialogWidth=401
 
 [Containments][66][Applets][104][Configuration][Applets][107][Shortcuts]
 global=
@@ -425,7 +425,7 @@ DialogWidth=409
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][110]
-geometry=29,0.5,24,24
+geometry=57,0.5,24,24
 immutability=1
 plugin=weather
 zvalue=0
@@ -447,14 +447,14 @@ DialogWidth=267
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][127]
-geometry=57,0.5,24,24
+geometry=29,0.5,24,24
 immutability=1
 plugin=message-indicator
 zvalue=0
 
 [Containments][66][Applets][104][Configuration][Applets][127][PopupApplet]
-DialogHeight=171
-DialogWidth=334
+DialogHeight=89
+DialogWidth=242
 
 [Containments][66][Applets][104][Configuration][Applets][127][Shortcuts]
 global=
@@ -502,7 +502,7 @@ DialogHeight=243
 DialogWidth=252
 
 [Containments][66][Applets][126]
-geometry=638,0,73,25
+geometry=638,0,74,25
 immutability=2
 plugin=fuzzy-clock
 zvalue=42
@@ -595,7 +595,7 @@ DialogHeight=212
 DialogWidth=322
 
 [Containments][66][Applets][135]
-geometry=715,0,163,25
+geometry=716,0,163,25
 immutability=2
 plugin=panelspacer_internal
 zvalue=181
