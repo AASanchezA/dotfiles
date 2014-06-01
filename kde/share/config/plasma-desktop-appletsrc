@@ -7,7 +7,7 @@ RightButton;NoModifier=contextmenu
 wheel:Vertical;NoModifier=switchdesktop
 
 [AppletGlobals][plasma_applet_comic]
-lastUpdate=2014,5,29,9,31,5
+lastUpdate=2014,6,1,10,49,42
 updateIntervall=3
 
 [AppletGlobals][plasma_applet_launcher]
@@ -332,7 +332,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][66][Applets][104]
-geometry=883,0,354,25
+geometry=908,0,354,25
 immutability=2
 plugin=systemtray
 zvalue=168
@@ -400,8 +400,8 @@ sourceAppletId=107
 sourceAppletPluginName=notifications
 
 [Containments][66][Applets][104][Configuration][Applets][107][PopupApplet]
-DialogHeight=312
-DialogWidth=401
+DialogHeight=146
+DialogWidth=373
 
 [Containments][66][Applets][104][Configuration][Applets][107][Shortcuts]
 global=
@@ -502,7 +502,7 @@ DialogHeight=243
 DialogWidth=252
 
 [Containments][66][Applets][126]
-geometry=638,0,74,25
+geometry=638,0,99,25
 immutability=2
 plugin=fuzzy-clock
 zvalue=42
@@ -595,7 +595,7 @@ DialogHeight=212
 DialogWidth=322
 
 [Containments][66][Applets][135]
-geometry=716,0,163,25
+geometry=741,0,163,25
 immutability=2
 plugin=panelspacer_internal
 zvalue=181
