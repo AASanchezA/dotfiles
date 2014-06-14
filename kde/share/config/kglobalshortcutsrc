@@ -129,16 +129,16 @@ Invert=Meta+Ctrl+I,Meta+Ctrl+I,Toggle Invert Effect
 InvertWindow=Meta+Ctrl+U,Meta+Ctrl+U,Toggle Invert Effect on Window
 Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Kill Window
 Mouse Emulation=Alt+F12,Alt+F12,Mouse Emulation
-Move Window Down=Meta+Shift+J,Meta+Shift+J,Move Window Down
-Move Window Left=Meta+Shift+H,Meta+Shift+H,Move Window Left
-Move Window Right=Meta+Shift+L,Meta+Shift+L,Move Window Right
-Move Window Up=Meta+Shift+K,Meta+Shift+K,Move Window Up
+Move Window Down=none,Meta+Shift+J,Move Window Down
+Move Window Left=none,Meta+Shift+H,Move Window Left
+Move Window Right=none,Meta+Shift+L,Move Window Right
+Move Window Up=none,Meta+Shift+K,Move Window Up
 MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
-MoveZoomDown=Meta+Down,Meta+Down,Move Down
-MoveZoomLeft=Meta+Left,Meta+Left,Move Left
-MoveZoomRight=Meta+Right,Meta+Right,Move Right
-MoveZoomUp=Meta+Up,Meta+Up,Move Up
+MoveZoomDown=none,Meta+Down,Move Down
+MoveZoomLeft=none,Meta+Left,Move Left
+MoveZoomRight=,Meta+Right,Move Right
+MoveZoomUp=none,Meta+Up,Move Up
 Next Layout=Meta+PgDown,Meta+PgDown,Next Layout
 Previous Layout=Meta+PgUp,Meta+PgUp,Previous Layout
 Remove Window From Group=none,none,Remove Window From Group
@@ -211,7 +211,7 @@ Window Fullscreen=none,none,Make Window Fullscreen
 Window Grow Horizontal=none,none,Pack Grow Window Horizontally
 Window Grow Vertical=none,none,Pack Grow Window Vertically
 Window Lower=none,none,Lower Window
-Window Maximize=Alt+M,none,Maximize Window
+Window Maximize=Meta+Up,none,Maximize Window
 Window Maximize Horizontal=none,none,Maximize Window Horizontally
 Window Maximize Vertical=none,none,Maximize Window Vertically
 Window Minimize=Alt+N,none,Minimize Window
@@ -227,12 +227,12 @@ Window Pack Down=none,none,Pack Window Down
 Window Pack Left=none,none,Pack Window to the Left
 Window Pack Right=none,none,Pack Window to the Right
 Window Pack Up=none,none,Pack Window Up
-Window Quick Tile Bottom Left=none,none,Quick Tile Window to the Bottom Left
-Window Quick Tile Bottom Right=none,none,Quick Tile Window to the Bottom Right
-Window Quick Tile Left=none,none,Quick Tile Window to the Left
-Window Quick Tile Right=none,none,Quick Tile Window to the Right
-Window Quick Tile Top Left=none,none,Quick Tile Window to the Top Left
-Window Quick Tile Top Right=none,none,Quick Tile Window to the Top Right
+Window Quick Tile Bottom Left=Meta+Ctrl+Left,none,Quick Tile Window to the Bottom Left
+Window Quick Tile Bottom Right=Meta+Ctrl+Right,none,Quick Tile Window to the Bottom Right
+Window Quick Tile Left=Meta+Left,none,Quick Tile Window to the Left
+Window Quick Tile Right=Meta+Right,none,Quick Tile Window to the Right
+Window Quick Tile Top Left=Meta+Shift+Left,none,Quick Tile Window to the Top Left
+Window Quick Tile Top Right=Meta+Shift+Right,none,Quick Tile Window to the Top Right
 Window Raise=none,none,Raise Window
 Window Resize=none,none,Resize Window
 Window Shade=none,none,Shade Window
@@ -276,7 +276,7 @@ view_zoom_in=Meta+=,Meta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [lancelot]
-Lancelot=Alt+F1,Alt+F5,Open Lancelot menu
+Lancelot=,Alt+F5,Open Lancelot menu
 _k_friendly_name=lancelot
 
 [plasma-desktop]
@@ -290,6 +290,7 @@ VeromixVolumeDown=none,none,Veromix volume down
 VeromixVolumeMute=none,none,Veromix toggle mute
 VeromixVolumeUp=none,none,Veromix volume up
 _k_friendly_name=Plasma Desktop Shell
+activate widget 192=Meta+Down,Meta+Down,Activate Application Launcher Widget
 manage activities=Meta+Q,Meta+Q,Activities...
 
 [plasma-netbook]
