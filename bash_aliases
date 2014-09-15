@@ -16,7 +16,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias hgp='history | grep --color=auto'
-alias findPCs=sudo nmap -sT 192.168.1.0/24
+alias findPCs='sudo nmap -sT 192.168.1.0/24'
 
 
 # Example aliases
