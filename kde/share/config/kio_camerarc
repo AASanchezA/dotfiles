@@ -1,10 +1,10 @@
 [Apple iPhone 3GS (PTP mode)]
 Model=Apple iPhone 3GS (PTP mode)
-Path=usb:002,010
+Path=usb:002,006
 
 [Apple iPhone 4 (PTP mode)]
 Model=Apple iPhone 4 (PTP mode)
-Path=usb:002,004
+Path=usb:002,018
 
 [USB PTP Class Camera]
 Model=USB PTP Class Camera

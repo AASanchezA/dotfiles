@@ -12,7 +12,7 @@ FontWeight=50
 
 [DetailsMode]
 FontWeight=50
-PreviewSize=160
+PreviewSize=64
 
 [DownloadDialog Settings]
 Height 768=752
@@ -35,8 +35,8 @@ ViewPropsTimestamp=2012,12,11,8,17,55
 
 [IconsMode]
 FontWeight=50
-IconSize=80
-PreviewSize=128
+IconSize=128
+PreviewSize=144
 
 [KFileDialog Settings]
 Autoplay sounds=true
@@ -59,12 +59,14 @@ Height 200=201
 Height 480=481
 Height 600=601
 Height 768=769
+Height 900=880
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAADbAAAC0vwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAeAAAAvAAAAAgBAAAF+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAeAAAC0gAAAFABAAAFAAAAAQAAAK4AAALS/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAB4AAAHKAAAACAEAAAX7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAB4AAALSAAAACAEAAAUAAAADAAAFVgAAAQX8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAFVgAAAAgBAAAFAAAEeAAAAtIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADYAAADUvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAeAAAC0gAAAAgBAAAF+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAeAAADUgAAAFABAAAFAAAAAQAAAK4AAALD/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAB4AAALDAAAACAEAAAX7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAB4AAALSAAAACAEAAAUAAAADAAAFVgAAAOn8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAFVgAAAAgBAAAFAAAExQAAA1IAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1024=1025
 Width 1360=1361
 Width 1366=1367
+Width 1440=1440
 Width 1600=1601
 Width 320=321
 Width 640=641
@@ -72,7 +74,7 @@ Width 800=801
 
 [Open-with settings]
 CompletionMode=5
-History=kate,kate -b %U,meshlab,subl,openshot,gvim,codeblocks,gwenview %U -caption "%c" %i,openshot %F,libreoffice --writer %U,dragon %u,ghb,kfmclient openProfile webbrowsing,libreoffice --impress %U,gvim -f %F
+History=subl,openoffice4 -writer %U,kate,kate -b %U,meshlab,openshot,gvim,codeblocks,gwenview %U -caption "%c" %i,openshot %F,libreoffice --writer %U,dragon %u,ghb,kfmclient openProfile webbrowsing,libreoffice --impress %U
 
 [PreviewSettings]
 Plugins=directorythumbnail,imagethumbnail,jpegthumbnail,gsthumbnail,textthumbnail

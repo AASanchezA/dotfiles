@@ -1,5 +1,5 @@
-# enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
+# enable color support of ls and also add handy aliases
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
@@ -15,9 +15,13 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias hg='history | grep --color=auto'
+alias hgp='history | grep --color=auto'
+alias findPCs=sudo nmap -sT 192.168.1.0/24
 
 
 # Example aliases
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
+
+#git tig aliases
+#alias tig="git show | tig"

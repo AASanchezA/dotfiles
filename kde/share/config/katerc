@@ -12,22 +12,22 @@ Bookmarks=
 Encoding=UTF-8
 FoldedColumns=
 FoldedLines=
-Highlighting=JavaScript
-Indentation Mode=cstyle
-Mode=JavaScript
+Highlighting=None
+Indentation Mode=
+Mode=
 ReadWrite=true
-URL=file:///Respaldo/Extend3d/projects/etrackd/etrackd/www/html/js/stepWidthBrightness.js
+URL=
 
 [Document 1]
 Bookmarks=
 Encoding=UTF-8
 FoldedColumns=
 FoldedLines=
-Highlighting=JSON
+Highlighting=YAML
 Indentation Mode=
-Mode=JSON
+Mode=YAML
 ReadWrite=true
-URL=file:///Respaldo/kinect/fancytree/demo/ajax-sub2.json
+URL=file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist01.yml
 
 [Document 10]
 Bookmarks=
@@ -133,11 +133,11 @@ Bookmarks=
 Encoding=UTF-8
 FoldedColumns=
 FoldedLines=
-Highlighting=JSON
+Highlighting=YAML
 Indentation Mode=
-Mode=JSON
+Mode=YAML
 ReadWrite=true
-URL=file:///Respaldo/kinect/fancytree/demo/ajax-tree-decide.json
+URL=file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist02.yml
 
 [Document 3]
 Bookmarks=
@@ -395,12 +395,12 @@ Children=MainWindow0-ViewSpace 0
 Sizes=1104
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///Respaldo/Extend3d/projects/etrackd/etrackd/www/html/js/stepWidthBrightness.js
+Active View=
 Count=1
-View 0=file:///Respaldo/Extend3d/projects/etrackd/etrackd/www/html/js/stepWidthBrightness.js
-View 1=file:///Respaldo/kinect/fancytree/demo/ajax-tree-local.json
+View 0=file:///home/andres/Downloads/LEVANTAMIENTO-EVALUACION-20121011/word/header1.xml
+View 1=file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist02.yml
 View 10=file:///Respaldo/kinect/fancytree/demo/ajax-tree-decide.json
-View 2=file:///Respaldo/kinect/fancytree/demo/ajax-tree-instruments.json
+View 2=file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist.yml
 View 3=file:///Respaldo/kinect/fancytree/demo/ajax-tree-fs.json
 View 4=file:///Respaldo/kinect/fancytree/demo/ajax-tree-dom.json
 View 5=file:///Respaldo/kinect/fancytree/demo/ajax-sub2.json
@@ -726,6 +726,18 @@ JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishDetector/Makefile]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishDetector/images/detector.conf]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/code/FishDetector/runFishDetector]
 CursorColumn=0
 CursorLine=0
 JumpList=
@@ -1166,6 +1178,18 @@ ViMarks=
 [MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/presentation_kickOff/abstract]
 CursorColumn=81
 CursorLine=1
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/recover/matlabWS/pose-release-ver1.2/code-basic/FISH3_demo.m]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/BMC/Thesis/recover/matlabWS/pose-release-ver1.2/code-full/FISH3_readSave.m]
+CursorColumn=0
+CursorLine=0
 JumpList=
 ViMarks=
 
@@ -1819,6 +1843,12 @@ CursorLine=29970
 JumpList=
 ViMarks=
 
+[MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/06052013 - Fish in air/Distance fish-background 1,70m.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/06052013 - Fish in air/Sequence 1,95m 3/cam_2/fishlist.yaml]
 CursorColumn=0
 CursorLine=102
@@ -1839,7 +1869,7 @@ ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/bodylist01.yml]
 CursorColumn=0
-CursorLine=67
+CursorLine=0
 JumpList=
 ViMarks=
 
@@ -1886,8 +1916,8 @@ JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/combinemasklist.yml]
-CursorColumn=0
-CursorLine=110
+CursorColumn=103
+CursorLine=92
 JumpList=
 ViMarks=
 
@@ -1941,37 +1971,37 @@ ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headlist.yml]
 CursorColumn=0
-CursorLine=2
+CursorLine=124
 JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headlist01.yml]
 CursorColumn=0
-CursorLine=74
+CursorLine=124
 JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headlist02.yml]
 CursorColumn=0
-CursorLine=74
+CursorLine=124
 JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headmasklist.yml]
-CursorColumn=0
-CursorLine=146
+CursorColumn=94
+CursorLine=245
 JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headmasklist01.yml]
 CursorColumn=0
-CursorLine=74
+CursorLine=124
 JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/headmasklist02.yml]
 CursorColumn=0
-CursorLine=74
+CursorLine=124
 JumpList=
 ViMarks=
 
@@ -2006,38 +2036,38 @@ JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/taillist.yml]
-CursorColumn=47
-CursorLine=125
+CursorColumn=0
+CursorLine=124
 JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/taillist01.yml]
 CursorColumn=0
-CursorLine=74
+CursorLine=124
 JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/taillist02.yml]
 CursorColumn=0
-CursorLine=74
+CursorLine=124
 JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist.yml]
-CursorColumn=0
-CursorLine=146
+CursorColumn=96
+CursorLine=123
 JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist01.yml]
 CursorColumn=0
-CursorLine=74
+CursorLine=124
 JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist02.yml]
 CursorColumn=0
-CursorLine=74
+CursorLine=123
 JumpList=
 ViMarks=
 
@@ -2931,6 +2961,18 @@ CursorLine=55
 JumpList=
 ViMarks=
 
+[MainWindow0-ViewSpace 0 file:///home/andres/Documents/Mendeley/Thesis-fishdetection.bib]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Documents/Mendeley/Thesis.bib]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
 [MainWindow0-ViewSpace 0 file:///home/andres/Downloads/02-KeyboardInput/main.cpp]
 CursorColumn=0
 CursorLine=0
@@ -2938,6 +2980,12 @@ JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///home/andres/Downloads/Dropbox-WGET.js]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/LEVANTAMIENTO-EVALUACION-20121011/word/header1.xml]
 CursorColumn=0
 CursorLine=0
 JumpList=
@@ -5430,26 +5478,26 @@ enabled_0[$e]=/usr/share/kde4/apps/ktexteditor_snippets/data/testsnippetscpp.xml
 enabled_1[$e]=/usr/share/kde4/apps/ktexteditor_snippets/data/testsnippets.xml
 
 [Recent Files]
-File1[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-instruments.json
-File10[$e]=/Respaldo/Extend3d/projects/etrackd/etrackd/www/html/js/stepWidthBrightness.js
-File2[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-local.json
-File3[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-plain.json
-File4[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-products.json
-File5[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree-taxonomy.json
-File6[$e]=/Respaldo/kinect/fancytree/demo/ajax-tree.json
-File7[$e]=/Respaldo/Mis Documentos/Visa y Otros/Elster2014/asanchez_elster_2048.pfx
-File8[$e]=$HOME/dotfiles/kde/share/apps/kwallet/kdewallet.kwl
-File9[$e]=$HOME/dotfiles/oh-my-zsh/README.textile
-Name1[$e]=ajax-tree-instruments.json
-Name10[$e]=stepWidthBrightness.js
-Name2[$e]=ajax-tree-local.json
-Name3[$e]=ajax-tree-plain.json
-Name4[$e]=ajax-tree-products.json
-Name5[$e]=ajax-tree-taxonomy.json
-Name6[$e]=ajax-tree.json
-Name7[$e]=asanchez_elster_2048.pfx
-Name8[$e]=kdewallet.kwl
-Name9[$e]=README.textile
+File1[$e]=/Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist02.yml
+File10[$e]=/Respaldo/Qt/README.txt
+File2[$e]=/Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist.yml
+File3[$e]=$HOME/Documents/Mendeley/Thesis.bib
+File4[$e]=$HOME/Documents/Mendeley/Thesis-fishdetection.bib
+File5[$e]=/Respaldo/BMC/Thesis/recover/matlabWS/pose-release-ver1.2/code-basic/FISH3_demo.m
+File6[$e]=/Respaldo/BMC/Thesis/recover/matlabWS/pose-release-ver1.2/code-full/FISH3_readSave.m
+File7[$e]=/Respaldo/BMC/Thesis/code/FishDetector/images/detector.conf
+File8[$e]=/Respaldo/FishscanData/06052013 - Fish in air/Distance fish-background 1,70m.txt
+File9[$e]=$HOME/Downloads/LEVANTAMIENTO-EVALUACION-20121011/word/header1.xml
+Name1[$e]=tailmasklist02.yml
+Name10[$e]=README.txt
+Name2[$e]=tailmasklist.yml
+Name3[$e]=Thesis.bib
+Name4[$e]=Thesis-fishdetection.bib
+Name5[$e]=FISH3_demo.m
+Name6[$e]=FISH3_readSave.m
+Name7[$e]=detector.conf
+Name8[$e]=Distance fish-background 1,70m.txt
+Name9[$e]=header1.xml
 
 [filetree]
 editShade=255,201,241

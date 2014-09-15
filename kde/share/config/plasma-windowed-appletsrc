@@ -49,6 +49,12 @@ immutability=1
 plugin=sm_hdd
 zvalue=0
 
+[StoredApplets][27]
+geometry=0,0,200,128
+immutability=1
+plugin=eyes
+zvalue=0
+
 [StoredApplets][5]
 geometry=0,0,1366,752
 immutability=1

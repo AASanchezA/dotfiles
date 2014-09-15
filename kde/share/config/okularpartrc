@@ -2,4 +2,7 @@
 UseKTTSD=false
 
 [Main View]
-SplitterSizes=400,891
+SplitterSizes=293,305
+
+[PageView]
+ViewContinuous=false

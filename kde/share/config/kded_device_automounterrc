@@ -7,7 +7,7 @@ LastSeenMounted=true
 [Devices][/org/freedesktop/UDisks/devices/mmcblk0p1]
 EverMounted=true
 Icon=media-flash-sd-mmc
-LastNameSeen=3.7 GiB Removable Media
+LastNameSeen=7.4 GiB Removable Media
 LastSeenMounted=false
 
 [Devices][/org/freedesktop/UDisks/devices/mmcblk0p2]
@@ -58,15 +58,15 @@ LastSeenMounted=true
 
 [Devices][/org/freedesktop/UDisks/devices/sdb1]
 EverMounted=true
-Icon=drive-harddisk
-LastNameSeen=SAMSUNG
+Icon=drive-removable-media-usb
+LastNameSeen=29.4 GiB Removable Media
 LastSeenMounted=false
 
 [Devices][/org/freedesktop/UDisks/devices/sdb2]
 EverMounted=true
-Icon=drive-harddisk
-LastNameSeen=BackUp
-LastSeenMounted=false
+Icon=multimedia-player-apple-ipod-video-black
+LastNameSeen=IPOD DE PAB
+LastSeenMounted=true
 
 [Devices][/org/freedesktop/UDisks/devices/sdc]
 Icon=drive-removable-media-usb

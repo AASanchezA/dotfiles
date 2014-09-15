@@ -7,7 +7,7 @@ RightButton;NoModifier=contextmenu
 wheel:Vertical;NoModifier=switchdesktop
 
 [AppletGlobals][plasma_applet_comic]
-lastUpdate=2014,6,14,22,55,34
+lastUpdate=2014,9,15,22,2,9
 updateIntervall=3
 
 [AppletGlobals][plasma_applet_launcher]
@@ -113,7 +113,7 @@ Share=false
 Order=0
 
 [Containments][3][Applets][192][Shortcuts]
-global=Meta+Down
+global=Meta+Space
 
 [Containments][3][Applets][200]
 geometry=1226,3,32,32
@@ -134,7 +134,7 @@ nowplayingBlacklist=org.mpris.bangarang
 popupMode=0
 show_albumart=True
 show_tooltip=true
-size=723,66
+size=723,100
 unitvalues_visible=false
 useTabs=false
 use_mpris2=True
@@ -144,8 +144,8 @@ use_nowplaying=False
 Order=5
 
 [Containments][3][Applets][200][PopupApplet]
-DialogHeight=111
-DialogWidth=723
+DialogHeight=123
+DialogWidth=745
 
 [Containments][3][Applets][208]
 geometry=1262,3,32,32
@@ -162,15 +162,15 @@ lastStripVisited_calvinandhobbes=true
 lastStripVisited_ctrlaltdel=false
 lastStripVisited_nichtlustig=false
 lastStripVisited_phd=false
-lastStripVisited_shithappens=false
+lastStripVisited_shithappens=true
 lastStrip_calvinandhobbes=
-lastStrip_ctrlaltdel=2013-11-27
-lastStrip_nichtlustig=2013-11-12
-lastStrip_phd=1691
-lastStrip_shithappens=2619
+lastStrip_ctrlaltdel=2014-06-13
+lastStrip_nichtlustig=2014-07-16
+lastStrip_phd=1726
+lastStrip_shithappens=2666
 maxSize=150,250
-maxStripNum_phd=1691
-maxStripNum_shithappens=2619
+maxStripNum_phd=1733
+maxStripNum_shithappens=2667
 middleClick=true
 savingDir=
 showComicAuthor=false
@@ -338,7 +338,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][66][Applets][104]
-geometry=951,0,321,25
+geometry=908,0,326,25
 immutability=2
 plugin=systemtray
 zvalue=168
@@ -390,7 +390,7 @@ plugin=notifications
 zvalue=0
 
 [Containments][66][Applets][104][Configuration][Applets][107][Configuration]
-customPosition=-9,-10
+customPosition=-10,-12
 customPositionAffinityHoriz=r
 customPositionAffinityVert=b
 
@@ -431,7 +431,7 @@ DialogWidth=409
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][110]
-geometry=57,0.5,24,24
+geometry=29,0.5,24,24
 immutability=1
 plugin=weather
 zvalue=0
@@ -453,14 +453,14 @@ DialogWidth=267
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][127]
-geometry=29,0.5,24,24
+geometry=57,0.5,24,24
 immutability=1
 plugin=message-indicator
 zvalue=0
 
 [Containments][66][Applets][104][Configuration][Applets][127][PopupApplet]
-DialogHeight=70
-DialogWidth=184
+DialogHeight=171
+DialogWidth=334
 
 [Containments][66][Applets][104][Configuration][Applets][127][Shortcuts]
 global=
@@ -508,7 +508,7 @@ DialogHeight=243
 DialogWidth=252
 
 [Containments][66][Applets][126]
-geometry=638,0,142,25
+geometry=638,0,99,25
 immutability=2
 plugin=fuzzy-clock
 zvalue=42
@@ -601,7 +601,7 @@ DialogHeight=212
 DialogWidth=322
 
 [Containments][66][Applets][135]
-geometry=784,0,163,25
+geometry=741,0,163,25
 immutability=2
 plugin=panelspacer_internal
 zvalue=181

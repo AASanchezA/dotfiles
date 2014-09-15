@@ -2,3 +2,5 @@
 /vim/vimtmp/.*
 .*~
 *~
+kde/share/apps/*
+kde/share/icons/*

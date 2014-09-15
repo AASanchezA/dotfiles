@@ -3,7 +3,7 @@ ApplyOnStartup=true
 StartupCommands=xrandr --output LVDS1 --pos 0x0 --mode 1366x768 --refresh 60.0084\nxrandr --output HDMI1 --pos 1366x0 --mode 1024x768 --refresh 60.0038\nxrandr --noprimary
 
 [Screen_0]
-OutputsUnified=true
+OutputsUnified=false
 UnifiedRect=0,0,0,0
 UnifiedRotation=1
 
