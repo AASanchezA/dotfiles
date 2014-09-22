@@ -1,0 +1,143 @@
+#!/bin/bash
+
+
+while [ true ]
+do
+   echo -e;clear
+   sleep 3
+   echo "T"
+   sleep 1
+   echo -e;clear
+   echo "Th"
+   sleep 1
+   echo -e;clear
+   echo "The"
+   sleep 1
+   echo -e;clear
+   echo "The Matri"
+   sleep 1
+   echo -e;clear
+   echo "The Matrix"
+   sleep 2
+   echo -e;clear
+   echo "The Matrix has you"
+   sleep 1
+   echo -e;clear
+   echo "The Matrix has you ... "
+   sleep 5
+   echo -e;clear
+   sleep 2
+   echo "Knock "
+   sleep 1
+   echo -e;clear
+   echo "Knock, knock. "
+   sleep 3
+   echo -e;clear
+   sleep 2
+   echo "SEARCHING ..."
+   sleep 3
+   echo -e;clear
+   sleep 3
+   echo "SEARCHING ..."
+   sleep 3
+   echo -e;clear
+   sleep 3
+   echo -e;history
+   sleep 3
+   echo -e;clear
+   sleep 2
+   echo -e;ls -all
+   sleep 2
+   echo -e;clear
+   sleep 3
+   echo -e;free -m
+   sleep 4
+   echo -e;ip addr
+   sleep 3
+   echo -e;clear
+   echo -e;netstat --tcp
+   sleep 2
+   echo -e;netstat --tcp --numeric
+   sleep 2
+   echo -e;netstat --tcp --listening
+   sleep 4
+   echo -e;clear
+   echo -n '┌─=[' $(whoami) ']=─┐'
+   sleep 2
+   echo -n '┌─=[' $(who -q) ']=─┐'
+   sleep 2
+   echo -e;df -a -h
+   sleep 3
+   echo -e;acpi -i -t -a -f -c
+   sleep 8
+   echo -e;clear
+   echo -e;ps x
+   sleep 4
+   echo -e;clear
+   echo -e;cat './todo'
+   sleep 5
+   echo -e;clear
+   echo -e;cal -3
+   sleep 5
+   echo "WEATHER CHECK"
+   sleep 5
+   echo -e ;elinks -dump "http://www.google.com/search?q=weather+atlanta&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a" | grep -A 5 -m 1 "Weather for"
+   sleep 3
+   echo -e;clear
+   echo -e ;elinks -dump "http://www.necopost.com/?m=1"
+   sleep 5
+   echo -e;clear
+   sleep 2
+   echo -e;elinks -dump "http://www.necopost.com/p/search-results.html?cx=partner-pub-6420619458936838%3Atfgqjp2z9pz&cof=FORID%3A11&ie=ISO-8859-1&q=necopost+cool+futuristic+3d+desktop+&sa=Search&siteurl=www.necopost.com%2F&ref=www.google.com%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D1%26ved%3D0CFoQFjAA%26url%3Dhttp%253A%252F%252Fnecopost.com%252F%26ei%3DNNvlT6PTHIqa8gSiopm5AQ%26usg%3DAFQjCNFFN7wi8WKPsNvKJGkEJ1K5s1QHFA&siteurl=www.necopost.com%2F&ref=www.google.com%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D1%26ved%3D0CFoQFjAA%26url%3Dhttp%253A%252F%252Fnecopost.com%252F%26ei%3DNNvlT6PTHIqa8gSiopm5AQ%26usg%3DAFQjCNFFN7wi8WKPsNvKJGkEJ1K5s1QHFA"
+   sleep 4
+   echo -e;clear
+   sleep 2
+   echo -e ;elinks -dump "http://m.youtube.com/view_comment?gl=US&hl=en&client=mv-google&v=a5ICFW_lzT8"
+   sleep 5
+   echo -e;clear
+   sleep 2
+   echo "ALL SYSTEMS CHECKED..."
+   sleep 2
+   echo -e;clear
+   echo -e;date
+   sleep 4
+   echo -e;pwd
+   echo -e;who
+   sleep 2
+   echo -e;clear
+   echo "FOLLOW SALEM "
+   sleep 2
+   echo -e;clear
+   sleep 2
+   echo "FOLLOW SALEM @ NECOpost.com "
+   sleep 5
+   echo -e;clear
+   sleep 2
+   echo -e;ifconfig
+   sleep 3
+   echo -e;clear
+   echo -e ;elinks -dump "http://m.youtube.com/user/necopost/videos?gl=US&hl=en&client=mv-google&view=0&page=1"
+   sleep 3
+   echo -e;clear
+   sleep 2
+   echo -e;ps -aux
+   sleep 4
+   echo -e;clear
+   sleep 3
+   echo -e ;elinks -dump "http://m.youtube.com/view_comment?gl=US&hl=en&client=mv-google&v=r62eO-fSPco"
+   sleep 5
+   echo -e;clear
+   sleep 3
+   echo -e;ls --all
+   sleep 4
+   echo -e;clear
+   sleep 4
+   echo -e;clear
+   sleep 2
+   echo -e;history
+   sleep 4
+   echo -e;clear
+   sleep 2
+
+done
+
