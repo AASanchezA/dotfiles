@@ -16,7 +16,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias hgp='history | grep --color=auto'
+alias hcs="history | awk '{print \$2};' | sort | uniq -c | sort -rn | head -15"
 alias findPCs='sudo nmap -sT 192.168.1.0/24'
+alias connectDO='ssh root@178.62.204.199'
 
 
 # Example aliases

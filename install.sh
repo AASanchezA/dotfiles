@@ -35,3 +35,9 @@ echo "Creating symlink to bash_aliases in home directory."
 ln -s $dir/bash_aliases ~/.bash_aliases
 ln -s $dir/git-completion.sh ~/.git-completion.sh
 ln -s $dir/git-prompt.sh ~/.git-prompt.sh
+
+# Install zsh, if not installed
+sudo apt-get install zsh
+
+# Define Zsh, as my default Shell
+sudo chsh -s /bin/zsh
