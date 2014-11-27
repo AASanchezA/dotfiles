@@ -1,0 +1,31 @@
+#This Path has to be adjust per Machine
+#but just to have something here to start
+#insert cuda folder to the path
+export PATH=/usr/local/cuda-5.0/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-5.0/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-5.0/lib64:$LD_LIBRARY_PATH
+
+#ROS setup
+#source /opt/ros/hydro/setup.bash
+
+#Add IPP dependencies to the path
+#source /opt/intel/bin/compilervars.sh intel64
+#export LD_LIBRARY_PATH=/opt/intel/composer_xe_2013.5.192/ipp/lib/intel64/:$LD_LIBRARY_PATH
+
+#Add Leap dependencies to the path
+export LD_LIBRARY_PATH=/usr/lib/Leap/:$LD_LIBRARY_PATH
+
+#add ros dependencies to path
+#source /opt/ros/groovy/setup.bash
+
+#Add wild magic dependencies
+WM5_PATH=/usr/local/wild-magic-5.7 ; export WM5_PATH
+
+#add texlive to the path
+PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH; export PATH
+
+#add pcl 1.7 to the path
+PATH=/usr/include/pcl-1.7:$PATH; export PATH
+
+# added by Anaconda 1.9.2 installer
+export PATH="/home/andres/anaconda/bin:$PATH"

@@ -150,6 +150,10 @@ set directory=~/.vim/vimtmp
 "This unsets the "last search pattern" register by hitting return
 nnoremap <CR><CR> :noh<CR><CR>
 
+"remap to save file with ctr+s
+inoremap <C-s> <esc>:w<cr>a
+nnoremap <C-s> :w<cr>a
+
 "set mapleader to comma key
 let mapleader=","
 
