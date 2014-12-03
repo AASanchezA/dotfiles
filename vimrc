@@ -65,8 +65,15 @@ set incsearch		" do incremental searching
 "inoremap <C-U> <C-G>u<C-U>
 
 " setting guifont
-if has('gui_running')
-  set guifont=Monospace\ 10
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 12
+  elseif has("gui_macvim")
+    set guifont=Menlo\ Regular:h14
+  elseif has("gui_win32")
+    "set guifont=Courier\ New:h9
+    set guifont=Ubuntu\ Mono:h12
+  endif
 endif
 
 " In many terminal emulators the mouse works just fine, thus enable it.
@@ -139,10 +146,10 @@ set tabstop=4
 "=================== Setting Up temp file ========================
 "=================================================================
 " controls where backup files (with ~ extension by default) go.
-set backupdir=~/.vim/vimtmp
+set backupdir=$HOME/Vim/vimtmp
 
 " The 'directory' option controls where swap files go.
-set directory=~/.vim/vimtmp
+set directory=$HOME/Vim/vimtmp
 
 "=================================================================
 "=================== Useful Keybindings ==========================
@@ -167,7 +174,7 @@ vmap <C-k> [egv
 vmap <C-j> ]egv
 
 "Indent code between braces
-map <C-f> gq 
+"map <C-f> gq 
 
 " easier moving between tabs
 map <Leader>n <esc>:tabprevious<CR>
@@ -239,7 +246,7 @@ Bundle 'gmarik/vundle'
 "=================================================================
 " My Bundles here:
 "original repos on github
-Bundle 'Valloric/YouCompleteMe.git'
+"Bundle 'Valloric/YouCompleteMe.git'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'joequery/Stupid-EasyMotion.git'
@@ -257,7 +264,7 @@ Bundle 'bling/vim-airline'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'terryma/vim-multiple-cursors.git'
-Bundle 'vim-scripts/taglist.vim.git'
+"Bundle 'vim-scripts/taglist.vim.git'
 Bundle 'vim-scripts/L9.git'
 Bundle 'nathanaelkane/vim-indent-guides.git'
 Bundle 'Chiel92/vim-autoformat'
@@ -295,7 +302,7 @@ hi IndentGuidesOdd  ctermbg=grey
 hi IndentGuidesEven ctermbg=darkgrey
 
 "GUI setup 
-set toolbar=text,tooltips
+"set toolbar=text,tooltips
 
 "Setting Up line number
 autocmd FocusLost   * : set number
@@ -366,4 +373,4 @@ smap <C-f> <Plug>snipMateNextOrTrigger
 	
 "" YouCompleteMe
 "let g:ycm_key_list_previous_completion=['<Up>']
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+"let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
