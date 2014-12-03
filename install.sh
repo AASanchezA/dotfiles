@@ -33,6 +33,7 @@ done
 # linking also bash alias file
 echo "Creating symlink to bash_aliases in home directory."
 ln -s $dir/bash_aliases ~/.bash_aliases
+ln -s $dir/bash_export ~/.bash_export
 ln -s $dir/git-completion.sh ~/.git-completion.sh
 ln -s $dir/git-prompt.sh ~/.git-prompt.sh
 

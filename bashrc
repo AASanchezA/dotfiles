@@ -82,6 +82,15 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# Export definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_export, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+if [ -f ~/.bash_export ]; then
+    . ~/.bash_export
+fi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -94,34 +103,6 @@ export HISTTIMEFORMAT="%h/%d - %H:%M:%S "
 #Don't sava duplicate command
 export HISTCONTROL=ignoreboth
 
-
-alias android-connect="mtpfs -o allow_other /media/Galaxy"
-alias android-disconnect="fusermount -u /media/Galaxy"
-
-#insert cuda folder to the path
-export PATH=/usr/local/cuda-5.0/bin:$PATH
-export LD_LIBRARY_PATH=/usr/local/cuda-5.0/lib:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=/usr/local/cuda-5.0/lib64:$LD_LIBRARY_PATH
-
-#Add IPP dependencies to the path
-source /opt/intel/bin/compilervars.sh intel64
-export LD_LIBRARY_PATH=/opt/intel/composer_xe_2013.5.192/ipp/lib/intel64/:$LD_LIBRARY_PATH
-
-#Add Leap dependencies to the path
-export LD_LIBRARY_PATH=/usr/lib/Leap/:$LD_LIBRARY_PATH
-
-#add ros dependencies to path
-#source /opt/ros/groovy/setup.bash
-
-#Add wild magic dependencies
-WM5_PATH=/usr/local/wild-magic-5.7 ; export WM5_PATH
-
-#add texlive to the path
-PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH; export PATH
-
-#add pcl 1.7 to the path
-PATH=/usr/include/pcl-1.7:$PATH; export PATH
-
 # sourcing git-completion
 #\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$
 #export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
@@ -131,9 +112,4 @@ export PS1='${debian_chroot:+($debian_chroot)}\[\e[1;34m\]\u@\h:\]\e[0m\]\[\e[1;
 source ~/.git-completion.sh
 source ~/.git-prompt.sh
 
-#ROS setup
-#source /opt/ros/hydro/setup.bash
 
-
-# added by Anaconda 1.9.2 installer
-export PATH="/home/andres/anaconda/bin:$PATH"

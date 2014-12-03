@@ -26,6 +26,15 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# Export definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_export, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+if [ -f ~/.bash_export ]; then
+    . ~/.bash_export
+fi
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -99,6 +108,7 @@ fi
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # VIM mode
+vim() STTY=-ixon command vim "$@"
 bindkey -v
 
 bindkey '^P' up-history
