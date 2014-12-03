@@ -163,11 +163,7 @@ vmap <C-k> [egv
 vmap <C-j> ]egv
 
 "Indent code between braces
-map <C-f> gq 
-
-" easier moving between tabs
-map <Leader>n <esc>:tabprevious<CR>
-map <Leader>m <esc>:tabnext<CR>
+"map <C-f> gq 
 
 " remaping square brackets
 nnoremap ü <]>
@@ -177,6 +173,16 @@ nnoremap Ü <[>
 " better indetation
 vnoremap < <gv 
 vnoremap > >gv
+
+"Map Bufplorer to be control by <ALT> pageUp and pageDown
+" Buffers - explore/next/previous: 
+"nnoremap <C-F12>      :BufExplorer<CR> 
+nnoremap <leader>bb   :buffers<CR>
+nnoremap <leader>bn   :bn<CR>
+nnoremap <leader>bm   :bp<CR>
+" easier moving between tabs
+map <Leader>n <esc>:tabprevious<CR>
+map <Leader>m <esc>:tabnext<CR>
 
 
 "=================================================================
@@ -288,7 +294,7 @@ let g:indent_guides_auto_colors = 1
 "autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 "Alternatively you can add the following lines to your colorscheme file.
 hi IndentGuidesOdd  ctermbg=grey
-hi IndentGuidesEven ctermbg=darkgrey
+hi IndkjdfentGuidesEven ctermbg=darkgrey
 
 "GUI setup 
 set toolbar=text,tooltips
@@ -325,10 +331,10 @@ let g:multi_cursor_use_default_mapping=0
 "You can then map the 'next', 'previous', 'skip', and 'exit' keys like the following:
 
 "Default mapping
-let g:multi_cursor_next_key='<c-m>'
-let g:multi_cursor_prev_key='<c-o>'
-let g:multi_cursor_skip_key='<c-i>'
-let g:multi_cursor_quit_key='<Esc>'
+"let g:multi_cursor_next_key='<c-m>'
+"let g:multi_cursor_prev_key='<c-o>'
+"let g:multi_cursor_skip_key='<c-i>'
+"let g:multi_cursor_quit_key='<Esc>'
 
 "By default, the 'next' key is also used to enter multicursor mode. If you
 "want to use a different key to start multicursor mode than for selecting
@@ -337,11 +343,6 @@ let g:multi_cursor_quit_key='<Esc>'
 " Map start key separately from next key
 "let g:multi_cursor_start_key='<F6>'
 
-"Map Bufplorer to be control by <ALT> pageUp and pageDown
-" Buffers - explore/next/previous: Alt-F12, Alt-pgUp, Alt-pgDown.
-nnoremap <M-F12>      :BufExplorer<CR> 
-nnoremap <M-PageUp>   :bn<CR>
-nnoremap <M-PageDown> :bp<CR>
 
 "Map Taglist to toggle the windows
 nnoremap <C-l>        :TlistToggle<CR>
