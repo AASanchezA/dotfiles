@@ -151,8 +151,8 @@ set directory=~/.vim/vimtmp
 nnoremap <CR><CR> :noh<CR><CR>
 
 "remap to save file with ctr+s
-inoremap <C-s> <esc>:w<cr>a
-nnoremap <C-s> :w<cr>a
+inoremap <C-s> <esc>:w<cr>
+nnoremap <C-s> :w<cr>
 
 "set mapleader to comma key
 let mapleader=","

@@ -15,7 +15,10 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="blinks"
 #ZSH_THEME="random"
 #ZSH_THEME="bira"
-
+ 
+# Disable flow control commands (keeps C-s from freezing everything)
+stty start undef
+stty stop undef
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
