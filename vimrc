@@ -14,21 +14,6 @@ if v:progname =~? "evim"
   finish
 endif
 
-"=================================================================
-"=================== Start keybinding ============================
-"for learning vim I'm going to disable my arrows keys
-"Hoppefully I will learno some time to program
-"=================================================================
-no   <down>    <Nop>
-no   <left>    <Nop>
-no   <right>   <Nop>
-no   <up>      <Nop>
-
-ino   <down>    <Nop>
-ino   <left>    <Nop>
-ino   <right>   <Nop>
-ino   <up>      <Nop>
-
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
@@ -124,6 +109,7 @@ if !exists(":DiffOrig")
 endif
 
 
+    
 "=================================================================
 "=================== Setting Up Tab size  ========================
 "=================================================================
@@ -145,6 +131,21 @@ set backupdir=~/.vim/vimtmp
 set directory=~/.vim/vimtmp
 
 "=================================================================
+"=================== Start keybinding ============================
+"for learning vim I'm going to disable my arrows keys
+"Hoppefully I will learno some time to program
+"=================================================================
+no   <down>    <Nop>
+no   <left>    <Nop>
+no   <right>   <Nop>
+no   <up>      <Nop>
+
+ino   <down>    <Nop>
+ino   <left>    <Nop>
+ino   <right>   <Nop>
+ino   <up>      <Nop>
+
+"=================================================================
 "=================== Useful Keybindings ==========================
 "=================================================================
 "This unsets the "last search pattern" register by hitting return
@@ -153,6 +154,8 @@ nnoremap <CR><CR> :noh<CR><CR>
 "remap to save file with ctr+s
 inoremap <C-s> <esc>:w<cr>
 nnoremap <C-s> :w<cr>
+"inoremap <C-S> <esc>:w !sudo tee %<cr>
+"nnoremap <C-S> :w !sudo tee %<cr>
 
 "set mapleader to comma key
 let mapleader=","
@@ -167,11 +170,11 @@ vmap <C-k> [egv
 vmap <C-j> ]egv
 
 "Indent code between braces
-"map <C-f> gq 
+"map <C-f> g4 
 
 " remaping square brackets
-nnoremap ü <]>
-nnoremap Ü <[>
+"nnoremap ü <]>
+"nnoremap Ü <[>
 
 " Easier moving of code Blocks
 " better indetation
@@ -180,30 +183,15 @@ vnoremap > >gv
 
 "Map Bufplorer to be control by <ALT> pageUp and pageDown
 " Buffers - explore/next/previous: 
-"nnoremap <C-F12>      :BufExplorer<CR> 
-nnoremap <leader>bb   :buffers<CR>
-nnoremap <leader>bn   :bn<CR>
-nnoremap <leader>bm   :bp<CR>
+nnoremap <leader><leader>b   :BufExplorer<CR> 
+"nnoremap <leader>bb   :buffers<CR>
+nnoremap <leader><leader>n   :bn<CR>
+nnoremap <leader><leader>m   :bp<CR>
+
 " easier moving between tabs
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
 
-
-"=================================================================
-"=================== NerdTree Settings ===========================
-"=================================================================
-"How can I open a NERDTree automatically when vim starts up?
-"autocmd vimenter * NERDTree
-
-"How can I open a NERDTree automatically when vim starts up if no files were specified?
-autocmd vimenter * if !argc() | NERDTree | endif
-
-"How can I map a specific key or shortcut to open NERDTree?
-"open NERDTree with Ctrl+n (you can set whatever key you want):
- map <C-n> :NERDTreeToggle<CR>
-
-"How can I close vim if the only window left open is a NERDTree?
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "=================================================================
 "=================== Pathogen Packages Manager ===================
@@ -279,7 +267,6 @@ Bundle "garbas/vim-snipmate"
 "Optional:
 Bundle "honza/vim-snippets"
 
-    
 "=================================================================
 "=================== Make Vim Nice ==============================
 "=================================================================
@@ -292,10 +279,6 @@ highlight ColorColumn ctermbg=233
 
 hi Normal ctermbg=NONE
 
-" Setting Up vim-indent-guides
-let g:indent_guides_auto_colors = 1
-"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
-"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 "Alternatively you can add the following lines to your colorscheme file.
 hi IndentGuidesOdd  ctermbg=grey
 hi IndkjdfentGuidesEven ctermbg=darkgrey
@@ -309,10 +292,42 @@ autocmd InsertEnter * : set number
 autocmd InsertLeave * : set relativenumber
 autocmd CursorMoved * : set relativenumber
 
+"=================================================================
+"=================== NerdTree Settings ===========================
+"=================================================================
+"How can I open a NERDTree automatically when vim starts up?
+"autocmd vimenter * NERDTree
+
+"How can I open a NERDTree automatically when vim starts up if no files were specified?
+autocmd vimenter * if !argc() | NERDTree | endif
+
+"How can I map a specific key or shortcut to open NERDTree?
+"open NERDTree with Ctrl+n (you can set whatever key you want):
+ map <C-n> :NERDTreeToggle<CR>
+
+"How can I close vim if the only window left open is a NERDTree?
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+"=================================================================
+"=================== Plugins Settings ============================
+"=================================================================
+" Setting Up vim-indent-guides
+let g:indent_guides_auto_colors = 1
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
+
 "Adding mapping and the default command to invoke CtrlP
+"Press <F5> to purge the cache for the current directory to get new files, remove deleted files and apply new ignore options.
+"Press <c-f> and <c-b> to cycle between modes.
+"Press <c-d> to switch to filename only search instead of full path.
+"Press <c-r> to switch to regexp mode.
+"Use <c-j>, <c-k> or the arrow keys to navigate the result list.
+"Use <c-t> or <c-v>, <c-x> to open the selected entry in a new tab or in a new split.
+"Use <c-n>, <c-p> to select the next/previous string in the prompt's history.
+"Use <c-y> to create a new file and its parent directories.
+"Use <c-z> to mark/unmark multiple files and <c-o> to open them.
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-
 
 " Airline settings
 set laststatus=2
@@ -329,11 +344,8 @@ set laststatus=2
 " in the special multicursor mode once you've added at least one
 " virtual cursor to the buffer. If you don't like the plugin taking
 " over your favorite key bindings, you can turn off the default with
-
 let g:multi_cursor_use_default_mapping=0
-
 "You can then map the 'next', 'previous', 'skip', and 'exit' keys like the following:
-
 "Default mapping
 "let g:multi_cursor_next_key='<c-m>'
 "let g:multi_cursor_prev_key='<c-o>'
@@ -367,4 +379,5 @@ smap <C-f> <Plug>snipMateNextOrTrigger
 	
 "" YouCompleteMe
 "let g:ycm_key_list_previous_completion=['<Up>']
+let g:ycm_register_as_syntastic_checker = 0
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
