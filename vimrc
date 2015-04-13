@@ -245,6 +245,7 @@ Bundle 'gmarik/vundle'
 "=================================================================
 " My Bundles here:
 "original repos on github
+Bundle 'jlanzarotta/bufexplorer'
 Bundle 'Valloric/YouCompleteMe.git'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
@@ -260,6 +261,8 @@ Bundle 'klen/python-mode.git'
 Bundle 'LaTeX-Box-Team/LaTeX-Box.git'
 Bundle 'nelstrom/vim-markdown-folding.git'
 Bundle 'bling/vim-airline'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'terryma/vim-multiple-cursors.git'
