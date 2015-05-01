@@ -1,7 +1,9 @@
 /vim/vimtmp/*
+/vim/bundle/*
 /vim/vimtmp/.*
 .*~
 *~
 kde/share/apps/*
 kde/share/icons/*
 kde/share/config/*
+*.pyc
