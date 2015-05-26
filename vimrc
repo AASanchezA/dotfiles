@@ -114,12 +114,13 @@ endif
 "=================== Setting Up Tab size  ========================
 "=================================================================
 set smartindent
-set noexpandtab
 set copyindent
 set preserveindent
-set softtabstop=0
+set shiftwidth=4
+set softtabstop=4
 set shiftwidth=4
 set tabstop=4
+set expandtab
 
 "=================================================================
 "=================== Setting Up temp file ========================
@@ -234,7 +235,7 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 "original repos on github
 Bundle 'jlanzarotta/bufexplorer'
-Bundle 'Valloric/YouCompleteMe.git'
+"Bundle 'Valloric/YouCompleteMe.git'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'joequery/Stupid-EasyMotion.git'
