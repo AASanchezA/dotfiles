@@ -74,7 +74,7 @@ zstyle ':completion:*' special-dirs true
       
 # don't put duplicate lines in the history. See bash(1) for more options
 # ... or force ignoredups and ignorespace
-HISTCONTROL=ignoredups:ignorespace
+HISTCONTROL=ignoredups:ignorespace:erasedups
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
@@ -85,7 +85,7 @@ HISTFILESIZE=2000
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git sublime web-search tmux) 
+plugins=(git sublime web-search systemadmin tmux ) 
 
 source $ZSH/oh-my-zsh.sh
 

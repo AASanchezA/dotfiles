@@ -29,3 +29,6 @@ PATH=/usr/include/pcl-1.7:$PATH; export PATH
 
 # added by Anaconda 1.9.2 installer
 export PATH="/home/andres/anaconda/bin:$PATH"
+
+# added by emacs custom build
+export PATH="/Respaldo/kinect/emacs/src:$PATH"

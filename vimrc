@@ -235,7 +235,7 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 "original repos on github
 Bundle 'jlanzarotta/bufexplorer'
-"Bundle 'Valloric/YouCompleteMe.git'
+Bundle 'Valloric/YouCompleteMe.git'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'joequery/Stupid-EasyMotion.git'
@@ -303,14 +303,14 @@ autocmd CursorMoved * : set relativenumber
 "autocmd vimenter * NERDTree
 
 "How can I open a NERDTree automatically when vim starts up if no files were specified?
-autocmd vimenter * if !argc() | NERDTree | endif
+"autocmd vimenter * if !argc() | NERDTree | endif
 
 "How can I map a specific key or shortcut to open NERDTree?
 "open NERDTree with Ctrl+n (you can set whatever key you want):
  map <C-n> :NERDTreeToggle<CR>
 
 "How can I close vim if the only window left open is a NERDTree?
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "=================================================================
 "=================== Plugins Settings ============================
@@ -385,3 +385,6 @@ smap <C-f> <Plug>snipMateNextOrTrigger
 "let g:ycm_key_list_previous_completion=['<Up>']
 let g:ycm_register_as_syntastic_checker = 0
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+
+"" Latex-Box
+"let g:LatexBox_latexmk_options = '-pdflatex="lualatex"'
