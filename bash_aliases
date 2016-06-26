@@ -25,7 +25,7 @@ alias connectDOAndres='ssh andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
 alias proxyPT='ssh -L 8888:127.0.0.1:8888 -p 2222 sato@brocoli.combinado.cl'
 alias proxyDO='ssh -L 8888:127.0.0.1:8888 andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
 alias powerhtml='sudo powertop -r /var/www/power.html -t 60'
-alias vin='vim --noplugin'
+alias vino='vim --noplugin'
 
 
 # Example aliases
