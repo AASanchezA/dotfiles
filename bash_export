@@ -32,3 +32,7 @@ export PATH="/home/andres/anaconda/bin:$PATH"
 
 # added by emacs custom build
 export PATH="/Respaldo/kinect/emacs/src:$PATH"
+
+#develop enviroment ptp
+export PATH=/usr/local/lib:$PATH
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
