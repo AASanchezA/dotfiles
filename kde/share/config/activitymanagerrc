@@ -1,13 +1,23 @@
 [activities]
-0c296a8e-d330-4902-9334-9015fb917911=Desktop Icons
+5f72ecc2-0d5d-46d0-a5b3-10fcaf1f9e98=Development Activity
 c1368d32-c9bf-47a1-9f72-6c8409f1e031=Search and Launch
+
+[activities-icons]
+17ec80eb-33ec-4802-b7f9-66259186a682=accessories-dictionary
+5f72ecc2-0d5d-46d0-a5b3-10fcaf1f9e98=folder-development
+b31d9967-ca59-4135-903c-5efe23b8e126=digikam
 
 [activitiesDesktops]
 0c296a8e-d330-4902-9334-9015fb917911=1
+17ec80eb-33ec-4802-b7f9-66259186a682=2
+1a9d35f4-1317-4f4a-80ce-19b7c396cb3d=1
 3066df60-a130-4a50-95d7-cc307f9613dc=1
+5f72ecc2-0d5d-46d0-a5b3-10fcaf1f9e98=1
+68ddb65b-541a-4e89-8a61-8b2234692d22=2
+b31d9967-ca59-4135-903c-5efe23b8e126=2
 c1368d32-c9bf-47a1-9f72-6c8409f1e031=1
 ee7aecb5-672a-4d3c-9fcf-71cab2810e05=1
 
 [main]
 currentActivity=c1368d32-c9bf-47a1-9f72-6c8409f1e031
-runningActivities=c1368d32-c9bf-47a1-9f72-6c8409f1e031
+runningActivities=c1368d32-c9bf-47a1-9f72-6c8409f1e031,5f72ecc2-0d5d-46d0-a5b3-10fcaf1f9e98

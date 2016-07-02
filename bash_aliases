@@ -20,12 +20,15 @@ alias hcs="history | awk '{print \$2};' | sort | uniq -c | sort -rn | head -15"
 alias primusrunBlank="vblank_mode=0 primusrun"
 alias findPCs='sudo nmap -sT 192.168.1.0/24'
 alias findPrinters='nmap -p 9100,515,631 192.168.1.1/24'
-alias connectDO='ssh root@178.62.204.199'
-alias connectDOAndres='ssh andres@178.62.204.199 -i ~/.ssh/digitalOcean'
+alias connectDO='ssh andres@kurbis.combinado.cl'
+alias connectDOAndres='ssh andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
+
 alias proxyPT='ssh -L 8888:127.0.0.1:8888 -p 2222 sato@brocoli.combinado.cl'
 alias proxyDO='ssh -L 8888:127.0.0.1:8888 andres@178.62.204.199 -i ~/.ssh/digitalOcean'
 alias proxyDO1='ssh -L 8888:127.0.0.1:8888 andres@178.62.207.97 -i ~/.ssh/digitalOcean'
+alias proxyDO2='ssh -L 8888:127.0.0.1:8888 andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
 alias powerhtml='sudo powertop -r /var/www/power.html -t 60'
+alias vino='vim --noplugin'
 
 
 # Example aliases

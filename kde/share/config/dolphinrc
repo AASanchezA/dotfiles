@@ -10,6 +10,9 @@ PreviewSize=32
 [CompactMode]
 FontWeight=50
 
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
 [DetailsMode]
 FontWeight=50
 PreviewSize=64
@@ -61,7 +64,7 @@ Height 600=601
 Height 768=769
 Height 900=880
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAADYAAADUvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAeAAAC0gAAAAgBAAAF+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAeAAADUgAAAFABAAAFAAAAAQAAAK4AAALD/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAB4AAALDAAAACAEAAAX7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAB4AAALSAAAACAEAAAUAAAADAAAFVgAAAOn8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAFVgAAAAgBAAAFAAAExQAAA1IAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADFAAAC0vwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAeAAABXgAAAAgBAAAF+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAeAAAC0gAAAFABAAAFAAAAAQAAANQAAALS/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAAB4AAALSAAAA9QEAAAX7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAB4AAAKvAAAAAAAAAAAAAAADAAAFVgAAAdr8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAFVgAAAAgBAAAFAAADtwAAAtIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1024=1025
 Width 1360=1361
@@ -74,7 +77,7 @@ Width 800=801
 
 [Open-with settings]
 CompletionMode=5
-History=subl,openoffice4 -writer %U,kate,kate -b %U,meshlab,openshot,gvim,codeblocks,gwenview %U -caption "%c" %i,openshot %F,libreoffice --writer %U,dragon %u,ghb,kfmclient openProfile webbrowsing,libreoffice --impress %U
+History=kate,subl,openoffice4 -writer %U,kate -b %U,meshlab,openshot,gvim,codeblocks,gwenview %U -caption "%c" %i,openshot %F,libreoffice --writer %U,dragon %u,ghb,kfmclient openProfile webbrowsing,libreoffice --impress %U
 
 [PreviewSettings]
 Plugins=directorythumbnail,imagethumbnail,jpegthumbnail,gsthumbnail,textthumbnail

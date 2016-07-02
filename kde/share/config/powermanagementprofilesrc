@@ -4,6 +4,9 @@ icon=preferences-system-performance
 [AC][BrightnessControl]
 value=100
 
+[AC][DPMSControl]
+idleTime=3600
+
 [AC][HandleButtonEvents]
 lidAction=1
 powerButtonAction=16

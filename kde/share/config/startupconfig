@@ -7,20 +7,8 @@ kcminputrc_mouse_cursorsize=''
 ksplashrc_ksplash_theme=Idea
 # ksplashrc KSplash Engine KSplashX
 ksplashrc_ksplash_engine=KSplashX
-# krandrrc Display ApplyOnStartup false
-krandrrc_display_applyonstartup=true
-# krandrrc Display StartupCommands ''
-krandrrc_display_startupcommands='xrandr --output LVDS1 --pos 0x0 --mode 1366x768 --refresh 60.0084
-xrandr --output HDMI1 --pos 1366x0 --mode 1024x768 --refresh 60.0038
-xrandr --noprimary'
-# krandrrc [Screen0]
-# krandrrc [Screen1]
-# krandrrc [Screen2]
-# krandrrc [Screen3]
 # kcmfonts General forceFontDPI 0
 kcmfonts_general_forcefontdpi=0
 # kdeglobals Locale Language '' # trigger requesting languages from KLocale
 kdeglobals_locale_language=''
-# kdeglobals Locale Country ''
-kdeglobals_locale_country=de
 klocale_languages=en_US

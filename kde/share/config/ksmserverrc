@@ -312,8 +312,54 @@ wasWm9=false
 [SubSession: 0c296a8e-d330-4902-9334-9015fb917911]
 count=0
 
+[SubSession: 17ec80eb-33ec-4802-b7f9-66259186a682]
+count=0
+
+[SubSession: 1a9d35f4-1317-4f4a-80ce-19b7c396cb3d]
+count=0
+
 [SubSession: 3066df60-a130-4a50-95d7-cc307f9613dc]
 count=0
+
+[SubSession: 5f72ecc2-0d5d-46d0-a5b3-10fcaf1f9e98]
+count=0
+
+[SubSession: 68ddb65b-541a-4e89-8a61-8b2234692d22]
+count=0
+
+[SubSession: b31d9967-ca59-4135-903c-5efe23b8e126]
+count=0
+
+[SubSession: c1368d32-c9bf-47a1-9f72-6c8409f1e031]
+clientId1=10a7657650000143884885500000029950014
+clientId2=10a7657650000143884891800000029950016
+clientId3=10a7657650000143884894500000029950017
+clientId4=10a7657650000143884895300000029950018
+count=4
+discardCommand1[$e]=rm,$HOME/dotfiles/kde/share/config/session/okular_10a7657650000143884885500000029950014_1438893932_804088
+discardCommand2[$e]=rm,$HOME/dotfiles/kde/share/config/session/okular_10a7657650000143884891800000029950016_1438893932_804070
+discardCommand3[$e]=rm,$HOME/dotfiles/kde/share/config/session/dolphin_10a7657650000143884894500000029950017_1438893932_804297
+discardCommand4[$e]=rm,$HOME/dotfiles/kde/share/config/session/dolphin_10a7657650000143884895300000029950018_1438893932_804191
+program1=/usr/bin/okular
+program2=/usr/bin/okular
+program3=/usr/bin/dolphin
+program4=/usr/bin/dolphin
+restartCommand1=/usr/bin/okular,-session,10a7657650000143884885500000029950014_1438893932_804088
+restartCommand2=/usr/bin/okular,-session,10a7657650000143884891800000029950016_1438893932_804070
+restartCommand3=/usr/bin/dolphin,-session,10a7657650000143884894500000029950017_1438893932_804297
+restartCommand4=/usr/bin/dolphin,-session,10a7657650000143884895300000029950018_1438893932_804191
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=andres
+userId2=andres
+userId3=andres
+userId4=andres
+wasWm1=false
+wasWm2=false
+wasWm3=false
+wasWm4=false
 
 [SubSession: ee7aecb5-672a-4d3c-9fcf-71cab2810e05]
 count=0

@@ -9,25 +9,25 @@ DefaultProfile=Shell.profile
 
 [Document 0]
 Bookmarks=
-Encoding=UTF-8
+Encoding=UTF-16LE
 FoldedColumns=
 FoldedLines=
-Highlighting=None
+Highlighting=INI Files
 Indentation Mode=
-Mode=
+Mode=INI Files
 ReadWrite=true
-URL=
+URL=file:///Respaldo/Downloads/16.6_2015_OrCAD Lite_All Products/0x0409.ini
 
 [Document 1]
 Bookmarks=
 Encoding=UTF-8
 FoldedColumns=
 FoldedLines=
-Highlighting=YAML
-Indentation Mode=
-Mode=YAML
+Highlighting=Python
+Indentation Mode=python
+Mode=Python
 ReadWrite=true
-URL=file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist01.yml
+URL=file:///tmp/mozilla_andres0/ellipse_demo.py
 
 [Document 10]
 Bookmarks=
@@ -133,11 +133,11 @@ Bookmarks=
 Encoding=UTF-8
 FoldedColumns=
 FoldedLines=
-Highlighting=YAML
-Indentation Mode=
-Mode=YAML
+Highlighting=Python
+Indentation Mode=python
+Mode=Python
 ReadWrite=true
-URL=file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist02.yml
+URL=file:///tmp/mozilla_andres0/scatter_demo2.py
 
 [Document 3]
 Bookmarks=
@@ -229,6 +229,7 @@ Modified Notification=false
 Restore Window Configuration=true
 Save Meta Infos=true
 Show Full Path in Title=false
+Show Menu Bar=true
 Show Status Bar=true
 
 [KFileDialog Settings]
@@ -245,6 +246,7 @@ Allow Simple Mode=true
 Automatically Insert Closing Brackets=false
 BOM=false
 Backup Config Flags=1
+Backup Flags=0
 Backup Prefix=
 Backup Suffix=~
 Encoding=UTF-8
@@ -256,11 +258,12 @@ Indentation Mode=
 Indentation Width=2
 Keep Extra Spaces=false
 Line Length Limit=1024
+Newline At EOF=false
 No sync=false
 On-The-Fly Spellcheck=false
 Overwrite Mode=false
 PageUp/PageDown Moves Cursor=false
-Remove Spaces=false
+Remove Spaces=0
 RemoveTrailingDyn=false
 ReplaceTabsDyn=false
 Search Dir Config Depth=3
@@ -281,6 +284,7 @@ Fallback Encoding=ISO-8859-15
 kate_kttsd=false
 katebacktracebrowserplugin=false
 katebuildplugin=false
+katecloseexceptplugin=true
 katectagsplugin=false
 kateexternaltoolsplugin=false
 katefilebrowserplugin=false
@@ -290,9 +294,13 @@ kategdbplugin=false
 katekonsoleplugin=true
 katemailfilesplugin=false
 kateopenheaderplugin=false
+katepateplugin=false
+kateprojectplugin=true
 katequickdocumentswitcherplugin=false
+katereplicodeplugin=false
 katesearchplugin=false
 katesnippets_tngplugin=true
+katesnippetsplugin=false
 katesqlplugin=false
 katesymbolviewerplugin=false
 katetabbarextensionplugin=false
@@ -302,14 +310,28 @@ katexmlcheckplugin=false
 katexmltoolsplugin=false
 
 [Kate Renderer Defaults]
+Animate Bracket Matching=false
 Schema=kate - Normal
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
 Word Wrap Marker=false
 
 [Kate Vi Input Mode Settings]
+Command Mode Mapping Keys=
+Command Mode Mappings=
+Command Mode Mappings Recursion=
+Insert Mode Mapping Keys=
+Insert Mode Mappings=
+Insert Mode Mappings Recursion=
+Macro Completions=
+Macro Contents=
+Macro Registers=
 Normal Mode Mapping Keys=
 Normal Mode Mappings=
+Normal Mode Mappings Recursion=
+Visual Mode Mapping Keys=
+Visual Mode Mappings=
+Visual Mode Mappings Recursion=
 
 [Kate View Defaults]
 Allow Mark Menu=true
@@ -321,30 +343,37 @@ Dynamic Word Wrap Align Indent=80
 Dynamic Word Wrap Indicators=1
 Folding Bar=true
 Icon Bar=false
+Keyword Completion=true
 Line Modification=true
 Line Numbers=false
 Maximum Search History Size=100
 Persistent Selection=false
 Replacement Text History=SURF_descriptor,.o
 Scroll Bar Marks=false
+Scroll Bar Mini Map=false
+Scroll Bar Mini Map All=false
+Scroll Bar Mini Map Width=60
 Scroll Past End=false
 Search Pattern History=Triggers,Parts,cvPointSeqFromMat,CheckContourConvexity,cvCheckContourConvexity,OpenCVReprojectImageToPointCloud ,class41,.cpp,findSquares,imagePoints,vector,lines,#include,0,Clone,gray,dista,fchmod,OpenCv,OpenCV,OPENCV,live,OPENNI,32,panel,phi,figure,\\\\ref,\\\\section
 Search/Replace Flags=140
+Show Scrollbars=0
 Smart Copy Cut=false
 Vi Input Mode=false
+Vi Input Mode Emulate Command Bar=false
 Vi Input Mode Hide Status Bar=false
 Vi Input Mode Steal Keys=false
 Word Completion=true
 Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
 
 [MainWindow]
 Height 200=201
-Height 768=769
+Height 768=752
 State=AAAA/wAAAAD9AAAAAAAABVYAAAK9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAAAAADGgAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1024=1025
 Width 1360=1361
-Width 1366=1367
+Width 1366=1366
 Width 320=321
 
 [MainWindow0]
@@ -357,7 +386,7 @@ Height 768=769
 Insertion Mode Visible=true
 Kate-MDI-H-Splitter=231,1104,200
 Kate-MDI-Sidebar-0-Splitter=701,0
-Kate-MDI-Sidebar-3-Splitter=0
+Kate-MDI-Sidebar-3-Splitter=0,0
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-ToolView-kate_plugin_snippets_tng-Persistent=false
 Kate-MDI-ToolView-kate_plugin_snippets_tng-Position=0
@@ -375,6 +404,14 @@ Kate-MDI-ToolView-katefindinfilesplugin_1-Persistent=false
 Kate-MDI-ToolView-katefindinfilesplugin_1-Position=3
 Kate-MDI-ToolView-katefindinfilesplugin_1-Sidebar-Position=1
 Kate-MDI-ToolView-katefindinfilesplugin_1-Visible=false
+Kate-MDI-ToolView-kateproject-Persistent=false
+Kate-MDI-ToolView-kateproject-Position=0
+Kate-MDI-ToolView-kateproject-Sidebar-Position=1
+Kate-MDI-ToolView-kateproject-Visible=false
+Kate-MDI-ToolView-kateprojectinfo-Persistent=false
+Kate-MDI-ToolView-kateprojectinfo-Position=3
+Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
+Kate-MDI-ToolView-kateprojectinfo-Visible=false
 Kate-MDI-V-Splitter=150,675,214
 Selection Mode Visible=true
 State=AAAA/wAAAAD9AAAAAAAABVYAAAK9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAAAAADGgAAAAAAAAAA
@@ -395,12 +432,12 @@ Children=MainWindow0-ViewSpace 0
 Sizes=1104
 
 [MainWindow0-ViewSpace 0]
-Active View=
+Active View=file:///Respaldo/Downloads/16.6_2015_OrCAD Lite_All Products/0x0409.ini
 Count=1
-View 0=file:///home/andres/Downloads/LEVANTAMIENTO-EVALUACION-20121011/word/header1.xml
-View 1=file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist02.yml
+View 0=file:///Respaldo/Downloads/16.6_2015_OrCAD Lite_All Products/0x0409.ini
+View 1=file:///tmp/mozilla_andres0/ellipse_demo.py
 View 10=file:///Respaldo/kinect/fancytree/demo/ajax-tree-decide.json
-View 2=file:///Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist.yml
+View 2=file:///tmp/mozilla_andres0/scatter_demo2.py
 View 3=file:///Respaldo/kinect/fancytree/demo/ajax-tree-fs.json
 View 4=file:///Respaldo/kinect/fancytree/demo/ajax-tree-dom.json
 View 5=file:///Respaldo/kinect/fancytree/demo/ajax-sub2.json
@@ -1505,6 +1542,12 @@ CursorLine=0
 JumpList=
 ViMarks=
 
+[MainWindow0-ViewSpace 0 file:///Respaldo/Downloads/16.6_2015_OrCAD Lite_All Products/0x0409.ini]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
 [MainWindow0-ViewSpace 0 file:///Respaldo/Downloads/TorBrowser_en-US.app/README-TorBrowserBundle]
 CursorColumn=0
 CursorLine=0
@@ -1534,6 +1577,12 @@ CursorColumn=0
 CursorLine=0
 
 [MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/FishScan/04062013/Fish length and weight.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///Respaldo/Dropbox/Karin/Lebenlauf/curriculum vitae_Karin.aux]
 CursorColumn=0
 CursorLine=0
 JumpList=
@@ -2895,6 +2944,30 @@ CursorLine=0
 JumpList=
 ViMarks=
 
+[MainWindow0-ViewSpace 0 file:///home/andres/.cache/ctrlp/hist/cache.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/.cache/ctrlp/mru/cache.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/.cache/ubuntuone/log/credentials.log.2013-10-21_09-12-32]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/.cache/zeitgeist/daemon.log.2012-12-08]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
 [MainWindow0-ViewSpace 0 file:///home/andres/.config/sublime-text-3/Packages/User/Package Control.last-run]
 CursorColumn=0
 CursorLine=1
@@ -2974,6 +3047,12 @@ JumpList=
 ViMarks=
 
 [MainWindow0-ViewSpace 0 file:///home/andres/Downloads/02-KeyboardInput/main.cpp]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/andres/Downloads/20160229-1002037354-umsMT942.TXT]
 CursorColumn=0
 CursorLine=0
 JumpList=
@@ -4505,6 +4584,12 @@ CursorLine=0
 JumpList=
 ViMarks=
 
+[MainWindow0-ViewSpace 0 file:///home/andres/vimgolf/lettercasetrickery]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
 [MainWindow0-ViewSpace 0 file:///home/andres/workspace/composicion/main.cpp]
 CursorColumn=0
 CursorLine=0
@@ -4974,6 +5059,24 @@ ViMarks=
 [MainWindow0-ViewSpace 0 file:///tmp/lookAtToFImages.m]
 CursorColumn=0
 CursorLine=25
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///tmp/mozilla_andres0/ellipse_demo.py]
+CursorColumn=10
+CursorLine=20
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///tmp/mozilla_andres0/histogram_demo_features.py]
+CursorColumn=0
+CursorLine=13
+JumpList=
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///tmp/mozilla_andres0/scatter_demo2.py]
+CursorColumn=0
+CursorLine=39
 JumpList=
 ViMarks=
 
@@ -5462,6 +5565,9 @@ Count=1
 [Open MainWindows]
 Count=1
 
+[Plugin:katecloseexceptplugin:menu]
+ShowConfirmation=true
+
 [Plugin:katefindinfilesplugin::find-in-files]
 CaseSensitive=true
 FollowDirectorySymlinks=false
@@ -5478,26 +5584,24 @@ enabled_0[$e]=/usr/share/kde4/apps/ktexteditor_snippets/data/testsnippetscpp.xml
 enabled_1[$e]=/usr/share/kde4/apps/ktexteditor_snippets/data/testsnippets.xml
 
 [Recent Files]
-File1[$e]=/Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist02.yml
-File10[$e]=/Respaldo/Qt/README.txt
-File2[$e]=/Respaldo/FishscanData/12042013_Averoya/1167_grams_avgs_group/03/tiff/tailmasklist.yml
-File3[$e]=$HOME/Documents/Mendeley/Thesis.bib
-File4[$e]=$HOME/Documents/Mendeley/Thesis-fishdetection.bib
-File5[$e]=/Respaldo/BMC/Thesis/recover/matlabWS/pose-release-ver1.2/code-basic/FISH3_demo.m
-File6[$e]=/Respaldo/BMC/Thesis/recover/matlabWS/pose-release-ver1.2/code-full/FISH3_readSave.m
-File7[$e]=/Respaldo/BMC/Thesis/code/FishDetector/images/detector.conf
-File8[$e]=/Respaldo/FishscanData/06052013 - Fish in air/Distance fish-background 1,70m.txt
-File9[$e]=$HOME/Downloads/LEVANTAMIENTO-EVALUACION-20121011/word/header1.xml
-Name1[$e]=tailmasklist02.yml
-Name10[$e]=README.txt
-Name2[$e]=tailmasklist.yml
-Name3[$e]=Thesis.bib
-Name4[$e]=Thesis-fishdetection.bib
-Name5[$e]=FISH3_demo.m
-Name6[$e]=FISH3_readSave.m
-Name7[$e]=detector.conf
-Name8[$e]=Distance fish-background 1,70m.txt
-Name9[$e]=header1.xml
+File1[$e]=$HOME/.cache/ctrlp/mru/cache.txt
+File2[$e]=$HOME/.cache/docky/docky.desktop.en_US.UTF-8.cache
+File3[$e]=$HOME/.cache/gnome-disk-utility/drive-benchmark/Toshiba-External USB HDD-0132-201104240E08
+File4[$e]=$HOME/.cache/zeitgeist/daemon.log.2012-12-08
+File5[$e]=$HOME/.cache/ubuntuone/log/credentials.log.2013-10-21_09-12-32
+File6[$e]=$HOME/vimgolf/lettercasetrickery
+File7[$e]=/Respaldo/Dropbox/Karin/Lebenlauf/curriculum vitae_Karin.aux
+File8[$e]=$HOME/Downloads/20160229-1002037354-umsMT942.TXT
+File9[$e]=/Respaldo/Downloads/16.6_2015_OrCAD Lite_All Products/0x0409.ini
+Name1[$e]=cache.txt
+Name2[$e]=docky.desktop.en_US.UTF-8.cache
+Name3[$e]=Toshiba-External USB HDD-0132-201104240E08
+Name4[$e]=daemon.log.2012-12-08
+Name5[$e]=credentials.log.2013-10-21_09-12-32
+Name6[$e]=lettercasetrickery
+Name7[$e]=curriculum vitae_Karin.aux
+Name8[$e]=20160229-1002037354-umsMT942.TXT
+Name9[$e]=0x0409.ini
 
 [filetree]
 editShade=255,201,241

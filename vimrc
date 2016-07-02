@@ -114,13 +114,15 @@ endif
 "=================== Setting Up Tab size  ========================
 "=================================================================
 set smartindent
+set noexpandtab
+"set expandtab
 set copyindent
 set preserveindent
 set shiftwidth=4
-set softtabstop=4
+set softtabstop=0
 set shiftwidth=4
 set tabstop=4
-set expandtab
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:.
 
 "=================================================================
 "=================== Setting Up temp file ========================

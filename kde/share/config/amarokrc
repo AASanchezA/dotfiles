@@ -1,13 +1,19 @@
 [$Version]
 update_info=amarok.upd:1
 
+[Analyzer Applet]
+Current Analyzer=Blocky
+Height=120
+
 [Collection Browser]
-TreeCategory=2,1
+TreeCategory=3,1
 View Mode=NormalCollections
 
 [Collection Folders]
 3=./andres/Music
-Use MusicLocation=true
+
+[Context View]
+firstTimeWithAnalyzer=false
 
 [File Browser]
 Current Directory=file:///
@@ -26,13 +32,10 @@ Height 768=450
 Width 1366=720
 
 [MainWindow]
-Height 768=752
-State=AAAA/wAAAAD9AAAAAQAAAAAAAAVWAAACpfwBAAAAA/sAAAAkAE0AZQBkAGkAYQAgAFMAbwB1AHIAYwBlAHMAIABkAG8AYwBrAQAAAAAAAAEqAAAAfQEAAAX7AAAAGABDAG8AbgB0AGUAeAB0ACAAZABvAGMAawEAAAEtAAADHQAAAFABAAAF+wAAABoAUABsAGEAeQBsAGkAcwB0ACAAZABvAGMAawEAAARNAAABCQAAALABAAAFAAAAAAAAAqUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYATQBhAGkAbgBUAG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAFMAbABpAG0AIABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+Height 768=769
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAVWAAACpfwBAAAAA/sAAAAkAE0AZQBkAGkAYQAgAFMAbwB1AHIAYwBlAHMAIABkAG8AYwBrAQAAAAAAAAEqAAAAzgEAAAX7AAAAGABDAG8AbgB0AGUAeAB0ACAAZABvAGMAawEAAAEtAAADHQAAAZYBAAAF+wAAABoAUABsAGEAeQBsAGkAcwB0ACAAZABvAGMAawEAAARNAAABCQAAAM4BAAAFAAAAAAAAAqUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYATQBhAGkAbgBUAG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAFMAbABpAG0AIABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-Width 1366=1366
-
-[Playback]
-Mute State=true
+Width 1366=1367
 
 [Playlist Search]
 MatchAlbum=true
@@ -48,17 +51,32 @@ AutoUpdate Interval=30
 Maximum Simultaneous Downloads=4
 Maximum Simultaneous Updates=4
 
+[Recently Played]
+Display Names=Unknown - Track 01,Unknown Artist - 6071 0 Track 01,Unknown - Track 10,Unknown - Track 11,Unknown - Track 12
+Last Played Dates=2016-06-26T16:15:45,2016-06-26T16:16:00,2016-06-26T16:16:43,2016-06-26T16:16:57,2016-06-26T16:17:21
+Urls=audiocd:/unknown/1,file:///var/tmp/kdecache-andres/krun/6071_0_Track%2001.wav,audiocd:/unknown/10,audiocd:/unknown/11,audiocd:/unknown/12
+
 [Saved Playlists View]
 Merged View=false
 
 [ScriptManager]
-LastUpdateCheck=1372159653
+LastUpdateCheck=1466776597
+
+[Service_Amazon]
+country=de
 
 [Service_Magnatune]
 email=
 isMember=false
-lastUpdate=1372042247
+lastUpdate=1429648448
 membershipType=1
 password=
 streamType=ogg
 username=
+
+[StatSyncing]
+checkedFields=rating,firstplay,lastplay,playcount,label
+excludedLabels=
+providerEnabledStatuses=true,false
+providerIds=localCollection,AudioCd
+providerNames=Local Collection,Audio CD

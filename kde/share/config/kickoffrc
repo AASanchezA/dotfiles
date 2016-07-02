@@ -1,5 +1,8 @@
+[$Version]
+update_info=kubuntu-update-kickoff2.upd:kubuntu-update-kickoff
+
 [Favorites]
-FavoriteURLs=/usr/share/applications/kde4/rekonq.desktop,/usr/share/applications/kde4/Kontact.desktop,/usr/share/applications/kde4/systemsettings.desktop,/usr/share/applications/kde4/dolphin.desktop,/usr/share/applications/kde4/kopete.desktop,/usr/share/applications/kde4/amarok.desktop
+FavoriteURLs=/usr/share/applications/firefox.desktop,/usr/share/applications/kde4/Kontact.desktop,/usr/share/applications/kde4/systemsettings.desktop,/usr/share/applications/kde4/dolphin.desktop,/usr/share/applications/kde4/ktp-contactlist.desktop,/usr/share/applications/kde4/amarok.desktop
 
 [KRunner]
 loadAll=false
@@ -8,4 +11,4 @@ loadAll=false
 pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations
 
 [RecentlyUsed]
-Applications=kde4-dolphin.desktop,skype.desktop,ubuntu-software-center.desktop,kde4-rekonq.desktop,openoffice4-writer.desktop
+Applications=ubuntu-software-center.desktop,kde4-rekonq.desktop,kde4-kpat.desktop,eagle.desktop,openoffice4-writer.desktop

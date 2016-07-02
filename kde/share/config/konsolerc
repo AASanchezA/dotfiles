@@ -1,3 +1,6 @@
+[$Version]
+update_info=konsole.upd:2.9.0-global-options
+
 [Colors]
 CurrentPalette=Forty Colors
 
@@ -5,7 +8,7 @@ CurrentPalette=Forty Colors
 DefaultProfile=Shell.profile
 
 [Favorite Profiles]
-Favorites=/home/andres/.kde/share/apps/konsole/Shell.profile
+Favorites=Shell.profile
 
 [KFileDialog Settings]
 Height 768=450
@@ -15,11 +18,11 @@ Width 1366=720
 [MainWindow]
 Height 200=201
 Height 480=481
-Height 768=769
-State=AAAA/wAAAAD9AAAAAAAABVYAAALbAAAABAAAAAQAAAAIAAAACPwAAAAA
+Height 768=737
+State=AAAA/wAAAAD9AAAAAAAAAqEAAALMAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1024=1025
-Width 1366=1367
+Width 1366=673
 Width 1368=659
 Width 320=321
 Width 640=641

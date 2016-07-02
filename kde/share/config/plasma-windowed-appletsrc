@@ -16,12 +16,6 @@ immutability=1
 plugin=matrix
 zvalue=0
 
-[StoredApplets][20]
-geometry=0,0,910,512
-immutability=1
-plugin=sm_hwinfo
-zvalue=0
-
 [StoredApplets][21]
 geometry=0,0,533,200
 immutability=1
@@ -53,6 +47,12 @@ zvalue=0
 geometry=0,0,200,128
 immutability=1
 plugin=eyes
+zvalue=0
+
+[StoredApplets][28]
+geometry=0,0,910,512
+immutability=1
+plugin=sm_hwinfo
 zvalue=0
 
 [StoredApplets][5]
