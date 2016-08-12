@@ -131,7 +131,7 @@ Size=32
 
 [DirSelect Dialog]
 DirSelectDialog Size=1024,737
-History Items[$e]=file://$HOME/tomas,file:///Respaldo/Pictures/Barcelona2014,file://$HOME/Downloads,file:///Respaldo/BMC/Thesis/Latex/Thesis/bibliography,file:///Respaldo/Pictures/iphoneAndres,file:///Respaldo/Pictures/Berlin2014,file:///Respaldo,file://$HOME,file:///Respaldo/Extend3d/projects/ubitrack,file:///usr/local/MATLAB/R2013a/extern/include,file:///Respaldo/Extend3d,file:///Respaldo/Downloads,file:///Respaldo/Pictures/Wien2014,file:///Respaldo/Pictures/fiestasPatrias2013,file://$HOME/kinect,file://$HOME/Documents,file:///Respaldo/BMC/Thesis/code/FishDetector,file:///Respaldo/BMC/Thesis/code/LINE2D_OPENCV,file:///Respaldo/git/Calibration,file:///Respaldo/BMC/Thesis/Latex/Thesis,file://$HOME/kinect/Fast_RW,file:///Respaldo/BMC/Thesis/code/linemod/doc,file:///Respaldo/BMC/Thesis/code/linemod,file:///Respaldo/BMC/Thesis/blender,file:///Respaldo/BMC/Thesis/software,file:///Respaldo/BMC,file:///Respaldo/Pictures,file:///Respaldo/BMC/Thesis/CV,file:///Respaldo/of_v0.7.4_linux64_release/resources,file:///Respaldo/BMC/fourth/BMT/matlabsolution,file:///usr/local/wild-magic-5.7,file:///Respaldo/BMC/Thesis/code/OpenCVReprojectImageToPointCloud,file:///media/E4DE-AD33,file:///Respaldo/Downloads/dellPrecisionDriver,file://$HOME/kinect/OpenCV-2.4.3,file:///Respaldo/BMC/Thesis/database,file:///Respaldo/BMC/Thesis,file:///Respaldo/My Music,file://$HOME/kinect/OpenCV-2.4.3/build64,file://$HOME/kinect/OpenSceneGraph-3.0.1,file:///Respaldo/BMC/Thesis/code/matlabWS,file://$HOME/kinect/camcube/CamBoard_Nano_Demo_CD_1.3.2/Linux,file://$HOME/kinect/camcube,file:///Respaldo/MATLAB/R2012a/toolbox,file:///Respaldo/Dropbox/Book,file:///usr/local/cuda-5.0,file:///Respaldo/BMC/Thesis/software/opencv,file:///opt/intel/composer_xe_2013.3.163/ipp/bin,file:///opt/intel/composer_xe_2013.3.163/ipp,file:///opt/intel/composer_xe_2013.3.163/ipp/bin/intel64
+History Items[$e]=file:///Respaldo/Pictures/IphoneKarin/London_2016,file:///Respaldo/Pictures/IphoneKarin/Berlin_2016,file:///Respaldo/Pictures/iphoneAndres/Marzo_2016,file:///Respaldo/Pictures/IphoneKarin/Marzo_2016,file:///Respaldo/owncloud,file://$HOME/.config/Nokia/qtcreator/generic-highlighter/,file:///Respaldo/kinect/ogl/build,file:///Respaldo/Pictures/iphoneAndres/November2015,file:///Respaldo/Pictures/IphoneKarin/backupOctubre2015,audiocd:/MP3,file://$HOME,file:///Respaldo/kinect/opencv_contrib/modules,file:///Respaldo/kinect/opencv,file:///Respaldo/kinect/opencv_contrib,file://$HOME/tomas,file:///Respaldo/Pictures/Barcelona2014,file://$HOME/Downloads,file:///Respaldo/BMC/Thesis/Latex/Thesis/bibliography,file:///Respaldo/Pictures/iphoneAndres,file:///Respaldo/Pictures/Berlin2014,file:///Respaldo,file:///Respaldo/Extend3d/projects/ubitrack,file:///usr/local/MATLAB/R2013a/extern/include,file:///Respaldo/Extend3d,file:///Respaldo/Downloads,file:///Respaldo/Pictures/Wien2014,file:///Respaldo/Pictures/fiestasPatrias2013,file://$HOME/kinect,file://$HOME/Documents,file:///Respaldo/BMC/Thesis/code/FishDetector,file:///Respaldo/BMC/Thesis/code/LINE2D_OPENCV,file:///Respaldo/git/Calibration,file:///Respaldo/BMC/Thesis/Latex/Thesis,file://$HOME/kinect/Fast_RW,file:///Respaldo/BMC/Thesis/code/linemod/doc,file:///Respaldo/BMC/Thesis/code/linemod,file:///Respaldo/BMC/Thesis/blender,file:///Respaldo/BMC/Thesis/software,file:///Respaldo/BMC,file:///Respaldo/Pictures,file:///Respaldo/BMC/Thesis/CV,file:///Respaldo/of_v0.7.4_linux64_release/resources,file:///Respaldo/BMC/fourth/BMT/matlabsolution,file:///usr/local/wild-magic-5.7,file:///Respaldo/BMC/Thesis/code/OpenCVReprojectImageToPointCloud,file:///media/E4DE-AD33,file:///Respaldo/Downloads/dellPrecisionDriver,file://$HOME/kinect/OpenCV-2.4.3,file:///Respaldo/BMC/Thesis/database,file:///Respaldo/BMC/Thesis
 
 [Directories-default]
 prefixes=/usr/share/kubuntu-default-settings/kde4-profile/default/
@@ -140,7 +140,7 @@ prefixes=/usr/share/kubuntu-default-settings/kde4-profile/default/
 emoticonsTheme=Oxygen
 
 [General]
-BrowserApplication=chromium-browser.desktop
+BrowserApplication[$e]=!rekonq
 ColorScheme=Obsidian Coast
 TerminalApplication[$e]=konsole
 XftHintStyle=hintmedium
@@ -154,7 +154,7 @@ toolBarFont=Ubuntu,8,-1,5,50,0,0,0,0,0
 widgetStyle=oxygen
 
 [Icons]
-Theme=Iceglass 4.0
+Theme=unity-icon-theme
 
 [KDE]
 AutoSelectDelay=-1
@@ -179,7 +179,7 @@ Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Previews=true
-Recent URLs[$e]=/Respaldo/Dropbox/,/Respaldo/,$HOME/tomas/wetransfer-c9cef1/,/Respaldo/Mis Documentos/Visa y Otros/,/Respaldo/Dropbox/Book/Karin/,$HOME/tomas/,$HOME/Downloads/,/Respaldo/Dropbox/Book/
+Recent URLs[$e]=/Respaldo/kinect/ogl-OpenGL-tutorial_0015_33/,/Respaldo/Dropbox/Karin/contratos/,/Respaldo/kinect/ogl/,/Respaldo/kinect/,$HOME/Downloads/
 Show Bookmarks=false
 Show Full Path=false
 Show Preview=false
@@ -190,6 +190,7 @@ Sort directories first=true
 Sort reversed=true
 Speedbar Width=149
 View Style=Simple
+listViewIconSize=50
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480

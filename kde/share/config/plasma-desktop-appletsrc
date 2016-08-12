@@ -7,7 +7,7 @@ RightButton;NoModifier=contextmenu
 wheel:Vertical;NoModifier=switchdesktop
 
 [AppletGlobals][plasma_applet_comic]
-lastUpdate=2014,9,15,22,2,9
+lastUpdate=2015,9,7,21,44,16
 updateIntervall=3
 
 [AppletGlobals][plasma_applet_launcher]
@@ -62,189 +62,136 @@ wallpaper=/home/andres/Documents/linux/linux.png
 wallpapercolor=0,0,0
 wallpaperposition=0
 
-[Containments][3]
-activity=
-activityId=
+[Containments][227][Applets][230][Configuration]
+autoSaveHtml=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">\n<html><head><meta name="qrichtext" content="1" /><style type="text/css">\np, li { white-space: pre-wrap; }\n</style></head><body style=" font-family:'Ubuntu'; font-size:9pt; font-weight:400; font-style:normal;">\n<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+scrollValue=0
+
+[Containments][234][Applets][239][Configuration]
+History=
+
+[Containments][241][Applets][239][Configuration]
+History=
+
+[Containments][242]
+ActionPluginsSource=Global
+activity=Development Activity
+activityId=5f72ecc2-0d5d-46d0-a5b3-10fcaf1f9e98
 desktop=-1
-formfactor=2
-geometry=0,-41,1366,35
+formfactor=0
+geometry=0,924,1366,768
 immutability=1
 lastDesktop=-1
 lastScreen=0
-location=4
-plugin=panel
-screen=0
+location=0
+plugin=desktop
+screen=-1
+wallpaperplugin=image
+wallpaperpluginmode=SingleImage
 zvalue=0
 
-[Containments][3][ActionPlugins]
-RightButton;NoModifier=contextmenu
-
-[Containments][3][Applets][136]
-geometry=196,3,1015,32
+[Containments][242][Applets][235]
+geometry=517,47,600,400
 immutability=2
-plugin=panelspacer_internal
-zvalue=188
+plugin=folderview
+zvalue=209
 
-[Containments][3][Applets][136][Configuration]
-FixedSize=true
-
-[Containments][3][Applets][136][LayoutInformation]
-Order=4
-
-[Containments][3][Applets][170]
-geometry=1334,3,32,32
-immutability=2
-plugin=trash
-zvalue=0
-
-[Containments][3][Applets][170][LayoutInformation]
-Order=8
-
-[Containments][3][Applets][192]
-geometry=0,3,32,32
-immutability=2
-plugin=launcher
-zvalue=0
-
-[Containments][3][Applets][192][Configuration]
+[Containments][242][Applets][235][Configuration]
 Share=false
+alignToGrid=false
+blankLabel=false
+clickForFolderPreviews=true
+customIconSize=48
+customLabel=
+drawShadows=true
+filter=0
+filterFiles=*
+flow=0
+geometry=517,47,600,400
+iconsLocked=false
+immutability=1
+mimeFilter=
+numTextLines=2
+plugin=folderview
+showPreviews=true
+sortColumn=0
+url=file:///Respaldo/Dropbox/Karin
+zvalue=205
 
-[Containments][3][Applets][192][LayoutInformation]
+[Containments][242][Applets][235][LayoutInformation]
+Column=0
 Order=0
 
-[Containments][3][Applets][192][Shortcuts]
-global=Meta+Space
-
-[Containments][3][Applets][200]
-geometry=1226,3,32,32
+[Containments][242][Applets][236]
+geometry=771,518,200,200
 immutability=2
-plugin=veromix-plasmoid
+plugin=quicklaunch
 zvalue=0
 
-[Containments][3][Applets][200][Configuration]
-Share=false
-always_show_sources=false
-auto_mute=False
-background=2
-expander_enabled=true
-ladspa_enabled=True
-max_volume=120
-meter_visible=false
-nowplayingBlacklist=org.mpris.bangarang
-popupMode=0
-show_albumart=True
-show_tooltip=true
-size=723,100
-unitvalues_visible=false
-useTabs=false
-use_mpris2=True
-use_nowplaying=False
+[Containments][242][Applets][236][Configuration]
+launchers=file:///usr/share/applications/kde4/dolphin.desktop,file:///usr/share/applications/google-chrome.desktop,file:///opt/openoffice4/share/xdg/writer.desktop
+launchersOnPopup=
 
-[Containments][3][Applets][200][LayoutInformation]
-Order=5
-
-[Containments][3][Applets][200][PopupApplet]
-DialogHeight=123
-DialogWidth=745
-
-[Containments][3][Applets][208]
-geometry=1262,3,32,32
-immutability=2
-plugin=comic
-zvalue=0
-
-[Containments][3][Applets][208][Configuration]
-Share=false
-arrowsOnHover=true
-checkNewComicStripsIntervall=30
-comic=calvinandhobbes
-lastStripVisited_calvinandhobbes=true
-lastStripVisited_ctrlaltdel=false
-lastStripVisited_nichtlustig=false
-lastStripVisited_phd=false
-lastStripVisited_shithappens=true
-lastStrip_calvinandhobbes=
-lastStrip_ctrlaltdel=2014-06-13
-lastStrip_nichtlustig=2014-07-16
-lastStrip_phd=1726
-lastStrip_shithappens=2666
-maxSize=150,250
-maxStripNum_phd=1733
-maxStripNum_shithappens=2667
-middleClick=true
-savingDir=
-showComicAuthor=false
-showComicIdentifier=false
-showComicTitle=false
-showComicUrl=false
-showErrorPicture=true
-storedPosition_calvinandhobbes=
-storedPosition_ctrlaltdel=
-storedPosition_nichtlustig=
-storedPosition_phd=
-storedPosition_shithappens=
-tabIdentifier=calvinandhobbes,ctrlaltdel,nichtlustig,phd,shithappens
-tabView=3
-
-[Containments][3][Applets][208][LayoutInformation]
-Order=6
-
-[Containments][3][Applets][208][PopupApplet]
-DialogHeight=173
-DialogWidth=172
-
-[Containments][3][Applets][5]
-geometry=108,3,84,32
-immutability=2
-plugin=pager
-zvalue=128
-
-[Containments][3][Applets][5][Configuration]
-Share=false
-currentDesktopSelected=0
-displayedText=2
-showWindowIcons=false
-
-[Containments][3][Applets][5][LayoutInformation]
-Order=3
-
-[Containments][3][Applets][52]
-geometry=72,3,32,32
-immutability=2
-plugin=org.kde.showActivityManager
-zvalue=185
-
-[Containments][3][Applets][52][LayoutInformation]
-Order=2
-
-[Containments][3][Applets][62]
-geometry=1298,3,32,32
-immutability=2
-plugin=windowlist
-zvalue=130
-
-[Containments][3][Applets][62][LayoutInformation]
-Order=7
-
-[Containments][3][Applets][7]
-geometry=36,3,32,32
-immutability=2
-plugin=showdesktop
-zvalue=184
-
-[Containments][3][Applets][7][LayoutInformation]
+[Containments][242][Applets][236][LayoutInformation]
+Column=1
 Order=1
 
-[Containments][3][Applets][8][Configuration][Applets][51][Configuration][ExtenderItems][2]
-extenderItemPosition=0
+[Containments][242][Applets][237]
+geometry=5,410,300,300
+immutability=2
+plugin=rssnow
+zvalue=0
 
-[Containments][3][Configuration]
-maximumSize=1366,35
-minimumSize=1366,35
+[Containments][242][Applets][237][Configuration]
+Share=false
+animations=true
+droptarget=true
+feeds=
+interval=30
+logo=true
+maxAge=0
+switchInterval=10
+
+[Containments][242][Applets][237][LayoutInformation]
+Column=0
+Order=1
+
+[Containments][242][Applets][239]
+geometry=1163,486,150,150
+immutability=2
+plugin=pastebin
+zvalue=207
+
+[Containments][242][Applets][239][Configuration]
+History=
+
+[Containments][242][Applets][239][LayoutInformation]
+Column=1
+Order=0
+
+[Containments][242][Applets][240]
+geometry=384,466,200,200
+immutability=2
+plugin=bookmarks
+zvalue=206
+
+[Containments][242][Applets][240][LayoutInformation]
+Column=1
+Order=2
+
+[Containments][242][Wallpaper][image]
+slideTimer=10
+slidepaths=/usr/share/wallpapers/
+userswallpapers=
+wallpaper=/usr/share/wallpapers/Ariya/contents/images/1920x1200.png
+wallpapercolor=0,0,0
+wallpaperposition=0
+
+[Containments][263][Applets][269][PopupApplet]
+DialogHeight=72
 
 [Containments][54]
 ActionPluginsSource=Global
-EnabledEntries=plasma-sal-multimedia.desktop,plasma-sal-internet.desktop,plasma-sal-graphics.desktop,plasma-sal-office.desktop,wine-wine/,Education/,plasma-sal-system.desktop,plasma-sal-development.desktop
+EnabledEntries=plasma-sal-multimedia.desktop,plasma-sal-internet.desktop,plasma-sal-graphics.desktop,plasma-sal-office.desktop,Education/,plasma-sal-system.desktop,plasma-sal-utility.desktop
 activity=Search and Launch
 activityId=c1368d32-c9bf-47a1-9f72-6c8409f1e031
 desktop=-1
@@ -312,10 +259,10 @@ wallpapercolor=56,111,150
 wallpaperposition=0
 
 [Containments][54][stripwidget][favourite-0]
-url=/usr/share/applications/kde4/rekonq.desktop
+url=/usr/share/applications/google-chrome.desktop
 
 [Containments][54][stripwidget][favourite-1]
-url=/usr/share/applications/kde4/systemsettings.desktop
+url=/opt/openoffice4/share/xdg/startcenter.desktop
 
 [Containments][54][stripwidget][favourite-2]
 url=/usr/share/applications/kde4/dolphin.desktop
@@ -338,7 +285,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][66][Applets][104]
-geometry=908,0,326,25
+geometry=917,0,414,25
 immutability=2
 plugin=systemtray
 zvalue=168
@@ -355,7 +302,7 @@ alwaysShown=battery,KDE Daemon,KMix,KDE Daemon,message-indicator,org.kde.network
 hidden=
 
 [Containments][66][Applets][104][Configuration][Applets][105]
-geometry=276,0.5,24,24
+geometry=0,0,24,24
 immutability=1
 plugin=org.kde.networkmanagement
 zvalue=0
@@ -371,7 +318,7 @@ DialogWidth=662
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][106]
-geometry=4,32,24,24
+geometry=0,0,24,24
 immutability=1
 plugin=notifier
 zvalue=0
@@ -384,13 +331,13 @@ DialogWidth=312
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][107]
-geometry=0,0.5,24,24
+geometry=0,0,24,24
 immutability=1
-plugin=notifications
+plugin=org.kde.notifications
 zvalue=0
 
 [Containments][66][Applets][104][Configuration][Applets][107][Configuration]
-customPosition=-10,-12
+customPosition=-10,-10
 customPositionAffinityHoriz=r
 customPositionAffinityVert=b
 
@@ -406,14 +353,14 @@ sourceAppletId=107
 sourceAppletPluginName=notifications
 
 [Containments][66][Applets][104][Configuration][Applets][107][PopupApplet]
-DialogHeight=312
-DialogWidth=351
+DialogHeight=98
+DialogWidth=456
 
 [Containments][66][Applets][104][Configuration][Applets][107][Shortcuts]
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][108]
-geometry=248,0.5,24,24
+geometry=0,0,24,24
 immutability=1
 plugin=battery
 zvalue=0
@@ -424,14 +371,14 @@ showBatteryString=true
 showMultipleBatteries=true
 
 [Containments][66][Applets][104][Configuration][Applets][108][PopupApplet]
-DialogHeight=208
-DialogWidth=409
+DialogHeight=137
+DialogWidth=304
 
 [Containments][66][Applets][104][Configuration][Applets][108][Shortcuts]
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][110]
-geometry=29,0.5,24,24
+geometry=0,0,24,24
 immutability=1
 plugin=weather
 zvalue=0
@@ -446,14 +393,14 @@ updateInterval=30
 visibilityUnit=2007
 
 [Containments][66][Applets][104][Configuration][Applets][110][PopupApplet]
-DialogHeight=180
-DialogWidth=267
+DialogHeight=284
+DialogWidth=395
 
 [Containments][66][Applets][104][Configuration][Applets][110][Shortcuts]
 global=
 
 [Containments][66][Applets][104][Configuration][Applets][127]
-geometry=57,0.5,24,24
+geometry=0,0,24,24
 immutability=1
 plugin=message-indicator
 zvalue=0
@@ -465,15 +412,32 @@ DialogWidth=334
 [Containments][66][Applets][104][Configuration][Applets][127][Shortcuts]
 global=
 
+[Containments][66][Applets][104][Configuration][Applets][128]
+geometry=0,0,24,24
+immutability=1
+plugin=org.kde.ktp-presence
+zvalue=0
+
+[Containments][66][Applets][104][Configuration][Applets][129]
+geometry=0,0,24,24
+immutability=1
+plugin=org.kde.printmanager
+zvalue=0
+
+[Containments][66][Applets][104][Configuration][Applets][129][PopupApplet]
+DialogHeight=278
+DialogWidth=516
+
 [Containments][66][Applets][104][Configuration][Shortcuts]
+SystemTray-Klipper-104=Ctrl+Alt+V
 Systemtray-Klipper-104=Ctrl+Alt+V
 
 [Containments][66][Applets][104][LayoutInformation]
 Order=7
 
 [Containments][66][Applets][104][PopupApplet]
-DialogHeight=100
-DialogWidth=147
+DialogHeight=72
+DialogWidth=140
 
 [Containments][66][Applets][125]
 geometry=584,0,50,25
@@ -496,7 +460,7 @@ plainClockFont=Ubuntu,20,-1,5,50,0,0,0,0,0
 showSeconds=false
 showTimezone=true
 timeZones=Europe/Berlin
-timezone=Europe/Berlin
+timezone=Local
 useCustomColor=false
 useCustomShadowColor=false
 
@@ -508,7 +472,7 @@ DialogHeight=243
 DialogWidth=252
 
 [Containments][66][Applets][126]
-geometry=638,0,99,25
+geometry=638,0,111,25
 immutability=2
 plugin=fuzzy-clock
 zvalue=42
@@ -533,7 +497,7 @@ showDay=true
 showTimezone=false
 showYear=true
 timeZones=Europe/Berlin
-timezone=Europe/Berlin
+timezone=Local
 useCustomFontColor=false
 
 [Containments][66][Applets][126][Configuration][ExtenderItems][14]
@@ -578,6 +542,7 @@ baseDisplay=10
 convertToBestUnits=true
 copyToClipboard=false
 fractionDisplay=0
+historyItems=2800*700,60*7,60*7+300,60*7+200,60*5+200,12*55,5184*4400,5184+4400,12*55,20/365
 indicateInfiniteSeries=false
 liveEvaluation=false
 minExp=0
@@ -597,14 +562,14 @@ useDenominatorPrefix=true
 Order=2
 
 [Containments][66][Applets][132][PopupApplet]
-DialogHeight=212
-DialogWidth=322
+DialogHeight=116
+DialogWidth=216
 
 [Containments][66][Applets][135]
-geometry=741,0,163,25
+geometry=753,0,160,25
 immutability=2
 plugin=panelspacer_internal
-zvalue=181
+zvalue=211
 
 [Containments][66][Applets][135][Configuration]
 FixedSize=true
@@ -641,8 +606,8 @@ temps=lmsensors/coretemp-isa-0000/Physical_id_0,lmsensors/coretemp-isa-0000/Core
 Order=1
 
 [Containments][66][Applets][78][PopupApplet]
-DialogHeight=594
-DialogWidth=263
+DialogHeight=585
+DialogWidth=298
 
 [Containments][66][Configuration]
 maximumSize=1366,27

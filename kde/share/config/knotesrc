@@ -1,5 +1,5 @@
-[Alarms]
-AlarmsLastChecked=2014,9,9,23,12,29
+[$Version]
+update_info=noteglobalsettings.upd:initial-noteagent-migration,noteglobalsettings.upd:selectcollection-noteagent-migration
 
 [Notification Messages]
 ConfirmDeleteNote=false

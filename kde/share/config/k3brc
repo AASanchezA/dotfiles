@@ -25,8 +25,14 @@ readcd user parameters=
 search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/opt/schily/bin/,/sbin
 sox user parameters=
 transcode user parameters=
+vcdxbuild default=/usr/bin/vcdxbuild
+vcdxbuild last seen newest version=0.7.24
 vcdxbuild user parameters=
+vcdxminfo default=/usr/bin/vcdxminfo
+vcdxminfo last seen newest version=0.7.24
 vcdxminfo user parameters=
+vcdxrip default=/usr/bin/vcdxrip
+vcdxrip last seen newest version=0.7.24
 vcdxrip user parameters=
 
 [General Options]
@@ -69,11 +75,12 @@ Sort directories first=true
 Sort reversed=false
 View Style=Simple
 last url[$e]=/Respaldo/Downloads/
+listViewIconSize=0
 show bookmarks=false
 
 [image writing]
 last written image[$e]=/Respaldo/Downloads/EN_VISUAL_STUDIO_2008_PROFESSIONAL_X86_X64WOW_DVD_X14-26326.ISO
-recent images[$e]=/Respaldo/Downloads/EN_VISUAL_STUDIO_2008_PROFESSIONAL_X86_X64WOW_DVD_X14-26326.ISO,/Respaldo/Downloads/Windows 7 Service Pack 1 (x64)/EN_WINDOWS_7_PROFESSIONAL_WITH_SP1_X64_DVD_621750.ISO,/Respaldo/Downloads/EN_WINDOWS_7_PROFESSIONAL_X86_DVD_X15-65804.ISO,/Respaldo/Downloads/EN_WINDOWS_XP_PROFESSIONAL_X64.ISO
+recent images[$e]=/Respaldo/Downloads/Win10_1511_1_Spanish_x64.iso,/Respaldo/Downloads/EN_VISUAL_STUDIO_2008_PROFESSIONAL_X86_X64WOW_DVD_X14-26326.ISO,/Respaldo/Downloads/Windows 7 Service Pack 1 (x64)/EN_WINDOWS_7_PROFESSIONAL_WITH_SP1_X64_DVD_621750.ISO,/Respaldo/Downloads/EN_WINDOWS_7_PROFESSIONAL_X86_DVD_X15-65804.ISO,/Respaldo/Downloads/EN_WINDOWS_XP_PROFESSIONAL_X64.ISO
 
 [last used image writing]
 copies=1
@@ -91,6 +98,6 @@ writing_speed=0
 
 [main_window_settings]
 Height 768=769
-State=AAAA/wAAAAD9AAAAAgAAAAIAAAVWAAABU/wBAAAAAvsAAAAWAGQAaQByAHQAcgBlAGUAZABvAGMAawEAAAAAAAABTQAAAFIBAAAF+wAAABgAYwBvAG4AdABlAG4AdABzAGQAbwBjAGsBAAABUAAABAYAAADgAQAABQAAAAMAAAVWAAABUvwBAAAAAfsAAAAYAGQAbwBjAHUAbQBlAG4AdABkAG8AYwBrAQAAAAAAAAVWAAAB2QEAAAUAAAVWAAAAAAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAgAAAAIAAAVWAAABU/wBAAAAAvsAAAAWAGQAaQByAHQAcgBlAGUAZABvAGMAawEAAAAAAAABTQAAAFIBAAAF+wAAABgAYwBvAG4AdABlAG4AdABzAGQAbwBjAGsBAAABUAAABAYAAAEgAQAABQAAAAMAAAVWAAABUvwBAAAAAfsAAAAYAGQAbwBjAHUAbQBlAG4AdABkAG8AYwBrAQAAAAAAAAVWAAAB2QEAAAUAAAVWAAAAAAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1366=1367

@@ -1,6 +1,10 @@
 [General]
-DestinationUrl=file:///Respaldo/Pictures/Barcelona2014
+DestinationUrl=file:///Respaldo/Pictures/IphoneKarin/London_2016
 
 [MainWindow]
 Height 768=769
 Width 1366=1367
+
+[UrlForBaseUrl]
+0key=camera:/
+0value=camera:/

@@ -1,14 +1,20 @@
 [$Version]
 update_info=nepomukstrigiservice-migrate.upd:nepomukstrigiservice-migrate
 
+[Baloo]
+migrated=true
+
 [Basic Settings]
 Start Nepomuk=false
 
 [Service-nepomukfileindexer]
-autostart=true
+autostart=false
 
 [Service-nepomukstrigiservice]
 autostart[$d]
+
+[Service-nepomuktelepathyservice]
+autostart=false
 
 [main Settings]
 Maximum memory=255

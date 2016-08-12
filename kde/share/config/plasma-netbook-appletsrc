@@ -1,3 +1,6 @@
+[$Version]
+update_info=kubuntu-update-sal.upd:kubuntu-update-sal
+
 [ActionPlugins]
 MidButton;NoModifier=paste
 RightButton;NoModifier=contextmenu
@@ -30,7 +33,7 @@ wallpapercolor=0,0,0
 wallpaperposition=0
 
 [Containments][1][stripwidget][favourite-0]
-url=/usr/share/applications/kde4/rekonq.desktop
+url=/usr/share/applications/firefox.desktop
 
 [Containments][1][stripwidget][favourite-1]
 url=/usr/share/applications/kde4/systemsettings.desktop

@@ -10,5 +10,8 @@ name=oxygen
 [Theme-amarok]
 name=Amarok-Mockup
 
+[Theme-muon-discover]
+name=muon-contenttheme
+
 [Theme-plasma-netbook]
 name=air-netbook

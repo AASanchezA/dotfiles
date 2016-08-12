@@ -5,4 +5,8 @@ Width 1366=720
 
 [KPropertiesDialog]
 Height 768=374
-Width 1366=366
+Width 1366=645
+
+[Open-with settings]
+CompletionMode=5
+History=bumblebee-indicator

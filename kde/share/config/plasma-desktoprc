@@ -12,8 +12,8 @@ interval=10
 temps=lmsensors/coretemp-isa-0000/Physical_id_0,lmsensors/acpitz-virtual-0/temp2,lmsensors/acpitz-virtual-0/temp1,acpi/Thermal_Zone/1/Temperature,acpi/Thermal_Zone/0/Temperature
 
 [BackgroundConfigDialog]
-Height 768=706
-Width 1366=775
+Height 768=752
+Width 1366=1366
 
 [Desktop Entry]
 DefaultProfile=Shell.profile
@@ -31,83 +31,13 @@ Recent Files[$e]=000000760016.jpg,/Respaldo/Extend3d/server.crt,$HOME/Pictures/v
 Width 1024=720
 Width 1366=720
 
-[PlasmaViews][1]
-panelVisibility=1
+[KPropertiesDialog]
+Height 768=366
+Width 1366=366
 
-[PlasmaViews][1][Horizontal1024]
-offset=0
-
-[PlasmaViews][1][Horizontal1366]
-offset=0
-
-[PlasmaViews][1][Horizontal1368]
-offset=0
-
-[PlasmaViews][1][Horizontal2392]
-offset=0
-
-[PlasmaViews][1][Sizes]
-lastsize=1366
-
-[PlasmaViews][1][Sizes][Horizontal1024]
-max=1024,35
-min=1024,35
-offset=0
-size=1024,35
-
-[PlasmaViews][1][Sizes][Horizontal1360]
-max=1360,35
-min=1360,35
-offset=0
-size=1360,35
-
-[PlasmaViews][1][Sizes][Horizontal1366]
-max=1366,35
-min=1366,35
-offset=0
-size=1366,35
-
-[PlasmaViews][1][Sizes][Horizontal1368]
-max=-1,-1
-min=-1,-1
-offset=0
-size=912,512
-
-[PlasmaViews][1][Sizes][Horizontal1600]
-max=-1,-1
-min=-1,-1
-offset=0
-size=1024,35
-
-[PlasmaViews][1][Sizes][Horizontal2390]
-max=2390,35
-min=2390,35
-offset=0
-size=2390,35
-
-[PlasmaViews][1][Sizes][Horizontal2392]
-max=2392,35
-min=2392,35
-offset=0
-size=2392,35
-
-[PlasmaViews][1][Sizes][Horizontal320]
-max=320,35
-min=320,35
-offset=0
-size=320,35
-
-[PlasmaViews][1][Sizes][Horizontal640]
-max=-1,-1
-min=-1,-1
-offset=0
-size=640,35
-
-[PlasmaViews][1][Sizes][Horizontal800]
-max=800,35
-min=800,35
-offset=0
-size=800,35
+[Open-with settings]
+CompletionMode=5
+History=openoffice4 -writer %U,/usr/bin/google-chrome-stable %U
 
 [PlasmaViews][3]
 Alignment=132
@@ -200,6 +130,7 @@ calculatorEnabled=true
 desktopsessionsEnabled=true
 kabccontactsEnabled=true
 katesessionsEnabled=true
+kdevelopsessionsEnabled=true
 konquerorsessionsEnabled=true
 konsolesessionsEnabled=true
 kopete_runnerEnabled=true
@@ -224,20 +155,37 @@ wikitravelEnabled=false
 windowsEnabled=true
 
 [Updates]
-performed=/usr/share/kubuntu-default-settings/kde4-profile/default/share/apps/plasma-desktop/updates/02-kubuntu-menu-icon.js,/usr/share/kubuntu-default-settings/kde4-profile/default/share/apps/plasma-desktop/updates/01-kubuntu-10.04.js,/usr/share/kde4/apps/plasma-desktop/updates/systray-to-notifications-widget.js,/usr/share/kde4/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js
+performed=/usr/share/kubuntu-default-settings/kde4-profile/default/share/apps/plasma-desktop/updates/02-kubuntu-menu-icon.js,/usr/share/kubuntu-default-settings/kde4-profile/default/share/apps/plasma-desktop/updates/01-kubuntu-10.04.js,/usr/share/kde4/apps/plasma-desktop/updates/systray-to-notifications-widget.js,/usr/share/kde4/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js,/usr/share/kubuntu-default-settings/kde4-profile/default/share/apps/plasma-desktop/updates/01-rename-plasma-nm.js,/usr/share/kubuntu-default-settings/kde4-profile/default/share/apps/plasma-desktop/updates/04-add-presence.js,/usr/share/kde4/apps/plasma-desktop/updates/50-renameKTpApplets.js,/usr/share/kde4/apps/plasma-desktop/updates/02-add-print-manager.js,/usr/share/kde4/apps/plasma-desktop/updates/set-hidden-single-vd-pager.js
 
 [ViewIds]
 3=1
-54=6
+54=7
 66=3
 
 [invokeAction]
 __file=
-actionId=
-predicate=test-predicate-openinwindow.desktop
+actionId=1
+predicate=amarok-play-audiocd.desktop
 
 [mount]
 __file=
 
+[stop]
+__file=
+
+[stopSuppressingScreenPowerManagement]
+__file=
+cookie=-1
+
+[stopSuppressingSleep]
+__file=
+cookie=-1
+
 [unmount]
+__file=
+
+[updateFreespace]
+__file=
+
+[userClosed]
 __file=

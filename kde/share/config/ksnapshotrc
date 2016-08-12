@@ -1,16 +1,17 @@
 [GENERAL]
 delay=0
-filename[$e]=file:///Respaldo/BMC/Thesis/Latex/Thesis/figures/pseudocode2.png
+filename[$e]=file:///Respaldo/owncloud/navvis/electronics/eagle/highpassfilterPCB1.png
 includeDecorations=true
 includePointer=false
 mode=2
 
 [KFileDialog Settings]
 Height 768=450
-Recent Files[$e]=$HOME/Pictures/snapshot1.png,/Respaldo/BMC/Thesis/Latex/Thesis/figures/pseudocode1.png,/Respaldo/BMC/Thesis/Latex/Thesis/figures/pseudocode.png,$HOME/Pictures/include.png,$HOME/Pictures/paper1.png,$HOME/Pictures/retinaface.png,$HOME/Pictures/MCC_error.png,$HOME/Pictures/kinec-pmd-leap4.png,$HOME/Pictures/kinec-pmd-leap3.png,$HOME/Pictures/kinec-pmd-leap2.png,$HOME/Pictures/kinec-pmd-leap1.png,$HOME/Pictures/kinec-pmd-leap.png,$HOME/Pictures/leap.png,$HOME/Pictures/oscilloCosilo.png,/Respaldo/BMC/Thesis/presentation/pic03.png,/Respaldo/BMC/Thesis/presentation/pic02.png
+Recent Files[$e]=$HOME/Pictures/snapshot1.png,/Respaldo/owncloud/navvis/electronics/eagle/highpassfilterPCB.png,/Respaldo/owncloud/navvis/electronics/eagle/highpassfilterSch.png,/Respaldo/owncloud/images/stereoTimeofFligthPcb02.png,/Respaldo/owncloud/images/stereoTimeofFligthPcb01.png,/Respaldo/owncloud/images/stereoTimeofFligth.png,/Respaldo/Dropbox/Karin/CafeBarrios/elmercurioDenuncia.png,/Respaldo/Dropbox/Karin/CafeBarrios/ahoranoticias_8.png,/Respaldo/Dropbox/Karin/CafeBarrios/ahoranoticias_7.png,/Respaldo/Dropbox/Karin/CafeBarrios/ahoranoticias_6.png,/Respaldo/Dropbox/Karin/CafeBarrios/ahoranoticias_5.png,/Respaldo/Dropbox/Karin/CafeBarrios/ahoranoticias_4.png,/Respaldo/Dropbox/Karin/CafeBarrios/ahoranoticias_3.png,/Respaldo/Dropbox/Karin/CafeBarrios/ahoranoticias_2.png,/Respaldo/Dropbox/Karin/CafeBarrios/ahoranoticias_1.png,/Respaldo/BMC/Thesis/Latex/Thesis/figures/pseudocode1.png
+Recent URLs[$e]=/Respaldo/Dropbox/Karin/contratos/,/Respaldo/kinect/ogl/,/Respaldo/kinect/,$HOME/Downloads/,/Respaldo/owncloud/images/,/Respaldo/owncloud/navvis/electronics/eagle/
 Width 1024=720
 Width 1366=720
 
 [MainWindow]
-Height 768=737
-Width 1366=673
+Height 768=481
+Width 1366=900
