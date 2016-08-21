@@ -60,7 +60,7 @@
 
 (require 'evil)
 (evil-mode t)
-(define-key evil-insert-state-map "ii" 'evil-normal-state)
+;(define-key evil-insert-state-map "ii" 'evil-normal-state)
 
 (require 'powerline)
 (powerline-center-evil-theme)
