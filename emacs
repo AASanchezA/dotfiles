@@ -50,7 +50,8 @@
 (package-initialize)
 
 ;; Assuming you wish to install 
-(ensure-package-installed 'helm 'evil 'projectile 'powerline 'magit)
+(ensure-package-installed 'helm 'projectile 'powerline 'monokai-theme)
+(ensure-package-installed 'evil 'evil-leader 'evil-nerd-commenter)
 
 (load-theme 'monokai t)
 
@@ -58,10 +59,51 @@
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
 
+;; Vim key bindings
+(require 'evil-leader)
+(evil-leader/set-leader ",")
+(global-evil-leader-mode)
+(evil-leader/set-key
+  "cc" 'evilnc-comment-or-uncomment-lines
+  "cu" 'evilnc-comment-or-uncomment-lines
+  ;; "cl" 'evilnc-quick-comment-or-uncomment-to-the-line
+  ;; "ll" 'evilnc-quick-comment-or-uncomment-to-the-line
+  ;; "cc" 'evilnc-copy-and-comment-lines
+  ;; "cp" 'evilnc-comment-or-uncomment-paragraphs
+  ;; "cr" 'comment-or-uncomment-region
+  ;; "cv" 'evilnc-toggle-invert-comment-line-by-line
+  "\\" 'evilnc-comment-operator ; if you prefer backslash key
+)
+
+(setq evil-emacs-state-cursor '("red" box))
+(setq evil-normal-state-cursor '("green" box))
+(setq evil-visual-state-cursor '("orange" box))
+(setq evil-insert-state-cursor '("red" bar))
+(setq evil-replace-state-cursor '("red" bar))
+(setq evil-operator-state-cursor '("red" hollow))
+
 (require 'evil)
 (evil-mode t)
 ;(define-key evil-insert-state-map "ii" 'evil-normal-state)
 
+
 (require 'powerline)
 (powerline-center-evil-theme)
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (evil-nerd-commenter magit powerline projectile monokai-theme helm evil)))
+ '(show-paren-mode t)
+ '(size-indication-mode t)
+ '(tool-bar-mode nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family "Ubuntu Mono" :foundry "outline" :slant normal :weight normal :height 120 :width normal)))))
