@@ -1,7 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=MeVisLab 2.3rc (GCC-64)
-Exec=/Respaldo/Mevislab/bin/MeVisLab 
-Icon=/Respaldo/Mevislab/Packages/MeVisLab/IDE/Modules/IDE/images/linux/MeVisLab.png
-OnlyShowIn=Old;

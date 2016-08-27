@@ -1,9 +1,0 @@
-[Desktop Entry]
-Exec=krunner
-Hidden=false
-Name=Command Runner
-OnlyShowIn=KDE;
-Type=Service
-X-DBUS-StartupType=none
-X-KDE-StartupNotify=false
-X-KDE-autostart-phase=BaseDesktop
