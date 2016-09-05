@@ -30,6 +30,9 @@ alias proxyDO2='ssh -L 8888:127.0.0.1:8888 andres@kurbis.combinado.cl -i ~/.ssh/
 alias powerhtml='sudo powertop -r /var/www/power.html -t 60'
 alias vino='vim --noplugin'
 
+# Emacs aliases
+alias e='emacs -nw'
+alias ec='emacsclient'
 
 # Example aliases
 alias zshconfig="vi ~/.zshrc"
