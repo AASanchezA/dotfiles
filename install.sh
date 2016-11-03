@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc vimrc emacs vim zshrc oh-my-zsh tmux.conf"    # list of files/folders to symlink in homedir
+files="bashrc vimrc emacs emacs.d vim zshrc oh-my-zsh tmux.conf spacemacs"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -38,7 +38,7 @@ ln -s $dir/git-completion.sh ~/.git-completion.sh
 ln -s $dir/git-prompt.sh ~/.git-prompt.sh
 
 # Install zsh, if not installed
-sudo apt-get install zsh
+sudo apt-get install zsh emacs tmux build-essential git
 
 # Define Zsh, as my default Shell
 sudo chsh -s /bin/zsh
