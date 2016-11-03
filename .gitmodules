@@ -8,7 +8,7 @@
 	ignore = dirty
 [submodule "spacemacs"]
 	path = spacemacs
-	url = https://github.com/syl20bnr/spacemacs
+	url = git@github.com:syl20bnr/spacemacs.git
 [submodule "reveal.js"]
 	path = reveal.js
-	url = https://github.com/hakimel/reveal.js/
+	url = git@github.com:hakimel/reveal.js.git
