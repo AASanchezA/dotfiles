@@ -6,3 +6,9 @@
 	path = oh-my-zsh
 	url = git@github.com:robbyrussell/oh-my-zsh.git
 	ignore = dirty
+[submodule "spacemacs"]
+	path = spacemacs
+	url = https://github.com/syl20bnr/spacemacs
+[submodule "reveal.js"]
+	path = reveal.js
+	url = https://github.com/hakimel/reveal.js/
