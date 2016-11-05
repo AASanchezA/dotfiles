@@ -1,0 +1,3 @@
+# Ignore some folders
+vim/bundle
+vim/vimtmp
