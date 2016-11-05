@@ -37,8 +37,5 @@ ln -s $dir/bash_export ~/.bash_export
 ln -s $dir/git-completion.sh ~/.git-completion.sh
 ln -s $dir/git-prompt.sh ~/.git-prompt.sh
 
-# Install zsh, if not installed
-sudo apt-get install zsh emacs tmux build-essential git
-
 # Define Zsh, as my default Shell
 sudo chsh -s /bin/zsh
