@@ -237,12 +237,9 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 "original repos on github
 Bundle 'jlanzarotta/bufexplorer'
-Bundle 'Valloric/YouCompleteMe.git'
-Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'joequery/Stupid-EasyMotion.git'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'tpope/vim-rails.git'
 Bundle 'kien/ctrlp.vim.git'
 Bundle 'godlygeek/tabular.git'
 Bundle 'scrooloose/syntastic.git'	
@@ -256,15 +253,18 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'octol/vim-cpp-enhanced-highlight'
-Bundle 'terryma/vim-multiple-cursors.git'
 Bundle 'vim-scripts/taglist.vim.git'
 Bundle 'vim-scripts/L9.git'
 Bundle 'nathanaelkane/vim-indent-guides.git'
 Bundle 'Chiel92/vim-autoformat'
 Bundle 'einars/js-beautify'
 Bundle 'tpope/vim-unimpaired'
-Bundle 'vim-scripts/Command-T.git'
-Bundle 'tclem/vim-arduino.git'
+"TO Delete
+"Bundle 'vim-scripts/Command-T.git'
+"Bundle 'tclem/vim-arduino.git'
+"Bundle 'Valloric/YouCompleteMe.git'
+"Bundle 'tpope/vim-fugitive'
+"Bundle 'terryma/vim-multiple-cursors.git'
 
 " Snipmate bundle
 Bundle "MarcWeber/vim-addon-mw-utils"
@@ -342,29 +342,12 @@ set laststatus=2
   "let g:loaded_syntastic_c_gcc_checker = 1 
   "let g:loaded_syntastic_c_splint_checker = 1
 
-
-" Vim Multicursors Plugin SetUp
-" Out of the box, only the single key Ctrl-n is mapped in regular
-" Vim's Normal mode and Visual mode to provide the functionality
-" mentioned above. Ctrl-n, Ctrl-p, Ctrl-x, and <Esc> are mapped
-" in the special multicursor mode once you've added at least one
-" virtual cursor to the buffer. If you don't like the plugin taking
-" over your favorite key bindings, you can turn off the default with
-let g:multi_cursor_use_default_mapping=0
-"You can then map the 'next', 'previous', 'skip', and 'exit' keys like the following:
-"Default mapping
-"let g:multi_cursor_next_key='<c-m>'
-"let g:multi_cursor_prev_key='<c-o>'
-"let g:multi_cursor_skip_key='<c-i>'
-"let g:multi_cursor_quit_key='<Esc>'
-
 "By default, the 'next' key is also used to enter multicursor mode. If you
 "want to use a different key to start multicursor mode than for selecting
 "the next location, do like the following:
   
 " Map start key separately from next key
 "let g:multi_cursor_start_key='<F6>'
-
 
 "Map Taglist to toggle the windows
 nnoremap <C-l>        :TlistToggle<CR>
@@ -383,10 +366,5 @@ au BufRead,BufNewFile *.ino set filetype=arduino
 imap <C-f> <Plug>snipMateNextOrTrigger
 smap <C-f> <Plug>snipMateNextOrTrigger
 	
-"" YouCompleteMe
-"let g:ycm_key_list_previous_completion=['<Up>']
-let g:ycm_register_as_syntastic_checker = 0
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
-
 "" Latex-Box
 "let g:LatexBox_latexmk_options = '-pdflatex="lualatex"'
