@@ -3,8 +3,12 @@
 sudo apt-get install zsh git \
 	emacs vim tmux ssh \
 	python python-pip ipython \
-	nodejs npm \
-	build-essential ctags
+	build-essential checkinstall \
+   	ctags \
+	cmake cmake-qt-gui \
+	nmap zenmap \
+	npm \
+
 
 # For Nodejs you need to do some changes
 mkdir ~/.npm-global

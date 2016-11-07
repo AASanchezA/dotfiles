@@ -31,28 +31,29 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
-     vimscript
-     html
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     vimscript
+     html
+     javascript
      helm
-     ;; auto-completion
-     ;; better-defaults
+     auto-completion
+     better-defaults
      emacs-lisp
      git
+     c-c++
      markdown
      org
      (org :variables org-enable-reveal-js-support t)
      (org :variables org-reveal-root "")
      ;; (org :variables org-reveal-root "file:///")
      (org :variables org-reveal-js "file:///~/dotfiles/reveal.js")
-     ;; (org :variables org-reveal-js "file:///")
-     ;; (shell :variables
-     ;;        shell-default-height 30
-     ;;        shell-default-position 'bottom)
+     (shell :variables
+            shell-default-height 30
+            shell-default-position 'bottom)
      ;; spell-checking
      ;; syntax-checking
      version-control
