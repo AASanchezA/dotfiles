@@ -1,3 +1,0 @@
-[Open-with settings]
-CompletionMode=5
-History=meshlab,kate -b %U,kate,gwenview %U -caption "%c" %i,konqueror,libreoffice --impress %U

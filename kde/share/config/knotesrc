@@ -1,5 +1,0 @@
-[$Version]
-update_info=noteglobalsettings.upd:initial-noteagent-migration,noteglobalsettings.upd:selectcollection-noteagent-migration
-
-[Notification Messages]
-ConfirmDeleteNote=false
