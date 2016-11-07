@@ -1,6 +1,0 @@
-[SambaLogFileSettings]
-SambaLogFile[$e]=/var/log/samba.log
-ShowConnectionClose=false
-ShowConnectionOpen=true
-ShowFileClose=false
-ShowFileOpen=true
