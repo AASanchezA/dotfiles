@@ -28,11 +28,14 @@ alias proxyDO='ssh -L 8888:127.0.0.1:8888 andres@178.62.204.199 -i ~/.ssh/digita
 alias proxyDO1='ssh -L 8888:127.0.0.1:8888 andres@178.62.207.97 -i ~/.ssh/digitalOcean'
 alias proxyDO2='ssh -L 8888:127.0.0.1:8888 andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
 alias powerhtml='sudo powertop -r /var/www/power.html -t 60'
-alias vino='vim --noplugin'
 
 # Emacs aliases
 alias e='emacs -nw'
 alias ec='emacsclient'
+
+# Vim Alias
+alias v='vi'
+alias vino='vi --noplugin'
 
 # Example aliases
 alias zshconfig="vi ~/.zshrc"
