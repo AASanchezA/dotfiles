@@ -8,6 +8,7 @@ sudo apt-get install zsh git \
 	cmake cmake-qt-gui \
 	nmap zenmap \
 	npm \
+	htop \
 
 
 # For Nodejs you need to do some changes

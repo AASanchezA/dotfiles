@@ -289,8 +289,8 @@ hi Normal ctermbg=NONE
 hi IndentGuidesOdd  ctermbg=grey
 hi IndkjdfentGuidesEven ctermbg=darkgrey
 
-"GUI setup 
-set toolbar=text,tooltips
+"GUI setup re-enable for gvim
+"set toolbar=text,tooltips
 
 "Setting Up line number
 autocmd FocusLost   * : set number
