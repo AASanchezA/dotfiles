@@ -30,8 +30,8 @@ alias proxyDO2='ssh -L 8888:127.0.0.1:8888 andres@kurbis.combinado.cl -i ~/.ssh/
 alias powerhtml='sudo powertop -r /var/www/power.html -t 60'
 
 # Emacs aliases
-alias e='emacs -nw'
-alias ec='emacsclient'
+alias e='/opt/emacs25/bin/emacs -nw'
+alias ec='/opt/emacs25/bin/emacsclient'
 
 # Vim Alias
 alias v='vi'
