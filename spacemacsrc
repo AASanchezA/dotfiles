@@ -39,6 +39,7 @@ values."
      vimscript
      html
      javascript
+     python
      helm
      auto-completion
      better-defaults

@@ -9,6 +9,8 @@ sudo apt-get install zsh git \
 	nmap zenmap \
 	npm \
 	htop pandoc \
+	tree \
+	ruby-full \
 
 
 # For Nodejs you need to do some changes
