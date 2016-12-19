@@ -46,12 +46,16 @@ values."
      emacs-lisp
      git
      c-c++
+     (c-c++ :variables
+            c-c++-default-mode-for-headers 'c++-mode
+            c-c++-enable-clang-support t)
      markdown
      org
-     (org :variables org-enable-reveal-js-support t)
-     (org :variables org-reveal-root "")
-     ;; (org :variables org-reveal-root "file:///")
-     (org :variables org-reveal-js "file:///~/dotfiles/reveal.js")
+     (org :variables
+          org-enable-reveal-js-support t
+          org-reveal-root ""
+          org-reveal-js "file:///~/dotfiles/reveal.js")
+          ;; org-reveal-root "file:///")
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
@@ -148,7 +152,7 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '("Ubuntu Mono"
-                               :size 13
+                               :size 14
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
