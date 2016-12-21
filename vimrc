@@ -278,7 +278,7 @@ Bundle "honza/vim-snippets"
 "=================================================================
 "SetUp color-Scheme
 set background=dark
-colorscheme molokai 
+colorscheme 0x7A69_dark
 "Add color column as a reference for coding
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
