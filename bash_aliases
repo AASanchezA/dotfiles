@@ -43,3 +43,7 @@ alias ohmyzsh="vi ~/.oh-my-zsh"
 
 #git tig aliases
 #alias tig="git show | tig"
+
+# Cool Aliases for command that I always forget
+alias useful='xdg-open http://www.pixelbeat.org/cmdline.html &'
+alias listWireless='sudo iw dev wlp3s0 scan | grep SSID'
