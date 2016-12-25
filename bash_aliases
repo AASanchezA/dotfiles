@@ -47,3 +47,4 @@ alias ohmyzsh="vi ~/.oh-my-zsh"
 # Cool Aliases for command that I always forget
 alias useful='xdg-open http://www.pixelbeat.org/cmdline.html &'
 alias listWireless='sudo iw dev wlp3s0 scan | grep SSID'
+alias x='xdg-open'
