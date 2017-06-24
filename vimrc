@@ -197,13 +197,8 @@ map <Leader>m <esc>:tabnext<CR>
 
 
 "=================================================================
-"=================== Pathogen Packages Manager ===================
+"=================== Vundle Packages Manager ===================
 "=================================================================
-"pathogen.vim
-"Manage your 'runtimepath' with ease. In practical terms, pathogen.vim makes
-"it super easy to install plugins and runtime files in their own private
-"directories
-execute pathogen#infect()
 
 "vundle setup
 set nocompatible               " be iMproved
