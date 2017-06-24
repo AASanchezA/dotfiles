@@ -37,8 +37,8 @@ values."
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
      vimscript
-     html
-     javascript
+     ;;html
+     ;;javascript
      python
      helm
      auto-completion

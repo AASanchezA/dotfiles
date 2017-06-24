@@ -236,35 +236,42 @@ Bundle 'gmarik/vundle'
 "=================================================================
 " My Bundles here:
 "original repos on github
-Bundle 'jlanzarotta/bufexplorer'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'joequery/Stupid-EasyMotion.git'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'kien/ctrlp.vim.git'
-Bundle 'godlygeek/tabular.git'
-Bundle 'scrooloose/syntastic.git'	
-Bundle 'tpope/vim-surround.git'
-Bundle 'flazz/vim-colorschemes.git'
-Bundle 'klen/python-mode.git'
-Bundle 'LaTeX-Box-Team/LaTeX-Box.git'
-Bundle 'nelstrom/vim-markdown-folding.git'
-Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/syntastic.git'	
+
 Bundle 'jistr/vim-nerdtree-tabs'
-Bundle 'octol/vim-cpp-enhanced-highlight'
+
+Bundle 'bling/vim-airline'
+
+Bundle 'jlanzarotta/bufexplorer'
+
+Bundle 'easymotion/vim-easymotion'
+Bundle 'joequery/Stupid-EasyMotion.git'
+
 Bundle 'vim-scripts/taglist.vim.git'
 Bundle 'vim-scripts/L9.git'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+
+Plugin 'ctrlpvim/ctrlp.vim'
+
+Bundle 'godlygeek/tabular.git'
+
+Bundle 'tpope/vim-surround.git'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'tpope/vim-fugitive'
+
+Bundle 'flazz/vim-colorschemes.git'
+
+Bundle 'klen/python-mode.git'
+
+Bundle 'LaTeX-Box-Team/LaTeX-Box.git'
+Bundle 'nelstrom/vim-markdown-folding.git'
+
+Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'nathanaelkane/vim-indent-guides.git'
 Bundle 'Chiel92/vim-autoformat'
 Bundle 'einars/js-beautify'
-Bundle 'tpope/vim-unimpaired'
-"TO Delete
-"Bundle 'vim-scripts/Command-T.git'
-"Bundle 'tclem/vim-arduino.git'
-"Bundle 'Valloric/YouCompleteMe.git'
-"Bundle 'tpope/vim-fugitive'
-"Bundle 'terryma/vim-multiple-cursors.git'
 
 " Snipmate bundle
 Bundle "MarcWeber/vim-addon-mw-utils"
@@ -272,6 +279,12 @@ Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 "Optional:
 Bundle "honza/vim-snippets"
+
+"TO Delete
+"Bundle 'vim-scripts/Command-T.git'
+"Bundle 'tclem/vim-arduino.git'
+"Bundle 'Valloric/YouCompleteMe.git'
+"Bundle 'terryma/vim-multiple-cursors.git'
 
 "=================================================================
 "=================== Make Vim Nice ==============================

@@ -4,6 +4,9 @@
 # Nodejs installation packages folder
 export PATH=~/.npm-global/bin:$PATH
 
+# Anaconda installation Path
+export PATH=/opt/anaconda3/bin:$PATH
+
 #ROS setup
 #source /opt/ros/hydro/setup.bash
 
