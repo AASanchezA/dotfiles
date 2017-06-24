@@ -1,0 +1,67 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "arduino.path": "/opt/arduino-1.8.3",
+    "arduino.logLevel": "verbose",
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 0,
+    "vim.leader": ",",
+    "vim.hlsearch": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before":["i","i"],
+            "after":["<esc>"]
+        }
+    ],
+    "vim.otherModesKeyBindings": [
+        {
+            "before":["<leader>","c","c"],
+            "after":[],
+            "commands":[
+                {
+                    "command":"editor.action.addCommentLine"
+                }
+            ]
+        },
+        {
+            "before":["<leader>","c","u"],
+            "after":[],
+            "commands":[
+                {
+                    "command":"editor.action.removeCommentLine"
+                }
+            ]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before":["<C-n>"],
+            "after":[],
+            "commands":[
+                {
+                    "command":":nohl"
+                }
+            ]
+        },
+        {
+            "before":["<leader>","m"],
+            "after":[],
+            "commands":[
+                {
+                    "command":":tabnext"
+                }
+            ]
+        },
+        {
+            "before":["<leader>","n"],
+            "after":[],
+            "commands":[
+                {
+                    "command":":tabprevious"
+                }
+            ]
+        }
+    ],
+    "python.pythonPath": "/opt/anaconda3/bin",
+    "editor.minimap.enabled": false
+}
