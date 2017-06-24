@@ -1,3 +1,9 @@
 # Ignore some folders
 vim/bundle
 vim/vimtmp
+
+# Reveal.js ignore
+reveal.js/img
+reveal.js/siemens.html
+
+
