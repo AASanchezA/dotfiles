@@ -64,5 +64,9 @@
     ],
     "python.pythonPath": "/opt/anaconda3/bin",
     "editor.minimap.enabled": false,
-    "editor.rulers": [80, 120]
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "vsicons.dontShowNewVersionMessage": true
 }
