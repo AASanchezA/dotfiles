@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc vimrc emacs emacs.d vim zshrc oh-my-zsh tmux.conf spacemacs"    # list of files/folders to symlink in homedir
+files="bashrc vimrc vim zshrc oh-my-zsh tmux.conf"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -33,7 +33,15 @@ done
 # linking also bash alias file
 echo "Creating symlink to bash_aliases in home directory."
 ln -s $dir/bash_aliases ~/.bash_aliases
-ln -s $dir/bash_export ~/.bash_export
+cp $dir/bash_export ~/.bash_export
+
+# linking Spacemacs config
+echo "Creating symlink to Spacemacs folder and configuration file"
+ln -s $dir/spacemacs ~/.emacs.d
+ln -s $dir/spacemacsrc ~/.spacemacs
+
+echo "Create temp folder in vim dir"
+mkdir $dir/vim/vimtmp
 
 # Define Zsh, as my default Shell
 sudo chsh -s /bin/zsh

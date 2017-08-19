@@ -2,15 +2,16 @@
 # Install Typical use packages
 sudo apt-get install zsh git \
 	emacs vim tmux ssh \
-	python python-pip ipython \
 	build-essential checkinstall \
-   	ctags \
 	cmake cmake-qt-gui \
 	nmap zenmap \
 	npm \
 	htop pandoc \
 	tree \
-	ruby-full \
+	ack \
+   	ctags \
+	powertop
+
 
 
 # For Nodejs you need to do some changes
