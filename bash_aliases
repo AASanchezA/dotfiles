@@ -18,7 +18,7 @@ alias l='ls -CF'
 alias hgp='history | grep --color=auto'
 alias hcs="history | awk '{print \$2};' | sort | uniq -c | sort -rn | head -15"
 alias primusrunBlank="vblank_mode=0 primusrun"
-alias findPCs='sudo nmap -sT 192.168.1.0/24'
+alias findPCs='sudo nmap -sT 192.168.178.0/24'
 alias findPrinters='nmap -p 9100,515,631 192.168.1.1/24'
 alias connectDO='ssh andres@kurbis.combinado.cl'
 alias connectDOAndres='ssh andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
