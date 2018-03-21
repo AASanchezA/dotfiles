@@ -37,8 +37,11 @@ values."
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
      vimscript
-     ;;html
-     ;;javascript
+     html
+     javascript
+     yaml
+     shell-scripts
+     windows-scripts
      python
      helm
      auto-completion
@@ -65,7 +68,8 @@ values."
      themes-megapack
      command-log
      docker
-     pandoc
+     ;; pandoc
+     twitter
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -102,7 +106,7 @@ values."
    ;; (default t)
    dotspacemacs-elpa-https t
    ;; Maximum allowed time in seconds to contact an ELPA repository.
-   dotspacemacs-elpa-timeout 5
+   dotspacemacs-elpa-timeout 300
    ;; If non nil then spacemacs will check for updates at startup
    ;; when the current branch is not `develop'. Note that checking for
    ;; new versions works via git commands, thus it calls GitHub services
@@ -331,6 +335,10 @@ you should place your code here."
   (setq evil-replace-state-cursor '("red" bar))
   (setq evil-operator-state-cursor '("red" hollow))
 
+
+  (setq-default helm-make-build-dir "build")
+
+  (setq twittering-use-master-password t)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
