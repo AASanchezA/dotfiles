@@ -48,3 +48,23 @@ alias ohmyzsh="vi ~/.oh-my-zsh"
 alias useful='xdg-open http://www.pixelbeat.org/cmdline.html &'
 alias listWireless='sudo iw dev wlp3s0 scan | grep SSID'
 alias x='xdg-open'
+
+alias diffme='git difftool --tool=vimdiff'
+
+alias diskSpace='df -ah'
+alias folderSize='du -sh'
+alias openPorts='sudo netstat -tulpn'
+
+## How to check services
+# Old way
+#service udev
+#service udev status
+
+# New way
+#systemctl status udev
+#systemctl status lightdm.service
+
+# Check network drivers
+#ifconfig
+#ip
+#ip addr show

@@ -55,15 +55,17 @@ values."
      markdown
      org
      (org :variables
-          org-enable-reveal-js-support t
           org-reveal-root ""
-          org-reveal-js "file:///~/dotfiles/reveal.js")
-          ;; org-reveal-root "file:///")
+          org-projectile-file "~/org/TODOS.org"
+          org-enable-bootstrap-support t
+          org-enable-reveal-js-support t
+          org-reveal-root "~/dotfiles/reveal.js"
+          org-reveal-js "~/dotfiles/reveal.js")
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
      ;; spell-checking
-     ;; syntax-checking
+     syntax-checking
      version-control
      themes-megapack
      command-log
@@ -339,6 +341,18 @@ you should place your code here."
   (setq-default helm-make-build-dir "build")
 
   (setq twittering-use-master-password t)
+
+  (with-eval-after-load 'org
+    (require 'org)
+    (setq org-agenda-files (list "~/org/work.org"))
+    ;; (setq org-directory "~/org")
+    ;; (setq org-default-notes-file (concat org-directory "/notes.org"))
+    )
+
+  ;; (with-eval-after-load 'org-agenda
+  ;;   (require 'org-projectile)
+  ;;   (push (org-projectile:todo-files) org-agenda-files)
+  ;;   )
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
