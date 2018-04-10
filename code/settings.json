@@ -68,5 +68,6 @@
         80,
         120
     ],
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.renderWhitespace": "all"
 }
