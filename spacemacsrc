@@ -47,6 +47,7 @@ values."
      auto-completion
      better-defaults
      emacs-lisp
+     latex
      git
      c-c++
      (c-c++ :variables
@@ -55,12 +56,13 @@ values."
      markdown
      org
      (org :variables
-          org-reveal-root ""
-          org-projectile-file "~/org/TODOS.org"
-          org-enable-bootstrap-support t
           org-enable-reveal-js-support t
-          org-reveal-root "~/dotfiles/reveal.js"
-          org-reveal-js "~/dotfiles/reveal.js")
+          ;; TODO Use generic path for reveal.js
+          ;; or symlink to installation folder
+          ;; on Windows use "file://"
+          org-reveal-root "/opt/reveal.js"
+          org-projectile-file "~/org/TODOS.org"
+          org-enable-bootstrap-support t)
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
@@ -70,6 +72,7 @@ values."
      themes-megapack
      command-log
      docker
+     search-engine
      ;; pandoc
      twitter
      )
@@ -158,7 +161,7 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '("Ubuntu Mono"
-                               :size 14
+                               :size 16
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -338,21 +341,39 @@ you should place your code here."
   (setq evil-operator-state-cursor '("red" hollow))
 
 
+  (setq twittering-use-master-password t)
+
   (setq-default helm-make-build-dir "build")
 
-  (setq twittering-use-master-password t)
+  ;; White space
+  (require 'whitespace)
+  (setq whitespace-style '(face empty tabs lines-tail trailing))
+  (global-whitespace-mode t)
 
   (with-eval-after-load 'org
     (require 'org)
     (setq org-agenda-files (list "~/org/work.org"))
     ;; (setq org-directory "~/org")
     ;; (setq org-default-notes-file (concat org-directory "/notes.org"))
+    (require 'ox-beamer)
+    (setq org-export-backends '(beamer html latex md))
     )
 
-  ;; (with-eval-after-load 'org-agenda
-  ;;   (require 'org-projectile)
-  ;;   (push (org-projectile:todo-files) org-agenda-files)
-  ;;   )
+  ;; Engine mode 
+  (setq browse-url-browser-function 'browse-url-generic
+        engine/browser-function 'browse-url-generic
+        browse-url-generic-program "google-chrome")
+
+  (defengine google
+    "http://www.google.com/search?ie=utf-8&oe=utf-8&q=%s"
+    :keybinding "g")
+  (defengine stack-overflow
+    "https://stackoverflow.com/search?q=%s"
+    :keybinding "s")
+  (defengine cpp-references
+    "http://en.cppreference.com/mwiki/index.php?search=%s"
+    :keybinding "c")
+
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

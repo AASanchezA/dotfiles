@@ -45,3 +45,6 @@ mkdir $dir/vim/vimtmp
 
 # Define Zsh, as my default Shell
 sudo chsh -s /bin/zsh
+
+echo "Creating symlink for Reveal.js in opt folder"
+ln -s $dir/reveal.js /opt/reveal.js
