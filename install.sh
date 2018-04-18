@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc vimrc vim zshrc oh-my-zsh tmux.conf"    # list of files/folders to symlink in homedir
+files="vimrc vim zshrc oh-my-zsh tmux.conf"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -45,3 +45,6 @@ mkdir $dir/vim/vimtmp
 
 # Define Zsh, as my default Shell
 sudo chsh -s /bin/zsh
+
+echo "Creating symlink for Reveal.js in opt folder"
+ln -s $dir/reveal.js /opt/reveal.js

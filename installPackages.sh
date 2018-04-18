@@ -8,7 +8,7 @@ sudo apt-get install zsh git \
 	npm \
 	htop pandoc \
 	tree \
-	ack \
+	ack-grep \
    	ctags \
 	powertop
 

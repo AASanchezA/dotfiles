@@ -18,7 +18,7 @@ alias l='ls -CF'
 alias hgp='history | grep --color=auto'
 alias hcs="history | awk '{print \$2};' | sort | uniq -c | sort -rn | head -15"
 alias primusrunBlank="vblank_mode=0 primusrun"
-alias findPCs='sudo nmap -sT 192.168.1.0/24'
+alias findPCs='sudo nmap -sT 192.168.178.0/24'
 alias findPrinters='nmap -p 9100,515,631 192.168.1.1/24'
 alias connectDO='ssh andres@kurbis.combinado.cl'
 alias connectDOAndres='ssh andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
@@ -49,3 +49,23 @@ alias ohmyzsh="vi ~/.oh-my-zsh"
 alias useful='xdg-open http://www.pixelbeat.org/cmdline.html &'
 alias listWireless='sudo iw dev wlp3s0 scan | grep SSID'
 alias x='xdg-open'
+
+alias diffme='git difftool --tool=vimdiff'
+
+alias diskSpace='df -ah'
+alias folderSize='du -sh'
+alias openPorts='sudo netstat -tulpn'
+
+## How to check services
+# Old way
+#service udev
+#service udev status
+
+# New way
+#systemctl status udev
+#systemctl status lightdm.service
+
+# Check network drivers
+#ifconfig
+#ip
+#ip addr show
