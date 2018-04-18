@@ -27,6 +27,7 @@ alias proxyPT='ssh -L 8888:127.0.0.1:8888 -p 2222 sato@brocoli.combinado.cl'
 alias proxyDO='ssh -L 8888:127.0.0.1:8888 andres@178.62.204.199 -i ~/.ssh/digitalOcean'
 alias proxyDO1='ssh -L 8888:127.0.0.1:8888 andres@178.62.207.97 -i ~/.ssh/digitalOcean'
 alias proxyDO2='ssh -L 8888:127.0.0.1:8888 andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
+alias proxyOverProxyDO='ssh -L 8888:127.0.0.1:8888 andres@178.62.204.199 -o "ProxyCommand=nc -X connect -x 194.145.60.1:9400 %h %p"'
 alias powerhtml='sudo powertop -r /var/www/power.html -t 60'
 
 # Emacs aliases
