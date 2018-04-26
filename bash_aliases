@@ -35,7 +35,8 @@ alias e='emacs -nw'
 alias ec='emacsclient'
 
 # Vim Alias
-alias v='vi'
+alias nv='nvim'
+alias v='vim'
 alias vino='vi --noplugin'
 
 # Example aliases

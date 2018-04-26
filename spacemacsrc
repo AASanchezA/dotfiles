@@ -49,6 +49,16 @@ values."
      emacs-lisp
      latex
      git
+     ;; TODO find a better way to define build folder
+     cmake
+     (cmake :variables
+            cmake-enable-cmake-ide-support t
+            cmake-ide-project-dir "~/Proj/forks/x-tag_photogrammetry/src"
+            cmake-ide-build-dir  "~/Proj/forks/x-tag_photogrammetry/build/"
+            cmake-ide-cmake-opts "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            helm-make-build-dir "build"
+            helm-make-arguments "-j8"
+            helm-ctest-dir "~/Proj/forks/x-tag_photogrammetry/build")
      c-c++
      (c-c++ :variables
             c-c++-default-mode-for-headers 'c++-mode
@@ -63,7 +73,6 @@ values."
           org-reveal-root "/opt/reveal.js"
           org-projectile-file "~/org/TODOS.org"
           org-enable-bootstrap-support t)
-          ;; org-default-notes-file "org/notes.org")
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
@@ -81,7 +90,8 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '(
+                                      speed-type)
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
@@ -162,7 +172,7 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '("Ubuntu Mono"
-                               :size 16
+                               :size 18
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -348,14 +358,22 @@ you should place your code here."
 
   (setq-default helm-make-build-dir "build")
 
+  ;; Set default tab
+  (setq default-tab-width 4)
+
   ;; White space
   (require 'whitespace)
-  (setq whitespace-style '(face empty tabs lines-tail trailing))
+  ;; TODO cleaner tab visualization
+  ;; (setq whitespace-style '(face empty tabs spaces lines-tail trailing))
+  (setq whitespace-style '(face tabs spaces trailing lines-tail space-before-tab empty space-after-tab space-mark tab-mark))
   (global-whitespace-mode t)
 
   (with-eval-after-load 'org
-    (require 'org)
-    (setq org-agenda-files (list "~/org/work.org"))
+    ;; (require 'org-capture)
+    (setq org-agenda-files (list "~/org/work.org" "~/org/hobby.org"))
+    (setq org-default-notes-file "~/org/notes/notes.org")
+    (setq org-todo-keywords '((sequence "TODO" "DOING" "|" "DONE" "WONTFIX")))
+    (setq org-projectile-file (list "~/org/projects.org"))
     (require 'ox-beamer)
     (setq org-export-backends '(beamer html latex md))
 
