@@ -234,6 +234,7 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic.git'	
+Bundle 'Valloric/YouCompleteMe.git'
 
 Bundle 'jistr/vim-nerdtree-tabs'
 
