@@ -36,16 +36,10 @@ values."
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
-     vimscript
-     html
-     javascript
-     yaml
-     shell-scripts
-     python
-     (python :variables
-             python-enable-yapf-format-on-save nil
-             python-sort-imports-on-save nil)
+     better-defaults
      helm
+     semantic
+     syntax-checking
      auto-completion
      (auto-completion :variables
                       auto-completion-enable-help-tooltip t
@@ -55,7 +49,6 @@ values."
            ycmd-server-command '("python" "/home/andres/dotfiles/vim/bundle/YouCompleteMe/third_party/ycmd/ycmd")
            ;; ycmd-extra-conf-whitelist '("/home/andres/Proj")
            ycmd-force-semantic-completion t)
-     better-defaults
      emacs-lisp
      latex
      git
@@ -73,6 +66,11 @@ values."
      (c-c++ :variables
             c-c++-default-mode-for-headers 'c++-mode
             c-c++-enable-clang-support t)
+     python
+     (python :variables
+             python-backend 'anaconda
+             python-enable-yapf-format-on-save t
+             python-sort-imports-on-save nil)
      markdown
      org
      (org :variables
@@ -82,20 +80,24 @@ values."
           ;; on Windows use "file://"
           org-reveal-root "/opt/reveal.js"
           org-projectile-file "~/org/TODOS.org"
-          org-enable-bootstrap-support t)
+          org-enable-bootstrap-support t
+          org-export-backends '(beamer html latex md gfm))
+     vimscript
+     html
+     javascript
+     yaml
+     shell-scripts
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
-     ;; spell-checking
-     syntax-checking
-     semantic
      version-control
      themes-megapack
      command-log
      docker
      search-engine
      ;; pandoc
-     twitter
+     ;; spell-checking
+     ;; twitter
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -103,7 +105,8 @@ values."
    ;; configuration in `dotspacemacs/user-config'.
    dotspacemacs-additional-packages '(
                                       speed-type
-                                      atomic-chrome)
+                                      atomic-chrome
+                                      ox-gfm)
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
@@ -374,8 +377,8 @@ you should place your code here."
   ;; White space
   (require 'whitespace)
   ;; TODO cleaner tab visualization
-  ;; (setq whitespace-style '(face empty tabs spaces lines-tail trailing))
-  (setq whitespace-style '(face tabs spaces trailing lines-tail space-before-tab empty space-after-tab space-mark tab-mark))
+  (setq whitespace-style '(face empty tabs spaces lines-tail trailing))
+  ;; (setq whitespace-style '(face tabs spaces trailing lines-tail space-before-tab empty space-after-tab space-mark tab-mark))
   (global-whitespace-mode t)
 
   (with-eval-after-load 'org
@@ -385,7 +388,7 @@ you should place your code here."
     (setq org-todo-keywords '((sequence "TODO" "DOING" "|" "DONE" "WONTFIX")))
     (setq org-projectile-file (list "~/org/projects.org"))
     (require 'ox-beamer)
-    (setq org-export-backends '(beamer html latex md))
+    ;; (setq org-export-backends '(beamer html latex md gfm qmd))
 
     ;; (require 'org-capture)
     ;; (setq org-default-notes-file (concat org-directory "/notes"))
