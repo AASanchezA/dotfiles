@@ -79,7 +79,7 @@ values."
           ;; or symlink to installation folder
           ;; on Windows use "file://"
           org-reveal-root "/opt/reveal.js"
-          org-projectile-file "~/org/TODOS.org"
+          org-projectile-file "~/org/todos/TODOS.org"
           org-enable-bootstrap-support t
           org-export-backends '(beamer html latex md gfm))
      vimscript
@@ -383,10 +383,10 @@ you should place your code here."
 
   (with-eval-after-load 'org
     ;; (require 'org-capture)
-    (setq org-agenda-files (list "~/org/work.org" "~/org/hobby.org"))
+    (setq org-agenda-files (list "~/org/todos/work.org" "~/org/todos/hobby.org"))
     (setq org-default-notes-file "~/org/notes/notes.org")
     (setq org-todo-keywords '((sequence "TODO" "DOING" "|" "DONE" "WONTFIX")))
-    (setq org-projectile-file (list "~/org/projects.org"))
+    (setq org-projectile-file (list "~/org/projects/projects.org"))
     (require 'ox-beamer)
     ;; (setq org-export-backends '(beamer html latex md gfm qmd))
 
