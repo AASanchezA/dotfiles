@@ -85,6 +85,8 @@ values."
      vimscript
      html
      javascript
+     json
+     csv
      yaml
      shell-scripts
      (shell :variables
