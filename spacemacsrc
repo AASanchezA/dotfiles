@@ -71,6 +71,7 @@ values."
              python-backend 'anaconda
              python-enable-yapf-format-on-save t
              python-sort-imports-on-save nil)
+     ipython-notebook
      markdown
      org
      (org :variables
@@ -97,6 +98,13 @@ values."
      command-log
      docker
      search-engine
+     wakatime
+     (wakatime :variables
+               wakatime-api-key  "3c98050a-b880-440c-8974-0140952e5dbc"
+               wakatime-python-bin "~/anaconda3/bin/python"
+               ;; use the actual wakatime path
+               wakatime-cli-path "~/anaconda3/bin/wakatime")
+     ;; ...
      ;; pandoc
      ;; spell-checking
      ;; twitter

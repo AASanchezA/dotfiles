@@ -275,6 +275,7 @@ Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 "Optional:
 Bundle "honza/vim-snippets"
+Bundle "wakatime/vim-wakatime"
 
 "TO Delete
 "Bundle 'vim-scripts/Command-T.git'
