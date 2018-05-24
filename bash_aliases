@@ -51,16 +51,23 @@ alias useful='xdg-open http://www.pixelbeat.org/cmdline.html &'
 alias listWireless='sudo iw dev wlp3s0 scan | grep SSID'
 alias x='xdg-open'
 
+# Some git aliases
 alias diffme='git difftool --tool=vimdiff'
+alias gitLOC='git ls-files -z  | xargs -0 cat | wc -l'
 
+# useful stuff
 alias diskSpace='df -ah'
 alias folderSize='du -sh'
 alias openPorts='sudo netstat -tulpn'
+
+## Dummy tools
+alias tr='trans'
 
 ## How to check services
 # Old way
 #service udev
 #service udev status
+
 
 # New way
 #systemctl status udev
