@@ -236,7 +236,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic.git'	
 Bundle 'Valloric/YouCompleteMe.git'
 
-Bundle 'jistr/vim-nerdtree-tabs'
+"Bundle 'jistr/vim-nerdtree-tabs'
 
 Bundle 'bling/vim-airline'
 
@@ -272,10 +272,13 @@ Bundle 'einars/js-beautify'
 " Snipmate bundle
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
+Bundle "SirVer/ultisnips"
+"Bundle "garbas/vim-snipmate"
 "Optional:
 Bundle "honza/vim-snippets"
+
 Bundle "wakatime/vim-wakatime"
+Bundle "ryanoasis/vim-devicons"
 
 "TO Delete
 "Bundle 'vim-scripts/Command-T.git'
@@ -373,8 +376,17 @@ au BufRead,BufNewFile *.pde set filetype=arduino
 au BufRead,BufNewFile *.ino set filetype=arduino
 
 " Snipmate keymap
-imap <C-f> <Plug>snipMateNextOrTrigger
-smap <C-f> <Plug>snipMateNextOrTrigger
+"imap <C-f> <Plug>snipMateNextOrTrigger
+"smap <C-f> <Plug>snipMateNextOrTrigger
 	
 "" Latex-Box
 "let g:LatexBox_latexmk_options = '-pdflatex="lualatex"'
+
+" Trigger configuration. Do not use <tab> if you use
+"  https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<c-t>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"

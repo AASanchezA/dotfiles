@@ -39,6 +39,12 @@ alias nv='nvim'
 alias v='vim'
 alias vino='vi --noplugin'
 
+# Ranger Alias
+alias ra="ranger"
+
+#TMUX alias
+alias mux='tmuxinator'
+
 # Example aliases
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
