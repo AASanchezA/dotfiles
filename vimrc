@@ -1,4 +1,3 @@
-" An example for a vimrc file.
 "
 " Maintainer:	Andres Sanchez <andres-sanchez@gmx.net>
 " Last change:	2013 Nov 27
@@ -220,7 +219,7 @@ filetype plugin indent on     " required!
 " NOTE: comments after Bundle command are not allowed..
 
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 
 " let Vundle manage Vundlewurden gerne dabei sein
 " required! 
@@ -255,8 +254,7 @@ Bundle 'godlygeek/tabular.git'
 
 Bundle 'tpope/vim-surround.git'
 Bundle 'tpope/vim-unimpaired'
-Bundle 'tpope/vim-fugitive'
-
+" Bundle 'tpope/vim-commentary'
 Bundle 'flazz/vim-colorschemes.git'
 
 Bundle 'klen/python-mode.git'
@@ -268,6 +266,16 @@ Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'nathanaelkane/vim-indent-guides.git'
 Bundle 'Chiel92/vim-autoformat'
 Bundle 'einars/js-beautify'
+
+" Google vim script
+Bundle 'google/vim-glaive'
+Bundle 'google/vim-codefmt'
+Bundle 'google/vim-maktaba'
+Bundle 'google/vim-searchindex'
+
+" TODO try if useful
+"Bundle 'google/vim-syncopate'
+
 
 " Snipmate bundle
 Bundle "MarcWeber/vim-addon-mw-utils"
@@ -285,6 +293,7 @@ Bundle "ryanoasis/vim-devicons"
 "Bundle 'tclem/vim-arduino.git'
 "Bundle 'Valloric/YouCompleteMe.git'
 "Bundle 'terryma/vim-multiple-cursors.git'
+call vundle#end()
 
 "=================================================================
 "=================== Make Vim Nice ==============================
@@ -390,3 +399,21 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+" Add helloworld to the runtime path. (Normally this would be done with
+" another
+" Plugin command, but helloworld doesn't have a repository of its own.)
+call maktaba#plugin#Install(maktaba#path#Join([maktaba#Maktaba().location,
+    \ 'examples', 'helloworld']))
+
+" the glaive#Install() should go after the "call vundle#end()"
+call glaive#Install()
+
+" Optional: Enable codefmt's default mappings on the <Leader>= prefix.
+Glaive codefmt plugin[mappings]
+
+" Configure helloworld using glaive.
+Glaive helloworld plugin[mappings] name='Bram'
+
+" Real world example: configure vim-codefmt
+"Glaive codefmt google_java_executable='java -jar /path/to/google-java-format.jar'

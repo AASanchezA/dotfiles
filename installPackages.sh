@@ -10,6 +10,7 @@ sudo apt-get install zsh git \
 	tree \
 	ack-grep \
    	ctags \
+	xclip \
 	powertop
 
 
