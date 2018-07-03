@@ -93,6 +93,7 @@ values."
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
+     octave
      version-control
      themes-megapack
      command-log
@@ -114,6 +115,7 @@ values."
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
    dotspacemacs-additional-packages '(
+                                      rtags
                                       speed-type
                                       atomic-chrome
                                       ox-gfm
