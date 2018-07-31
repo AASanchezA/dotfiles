@@ -83,3 +83,4 @@ alias tr='trans'
 #ifconfig
 #ip
 #ip addr show
+alias Postman='~/bin/Postman </dev/null &>/dev/null &'
