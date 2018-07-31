@@ -29,6 +29,7 @@ alias proxyDO1='ssh -L 8888:127.0.0.1:8888 andres@178.62.207.97 -i ~/.ssh/digita
 alias proxyDO2='ssh -L 8888:127.0.0.1:8888 andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
 alias proxyOverProxyDO='ssh -L 8888:127.0.0.1:8888 andres@178.62.204.199 -o "ProxyCommand=nc -X connect -x 194.145.60.1:9400 %h %p"'
 alias powerhtml='sudo powertop -r /var/www/power.html -t 60'
+alias loadKey='eval "$(ssh-agent)" && ssh-add ~/.ssh/id_rsa'
 
 # Emacs aliases
 alias e='emacs -nw'
@@ -83,4 +84,7 @@ alias tr='trans'
 #ifconfig
 #ip
 #ip addr show
+# Postman not output to console
 alias Postman='~/bin/Postman </dev/null &>/dev/null &'
+# find proccess
+alias got='ps fax |grep'
