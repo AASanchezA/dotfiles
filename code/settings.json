@@ -72,5 +72,7 @@
     "editor.renderWhitespace": "all",
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
-    }
+    },
+    "terminal.integrated.rendererType": "dom",
+    "cmake.configureOnOpen": true
 }
