@@ -30,7 +30,10 @@ values."
    dotspacemacs-configuration-layer-path '()
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(
+   '(yaml
+     html
+     markdown
+     javascript
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
@@ -40,13 +43,16 @@ values."
      helm
      semantic
      syntax-checking
+     (syntax-checking :variables
+                      syntax-checking-enable-tooltips t
+                      )
      auto-completion
      (auto-completion :variables
                       auto-completion-enable-help-tooltip t
                       auto-completion-enable-snippets-in-popup t)
      ycmd
      (ycmd :variables
-           ycmd-server-command '("python" "/home/andres/dotfiles/vim/bundle/YouCompleteMe/third_party/ycmd/ycmd")
+           ycmd-server-command '("python" "/home/one/dotfiles/vim/bundle/YouCompleteMe/third_party/ycmd/ycmd")
            ;; ycmd-extra-conf-whitelist '("/home/andres/Proj")
            ycmd-force-semantic-completion t)
      emacs-lisp
@@ -70,44 +76,8 @@ values."
      (python :variables
              python-backend 'anaconda
              ;; python-enable-yapf-format-on-save t
-             ;; python-sort-imports-on-save nil)
+             ;; flycheck-pylintrc "~/.pylintrc"
              )
-     ipython-notebook
-     markdown
-     org
-     (org :variables
-          org-enable-reveal-js-support t
-          ;; TODO Use generic path for reveal.js
-          ;; or symlink to installation folder
-          ;; on Windows use "file://"
-          org-reveal-root "/opt/reveal.js"
-          org-projectile-file "~/org/todos/TODOS.org"
-          org-enable-bootstrap-support t
-          org-export-backends '(beamer html latex md gfm)
-          org-want-todo-bindings t)
-     vimscript
-     html
-     javascript
-     json
-     csv
-     yaml
-     shell-scripts
-     (shell :variables
-            shell-default-height 30
-            shell-default-position 'bottom)
-     octave
-     version-control
-     themes-megapack
-     command-log
-     docker
-     search-engine
-     wakatime
-     (wakatime :variables
-               wakatime-api-key  "3c98050a-b880-440c-8974-0140952e5dbc"
-               wakatime-python-bin "~/anaconda3/bin/python"
-               ;; use the actual wakatime path
-               wakatime-cli-path "~/anaconda3/bin/wakatime")
-     ;; ...
      ;; pandoc
      ;; spell-checking
      ;; twitter
@@ -202,7 +172,7 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '("Ubuntu Mono"
-                               :size 18
+                               :size 12
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -402,6 +372,7 @@ you should place your code here."
     (setq org-default-notes-file "~/org/notes/notes.org")
     (setq org-todo-keywords '((sequence "TODO" "DOING" "|" "DONE" "WONTFIX")))
     (setq org-projectile-file (list "~/org/projects/projects.org"))
+    (setq org-pomodoro-length 35)
     (require 'ox-beamer)
     ;; (setq org-export-backends '(beamer html latex md gfm qmd))
 
