@@ -30,7 +30,8 @@ values."
    dotspacemacs-configuration-layer-path '()
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(yaml
+   '(go
+     yaml
      html
      markdown
      javascript
@@ -78,6 +79,9 @@ values."
              ;; python-enable-yapf-format-on-save t
              ;; flycheck-pylintrc "~/.pylintrc"
              )
+     org
+     docker
+     search-engine
      ;; pandoc
      ;; spell-checking
      ;; twitter
@@ -172,7 +176,7 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '("Ubuntu Mono"
-                               :size 12
+                               :size 14
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -288,7 +292,7 @@ values."
    ;; If non nil line numbers are turned on in all `prog-mode' and `text-mode'
    ;; derivatives. If set to `relative', also turns on relative line numbers.
    ;; (default nil)
-   dotspacemacs-line-numbers 'relative
+   dotspacemacs-line-numbers 'nil
    ;; Code folding method. Possible values are `evil' and `origami'.
    ;; (default 'evil)
    dotspacemacs-folding-method 'evil
@@ -412,20 +416,10 @@ you should place your code here."
         engine/browser-function 'browse-url-generic
         browse-url-generic-program "google-chrome")
 
-  (defengine google
-    "http://www.google.com/search?ie=utf-8&oe=utf-8&q=%s"
-    :keybinding "g")
-  (defengine stack-overflow
-    "https://stackoverflow.com/search?q=%s"
-    :keybinding "s")
-  (defengine cpp-references
-    "http://en.cppreference.com/mwiki/index.php?search=%s"
-    :keybinding "c")
-
-  (require 'atomic-chrome)
-  (atomic-chrome-start-server)
-  (setq atomic-chrome-buffer-open-style 'frame)
-  )
+  ;; (require 'atomic-chrome)
+  ;; (atomic-chrome-start-server)
+  ;; (setq atomic-chrome-buffer-open-style 'frame)
+)
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
