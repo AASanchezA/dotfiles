@@ -1,0 +1,67 @@
+" Simplest vimrc for fast startup
+
+" use proper VI Improved
+set nocompatible
+
+" Syntax 
+syntax enable
+filetype plugin on
+
+" Find Files
+set path+=**
+
+" Display matching pattern
+set wildmenu
+
+" Tweks file browsing
+" let g:netrw_banner=-1 "Disable banner
+let g:netrw_browse_split=4 " Open in prior window
+let g:netrw_altv=1 " Open split to the right
+let g:netrw_liststyle=3 " Tre view
+let g:netrw_list_hide=netrw_gitignore#Hide()
+let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
+
+" From ~/.vimrc
+set ruler		" show the cursor position all the time
+set showcmd		" display incomplete commands
+set incsearch		" do incremental searching
+set hlsearch
+set number
+
+"=================================================================
+"=================== Setting Up Tab size  ========================
+"=================================================================
+set smartindent
+set noexpandtab
+"set expandtab
+set copyindent
+set preserveindent
+set shiftwidth=4
+set softtabstop=0
+set shiftwidth=4
+set tabstop=4
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:.
+
+"=================================================================
+"=================== Setting Up temp file ========================
+"=================================================================
+" controls where backup files (with ~ extension by default) go.
+set backupdir=~/.vim/vimtmp
+
+" The 'directory' option controls where swap files go.
+set directory=~/.vim/vimtmp
+
+"=================================================================
+"=================== Useful Keybindings ==========================
+"=================================================================
+"This unsets the "last search pattern" register by hitting return
+nnoremap <CR><CR> :noh<CR><CR>
+
+"remap to save file with ctr+s
+inoremap <C-s> <esc>:w<cr>
+nnoremap <C-s> :w<cr>
+
+" Easier moving of code Blocks
+" better indetation
+vnoremap < <gv 
+vnoremap > >gv

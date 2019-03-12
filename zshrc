@@ -110,6 +110,13 @@ fi
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
+autoload -U edit-command-line
+ #Vi style:
+zle -N edit-command-line
+bindkey -M vicmd v edit-command-line
+
+# Disable matching
+# unsetopt nomatch
 
 # VIM mode 
 vim() STTY=-ixon command vim "$@" 

@@ -39,6 +39,7 @@ alias ec='emacsclient'
 alias nv='nvim'
 alias v='vim'
 alias vino='vi --noplugin'
+alias f='vim -u ~/.fastvimrc'
 
 # Ranger Alias
 alias ra="ranger"
