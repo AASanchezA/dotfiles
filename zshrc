@@ -5,18 +5,14 @@ case "$TERM" in
 	xterm-color) color_prompt=yes;; 
  	esac 
 
+echo "Running ZSHRC, enjoy the day ¯\_(ツ)_/¯"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-	export ZSH=$HOME/.oh-my-zsh 
+export ZSH=$HOME/.oh-my-zsh 
  
-# Set name of the theme to load. 
-# Look in ~/.oh-my-zsh/themes/ 
-# Optionally, if you set this to "random", it'll load a random theme each 
-# time that oh-my-zsh is loaded. 
-ZSH_THEME="blinks" 
-
 # Disable flow control commands (keeps C-s from freezing everything) 
 stty start undef 
 stty stop undef 
@@ -43,7 +39,12 @@ fi
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="blinks"
+#ZSH_THEME="blinks"
+ZSH_THEME="agnoster-newline"
+
+# For Agnoster to Hide the Local User
+DEFAULT_USER="andres"
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

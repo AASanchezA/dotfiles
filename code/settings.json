@@ -74,5 +74,6 @@
         "suppressShowKeyBindingsNotice": true
     },
     "terminal.integrated.rendererType": "dom",
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "gitlens.historyExplorer.enabled": true
 }
