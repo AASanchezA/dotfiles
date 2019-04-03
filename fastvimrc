@@ -27,6 +27,7 @@ set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 set hlsearch
 set number
+colorscheme pablo
 
 "=================================================================
 "=================== Setting Up Tab size  ========================

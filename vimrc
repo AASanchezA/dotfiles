@@ -17,6 +17,10 @@ endif
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+
+set path+=**
+set wildmenu
+
 "Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
 
@@ -230,7 +234,6 @@ Bundle 'gmarik/vundle'
 "=================================================================
 " My Bundles here:
 "original repos on github
-Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic.git'	
 Bundle 'Valloric/YouCompleteMe.git'
@@ -241,13 +244,9 @@ Bundle 'bling/vim-airline'
 
 Bundle 'jlanzarotta/bufexplorer'
 
-Bundle 'easymotion/vim-easymotion'
-Bundle 'joequery/Stupid-EasyMotion.git'
-
 Bundle 'vim-scripts/taglist.vim.git'
 Bundle 'vim-scripts/L9.git'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-
 Plugin 'ctrlpvim/ctrlp.vim'
 
 Bundle 'godlygeek/tabular.git'
@@ -328,10 +327,6 @@ autocmd CursorMoved * : set relativenumber
 
 "How can I open a NERDTree automatically when vim starts up if no files were specified?
 "autocmd vimenter * if !argc() | NERDTree | endif
-
-"How can I map a specific key or shortcut to open NERDTree?
-"open NERDTree with Ctrl+n (you can set whatever key you want):
- map <C-n> :NERDTreeToggle<CR>
 
 "How can I close vim if the only window left open is a NERDTree?
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif

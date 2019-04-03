@@ -39,8 +39,8 @@ fi
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-#ZSH_THEME="blinks"
-ZSH_THEME="agnoster-newline"
+ZSH_THEME="blinks"
+#ZSH_THEME="agnoster-newline"
 
 # For Agnoster to Hide the Local User
 DEFAULT_USER="andres"

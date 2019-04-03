@@ -35,6 +35,7 @@ values."
      html
      markdown
      javascript
+     vimscript
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
@@ -58,6 +59,7 @@ values."
            ycmd-force-semantic-completion t)
      emacs-lisp
      latex
+     (latex :variables latex-build-command "LaTeX")
      git
      ;; TODO find a better way to define build folder
      cmake
@@ -85,6 +87,7 @@ values."
      ;; pandoc
      ;; spell-checking
      ;; twitter
+     command-log
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -99,7 +102,9 @@ values."
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
-   dotspacemacs-excluded-packages '()
+   dotspacemacs-excluded-packages '(
+                                    smartparens
+                                    )
    ;; Defines the behaviour of Spacemacs when installing packages.
    ;; Possible values are `used-only', `used-but-keep-unused' and `all'.
    ;; `used-only' installs only explicitly used packages and uninstall any
@@ -343,7 +348,7 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  (server-start)
+  ;; (server-start)
   (setq backup-directory-alist
         `((".*" . ,temporary-file-directory)))
   (setq auto-save-file-name-transforms
@@ -369,6 +374,9 @@ you should place your code here."
   (setq whitespace-style '(face empty tabs spaces lines-tail trailing))
   ;; (setq whitespace-style '(face tabs spaces trailing lines-tail space-before-tab empty space-after-tab space-mark tab-mark))
   (global-whitespace-mode t)
+
+  (add-hook 'doc-view-mode-hook 'auto-revert-mode)
+  (spacemacs/toggle-indent-guide-globally-on)
 
   (with-eval-after-load 'org
     ;; (require 'org-capture)
