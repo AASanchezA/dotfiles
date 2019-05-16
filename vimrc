@@ -238,22 +238,15 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic.git'	
 Bundle 'Valloric/YouCompleteMe.git'
 
-"Bundle 'jistr/vim-nerdtree-tabs'
-
 Bundle 'bling/vim-airline'
-
-Bundle 'jlanzarotta/bufexplorer'
+Bundle 'tpope/vim-fugitive'
 
 Bundle 'vim-scripts/taglist.vim.git'
 Bundle 'vim-scripts/L9.git'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'ctrlpvim/ctrlp.vim'
-
-Bundle 'godlygeek/tabular.git'
 
 Bundle 'tpope/vim-surround.git'
 Bundle 'tpope/vim-unimpaired'
-" Bundle 'tpope/vim-commentary'
 Bundle 'flazz/vim-colorschemes.git'
 
 Bundle 'klen/python-mode.git'
@@ -261,16 +254,22 @@ Bundle 'klen/python-mode.git'
 Bundle 'LaTeX-Box-Team/LaTeX-Box.git'
 Bundle 'nelstrom/vim-markdown-folding.git'
 
-Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'nathanaelkane/vim-indent-guides.git'
 Bundle 'Chiel92/vim-autoformat'
 Bundle 'einars/js-beautify'
+
+Bundle 'dyng/ctrlsf.vim'
+Bundle 'sheerun/vim-polyglot'
+
+Bundle 'junegunn/fzf', { 'dir': '~/tools/fzf', 'do': './install --all' }
+Bundle 'junegunn/fzf.vim'
 
 " Google vim script
 Bundle 'google/vim-glaive'
 Bundle 'google/vim-codefmt'
 Bundle 'google/vim-maktaba'
 Bundle 'google/vim-searchindex'
+
 
 " TODO try if useful
 "Bundle 'google/vim-syncopate'
@@ -398,8 +397,8 @@ let g:UltiSnipsEditSplit="vertical"
 " Add helloworld to the runtime path. (Normally this would be done with
 " another
 " Plugin command, but helloworld doesn't have a repository of its own.)
-call maktaba#plugin#Install(maktaba#path#Join([maktaba#Maktaba().location,
-    \ 'examples', 'helloworld']))
+"call maktaba#plugin#Install(maktaba#path#Join([maktaba#Maktaba().location,
+    "\ 'examples', 'helloworld']))
 
 " the glaive#Install() should go after the "call vundle#end()"
 call glaive#Install()
@@ -408,7 +407,7 @@ call glaive#Install()
 Glaive codefmt plugin[mappings]
 
 " Configure helloworld using glaive.
-Glaive helloworld plugin[mappings] name='Bram'
+"Glaive helloworld plugin[mappings] name='Bram'
 
 " Real world example: configure vim-codefmt
 "Glaive codefmt google_java_executable='java -jar /path/to/google-java-format.jar'

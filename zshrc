@@ -88,7 +88,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git web-search systemadmin tmux ubuntu zsh-wakatime docker)  
+plugins=(git web-search systemadmin tmux ubuntu zsh-wakatime kubectl docker rsync)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -138,5 +138,4 @@ bindkey '^r' history-incremental-search-backward
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 
-[ -f "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.zsh ] && source "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.zsh
-
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
