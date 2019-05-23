@@ -1,30 +1,35 @@
-#!/bin/bash
-###############################################################################
-#                   
-# Docker installation script
-#
-###############################################################################
- uname -a
- sudo apt-get install apt-transport-https ca-certificates
- sudo apt-key adv \\n               --keyserver hkp://ha.pool.sks-keyservers.net:80 \\n               --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
- echo "deb https://apt.dockerproject.org/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
- cat /etc/apt/sources.list.d/docker.list
- sudo apt-get update
- apt-cache policy docker-engine
+#!/usr/bin/env bash
 
- sudo apt-get install linux-image-extra-$(uname -r)
- sudo apt-get install linux-image-extra-virtual
- sudo apt-get install docker-engine
- sudo apt-get update
+# Install Docker in Siemens Enviroment, With Proxy setup and so...
 
- sudo service docker start
- sudo docker run hello-world
+# Installation https://docs.docker.com/install/linux/docker-ce/ubuntu/
+# Proxy Setup https://stackoverflow.com/questions/26550360/docker-ubuntu-behind-proxy
 
- sudo groupadd docker
- sudo usermod -aG docker $(whoami)
+echo "Prepare dependencies"
+sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo docker run hello-world
 
- #docker run -it ubuntu bash
- #sudo docker run -it ubuntu bash
- #sudo usermod -aG docker $USER
- #docker run hello-world
- #sudo reboot
+echo "Setting app Proxy"
+sudo mkdir /etc/systemd/system/docker.service.d
+http_proxy_file=/etc/systemd/system/docker.service.d/http-proxy.conf
+sudo echo "[service]" >> $http_proxy_file
+sudo echo "environment=\"http_proxy=${http_proxy}/\"" >> $http_proxy_file
+sudo echo "environment=\"https_proxy=${http_proxy}/\"" >> $http_proxy_file
+sudo echo "environment=\"no_proxy=${NO_PROXY}\"" >> $http_proxy_file
+
+echo "Restart docker daemon"
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
+echo "Add User to docker group"
+sudo groupadd docker
+sudo usermod -aG docker $USER
+# sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+docker run hello-world
+echo "\n\nDont Forget to logoff and login"
+
