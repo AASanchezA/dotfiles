@@ -22,6 +22,21 @@ sudo echo "environment=\"http_proxy=${http_proxy}/\"" >> $http_proxy_file
 sudo echo "environment=\"https_proxy=${http_proxy}/\"" >> $http_proxy_file
 sudo echo "environment=\"no_proxy=${NO_PROXY}\"" >> $http_proxy_file
 
+
+# setup daemon.
+cat > /etc/docker/daemon.json <<EOF
+{
+"exec-opts": ["native.cgroupdriver=systemd"],
+"log-driver": "json-file",
+"log-opts": {
+"max-size": "100m"
+},
+"storage-driver": "overlay2"
+}
+EOF
+mkdir -p /etc/systemd/system/docker.service.d
+
+
 echo "Restart docker daemon"
 sudo systemctl daemon-reload
 sudo systemctl restart docker
@@ -33,3 +48,8 @@ sudo usermod -aG docker $USER
 docker run hello-world
 echo "\n\nDont Forget to logoff and login"
 
+
+echo "Install Docker Compose"
+curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o $HOME/tools/bin/docker-compose
+
+chmod +x $HOME/tools/bin/docker-compose
