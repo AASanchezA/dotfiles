@@ -283,7 +283,7 @@ Bundle "SirVer/ultisnips"
 "Optional:
 Bundle "honza/vim-snippets"
 
-Bundle "wakatime/vim-wakatime"
+"Bundle "wakatime/vim-wakatime"
 Bundle "ryanoasis/vim-devicons"
 
 "TO Delete
@@ -353,6 +353,12 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " Airline settings
 set laststatus=2
+nmap <leader>gg :YcmCompleter GoTo<CR>
+nmap <leader>gh :YcmCompleter GetDoc<CR>
+nmap <leader>gf :YcmCompleter Format<CR>
+nmap <leader>gi :YcmCompleter GoToInclude<CR>
+nmap <leader>gd :YcmCompleter GoToDefinition<CR>
+nmap <leader>gr :YcmCompleter GoToReferences<CR>
 
 " Syntastic C checker 
   "let g:loaded_syntastic_c_gcc_checker = 1 
