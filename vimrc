@@ -189,14 +189,14 @@ vnoremap > >gv
 
 "Map Bufplorer to be control by <ALT> pageUp and pageDown
 " Buffers - explore/next/previous: 
-nnoremap <leader><leader>b   :BufExplorer<CR> 
-"nnoremap <leader>bb   :buffers<CR>
-nnoremap <leader><leader>n   :bn<CR>
-nnoremap <leader><leader>m   :bp<CR>
+"nnoremap <leader><leader>b   :BufExplorer<CR> 
+nnoremap <leader>nn   :buffers<CR>:b
+nnoremap <leader>n   :bn<CR>
+nnoremap <leader>m   :bp<CR>
 
 " easier moving between tabs
-map <Leader>n <esc>:tabprevious<CR>
-map <Leader>m <esc>:tabnext<CR>
+map <Leader><leader>n <esc>:tabprevious<CR>
+map <Leader><leader>m <esc>:tabnext<CR>
 
 
 "=================================================================

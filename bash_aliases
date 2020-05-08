@@ -40,6 +40,8 @@ alias nv='nvim'
 alias v='vim'
 alias vino='vi --noplugin'
 alias f='vim -u ~/.fastvimrc'
+alias vf='vim $(fzf --height 40%)'
+alias ef='emacs -nw $(fzf --height 40%)'
 
 # Ranger Alias
 alias ra="ranger"
