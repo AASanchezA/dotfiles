@@ -17,24 +17,6 @@ export ZSH=$HOME/.oh-my-zsh
 stty start undef 
 stty stop undef 
 	
-# Alias definitions. 
-# You may want to put all your additions into a separate file like 
-# ~/.bash_aliases, instead of adding them here directly. 
-# See /usr/share/doc/bash-doc/examples in the bash-doc package. 
-
-if [ -f ~/.bash_aliases ]; then 
-	. ~/.bash_aliases 
-fi 
-		  
-# Export definitions. 
-# You may want to put all your additions into a separate file like 
-# ~/.bash_export, instead of adding them here directly. 
-# See /usr/share/doc/bash-doc/examples in the bash-doc package. 
-
-if [ -f ~/.bash_export ]; then 
-	. ~/.bash_export 
-fi
-
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -88,7 +70,24 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git web-search systemadmin tmux ubuntu kubectl docker rsync gitignore minikube colored-man-pages)
+plugins=(
+  zsh-autosuggestions
+  git
+  web-search
+  systemadmin
+  tmux
+  ubuntu
+  kubectl
+  docker
+  rsync
+  gitignore
+  minikube
+  colored-man-pages
+  nmap
+  pass
+)
+
+
 
 source $ZSH/oh-my-zsh.sh
 
@@ -129,6 +128,7 @@ bindkey '^?' backward-delete-char
 bindkey '^h' backward-delete-char 
 bindkey '^w' backward-kill-word 
 bindkey '^r' history-incremental-search-backward 
+bindkey '^ ' autosuggest-accept
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -138,4 +138,40 @@ bindkey '^r' history-incremental-search-backward
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 
+# Alias definitions. 
+# You may want to put all your additions into a separate file like 
+# ~/.bash_aliases, instead of adding them here directly. 
+# See /usr/share/doc/bash-doc/examples in the bash-doc package. 
+
+if [ -f ~/.bash_aliases ]; then 
+	. ~/.bash_aliases 
+fi 
+		  
+# Export definitions. 
+# You may want to put all your additions into a separate file like 
+# ~/.bash_export, instead of adding them here directly. 
+# See /usr/share/doc/bash-doc/examples in the bash-doc package. 
+
+if [ -f ~/.bash_export ]; then 
+	. ~/.bash_export 
+fi
+
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/andres/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/andres/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/andres/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/andres/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
