@@ -187,13 +187,6 @@ vmap <C-j> ]egv
 vnoremap < <gv 
 vnoremap > >gv
 
-"Map Bufplorer to be control by <ALT> pageUp and pageDown
-" Buffers - explore/next/previous: 
-"nnoremap <leader><leader>b   :BufExplorer<CR> 
-nnoremap <leader>nn   :buffers<CR>:b
-nnoremap <leader>n   :bn<CR>
-nnoremap <leader>m   :bp<CR>
-
 " easier moving between tabs
 map <Leader><leader>n <esc>:tabprevious<CR>
 map <Leader><leader>m <esc>:tabnext<CR>
@@ -234,6 +227,8 @@ Bundle 'gmarik/vundle'
 "=================================================================
 " My Bundles here:
 "original repos on github
+Bundle 'preservim/nerdtree'
+
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic.git'	
 Bundle 'Valloric/YouCompleteMe.git'
@@ -298,7 +293,7 @@ call vundle#end()
 "=================================================================
 "SetUp color-Scheme
 set background=dark
-colorscheme molokai 
+colorscheme gruvbox
 "Add color column as a reference for coding
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
@@ -338,27 +333,33 @@ let g:indent_guides_auto_colors = 1
 "autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
 "autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 
-"Adding mapping and the default command to invoke CtrlP
-"Press <F5> to purge the cache for the current directory to get new files, remove deleted files and apply new ignore options.
-"Press <c-f> and <c-b> to cycle between modes.
-"Press <c-d> to switch to filename only search instead of full path.
-"Press <c-r> to switch to regexp mode.
-"Use <c-j>, <c-k> or the arrow keys to navigate the result list.
-"Use <c-t> or <c-v>, <c-x> to open the selected entry in a new tab or in a new split.
-"Use <c-n>, <c-p> to select the next/previous string in the prompt's history.
-"Use <c-y> to create a new file and its parent directories.
-"Use <c-z> to mark/unmark multiple files and <c-o> to open them.
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-
 " Airline settings
 set laststatus=2
+" youcomplete keybinding
 nmap <leader>gg :YcmCompleter GoTo<CR>
 nmap <leader>gh :YcmCompleter GetDoc<CR>
 nmap <leader>gf :YcmCompleter Format<CR>
 nmap <leader>gi :YcmCompleter GoToInclude<CR>
 nmap <leader>gd :YcmCompleter GoToDefinition<CR>
 nmap <leader>gr :YcmCompleter GoToReferences<CR>
+
+" Buffers - explore/next/previous: 
+nnoremap <leader>nn  :Buffers<CR>
+nnoremap <leader>n   :bn<CR>
+nnoremap <leader>m   :bp<CR>
+
+" FZF keybindings
+nmap <c-p> :Files<CR>
+nnoremap <leader>fs :GFiles?<CR>
+nnoremap <leader>ff :GFiles<CR>
+nnoremap <leader>fg :Files /<CR>
+nnoremap <leader>fh :History<CR>
+nnoremap <leader>fr :Rg<CR>
+nnoremap <leader>fl :Lines<CR>
+nnoremap <leader>hh :Helptags<CR>
+
+" Nerdtree
+map <C-n> :NERDTreeToggle<CR>
 
 " Syntastic C checker 
   "let g:loaded_syntastic_c_gcc_checker = 1 
