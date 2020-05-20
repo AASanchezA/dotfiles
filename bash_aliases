@@ -72,15 +72,6 @@ alias diskSpace='df -ah'
 alias folderSize='du -sh'
 alias openPorts='sudo netstat -tulpn'
 
-## Dummy tools
-alias tr='trans'
-
-## How to check services
-# Old way
-#service udev
-#service udev status
-
-
 # New way
 #systemctl status udev
 #systemctl status lightdm.service
