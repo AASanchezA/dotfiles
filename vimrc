@@ -286,11 +286,6 @@ Bundle "honza/vim-snippets"
 "Bundle "wakatime/vim-wakatime"
 Bundle "ryanoasis/vim-devicons"
 
-"TO Delete
-"Bundle 'vim-scripts/Command-T.git'
-"Bundle 'tclem/vim-arduino.git'
-"Bundle 'Valloric/YouCompleteMe.git'
-"Bundle 'terryma/vim-multiple-cursors.git'
 call vundle#end()
 
 "=================================================================

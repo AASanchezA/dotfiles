@@ -20,8 +20,8 @@ stty stop undef
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
-ZSH_THEME="blinks"
+ZSH_THEME="robbyrussell"
+#ZSH_THEME="blinks"
 #ZSH_THEME="agnoster-newline"
 
 # For Agnoster to Hide the Local User
@@ -85,9 +85,8 @@ plugins=(
   colored-man-pages
   nmap
   pass
+  zsh-wakatime 
 )
-
-
 
 source $ZSH/oh-my-zsh.sh
 
@@ -158,18 +157,18 @@ fi
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
+source $HOME/go/src/github.com/tomnomnom/gf/gf-completion.bash
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/andres/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/andres/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/andres/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/andres/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/andres/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/andres/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/andres/miniconda3/bin:$PATH"
+        export PATH="/home/andres/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup

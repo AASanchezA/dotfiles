@@ -33,6 +33,7 @@ alias loadKey='eval "$(ssh-agent)" && ssh-add ~/.ssh/id_rsa'
 
 # Emacs aliases
 alias e='emacs -nw'
+alias eg='emacs &'
 alias ec='emacsclient'
 
 # Vim Alias
@@ -44,7 +45,8 @@ alias vf='vim $(fzf --height 40%)'
 alias ef='emacs -nw $(fzf --height 40%)'
 
 # Ranger Alias
-alias ra="ranger"
+alias ra="$HOME/tools/ranger/ranger.py"
+
 
 #TMUX alias
 alias mux='tmuxinator'
@@ -91,3 +93,5 @@ alias tr='trans'
 alias Postman='~/bin/Postman </dev/null &>/dev/null &'
 # find proccess
 alias got='ps fax |grep'
+
+alias sl='exa'

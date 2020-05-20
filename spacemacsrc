@@ -53,11 +53,6 @@ values."
      (auto-completion :variables
                       auto-completion-enable-help-tooltip t
                       auto-completion-enable-snippets-in-popup t)
-     ycmd
-     (ycmd :variables
-           ycmd-server-command '("python" "/home/one/dotfiles/vim/bundle/YouCompleteMe/third_party/ycmd/ycmd")
-           ;; ycmd-extra-conf-whitelist '("/home/andres/Proj")
-           ycmd-force-semantic-completion t)
      emacs-lisp
      latex
      (latex :variables latex-build-command "LaTeX")
@@ -66,28 +61,73 @@ values."
      cmake
      (cmake :variables
             cmake-enable-cmake-ide-support t
-            cmake-ide-project-dir "~/Proj/forks/x-tag_photogrammetry/src"
-            cmake-ide-build-dir  "~/Proj/forks/x-tag_photogrammetry/build/"
-            cmake-ide-cmake-opts "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            cmake-ide-project-dir "~/Proj/code/3D-Vision/Plugfinder"
+            cmake-ide-build-dir  "~/Proj/code/3D-Vision/Plugfinder/build"
+            cmake-ide-cmake-opts "-DCMAKE_BUILD_TYPE=Release"
             helm-make-build-dir "build"
             helm-make-arguments "-j8"
-            helm-ctest-dir "~/Proj/forks/x-tag_photogrammetry/build")
+            helm-ctest-dir "~/Proj/code/3D-Vision/Plugfinder/build/")
+     ;; ycmd
+     ;; (ycmd :variables
+     ;;       ycmd-server-command '("python" "/home/andres/dotfiles/vim/bundle/YouCompleteMe/third_party/ycmd/ycmd")
+     ;;       ;; ycmd-extra-conf-whitelist '("/home/andres/Proj")
+     ;;       ycmd-startup-timeout 5
+     ;;       ycmd-force-semantic-completion t)
      c-c++
      (c-c++ :variables
+            c-c++-backend 'lsp-ccls
+            c-c++-adopt-subprojects t
+            c-c++-lsp-enable-semantic-highlight 'rainbow
             c-c++-default-mode-for-headers 'c++-mode
+            c-c++-enable-auto-newline t
             c-c++-enable-clang-support t)
+     lsp
+     ;; (lsp :variables
+          ;; ccls-executable '/home/andres/Proj/libs/ccls
+          ;; lsp-clients-clangd-executable 'clangd)
      python
      (python :variables
              python-backend 'anaconda
              ;; python-enable-yapf-format-on-save t
              ;; flycheck-pylintrc "~/.pylintrc"
              )
+     go
+     (go :variables go-use-gometalinter t)
      org
+     (org :variables
+          org-enable-reveal-js-support t
+          ;; TODO Use generic path for reveal.js
+          ;; or symlink to installation folder
+          ;; on Windows use "file://"
+          org-reveal-root "~/dotfiles/reveal.js"
+          org-projectile-file "~/org/todos/TODOS.org"
+          org-enable-bootstrap-support t
+          org-export-backends '(beamer html latex md gfm)
+          org-want-todo-bindings t)
+     plantuml
+     (plantuml :variables
+               org-plantuml-jar-path "/usr/share/plantuml/plantuml.jar"
+               plantuml-jar-path "/usr/share/plantuml/plantuml.jar")
+     vimscript
+     html
+     javascript
+     json
+     csv
+     yaml
+     shell-scripts
+     (shell :variables
+            shell-default-height 30
+            shell-default-position 'bottom)
+     octave
+     version-control
+     themes-megapack
+     command-log
      docker
      search-engine
+     neotree
      ;; pandoc
-     ;; spell-checking
-     ;; twitter
+     spell-checking
+     twitter
      command-log
      )
    ;; List of additional packages that will be installed without being
@@ -95,9 +135,10 @@ values."
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
    dotspacemacs-additional-packages '(
-                                      rtags
+                                      ;; rtags
                                       speed-type
                                       atomic-chrome
+                                      company-lsp
                                       ox-gfm
                                       company-jedi)
    ;; A list of packages that cannot be updated.
@@ -298,7 +339,7 @@ values."
    ;; If non nil line numbers are turned on in all `prog-mode' and `text-mode'
    ;; derivatives. If set to `relative', also turns on relative line numbers.
    ;; (default nil)
-   dotspacemacs-line-numbers 'nil
+   dotspacemacs-line-numbers 'relative
    ;; Code folding method. Possible values are `evil' and `origami'.
    ;; (default 'evil)
    dotspacemacs-folding-method 'evil
@@ -339,7 +380,7 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
-  (push "/usr/local/share/emacs/site-lisp/rtags" load-path)
+  ;; (push "/usr/local/share/emacs/site-lisp/rtags" load-path)
   )
 
 (defun dotspacemacs/user-config ()
@@ -431,4 +472,4 @@ you should place your code here."
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
-;; auto-generate custom variable definitions.
+;; auto-generate custom variable-binding-locus definitions.
