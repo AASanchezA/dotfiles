@@ -40,6 +40,9 @@ echo "Creating symlink to Spacemacs folder and configuration file"
 ln -s $dir/spacemacs ~/.emacs.d
 ln -s $dir/spacemacsrc ~/.spacemacs
 
+echo "Creating symlink to vifm folder"
+ln -s $dir/vifm ~/.vifm
+
 echo "Create temp folder in vim dir"
 mkdir $dir/vim/vimtmp
 

@@ -4,6 +4,7 @@ sudo apt-get install zsh git \
 	emacs vim tmux ssh \
 	build-essential checkinstall \
 	cmake cmake-qt-gui \
+	vifm \
 	nmap zenmap \
 	npm \
 	htop pandoc \
