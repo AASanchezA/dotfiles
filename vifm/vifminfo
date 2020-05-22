@@ -1,0 +1,651 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'b
+	/home/andres/bin/
+	..
+1578610708
+'h
+	/home/andres/
+	..
+1578685968
+
+# Bookmarks:
+
+# TUI:
+al
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	__init__.py
+1
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	grabber.py
+4
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	helpers.py
+5
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	app.py
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	app.py
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	environment.yml
+4
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	yolo_object_detection.py
+10
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	Dockerfile
+6
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp
+	src
+1
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	Makefile
+6
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp
+	src
+1
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	Makefile
+5
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp
+	src
+1
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	yolo_object_detection.py
+10
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	grabber.py
+4
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	requirements.txt
+7
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	templates
+4
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp
+	src
+1
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	start.sh
+7
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp
+	src
+1
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/app
+	data
+1
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src
+	app
+2
+d/home/andres
+	.offlineimap
+41
+d/home/andres/.offlineimap
+	Account-gmx
+2
+d/home/andres
+	Proj
+30
+d/home/andres/Proj
+	code
+1
+d/home/andres/Proj/code
+	3D-Vision
+1
+d/home/andres/Proj/code/3D-Vision
+	Plugfinder
+1
+d/home/andres/Proj/code
+	industrialedgeperception
+5
+d/home/andres/Proj/code/industrialedgeperception
+	ie_p_exploration
+1
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration
+	Hardware
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Hardware
+	Continental-NOx-Sensor
+3
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration
+	Software
+3
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software
+	EdgeCoreXimeaApp
+3
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp
+	.gitignore
+6
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software
+	MQTTapp
+6
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/MQTTapp
+	README.md
+1
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software
+	DataBusHelloSayer
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/DataBusHelloSayer
+	hellosayer-compose.yml
+5
+d/home/andres/Proj/github/opencv/opencv
+	modules
+12
+d/home/andres/Proj/github/opencv/opencv/modules
+	dnn
+3
+d/home/andres/Proj/github/opencv/opencv/modules/dnn
+	src
+5
+d/home/andres/Proj/github/opencv/opencv/modules/dnn/src
+	opencl
+8
+d/home/andres/Proj/github/opencv/opencv/modules/dnn/src/opencl
+	math.cl
+14
+d/home/andres/Proj/github/opencv/opencv/modules/dnn/src
+	init.cpp
+15
+d/home/andres/Proj/github/opencv/opencv/modules/dnn
+	include
+2
+d/home/andres/Proj/github/opencv/opencv/modules/dnn/include
+	opencv2
+1
+d/home/andres/Proj/github/opencv/opencv/modules/dnn/include/opencv2
+	dnn
+1
+d/home/andres/Proj/github/opencv/opencv/modules/dnn/include/opencv2/dnn
+	dnn.hpp
+4
+d/home/andres/Proj/github/opencv/opencv
+	modules
+12
+d/home/andres/Proj/github/opencv/opencv/modules
+	dnn
+3
+d/home/andres/Proj/github/opencv/opencv/modules/dnn
+	test
+6
+d/home/andres/Proj/github/opencv/opencv/modules
+	dnn
+3
+d/home/andres/Proj/github/opencv/opencv
+	samples
+14
+d/home/andres/Proj/github/opencv/opencv/samples
+	dnn
+5
+d/home/andres/Proj/github/opencv/opencv/samples/dnn
+	segmentation.cpp
+22
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp
+	.gitignore
+6
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software
+	EdgeCoreXimeaApp
+3
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration
+	Software
+3
+d/home/andres/Proj/code/industrialedgeperception
+	ie_p_exploration_backup
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration_backup
+	Downloads
+3
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration_backup/Downloads
+	drivers
+5
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration_backup/Downloads/drivers
+	ximea
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration_backup/Downloads/drivers/ximea
+	XIMEA_Linux_SP.tgz
+2
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp
+	cfg-data
+1
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/cfg-data
+	..
+0
+d/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp
+	src
+4
+d/home/andres/miniconda3/lib/python3.7/site-packages
+	pytest_bdd-3.2.1.dist-info
+4
+d/home/andres/Proj/github/opencv/opencv/build
+	bin
+4
+d/home/andres/Proj/github/opencv/opencv/build/bin
+	opencv_waldboost_detector
+22
+d/home/andres/Proj/github/opencv/opencv/build
+	apps
+4
+d/home/andres/Proj/github/opencv/opencv/build/apps
+	..
+0
+d/home/andres/Proj/github/opencv/opencv/build
+	lib
+13
+d/home/andres/Proj/github/opencv/opencv/build/lib
+	libopencv_xobjdetect.so.4.1
+17
+d/home/andres/Proj/github/opencv/opencv/build
+	modules
+14
+d/home/andres/Proj/github/opencv/opencv/build/modules
+	python_bindings_generator
+18
+d/home/andres/Proj/github/opencv/opencv/build/modules/python_bindings_generator
+	pyopencv_custom_headers.h
+6
+d/home/andres/Proj/github/opencv/opencv/build/modules
+	bioinspired
+5
+d/home/andres/Proj/github/opencv/opencv/build
+	python_loader
+16
+d/home/andres/Proj/github/opencv/opencv/build/python_loader
+	setup.py
+2
+d/home/andres/Proj/github/opencv/opencv/build
+	python_loader
+16
+d/home/andres/Proj/github/opencv/opencv/build/python_loader
+	cv2
+1
+d/home/andres/Proj/github/opencv/opencv/build/python_loader/cv2
+	load_config_py3.py
+4
+d/home/andres/Proj/github/opencv/opencv/build/python_loader
+	cv2
+1
+d/home/andres/Proj/github/opencv/opencv/build
+	CMakeDownloadLog.txt
+18
+d/home/andres/Proj/github/opencv/opencv
+	build
+7
+d/home/andres/Proj/github/opencv/opencv/build
+	python_loader
+11
+d/home/andres/Proj/github/opencv/opencv/build/python_loader
+	setup.py
+2
+d/home/andres/miniconda3/lib/python3.7/site-packages/cv2
+	load_config_py3.py
+6
+d/home/andres/miniconda3/envs/opencv/lib/python3.7/site-packages/cv2
+	load_config_py3.py
+11
+d
+
+# Right window history (oldest to newest):
+D/home/andres
+	test
+29
+D/home
+	andres
+1
+D/home/andres
+	Proj
+12
+D/home/andres/Proj
+	code
+1
+D/home/andres/Proj/code
+	AASanchezA
+3
+D/home/andres/Proj
+	gitlab
+4
+D/home/andres/Proj/gitlab
+	me
+3
+D/home/andres/Proj/gitlab/me
+	hugo_first
+3
+D/home/andres/Proj/gitlab/me/hugo_first
+	quickstart
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart
+	themes
+7
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes
+	zzo
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo
+	exampleSite
+4
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	static
+4
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static
+	favicon
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/favicon
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static
+	gallery
+2
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/gallery
+	cartoon
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/gallery/cartoon
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/gallery
+	cartoon
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static
+	images
+3
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/images
+	feature2
+2
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/images/feature2
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/images
+	whoami
+5
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/images/whoami
+	avatar.jpg
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/images
+	whoami
+5
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static
+	images
+3
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	resources
+3
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	content
+2
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content
+	en
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en
+	presentation
+5
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en/presentation
+	dir
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en/presentation/dir
+	fourth.md
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en/presentation
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	resources
+3
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources
+	_gen
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen
+	assets
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen/assets
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen
+	assets
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen/assets
+	scss
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen/assets/scss
+	sass
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen/assets/scss/sass
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen/assets/scss
+	sass
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen/assets
+	scss
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen
+	assets
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources
+	_gen
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	content
+2
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content
+	en
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content
+	en
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	config
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/config
+	_default
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	content
+2
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content
+	en
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en
+	gallery
+3
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en/gallery
+	cartoon
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en/gallery/cartoon
+	index.md
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en/gallery
+	cartoon
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content/en
+	gallery
+3
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content
+	en
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	resources
+3
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources
+	_gen
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen
+	assets
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen/assets
+	scss
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen
+	images
+2
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen/images
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources/_gen
+	images
+2
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/resources
+	_gen
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	static
+4
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static
+	gallery
+2
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/gallery
+	cartoon
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/gallery/cartoon
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/gallery
+	cartoon
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static
+	gallery
+2
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	static
+4
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static
+	favicon
+1
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static/favicon
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/static
+	..
+0
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite
+	content
+2
+D/home/andres/Proj/gitlab/me/hugo_first/quickstart/themes/zzo/exampleSite/content
+	en
+1
+D
+
+# Command line history (oldest to newest):
+:help vifm-dp
+:colorscheme zenburn_1
+:colorscheme darkdesert
+:help vifm-general-keys
+:help
+:q
+:!git pull
+
+# Search history (oldest to newest):
+/pyt
+/py
+/defau
+/sprin
+/org-mode
+/org
+/^org
+/Pro
+
+# Prompt history (oldest to newest):
+pconfig-3.6.py
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/andres/.local/share/vifm/Trash/000_opencv_frame_0.png
+	/home/andres/Proj/code/AASanchezA/edgecore/src/opencv_frame_0.png
+t/home/andres/.local/share/vifm/Trash/000_opencv_frame_1.png
+	/home/andres/Proj/code/AASanchezA/edgecore/src/opencv_frame_1.png
+t/home/andres/.local/share/vifm/Trash/000_opencv_frame_2.png
+	/home/andres/Proj/code/AASanchezA/edgecore/src/opencv_frame_2.png
+t/home/andres/.local/share/vifm/Trash/000_opencv_frame_3.png
+	/home/andres/Proj/code/AASanchezA/edgecore/src/opencv_frame_3.png
+t/home/andres/.local/share/vifm/Trash/000_XimeaInstaller
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/XimeaInstaller
+t/home/andres/.local/share/vifm/Trash/000___pycache__
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/__pycache__
+t/home/andres/.local/share/vifm/Trash/000_cfg-data
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/cfg-data
+t/home/andres/.local/share/vifm/Trash/000_publish
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/publish
+t/home/andres/.local/share/vifm/Trash/000_room_ser.jpg
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/room_ser.jpg
+t/home/andres/.local/share/vifm/Trash/000_opencamera.py
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/opencamera.py
+t/home/andres/.local/share/vifm/Trash/000_test.yml
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/test.yml
+t/home/andres/.local/share/vifm/Trash/000_android-studio-ide-192.6308749-linux.tar.gz
+	/var/tmp/pamac-build-andres/android-studio/android-studio-ide-192.6308749-linux.tar.gz
+t/home/andres/.local/share/vifm/Trash/000_node_modules
+	/home/andres/Proj/code/iip/iip_pipeline_executor/node_modules
+t/home/andres/.local/share/vifm/Trash/001_node_modules
+	/home/andres/Proj/code/iip/iip_pipeline_executor/src/web/v0/static/node_modules
+t/home/andres/.local/share/vifm/Trash/000_coco.names
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/coco.names
+t/home/andres/.local/share/vifm/Trash/000___init__.py
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/src/__init__.py
+t/home/andres/.local/share/vifm/Trash/000_test.txt
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/test.txt
+t/home/andres/.local/share/vifm/Trash/001_cfg-data
+	/home/andres/Proj/code/industrialedgeperception/ie_p_exploration/Software/EdgeCoreXimeaApp/cfg-data
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].1
+]F
+s0
