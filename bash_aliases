@@ -11,6 +11,11 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# move and copy
+alias cp='cp -i'
+alias mv='mv -i'
+
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
@@ -39,6 +44,7 @@ alias ec='emacsclient'
 # Vim Alias
 alias nv='nvim'
 alias v='vim'
+alias vistory='history | vim -'
 alias vino='vi --noplugin'
 alias f='vim -u ~/.fastvimrc'
 alias vf='vim $(fzf --height 40%)'
@@ -65,6 +71,7 @@ alias x='xdg-open'
 
 # Some git aliases
 alias diffme='git difftool --tool=vimdiff'
+alias diffchanges='git diff @{1}..'
 alias gitLOC='git ls-files -z  | xargs -0 cat | wc -l'
 
 # useful stuff
@@ -86,3 +93,11 @@ alias Postman='~/bin/Postman </dev/null &>/dev/null &'
 alias got='ps fax |grep'
 
 alias sl='exa'
+unalias gf
+weather()
+{
+    # change Paris to your default location
+    local request="wttr.in/${1-Paris}"
+    [ "$(tput cols)" -lt 125 ] && request+='?n'
+    curl -H "Accept-Language: ${LANG%_*}" --compressed "$request"
+}
