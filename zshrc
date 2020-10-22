@@ -85,7 +85,6 @@ plugins=(
   colored-man-pages
   nmap
   pass
-  zsh-wakatime 
 )
 
 source $ZSH/oh-my-zsh.sh
