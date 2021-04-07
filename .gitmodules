@@ -12,3 +12,6 @@
 [submodule "reveal.js"]
 	path = reveal.js
 	url = https://github.com/hakimel/reveal.js.git
+[submodule "i3/myi3"]
+	path = i3/myi3
+	url = https://github.com/justmeandopensource/myi3.git
