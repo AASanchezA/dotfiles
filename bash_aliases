@@ -11,58 +11,82 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+function browse {
+    # alias browse="xdg-open \$(git remote show origin |grep \"Fetch URL\" | awk -F': ' '{print \$2}')"
+    URL=$(git remote get-url --all origin)
+    echo "original $URL"
+    if [[ $URL == git@* ]] 
+    then
+        URL=$(echo $URL | sed -e 's/\:/\//' -e 's/git@/https:\/\//')
+    fi
+    echo "opening $URL"
+    xdg-open $URL
+}
+
 # move and copy
 alias cp='cp -i'
 alias mv='mv -i'
 
+function ask_yes_or_no() {
+    echo "Do you want to continue ([y]es or [N]o): "
+    read REPLY
+    case $(echo $REPLY | tr '[A-Z]' '[a-z]') in
+        y|yes) return 0 ;;
+        *)     return 1;;
+    esac
+}
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias hgp='history | grep --color=auto'
-alias hcs="history | awk '{print \$2};' | sort | uniq -c | sort -rn | head -15"
-alias primusrunBlank="vblank_mode=0 primusrun"
-alias findPCs='sudo nmap -sT 192.168.178.0/24'
-alias findPrinters='nmap -p 9100,515,631 192.168.1.1/24'
-alias connectDO='ssh andres@kurbis.combinado.cl'
-alias connectDOAndres='ssh andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
+if command -v exa &> /dev/null
+then
+    alias ls='exa --git --icons'
+fi
 
-alias proxyPT='ssh -L 8888:127.0.0.1:8888 -p 2222 sato@brocoli.combinado.cl'
-alias proxyDO='ssh -L 8888:127.0.0.1:8888 andres@178.62.204.199 -i ~/.ssh/digitalOcean'
-alias proxyDO1='ssh -L 8888:127.0.0.1:8888 andres@178.62.207.97 -i ~/.ssh/digitalOcean'
-alias proxyDO2='ssh -L 8888:127.0.0.1:8888 andres@kurbis.combinado.cl -i ~/.ssh/digitalOcean'
-alias proxyOverProxyDO='ssh -L 8888:127.0.0.1:8888 andres@178.62.204.199 -o "ProxyCommand=nc -X connect -x 194.145.60.1:9400 %h %p"'
+alias ll='ls -alF'
+alias la='ls -a'
+#alias l='ls -CF'
+alias l='ls -aF'
+alias lt='ls -FT'
+alias hcs="history | awk '{print \$2};' | sort | uniq -c | sort -rn | head -15"
+alias glist='ghq list | fzf | xclip && cd "${GHQ_ROOT}/$(xclip -o)"'
+alias tde='glist && ide'
+alias findPCs="sudo nmap -sT \$(ip -brief address |grep UP|grep -e wl -e enp |awk '{print \$3};' | head -1| sed -e 's/.[0-9]\+\/24$/.0\/24/')"
+alias findPrinters="nmap -p 9100,515,631 \$(ip -br a |grep UP|grep -e wl -e enp |awk '{print \$3}' | head -1| sed -e 's/.[0-9]\+\/24$/.0\/24/') -oG - | grep \\/open |awk '{print \$2\"->\"\$3}'"
+
+
 alias powerhtml='sudo powertop -r /var/www/power.html -t 60'
 alias loadKey='eval "$(ssh-agent)" && ssh-add ~/.ssh/id_rsa'
 
+# fzf utils
+# TODO put a check before killing the process
+alias killme="ps aux |fzf | awk '{print \$2}' |xargs -I{} kill {}"
+alias deleteme="ls --reverse --sort=size -l |fzf | awk '{print \$7}' | xargs -n1 -I{} rm -vf {}"
+
 # Emacs aliases
 alias e='emacs -nw'
-alias eg='emacs &'
-alias ec='emacsclient'
+alias eg='emacsclient -create-frame --alternate-editor=""' 
+alias ec='emacsclient --alternate-editor="" -t'
 
 # Vim Alias
-alias nv='nvim'
 alias v='vim'
-alias vistory='history | vim -'
+if command -v nvim &> /dev/null
+then
+    alias v='nvim'
+fi
 alias vino='vi --noplugin'
 alias f='vim -u ~/.fastvimrc'
 alias vf='vim $(fzf --height 40%)'
-alias ef='emacs -nw $(fzf --height 40%)'
+alias ef='e $(fzf --height 40%)'
 
 # Ranger Alias
-alias ra="$HOME/tools/ranger/ranger.py"
-
-
-#TMUX alias
-alias mux='tmuxinator'
+if command -v ranger &> /dev/null
+then
+    alias ra="ranger"
+fi
 
 # Example aliases
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
-
-#git tig aliases
-#alias tig="git show | tig"
 
 # Cool Aliases for command that I always forget
 alias useful='xdg-open http://www.pixelbeat.org/cmdline.html &'
@@ -90,14 +114,34 @@ alias openPorts='sudo netstat -tulpn'
 # Postman not output to console
 alias Postman='~/bin/Postman </dev/null &>/dev/null &'
 # find proccess
-alias got='ps fax |grep'
+alias got='ps fax |fzf'
+alias clipme='xclip -selection clip'
+alias hungry='ps -e -o pcpu,cpu,nice,state,cputime,args --sort pcpu  |sort --reverse |head'
 
-alias sl='exa'
 unalias gf
 weather()
 {
-    # change Paris to your default location
-    local request="wttr.in/${1-Paris}"
+    local request="wttr.in/${1-Munich}"
     [ "$(tput cols)" -lt 125 ] && request+='?n'
     curl -H "Accept-Language: ${LANG%_*}" --compressed "$request"
 }
+
+memtop()
+# List top consumer of memory on the system
+{
+{
+	echo "_PID_ _Name_ _Mem_"
+	for i in /proc/[0-9]*
+		do
+			echo -e "${i##*/}\t$(<$i/comm)\t$(pmap -d "${i##*/}" |\
+				tail -1 | {
+				read a b c mem d
+			    echo $mem
+			}
+		)"
+		done |\
+			sort -nr -k3 |\
+			head -$((${LINES:-23} - 5))
+		} |\
+column -t
+} 2>/dev/null
