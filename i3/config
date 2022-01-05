@@ -12,12 +12,16 @@ hide_edge_borders none
 # Window title font
 font xft:URWGothic-Book 11
 
+#font pango:DejaVu Sans Mono 11
+font pango:Ubuntu Mono Nerd 10
+
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
 
 # Focus follows mouse
 focus_follows_mouse no
 
+# Category: layout
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
@@ -27,27 +31,41 @@ bindsym $mod+e layout toggle split
 #exec --no-startup-id xrandr --output eDP-1 --mode 1920x1080
 
 # Set keyboard disable escape
-exec --no-startup-id xmodmap -e "clear lock"
-exec --no-startup-id xmodmap -e "keysym Caps_Lock = Escape"
+#exec --no-startup-id xmodmap -e "clear lock"
+#exec --no-startup-id xmodmap -e "keysym Caps_Lock = Escape"
 
 # Enable touchpad natural scrolling
 #exec_always --no-startup-id xinput set-prop "DELL07E6:00 06CB:76AF Touchpad" "libinput Natural Scrolling Enabled" 1
 
-bindsym $mod+Return exec gnome-terminal
+# Category: Applications
+bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+w exec google-chrome-stable
-bindsym $mod+Shift+f exec gnome-terminal -e vifm
-bindsym $mod+Shift+e exec gvim
+bindsym $mod+Shift+f exec gnome-terminal -e "vifm /home/$USER"
+bindsym $mod+Shift+a exec gnome-terminal -e "nvim /home/$USER/.i3/config"
+bindsym $mod+Shift+e exec "emacsclient -c /home/$USER/org/notes.org"
+# TODO check flameshot
+bindsym $mod+Print exec "flameshot screen -c"
 
+# Get rofi-pass working
+bindsym Mod1+p exec --no-startup-id  rofi-pass
+
+bindsym $mod+Ctrl+p exec pavucontrol
+bindsym $mod+Ctrl+b exec gnome-terminal -e 'dmenu'
+bindsym $mod+Print --release exec --no-startup-id flameshot gui
+
+
+# Category: Navigation
 bindsym $mod+d --release exec "rofi -combi-modi drun,window,ssh -show combi -modi combi"
-bindsym $mod+q kill
+bindsym $mod+Shift+q kill
+
+# Get Help
+# TODO update script path for $HOME/.config/rofi
+bindsym $mod+Ctrl+h exec "rofi -show help -modi 'help:/home/andres/.config/rofi/bin/i3-bindings.sh'"
+
 
 # Get Alt+Tab bevahior
 #bindsym Mod1+Tab workspace back_and_forth
 bindsym Mod1+Tab exec --no-startup-id  "rofi -show window -kb-accept-entry '!Alt-Tab' -kb-row-down Alt-Tab"
-
-bindsym $mod+Ctrl+p exec pavucontrol
-bindsym $mod+Ctrl+b exec gnome-terminal -e 'bmenu'
-bindsym $mod+Print --release exec --no-startup-id flameshot gui
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -58,6 +76,12 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id blueman-applet
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec --no-startup-id volumeicon
+exec --no-startup-id /usr/lib/gsd-xsettings
+
+# Setup greenclip as clipboard manager
+# exec --no-startup-id greenclip daemon
+bindsym Mod1+Ctrl+v exec --no-startup-id "rofi -modi 'clipboard:greenclip print' -show clipboard"
+
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
 exec_always --no-startup-id ff-theme-util
@@ -105,14 +129,15 @@ bindsym $mod+Ctrl+Left workspace prev
 # Workspace names
 # Eg: set $ws1 1:mail
 #     set $ws2 2:
-set $ws1 1
-set $ws2 2
-set $ws3 3
-set $ws4 4
-set $ws5 5
-set $ws6 6
-set $ws7 7
-set $ws8 8
+#     set $ws4 3: 😊 
+set $ws1 1:👣
+set $ws2 2:☢
+set $ws3 3:🎧
+set $ws4 4:🎡
+set $ws5 5:🚨
+set $ws6 6:🚨
+set $ws7 7:🚨
+set $ws8 8:🚨
 
 # Switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -168,6 +193,7 @@ for_window [class="Spotify"] floating enable
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
 
+# Category: System
 # reload the configuration file
 bindsym $mod+Ctrl+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -249,38 +275,64 @@ set_from_resource $term_color14    color14
 set_from_resource $term_color15    color15
 
 # Start i3bar 
+#bar {
+    #id bar-0
+    #i3bar_command i3bar
+    #status_command i3blocks
+    #position top
+    ##mode hide
+    ##hidden_state hide
+    ##modifier $mod
+
+    ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
+    ## tray_output primary
+    ## tray_output eDP1
+
+    #bindsym button4 nop
+    #bindsym button5 nop
+    #strip_workspace_numbers yes
+
+    #colors {
+        #background #222D31
+        #statusline #F9FAF9
+        #separator  #454947
+
+        ##                  border  backgr  text
+        #focused_workspace  #F9FAF9 #16a085 #292F34
+        #active_workspace   #595B5B #353836 #FDF6E3
+        #inactive_workspace #595B5B #222D31 #EEE8D5
+        #binding_mode       #16a085 #2C2C2C #F9FAF9
+        #urgent_workspace   #16a085 #FDF6E3 #E5201D
+    #}
+#}
+
 bar {
+	id bar-1
+	mode invisible
 	i3bar_command i3bar
-	status_command i3blocks
-	position bottom
-    #mode hide
-    #hidden_state hide
-    #modifier $mod
+    strip_workspace_numbers yes
 
-    # please set your primary output first. Example: 'xrandr --output eDP1 --primary'
-	# tray_output primary
-	# tray_output eDP1
-
-	bindsym button4 nop
-	bindsym button5 nop
-	strip_workspace_numbers yes
+    font pango:DejaVu Sans Mono, FontAwesome 10
+    position bottom
+    #status_command path/to/i3status-rs path/to/your/config.toml
+    status_command /home/andres/.cargo/bin/i3status-rs
 
     colors {
-        background #222D31
-        statusline #F9FAF9
-        separator  #454947
-
-        #                  border  backgr  text
-        focused_workspace  #F9FAF9 #16a085 #292F34
-        active_workspace   #595B5B #353836 #FDF6E3
-        inactive_workspace #595B5B #222D31 #EEE8D5
-        binding_mode       #16a085 #2C2C2C #F9FAF9
-        urgent_workspace   #16a085 #FDF6E3 #E5201D
+        separator #666666
+        background #222222
+        statusline #dddddd
+        focused_workspace #0088CC #0088CC #ffffff
+        active_workspace #333333 #333333 #ffffff
+        inactive_workspace #333333 #333333 #888888
+        urgent_workspace #2f343a #900000 #ffffff
     }
 }
 
 # hide/unhide i3bar
-bindsym $mod+m bar mode toggle
+bindsym $mod+m bar mode toggle bar-1
+# Set the bar instance with id 'bar-1' to always stay hidden
+bindsym $mod+Shift+m bar mode invisible bar-1
+
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
@@ -297,7 +349,7 @@ bindsym $mod+m bar mode toggle
 #############################
 
 # Set inner/outer gaps
-gaps inner 5
+gaps inner 0
 gaps outer 0
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
