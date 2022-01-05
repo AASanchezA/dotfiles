@@ -79,6 +79,7 @@ plugins=(
   ubuntu
   kubectl
   docker
+  docker-compose
   rsync
   gitignore
   minikube
