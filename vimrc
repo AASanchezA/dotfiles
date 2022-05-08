@@ -43,6 +43,7 @@ set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
+set completeopt=menu,menuone,noselect
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
@@ -230,14 +231,15 @@ Bundle 'gmarik/vundle'
 Bundle 'preservim/nerdtree'
 
 Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/syntastic.git'	
-Bundle 'Valloric/YouCompleteMe.git'
+"Bundle 'scrooloose/syntastic.git'	
+"Bundle 'dense-analysis/ale'
+"Bundle 'Valloric/YouCompleteMe.git'
 
 Bundle 'bling/vim-airline'
 Bundle 'tpope/vim-fugitive'
 
 Bundle 'vim-scripts/taglist.vim.git'
-Bundle 'vim-scripts/L9.git'
+"Bundle 'vim-scripts/L9.git'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 Bundle 'tpope/vim-surround.git'
@@ -253,30 +255,50 @@ Bundle 'nathanaelkane/vim-indent-guides.git'
 Bundle 'Chiel92/vim-autoformat'
 Bundle 'einars/js-beautify'
 
+Bundle 'fatih/vim-go'
+
 Bundle 'dyng/ctrlsf.vim'
 Bundle 'sheerun/vim-polyglot'
 
 Bundle 'junegunn/fzf', { 'dir': '~/tools/fzf', 'do': './install --all' }
 Bundle 'junegunn/fzf.vim'
 
-" Google vim script
-Bundle 'google/vim-glaive'
-Bundle 'google/vim-codefmt'
-Bundle 'google/vim-maktaba'
-Bundle 'google/vim-searchindex'
 
+" Google vim script
+"Bundle 'google/vim-glaive'
+"Bundle 'google/vim-codefmt'
+"Bundle 'google/vim-maktaba'
+"Bundle 'google/vim-searchindex'
+
+if has('nvim')
+  " test
+  Bundle 'nvim-lua/plenary.nvim'
+  Bundle 'nvim-telescope/telescope.nvim'
+  Bundle 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+  Bundle 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  Bundle 'neovim/nvim-lspconfig'
+
+  "" setting up nvim-cmp
+  Bundle 'hrsh7th/nvim-cmp'
+  Bundle 'hrsh7th/cmp-buffer'
+  Bundle 'hrsh7th/cmp-path'
+  Bundle 'hrsh7th/cmp-nvim-lua'
+  Bundle 'hrsh7th/cmp-nvim-lsp'
+  "Bundle 'saafparwaiz1/cmp_luasnip'
+endif
 
 " TODO try if useful
 "Bundle 'google/vim-syncopate'
 
 
 " Snipmate bundle
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
+"Bundle "MarcWeber/vim-addon-mw-utils"
+"Bundle "tomtom/tlib_vim"
 Bundle "SirVer/ultisnips"
+Bundle "quangnguyen30192/cmp-nvim-ultisnips"
 "Bundle "garbas/vim-snipmate"
 "Optional:
-Bundle "honza/vim-snippets"
+"Bundle "honza/vim-snippets"
 
 "Bundle "wakatime/vim-wakatime"
 Bundle "ryanoasis/vim-devicons"
@@ -331,26 +353,29 @@ let g:indent_guides_auto_colors = 1
 " Airline settings
 set laststatus=2
 " youcomplete keybinding
-nmap <leader>gg :YcmCompleter GoTo<CR>
-nmap <leader>gh :YcmCompleter GetDoc<CR>
-nmap <leader>gf :YcmCompleter Format<CR>
-nmap <leader>gi :YcmCompleter GoToInclude<CR>
-nmap <leader>gd :YcmCompleter GoToDefinition<CR>
-nmap <leader>gr :YcmCompleter GoToReferences<CR>
+"nmap <leader>gg :YcmCompleter GoTo<CR>
+"nmap <leader>gh :YcmCompleter GetDoc<CR>
+"nmap <leader>gf :YcmCompleter Format<CR>
+"nmap <leader>gi :YcmCompleter GoToInclude<CR>
+"nmap <leader>gd :YcmCompleter GoToDefinition<CR>
+"nmap <leader>gr :YcmCompleter GoToReferences<CR>
 
+"fast togle between last/current buffer
+nnoremap <space><tab>  <C-^> 
 " Buffers - explore/next/previous: 
-nnoremap <leader>nn  :Buffers<CR>
 nnoremap <leader>n   :bn<CR>
 nnoremap <leader>m   :bp<CR>
+" Buffers - explore/next/previous: 
 
 " FZF keybindings
 nmap <c-p> :Files<CR>
 nnoremap <leader>fs :GFiles?<CR>
-nnoremap <leader>ff :GFiles<CR>
-nnoremap <leader>fg :Files /<CR>
+nnoremap <leader>pf :GFiles<CR>
+nnoremap <space>ff :Files /<CR>
 nnoremap <leader>fh :History<CR>
 nnoremap <leader>fr :Rg<CR>
 nnoremap <leader>fl :Lines<CR>
+nnoremap <space>bb :Buffers<CR>
 nnoremap <leader>hh :Helptags<CR>
 
 " Nerdtree
@@ -359,8 +384,8 @@ map <C-n> :NERDTreeToggle<CR>
 " Syntastic C checker 
   "let g:loaded_syntastic_c_gcc_checker = 1 
   "let g:loaded_syntastic_c_splint_checker = 1
-
 "By default, the 'next' key is also used to enter multicursor mode. If you
+
 "want to use a different key to start multicursor mode than for selecting
 "the next location, do like the following:
   
@@ -380,6 +405,14 @@ nmap <leader>o [s
 au BufRead,BufNewFile *.pde set filetype=arduino
 au BufRead,BufNewFile *.ino set filetype=arduino
 
+" Firevim settings
+au BufEnter github.com_*.txt set filetype=markdown
+au BufEnter code.siemens.com_*.txt set filetype=markdown
+au BufEnter gitlab.com_*.txt set filetype=markdown
+au BufEnter outlook.office.com_*.txt set filetype=txt
+au BufEnter yammer.com_*.txt set filetype=markdow
+
+
 " Snipmate keymap
 "imap <C-f> <Plug>snipMateNextOrTrigger
 "smap <C-f> <Plug>snipMateNextOrTrigger
@@ -389,12 +422,12 @@ au BufRead,BufNewFile *.ino set filetype=arduino
 
 " Trigger configuration. Do not use <tab> if you use
 "  https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<c-t>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+"let g:UltiSnipsExpandTrigger="<c-t>"
+"let g:UltiSnipsJumpForwardTrigger="<c-b>"
+"let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
+"let g:UltiSnipsEditSplit="vertical"
 
 " Add helloworld to the runtime path. (Normally this would be done with
 " another
@@ -403,13 +436,13 @@ let g:UltiSnipsEditSplit="vertical"
     "\ 'examples', 'helloworld']))
 
 " the glaive#Install() should go after the "call vundle#end()"
-call glaive#Install()
+"call glaive#Install()
 
 " Optional: Enable codefmt's default mappings on the <Leader>= prefix.
-Glaive codefmt plugin[mappings]
+"Glaive codefmt plugin[mappings]
 
 " Configure helloworld using glaive.
 "Glaive helloworld plugin[mappings] name='Bram'
 
-" Real world example: configure vim-codefmt
 "Glaive codefmt google_java_executable='java -jar /path/to/google-java-format.jar'
+" Real world example: configure vim-codefmt
