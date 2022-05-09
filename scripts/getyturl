@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+import pafy
+# import parser
+import optparse
+
+
+def main():
+    parser = optparse.OptionParser()
+
+    parser.add_option('-u',
+                      '--url',
+                      action="store",
+                      dest="url",
+                      help="youtube url",
+                      default="")
+
+    options, args = parser.parse_args()
+
+    vpafy = pafy.new(options.url)
+    play = vpafy.getbest(preftype="webm")
+    print(play)
+    if play is None:
+        print("her")
+        return 1
+    print(play.url)
+    print(play)
+    return 0
+
+
+if __name__ == '__main__':
+    main()

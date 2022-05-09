@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [[ $# -eq 1 ]]; then
+    if [ "$1" == "skipping" ]; then
+        exit 0
+    else
+        project_folder="$1"
+    fi
+else
+    project_folder="$(pwd)"
+fi
+
+
+tmux rename-window "$(basename "$project_folder")"
+tmux send-keys "e ." Enter
+tmux split-window  -v -l 20% -c "$project_folder"
+tmux send-keys "ll | nms -a" Enter
+tmux split-window  -h -l 30% -c "$project_folder"
+tmux select-pane -t 1
