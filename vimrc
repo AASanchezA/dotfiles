@@ -163,6 +163,8 @@ inoremap <C-s> <esc>:w<cr>
 nnoremap <C-s> :w<cr>
 "inoremap <C-S> <esc>:w !sudo tee %<cr>
 "nnoremap <C-S> :w !sudo tee %<cr>
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 
 "set mapleader to comma key
 let mapleader=","

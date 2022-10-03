@@ -60,9 +60,15 @@ alias loadKey='eval "$(ssh-agent)" && ssh-add ~/.ssh/id_rsa'
 # fzf utils
 # TODO put a check before killing the process
 alias killme="ps aux |fzf | awk '{print \$2}' |xargs -I{} kill {}"
+alias killit="ps aux |fzf | awk '{print \$2}' |xargs -I{} kill -s KILL {}"
 alias deleteme="ls --reverse --sort=size -l |fzf | awk '{print \$7}' | xargs -n1 -I{} rm -vf {}"
 
+# cat to bat
+alias cat='bat --theme=base16'
+
 # Emacs aliases
+#alias emacs='/home/andres/tools/bin/emacs'
+#alias emacsclient='/home/andres/tools/bin/emacsclient'
 alias e='emacs -nw'
 alias eg='emacsclient -create-frame --alternate-editor=""' 
 alias ec='emacsclient --alternate-editor="" -t'
@@ -73,9 +79,10 @@ if command -v nvim &> /dev/null
 then
     alias v='nvim'
 fi
-alias vino='vi --noplugin'
-alias f='vim -u ~/.fastvimrc'
-alias vf='vim $(fzf --height 40%)'
+alias V='sudo --preserve-env nvim'
+alias vino='v --noplugin'
+alias f='v -u ~/.fastvimrc'
+alias vf='v $(fzf --height 40%)'
 alias ef='e $(fzf --height 40%)'
 
 # Ranger Alias
@@ -145,3 +152,14 @@ memtop()
 		} |\
 column -t
 } 2>/dev/null
+
+debug_ssl_certificates()
+{
+    echo "checking {$1}"
+    curl --insecure -vvI "https://{$1}" 2>&1 | awk 'BEGIN { cert=0 } /^\* SSL connection/ { cert=1 } /^\*/ { if (cert) print }'
+    ask_yes_or_no
+    if [ "$?" -eq "0" ]; then
+       openssl s_client -connect "$1":443 </dev/null 2>/dev/null | openssl x509 -inform pem -text
+    fi
+    echo "Done"
+}

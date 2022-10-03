@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+# get help from cht.sh 
+
+cleanup() {
+ #do cleanup and exit
+ echo "Cleaning up..." exit;
+
+}
+
+exitFunction() { echo "Exit function has been called..." exit 0; }
+
+waitForEscape()
+{
+     echo "Press ESC TO EXIT or ENTER for cleanup"
+     while true
+         do
+           IFS=''
+           # shellcheck disable=SC2162
+           read -s -N 1 -t 2 -p  "" input
+           case $input in
+                 $'\x0a' ) cleanup; break;;
+                 $'\e'   ) exitFunction;break;;
+                          # * ) main;break;;
+           esac
+         done
+}
+
+languages=$(echo "bash python golang lua html cpp c rust nodejs typescript" | sort | tr ' ' '\n')
+core_utils=$(echo "tr tar curl xargs find mv sed rsync awk ls" | sort | tr ' ' '\n')
+selected=$(echo -e "\n$languages\n$core_utils" | fzf )
+
+# shellcheck disable=SC2162
+read -p "query: " query
+if printf '%s' "$languages" | grep -qs "$selected"; then
+
+	curl cht.sh/"$selected"/"$(echo "$query" | tr ' ' '+')" & waitForEscape
+else
+	#echo "curl cht.sh/$selected~$(echo "$query" | tr ' ' '+')"
+	curl cht.sh/"$selected"~"$(echo "$query" | tr ' ' '+')" & waitForEscape
+fi

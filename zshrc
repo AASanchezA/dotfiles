@@ -20,13 +20,40 @@ stty stop undef
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="spaceship"
 #ZSH_THEME="blinks"
 #ZSH_THEME="agnoster-newline"
 
 # For Agnoster to Hide the Local User
 DEFAULT_USER="andres"
 
+# TODO check for speedup loading
+# SPACESHIP_PROMPT_ORDER=(user host dir git exec_time line_sep jobs exit_code char)
+
+# SPACESHIP settings
+SPACESHIP_VI_MODE_SHOW="false"
+SPACESHIP_EXIT_CODE_SHOW="true"
+SPACESHIP_EXEC_TIME_SHOW="true"
+SPACESHIP_EXEC_TIME_ELAPSED="1"
+SPACESHIP_JOBS_SHOW="true"
+
+# SPACESHIPT LANGUAGE
+SPACESHIP_GOLANG_SHOW="false"
+SPACESHIP_NODE_SHOW="false"
+SPACESHIP_PACKAGE_SHOW="false"
+SPACESHIP_RUST_SHOW="false"
+SPACESHIP_HASKELL_SHOW="false"
+SPACESHIP_RUBY_SHOW="false"
+SPACESHIP_AWS_SHOW="false"
+SPACESHIP_GCLOUD_SHOW="false"
+SPACESHIP_KUBECTL_SHOW="false"
+SPACESHIP_TERRAFORM_SHOW="false"
+SPACESHIP_DOCKER_SHOW="false"
+SPACESHIP_DOCKER_CONTEXT_SHOW="false"
+SPACESHIP_PHP_SHOW="false"
+SPACESHIP_XCODE_SHOW="false"
+SPACESHIP_SWIFT_SHOW="false"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -155,9 +182,11 @@ if [ -f ~/.bash_export ]; then
 	. ~/.bash_export 
 fi
 
+[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source $HOME/go/src/github.com/tomnomnom/gf/gf-completion.bash
+source $HOME/go/packages/src/github.com/tomnomnom/gf/gf-completion.zsh
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
