@@ -125,6 +125,11 @@ alias got='ps fax |fzf'
 alias clipme='xclip -selection clip'
 alias hungry='ps -e -o pcpu,cpu,nice,state,cputime,args --sort pcpu  |sort --reverse |head'
 
+plotme()
+{
+    history -E | awk -F' [0-9]+:[0-9]+  ' '{print $1}' | awk '{print $2}' | uniq -c | gnuplot -p  -e 'set boxwidth 0.5; plot "-" using 1:xtic(2) with boxes'
+}
+
 unalias gf
 weather()
 {
