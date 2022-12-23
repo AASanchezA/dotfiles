@@ -1,6 +1,7 @@
 # Ignore some folders
 vim/bundle
 vim/vimtmp
+vim/undodir/*
 vifm/vifminfo
 
 # Reveal.js ignore
