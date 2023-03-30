@@ -42,13 +42,17 @@ then
     alias ls='exa --git --icons'
 fi
 
+alias gut='git'
 alias ll='ls -alF'
 alias la='ls -a'
 #alias l='ls -CF'
 alias l='ls -aF'
 alias lt='ls -FT'
 alias hcs="history | awk '{print \$2};' | sort | uniq -c | sort -rn | head -15"
-alias glist='ghq list | fzf | xclip && cd "${GHQ_ROOT}/$(xclip -o)"'
+#alias glist='ghq list | fzf | xclip && cd "${GHQ_ROOT}/$(xclip -o)"'
+alias plist="ghq list --full-path | fzf --preview \"bat --color always {}/README.md\" --preview-window=right,50%,nohidden"
+alias glist="cd \$(ghq list --full-path| fzf --preview \"bat --color always {}/README.md\" --preview-window=right,50%,hidden --bind='?:toggle-preview')"
+#alias glist="cd $HOME/Proj/\$(ghq list | fzf --preview \"bat --color always $HOME/Proj/{}/README.md\" --preview-window=right,50%,nohidden)"
 alias tde='glist && ide'
 alias findPCs="sudo nmap -sT \$(ip -brief address |grep UP|grep -e wl -e enp |awk '{print \$3};' | head -1| sed -e 's/.[0-9]\+\/24$/.0\/24/')"
 alias findPrinters="nmap -p 9100,515,631 \$(ip -br a |grep UP|grep -e wl -e enp |awk '{print \$3}' | head -1| sed -e 's/.[0-9]\+\/24$/.0\/24/') -oG - | grep \\/open |awk '{print \$2\"->\"\$3}'"
@@ -62,6 +66,7 @@ alias loadKey='eval "$(ssh-agent)" && ssh-add ~/.ssh/id_rsa'
 alias killme="ps aux |fzf | awk '{print \$2}' |xargs -I{} kill {}"
 alias killit="ps aux |fzf | awk '{print \$2}' |xargs -I{} kill -s KILL {}"
 alias deleteme="ls --reverse --sort=size -l |fzf | awk '{print \$7}' | xargs -n1 -I{} rm -vf {}"
+alias tldd="tldr --list | sed -e 's/,/\n/g' -e \"s/'//g\" -e 's/\[//g' -e 's/\]//g' | fzf --preview \"tldr {1} --color\" --preview-window=right,70%,nohidden | xargs tldr"
 
 # cat to bat
 alias cat='bat --theme=base16'
