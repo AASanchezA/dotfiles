@@ -5,6 +5,10 @@ vim.keymap.set("n", "<space>pt", vim.cmd.Ex)
 vim.keymap.set("v", "<C-j>", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "<C-k>", ":m '<-2<CR>gv=gv")
 
+-- change current dir
+-- TODO test which one is better :cd or :lcd which change cwd for buffer
+vim.keymap.set("n", "<space>cd", ":cd %:p:h<CR>:pwd<CR>")
+
 -- Keep in the middle
 vim.keymap.set("n", "J", "mzJ`z")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")

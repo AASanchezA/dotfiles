@@ -370,15 +370,17 @@ nnoremap <space>bp   :bp<CR>
 " Buffers - explore/next/previous: 
 
 " FZF keybindings
-nmap <space>fp :Files .<CR>
-nnoremap <space>fs :GFiles?<CR>
+nmap <space>fp :Files /<CR>
+nnoremap <space>gs :GFiles?<CR>
 nnoremap <space>pf :GFiles<CR>
-nnoremap <space>ff :Files /<CR>
+nnoremap <space>ff :Files .<CR>
 nnoremap <space>fh :History<CR>
-nnoremap <space>fr :Rg<CR>
-nnoremap <space>fl :Lines<CR>
+nnoremap <space>fL :Locate .<CR>
+nnoremap <space>sp :Rg<CR>
+nnoremap <space>sb :Lines<CR>
 nnoremap <space>bb :Buffers<CR>
-nnoremap <leader>hh :Helptags<CR>
+nnoremap <space>hh :Helptags<CR>
+nnoremap <space>hc :Maps<CR>
 
 " Nerdtree
 map <space>pt :NERDTreeToggle<CR>
