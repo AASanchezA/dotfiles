@@ -3,7 +3,7 @@ local actions = require('telescope.actions')
 
 vim.keymap.set('n', '<space>fp', builtin.find_files, { desc = 'Search Files' })
 vim.keymap.set('n', '<space>pf', function() builtin.git_files { cwd='.' } end, { desc = 'Search Git FIles'})
-vim.keymap.set('n', '<space>pp', function() builtin.find_files { cwd='~/Proj' } end, { desc = 'Search Proj FIles'})
+vim.keymap.set('n', '<space>pp', function() builtin.find_files { cwd='~/Proj', find_command = { "fd", "--type", "d", "--color", "never" } } end, { desc = 'Search Proj FIles' })
 vim.keymap.set('n', '<space>fed', function() builtin.find_files { cwd='~/dotfiles' } end, { desc = 'Search Proj FIles'})
 vim.keymap.set('n', '<space>fee', function() builtin.find_files { cwd='~/.config', follow=true } end, { desc = 'Search Proj FIles'})
 vim.keymap.set('n', '<space>ff', function() builtin.find_files { search_dirs={"/etc", "/dev", "/lib/systemd/" } } end, { desc = '[F][F] Search etc FIles'})

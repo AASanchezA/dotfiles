@@ -16,6 +16,7 @@ URLS=(
   ["duckduckgo"]="https://www.duckduckgo.com/?q="
   ["archwiki"]="https://wiki.archlinux.org/index.php?search="
   ["google"]="https://www.google.com/search?q="
+  ["ecosia"]="https://www.ecosia.org/search?q="
   #["bing"]="https://www.bing.com/search?q="
   ["github"]="https://github.com/search?q="
   #["goodreads"]="https://www.goodreads.com/search?q="

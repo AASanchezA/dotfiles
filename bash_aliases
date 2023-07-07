@@ -67,6 +67,7 @@ alias killme="ps aux |fzf | awk '{print \$2}' |xargs -I{} kill {}"
 alias killit="ps aux |fzf | awk '{print \$2}' |xargs -I{} kill -s KILL {}"
 alias deleteme="ls --reverse --sort=size -l |fzf | awk '{print \$7}' | xargs -n1 -I{} rm -vf {}"
 alias tldd="tldr --list | sed -e 's/,/\n/g' -e \"s/'//g\" -e 's/\[//g' -e 's/\]//g' | fzf --preview \"tldr {1} --color\" --preview-window=right,70%,nohidden | xargs tldr"
+alias cleansnap="snap list --all | awk '/disabled/{print \$1, \$3}' | while read snapname revision; do sudo snap remove \$snapname --revision=\$revision; done"
 
 # cat to bat
 alias cat='bat --theme=base16'
