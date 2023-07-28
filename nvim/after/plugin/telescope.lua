@@ -17,7 +17,7 @@ vim.keymap.set('n', '<space>hh', builtin.help_tags, { desc = '[S]earch [H]elp' }
 vim.keymap.set('n', '<space>hk', builtin.keymaps, { desc = '[H]elp [K]eymaps list' })
 vim.keymap.set('n', '<space>hc', builtin.commands, {})
 
-vim.keymap.set('n', '<space>sd', builtin.diagnostics, { desc = '[S]earch [D]iagnostics' })
+vim.keymap.set('n', '<space>el', function() builtin.diagnostics {bufnr=0} end, { desc = '[S]earch [D]iagnostics' })
 
 -- Telescope Git keymaps
 vim.keymap.set('n', '<space>gbl', builtin.git_branches, { desc = '[G]it [B]ranch [L]ocal' })
