@@ -44,3 +44,7 @@ vim.keymap.set("n", "<space><tab>",  "<C-^>")
 -- Buffers - explore/next/previous: 
 vim.keymap.set("n", "<space>bn",   ":bn<CR>")
 vim.keymap.set("n", "<space>bp",   ":bp<CR>")
+
+-- quickfix list
+-- vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
+-- vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
