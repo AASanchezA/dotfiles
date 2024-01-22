@@ -60,4 +60,14 @@ return require('packer').startup(function(use)
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
+
+
+    use { "folke/which-key.nvim" }
+    use {
+        "ahmedkhalf/project.nvim",
+        config = function ()
+            require("project_nvim").setup {}
+        end
+
+    }
 end)
