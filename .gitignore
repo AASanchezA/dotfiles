@@ -11,3 +11,9 @@ reveal.js/siemens.html
 
 # ignore nvim publin folder
 nvim/plugin
+
+# copyq ignore
+config/copyq/copyq.lock
+config/copyq/copyq.pub
+config/copyq/copyq_no_session.ini
+config/copyq/*.dat
