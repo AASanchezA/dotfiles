@@ -9,3 +9,5 @@ reveal.js/img
 reveal.js/siemens.html
 
 
+# ignore nvim publin folder
+nvim/plugin

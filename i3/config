@@ -39,7 +39,7 @@ bindsym $mod+e layout toggle split
 
 # Category: Applications
 bindsym $mod+Return exec alacritty
-bindsym $mod+Shift+Return exec alacritty --config-file="/home/$USER/.config/alacritty/alacritty_second.yml"
+bindsym $mod+Shift+Return exec alacritty --option "colors.primary.background='$(/home/$USER/tools/bin/alacritty_color.sh)'"
 bindsym $mod+Shift+w exec google-chrome-stable
 bindsym $mod+Shift+f exec gnome-terminal -e "vifm /home/$USER"
 bindsym $mod+Shift+a exec gnome-terminal -e "nvim /home/$USER/.i3/config"
@@ -48,10 +48,10 @@ bindsym $mod+Shift+e exec "emacsclient -c /home/$USER/org/notes.org"
 bindsym $mod+Print exec "flameshot screen -c"
 
 # Get rofi-pass working
-bindsym Mod1+p exec --no-startup-id  rofi-pass
+bindsym Mod1+p exec --no-startup-id  "copyq disable; rofi-pass; copyq enable"
 
 bindsym $mod+Ctrl+p exec pavucontrol
-bindsym $mod+Ctrl+b exec gnome-terminal -e 'dmenu'
+bindsym $mod+Ctrl+b exec blueman-manager
 bindsym $mod+Print --release exec --no-startup-id flameshot gui
 
 
@@ -62,7 +62,7 @@ bindsym $mod+Shift+q kill
 # Get Help
 # TODO update script path for $HOME/.config/rofi
 bindsym $mod+Ctrl+h exec "rofi -show help -modi 'help:/home/andres/.config/rofi/bin/i3-bindings.sh'"
-bindsym $mod+Ctrl+w exec "/home/andres/tools/bin/web-search.sh"
+bindsym $mod+Ctrl+w exec "/home/$USER/tools/bin/web-search.sh"
 
 
 # Get Alt+Tab bevahior
@@ -71,7 +71,7 @@ bindsym Mod1+Tab exec --no-startup-id  "rofi -show window -kb-accept-entry '!Alt
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id nitrogen --restore; sleep 1; compton -b
+# exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
@@ -79,10 +79,11 @@ exec --no-startup-id blueman-applet
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec --no-startup-id volumeicon
 exec --no-startup-id /usr/lib/gsd-xsettings
-exec --no-startup-id feh --bg-scale ~/Tries/python/pyfakecam/theres-no-place-like-localhost-51-1280x720.jpg
+exec --no-startup-id feh --bg-scale ~/.config/wallpapers/apocalyptic-hipster.jpg
 # Setup greenclip as clipboard manager
 # exec --no-startup-id greenclip daemon
-bindsym Mod1+Ctrl+v exec --no-startup-id "rofi -modi 'clipboard:greenclip print' -show clipboard"
+bindsym Ctrl+Shift+x exec --no-startup-id "copyq menu"
+# bindsym Mod1+Ctrl+x exec --no-startup-id  "rofi -show window -kb-accept-entry '!Alt-Tab' -kb-row-down Alt-Tab"
 
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
@@ -190,7 +191,7 @@ for_window [class="Skype"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="SimpleScreenRecorder"] floating enable border normal
 for_window [class="MPlayer"] floating enable
-for_window [class="Spotify"] floating enable 
+for_window [class="Spotify"] floating enable
 for_window [title="OpenCV*"] floating enable border normal
 
 # switch to workspace with urgent window automatically
@@ -245,6 +246,22 @@ mode "resize" {
 # Lock screen
 bindsym $mod+Ctrl+l exec --no-startup-id blurlock
 
+#######
+#THEME#
+#######
+
+# set primary gruvbox colorscheme colors
+set $bg #282828
+set $red #cc241d
+set $green #98971a
+set $yellow #d79921
+set $blue #458588
+set $purple #b16286
+set $aqua #689d68
+set $gray #a89984
+set $darkgray #1d2021
+set $white #FFFFFF
+set $black #000000
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -258,21 +275,21 @@ bindsym $mod+Ctrl+l exec --no-startup-id blurlock
 # to:
 # background $term_background
 # Same logic applied to everything else.
-set_from_resource $term_background background
-set_from_resource $term_foreground foreground
-set_from_resource $term_color0     color0
-set_from_resource $term_color1     color1
-set_from_resource $term_color2     color2
-set_from_resource $term_color3     color3
-set_from_resource $term_color4     color4
-set_from_resource $term_color5     color5
-set_from_resource $term_color6     color6
-set_from_resource $term_color7     color7
-set_from_resource $term_color8     color8
-set_from_resource $term_color9     color9
+set_from_resource $term_background background  $bg
+set_from_resource $term_foreground foreground 
+set_from_resource $term_color0     color0      $darkgray
+set_from_resource $term_color1     color1      $red
+set_from_resource $term_color2     color2      $green
+set_from_resource $term_color3     color3      $yellow
+set_from_resource $term_color4     color4      $blue
+set_from_resource $term_color5     color5      $purple
+set_from_resource $term_color6     color6      $aqua
+set_from_resource $term_color7     color7      $gray
+set_from_resource $term_color8     color8      $darkgray
+set_from_resource $term_color9     color9      $red
 set_from_resource $term_color10    color10
 set_from_resource $term_color11    color11
-set_from_resource $term_color12    color12
+set_from_resource $term_color12    color12     $blue
 set_from_resource $term_color13    color13
 set_from_resource $term_color14    color14
 set_from_resource $term_color15    color15
@@ -321,13 +338,13 @@ bar {
     status_command /home/andres/.cargo/bin/i3status-rs
 
     colors {
-        separator #666666
-        background #222222
-        statusline #dddddd
-        focused_workspace #0088CC #0088CC #ffffff
-        active_workspace #333333 #333333 #ffffff
-        inactive_workspace #333333 #333333 #888888
-        urgent_workspace #2f343a #900000 #ffffff
+        separator $term_color3
+        background $term_background
+        statusline $term_color3
+        focused_workspace $term_color6 $term_color6 $term_color3
+        active_workspace $term_color0 $term_color0 $term_color3
+        inactive_workspace $term_color3 $term_color3 $term_color3
+        urgent_workspace $term_color9 $term_color9 $term_background
     }
 }
 
@@ -339,10 +356,10 @@ bindsym $mod+Shift+m bar mode invisible bar-1
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #556064 #556064 #80FFF9 #FDF6E3
-  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
-  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
-  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+  client.focused          $term_color4 $term_color4 $term_color0 $term_color4
+  client.focused_inactive $term_color0 $term_color0 $term_color3 $term_color0
+  client.unfocused        $term_color0 $term_color0 $term_color5 $term_color0
+  client.urgent           $term_color1 $term_color1 $white $term_color1
   client.placeholder      #000000 #0c0c0c #ffffff #000000 
 
   client.background       #2B2C2B
@@ -351,8 +368,8 @@ bindsym $mod+Shift+m bar mode invisible bar-1
 #############################
 
 # Set inner/outer gaps
-gaps inner 0
-gaps outer 0
+gaps inner 10
+gaps outer 10
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>

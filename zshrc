@@ -1,3 +1,6 @@
+# PROFILE Uncomment follow line and line at the bottom of the file to enable zprof profiler
+# zmodload zsh/zprof
+
 # set %TERM for support 256 color bit 
 [[ -n "$DISPLAY" && "$TERM" = "xterm" ]] && export TERM=xterm-256color  
 # set a fancy prompt (non-color, unless we know we "want" color) 
@@ -63,7 +66,7 @@ SPACESHIP_SWIFT_SHOW="false"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -108,13 +111,15 @@ plugins=(
   web-search
   systemadmin
   tmux
-  ubuntu
-  kubectl
+  # ubuntu
+  # kubectl
   docker
   docker-compose
   rsync
   gitignore
-  minikube
+  #minikube
+  fd
+  ripgrep
   colored-man-pages
   nmap
   pass
@@ -192,6 +197,9 @@ fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source $HOME/go/packages/src/github.com/tomnomnom/gf/gf-completion.zsh
 
+
+# PROFILE Uncomment follow line and line at the top of the file to enable zprof profiler
+# zprof
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

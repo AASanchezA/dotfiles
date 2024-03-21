@@ -174,3 +174,6 @@ debug_ssl_certificates()
     fi
     echo "Done"
 }
+
+alias siemens_chrome_proxy='nice -n 10 google-chrome-stable --user-data-dir="${HOME}/chrome_crap/todelete"  --proxy-server="https=127.0.0.1:9999;http=127.0.0.1:9999"'
+alias siemens_chrome='nice -n 10 google-chrome-stable --user-data-dir="${HOME}/chrome_crap/todelete"'
