@@ -1,0 +1,79 @@
+theme = "gruvbox-dark"
+icons = "awesome"
+
+[[block]]
+block = "pomodoro"
+length = 45
+break_length = 5
+message = "Take a break! For your Arms"
+break_message = "Back to work!"
+notifier = "notifysend"
+
+[[block]]
+block = "custom"
+command = ''' siemens-on-cn; echo "$([ $? -eq 0 ] && echo SNX || echo OFF)" '''
+interval = 10
+
+[[block]]
+block = "disk_space"
+path = "/"
+info_type = "used"
+unit = "GB"
+interval = 20
+format = "{path} {available}"
+
+[[block]]
+block = "disk_space"
+path = "/home"
+info_type = "available"
+unit = "GB"
+interval = 20
+format = "{path} {available}"
+
+[[block]]
+block = "memory"
+display_type = "memory"
+format_mem = "{mem_used_percents}"
+format_swap = "{swap_used_percents}"
+
+[[block]]
+block = "cpu"
+interval = 1
+format = "{barchart} {utilization} {frequency}"
+
+[[block]]
+block = "battery"
+driver = "upower"
+interval = 10
+format = "{percentage} {time}"
+
+
+[[block]]
+block = "weather"
+format = "{weather} {temp}"
+service = { name = "openweathermap", api_key = "e0160e7f77434e10242b1d7bab182e19", city_id = "2867714", units = "metric" }
+
+[[block]]
+block = "pacman"
+interval = 600
+format = "{pacman} 🙋"
+format_singular = "{pacman} 🙋"
+format_up_to_date = "🖪"
+critical_updates_regex = "(linux|linux-lts|linux-zen)"
+# pop-up a menu showing the available updates. Replace wofi with your favourite menu command.
+on_click = "pamac-manager"
+
+[[block]]
+block = "speedtest"
+interval = 1800
+format = "{ping}{speed_down:4*B}{speed_up:4*B}"
+
+[[block]]
+block = "notify"
+
+[[block]]
+block = "time"
+format = "%a %d/%m %R"
+timezone = "Europe/Berlin"
+interval = 60
+on_click = "gnome-calendar"
