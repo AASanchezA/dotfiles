@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+xsetwacom --list devices
+xsetwacom --set "Wacom Intuos BT S Pen stylus" CursorProximity 60
+xsetwacom --set "Wacom Intuos BT S Pen stylus" Mode "Relative"
+xsetwacom --set "Wacom Intuos BT S Pen stylus" Touch "on"
+# xsetwacom --set "Wacom Intuos BT S Pen stylus" Area 0 0 1920 1080
+xsetwacom --get -s "Wacom Intuos BT S Pen stylus" all
