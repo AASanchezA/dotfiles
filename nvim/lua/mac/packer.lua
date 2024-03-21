@@ -26,6 +26,16 @@ return require('packer').startup(function(use)
     use('nvim-treesitter/playground')
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
+    use {
+        'NeogitOrg/neogit',
+        requires = {
+            {'nvim-lua/plenary.nvim'},
+            {'sindrets/diffview.nvim'},
+            {'nvim-telescope/telescope.nvim'},
+        },
+        config = true
+    }
+
 
     use {
         'VonHeikemen/lsp-zero.nvim',
