@@ -41,6 +41,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+Return exec alacritty --option "colors.primary.background='$(/home/$USER/tools/bin/alacritty_color.sh)'"
 bindsym $mod+Shift+w exec google-chrome-stable
+bindsym $mod+Shift+t exec "source /home/$USER/.bash_aliases && move_to_center"
 bindsym $mod+Shift+f exec gnome-terminal -e "vifm /home/$USER"
 bindsym $mod+Shift+a exec gnome-terminal -e "nvim /home/$USER/.i3/config"
 bindsym $mod+Shift+e exec "emacsclient -c /home/$USER/org/notes.org"

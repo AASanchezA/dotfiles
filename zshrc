@@ -24,7 +24,9 @@ stty stop undef
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="spaceship"
+# ZSH_THEME="spaceship"
+# ZSH_THEME="jonathan"
+ZSH_THEME="passion"
 #ZSH_THEME="blinks"
 #ZSH_THEME="agnoster-newline"
 
@@ -192,27 +194,66 @@ if [ -f ~/.bash_export ]; then
 	. ~/.bash_export 
 fi
 
-[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
+test $(command -v fzf) && eval "$(fzf --zsh)" || echo "Fzf not installed"
+test $(command -v fd) && true || echo "Please Install fd"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source $HOME/go/packages/src/github.com/tomnomnom/gf/gf-completion.zsh
+# Exclude those directories even if not listed in .gitignore, or if .gitignore is missing
+FD_OPTIONS="--follow --exclude .git --exclude node_modules"
 
+# Change behavior of fzf dialogue
+export FZF_DEFAULT_OPTS="--no-mouse --height 20% -1 --reverse --multi --inline-info --preview='[[ \$(file --mime {}) =~ binary ]] && echo {} is a binary file || (bat --style=numbers --color=always {} || cat {}) 2> /dev/null | head -300' --preview-window='right:hidden:wrap' --bind='f3:execute(bat --style=numbers {} || less -f {}),f2:toggle-preview,ctrl-d:half-page-down,ctrl-u:half-page-up,ctrl-a:select-all+accept,ctrl-y:execute-silent(echo {+} | pbcopy)'"
+
+# Change find backend
+# Use 'git ls-files' when inside GIT repo, or fd otherwise
+export FZF_DEFAULT_COMMAND="git ls-files --cached --others --exclude-standard | fd --type f --type l $FD_OPTIONS"
+
+# Find commands for "Ctrl+T" and "Opt+C" shortcuts
+export FZF_CTRL_T_COMMAND="fd $FD_OPTIONS"
+export FZF_ALT_C_COMMAND="fd --type d $FD_OPTIONS"
+export FZF_ALT_C_OPTS="--preview 'exa --tree --color=always {} | head -200'"
+export FZF_CTRL_R_OPTS="--preview 'echo {}' --preview-window down:3:hidden:wrap --bind '?:toggle-preview' --bind 'ctrl-y:execute-silent(echo -n {2..} | xclip -selection clipboard; sleep 0.35s)+abort' --header 'Press CTRL-Y to copy command into clipboard'"
+
+# Advanced customization of fzf options via _fzf_comprun function
+# - The first argument to the function is the name of the command.
+# - You should make sure to pass the rest of the arguments to fzf.
+_fzf_comprun() {
+  local command=$1
+  shift
+
+  case "$command" in
+    cd)           fzf --preview 'exa --tree --color=always {} | head -200' "$@" ;;
+    export|unset) fzf --preview "eval 'echo \$'{}"         "$@" ;;
+    ssh)          fzf --preview 'dig {}'                   "$@" ;;
+    *)            fzf --preview "bat -n --color=always --line-range :500 {}" "$@" ;;
+  esac
+}
+
+export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#858821,bg=#002B36,bold"
+#export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#3A3A3A,bold,standout"
+
+
+source $GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.zsh
+
+
+# Load Angular CLI autocompletion.
+test $(command -v ng) && source <(ng completion script) || echo "ng not installed"
 
 # PROFILE Uncomment follow line and line at the top of the file to enable zprof profiler
 # zprof
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/andres/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/andres/miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/andres/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/andres/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/andres/miniforge3/etc/profile.d/conda.sh" ]; then
+        . "/home/andres/miniforge3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/andres/miniconda3/bin:$PATH"
+        export PATH="/home/andres/miniforge3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
+#

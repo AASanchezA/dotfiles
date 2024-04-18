@@ -70,7 +70,10 @@ alias tldd="tldr --list | sed -e 's/,/\n/g' -e \"s/'//g\" -e 's/\[//g' -e 's/\]/
 alias cleansnap="snap list --all | awk '/disabled/{print \$1, \$3}' | while read snapname revision; do sudo snap remove \$snapname --revision=\$revision; done"
 
 # cat to bat
-alias cat='bat --theme=base16'
+if command -v bat &> /dev/null
+then
+    alias cat='bat --theme=base16'
+fi
 
 # Emacs aliases
 #alias emacs='/home/andres/tools/bin/emacs'
@@ -177,3 +180,13 @@ debug_ssl_certificates()
 
 alias siemens_chrome_proxy='nice -n 10 google-chrome-stable --user-data-dir="${HOME}/chrome_crap/todelete"  --proxy-server="https=127.0.0.1:9999;http=127.0.0.1:9999"'
 alias siemens_chrome='nice -n 10 google-chrome-stable --user-data-dir="${HOME}/chrome_crap/todelete"'
+
+function move_to_center() {
+    eval "$(xdotool getactivewindow getwindowgeometry --shell)"
+    t_x=$(tmux display -p '#{cursor_y}')
+    t_y=$(tmux display -p '#{cursor_x}')
+    notify-send --app-name="DUMMY" "HERE I AM in tmux $t_y $t_x and globaly $WIDH $HEIGHT $WINDOW"
+    mov_y=$((HEIGHT / 2))
+    mov_x=$((WIDTH / 2))
+    xdotool mousemove --window "$WINDOW" $mov_x $mov_y
+}
