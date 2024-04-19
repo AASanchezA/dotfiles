@@ -1,0 +1,13 @@
+"feat":new feature (affecting minor version number)
+"fix":bug fix (affecting patch number)
+"docs":documentation only changes
+"style":changes that do not affect the meaning of the code (e.g. white-space)
+"refactor":code change that neither fixes a bug nor adds a feature
+"perf":code change that improves performance
+"test":adding missing tests or correcting existing tests
+"build":changes that affect the build system or external dependencies
+"ci":changes to CI configuration files and scripts
+"chore":other changes that don't modify src or test files
+"revert":reverts a previous commit
+"deploy":software deployment
+"cleanup":unnecessary code / files removed
