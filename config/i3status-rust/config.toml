@@ -75,13 +75,13 @@ block = "weather"
 format = "$icon  $weather $temp"
 service = { name = "openweathermap", api_key = "e0160e7f77434e10242b1d7bab182e19", city_id = "2867714", units = "metric" }
 
-[[block]]
-block = "packages"
-package_manager = ["pacman"]
-interval = 600
-format = " $total.eng(w:1) 🙋 "
-format_singular = " $total.eng(w:1) 🙋 "
-critical_updates_regex = "(linux|linux-lts|linux-zen)"
+# [[block]]
+# block = "packages"
+# package_manager = ["pacman"]
+# interval = 600
+# format = " $total.eng(w:1) 🙋 "
+# format_singular = " $total.eng(w:1) 🙋 "
+# critical_updates_regex = "(linux|linux-lts|linux-zen)"
 #
 [[block]]
 block = "speedtest"
@@ -91,15 +91,9 @@ format = "📡 $speed_down.eng(w:4, u:B) $speed_up.eng(w:4,u:B) "
 
 # [[block]]
 # block = "battery"
-# format = " $percentage {$time |}"
+# format = " $icon $percentage {$time |}"
 # device = "DisplayDevice"
 # driver = "upower"
-
-[[block]]
-block = "time"
-interval = 5
-timezone = "Europe/Berlin"
-format = " $timestamp.datetime(f:'%a %d/%m %R') "
 
 [[block]]
 block = "notify"
@@ -109,3 +103,9 @@ format = " $icon {($notification_count.eng(w:1)) |}"
 [[block]]
 block = "net"
 format = " $icon {$signal_strength $ssid $frequency|Wired connection} via $device "
+[[block]]
+block = "time"
+interval = 5
+timezone = "Europe/Berlin"
+format = " $timestamp.datetime(f:'%a %d/%m %R') "
+

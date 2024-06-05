@@ -2,15 +2,6 @@ local lsp = require('lsp-zero')
 
 lsp.preset('recommended')
 
-lsp.ensure_installed({
-    'tsserver',
-    'eslint',
-    'lua_ls',
-    'rust_analyzer',
-    'pyright',
-    'clangd',
-    'gopls'
-})
 
 local cmp = require('cmp')
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
@@ -57,6 +48,24 @@ lsp.on_attach(function(client, bufnr)
 end)
 
 lsp.setup()
+
+require('mason').setup({})
+require('mason-lspconfig').setup({
+    ensure_installed = {
+        'tsserver',
+        'eslint',
+        'lua_ls',
+        'rust_analyzer',
+        'pyright',
+        'clangd',
+        'gopls'
+    },
+  handlers = {
+    lsp.default_setup,
+  },
+})
+
+
 
 vim.diagnostic.config({
   virtual_text = true,

@@ -14,6 +14,9 @@ vim.keymap.set('n', '<space>ff', function() builtin.find_files { search_dirs={"/
 vim.keymap.set('n', '<space>fc', function() builtin.find_files { cwd='~/.config', follow=true } end, { desc = 'Search Local Config FIles'})
 
 vim.keymap.set('n', '<space>sp', builtin.live_grep, { desc = '[S]earch by [G]rep' })
+
+vim.keymap.set('n', '<space>sap', function() builtin.live_grep { search_dirs={ "~/proj"} } end, { desc = '[S]earch by [G]rep [A]ll [P]rojects' })
+
 vim.keymap.set('n', '<space>sw', builtin.grep_string, { desc = '[S]earch current [W]ord' })
 vim.keymap.set('n', '<space>sP', function() builtin.grep_string {search=vim.fn.expand("<cword>")} end, { desc = '[S]earch by grep [P]roject with word under cursor' })
 vim.keymap.set('n', '<space>sl', builtin.resume , { desc = '[S]earch resume [l]ast search' })

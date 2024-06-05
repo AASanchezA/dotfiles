@@ -139,7 +139,7 @@ plotme()
     history -E | awk -F' [0-9]+:[0-9]+  ' '{print $1}' | awk '{print $2}' | uniq -c | gnuplot -p  -e 'set boxwidth 0.5; plot "-" using 1:xtic(2) with boxes'
 }
 
-unalias gf
+# unalias gf
 weather()
 {
     local request="wttr.in/${1-Munich}"
@@ -189,4 +189,15 @@ function move_to_center() {
     mov_y=$((HEIGHT / 2))
     mov_x=$((WIDTH / 2))
     xdotool mousemove --window "$WINDOW" $mov_x $mov_y
+}
+
+function lookfor () {
+    argc=$(echo "$@" | wc -w)
+    if [[ $argc -gt 1 ]]; then
+          echo "Error: Invalid argument" "$@" "only support ONE arg!" >&2
+          return 1
+    fi
+    lookForPackage="$1"
+    paru -Ss "$lookForPackage" | fzf | xargs -I{} echo paru -S {} || echo "Nothing to do"
+
 }
