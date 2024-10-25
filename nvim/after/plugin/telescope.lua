@@ -6,7 +6,7 @@ require("telescope").load_extension("projects")
 vim.keymap.set('n', '<space>fp', builtin.find_files, { desc = 'Search All Projects Files' })
 vim.keymap.set('n', '<space>pf', function() builtin.git_files { cwd='.' } end, { desc = 'Search Projects FIles'})
 vim.keymap.set('n', '<space>pp', function() require("telescope").extensions.projects.projects{} end, { desc = 'Search Projects' })
-vim.keymap.set('n', '<space>pP', function() builtin.find_files { cwd='~/Proj', find_command = { "fd", "--type", "d", "--color", "never" } } end, { desc = 'Search All Projects' })
+vim.keymap.set('n', '<space>pP', function() builtin.find_files { cwd='~/proj', find_command = { "fd", "--type", "d", "--color", "never" } } end, { desc = 'Search All Projects' })
 
 vim.keymap.set('n', '<space>fa', function() builtin.find_files { search_dirs={"/"} } end, { desc = 'Search All Files from /'})
 vim.keymap.set('n', '<space>fd', function() builtin.find_files { cwd='~/dotfiles' } end, { desc = 'Search dotfiles FIles'})
