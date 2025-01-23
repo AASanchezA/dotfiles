@@ -5,13 +5,15 @@ require("telescope").load_extension("projects")
 
 vim.keymap.set('n', '<space>fp', builtin.find_files, { desc = 'Search All Projects Files' })
 vim.keymap.set('n', '<space>pf', function() builtin.git_files { cwd='.' } end, { desc = 'Search Projects FIles'})
-vim.keymap.set('n', '<space>pp', function() require("telescope").extensions.projects.projects{} end, { desc = 'Search Projects' })
+vim.keymap.set('n', '<space>pp', function() require("telescope").extensions.projects.projects{} end, { desc = 'Search Previours Projects P' })
+vim.keymap.set('n', '<space>ppp', function() builtin.find_files { cwd='~/proj', find_command = { "ghq", "list", "--full-path" } } end, { desc = 'Search All Projects' })
 vim.keymap.set('n', '<space>pP', function() builtin.find_files { cwd='~/proj', find_command = { "fd", "--type", "d", "--color", "never" } } end, { desc = 'Search All Projects' })
 
 vim.keymap.set('n', '<space>fa', function() builtin.find_files { search_dirs={"/"} } end, { desc = 'Search All Files from /'})
 vim.keymap.set('n', '<space>fd', function() builtin.find_files { cwd='~/dotfiles' } end, { desc = 'Search dotfiles FIles'})
 vim.keymap.set('n', '<space>ff', function() builtin.find_files { search_dirs={"/etc", "/dev", "/lib/systemd/", "~/.config" } } end, { desc = 'Search Config System Files'})
 vim.keymap.set('n', '<space>fc', function() builtin.find_files { cwd='~/.config', follow=true } end, { desc = 'Search Local Config FIles'})
+vim.keymap.set('n', '<space>fed', function() builtin.find_files { cwd= vim.fn.stdpath("config")} end, { desc = 'Search Nvim Config FIles'})
 
 vim.keymap.set('n', '<space>sp', builtin.live_grep, { desc = '[S]earch by [G]rep' })
 

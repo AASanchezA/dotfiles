@@ -93,7 +93,16 @@ require("lazy").setup({
         "nvim-telescope/telescope.nvim", -- Optional: For using slash commands
       },
       config = true
+    },
+    {
+      'claydugo/browsher.nvim',
+      event = "VeryLazy",
+      config = function()
+        -- Specify empty to use below default options
+        require('browsher').setup()
+      end
     }
+
 
     -- {
     --   -- "jackMort/ChatGPT.nvim",

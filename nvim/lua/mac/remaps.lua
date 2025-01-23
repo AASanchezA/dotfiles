@@ -1,5 +1,5 @@
 vim.g.mapleader = ","
-vim.keymap.set("n", "<space>pt", vim.cmd.Ex)
+vim.keymap.set("n", "<space>pt", vim.cmd.Vex)
 
 -- Move blocks around
 vim.keymap.set("v", "<C-j>", ":m '>+1<CR>gv=gv")
@@ -44,6 +44,14 @@ vim.keymap.set("n", "<space><tab>",  "<C-^>")
 -- Buffers - explore/next/previous: 
 vim.keymap.set("n", "<space>bn",   ":bn<CR>")
 vim.keymap.set("n", "<space>bp",   ":bp<CR>")
+
+-- Open from the latest commit, the recommended default operation
+vim.keymap.set('n', '<leader>bb', '<cmd>Browsher commit<CR>', { noremap = true, silent = true })
+vim.keymap.set('v', '<leader>bb', ":'<,'>Browsher commit<CR>gv", { noremap = true, silent = true })
+
+-- Open from the latest tag, for more human readable urls (with risk of outdated line numbers)
+vim.keymap.set('n', '<leader>BB', '<cmd>Browsher tag<CR>', { noremap = true, silent = true })
+vim.keymap.set('v', '<leader>BB', ":'<,'>Browsher tag<CR>gv", { noremap = true, silent = true })
 
 -- quickfix list
 -- vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")

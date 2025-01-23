@@ -29,3 +29,11 @@ vim.opt.colorcolumn = "80"
 
 vim.opt.path = vim.opt.path + "**"
 vim.opt.path = vim.opt.path + "."
+
+vim.g.netrw_banner = 1
+vim.g.netrw_liststyle = 0
+vim.g.netrw_browse_split = 4
+vim.g.netrw_altv = 1
+vim.g.netrw_winsize = 50
+vim.g.netrw_preview = 1
+
