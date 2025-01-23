@@ -101,6 +101,10 @@ require("lazy").setup({
         -- Specify empty to use below default options
         require('browsher').setup()
       end
+    },
+    {
+      'nvim-lualine/lualine.nvim',
+      dependencies = { 'nvim-tree/nvim-web-devicons' }
     }
 
 
