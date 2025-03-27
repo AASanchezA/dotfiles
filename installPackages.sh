@@ -3,14 +3,14 @@
 sudo apt-get install zsh git \
 	emacs vim tmux ssh \
 	build-essential checkinstall \
-	cmake cmake-qt-gui \
+	cmake  cmake-curses-gui \
 	vifm \
-	nmap zenmap \
+	nmap \
 	npm \
 	htop pandoc \
 	tree \
 	ack-grep \
-   	ctags \
+   	exuberant-ctags \
 	xclip \
 	powertop
 
