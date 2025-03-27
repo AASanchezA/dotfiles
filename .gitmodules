@@ -15,3 +15,6 @@
 [submodule "i3/myi3"]
 	path = i3/myi3
 	url = https://github.com/justmeandopensource/myi3.git
+[submodule "zsh-autosuggestions"]
+	path = zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git

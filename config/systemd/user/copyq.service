@@ -1,0 +1,12 @@
+[Unit]
+Description=Copyq Daemon
+
+[Service]
+Type=simple
+ExecStart=copyq
+ExecStop=copyq exit
+Restart=always
+
+[Install]
+WantedBy=default.target
+

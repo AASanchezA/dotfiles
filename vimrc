@@ -163,11 +163,13 @@ inoremap <C-s> <esc>:w<cr>
 nnoremap <C-s> :w<cr>
 "inoremap <C-S> <esc>:w !sudo tee %<cr>
 "nnoremap <C-S> :w !sudo tee %<cr>
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 
 "set mapleader to comma key
 let mapleader=","
 
-imap ii <Esc>
+"imap ii <Esc>
 
 " Bubble single lines
 nmap <C-k> [e
@@ -363,23 +365,25 @@ set laststatus=2
 "fast togle between last/current buffer
 nnoremap <space><tab>  <C-^> 
 " Buffers - explore/next/previous: 
-nnoremap <leader>n   :bn<CR>
-nnoremap <leader>m   :bp<CR>
+nnoremap <space>bn   :bn<CR>
+nnoremap <space>bp   :bp<CR>
 " Buffers - explore/next/previous: 
 
 " FZF keybindings
-nmap <c-p> :Files<CR>
-nnoremap <leader>fs :GFiles?<CR>
-nnoremap <leader>pf :GFiles<CR>
-nnoremap <space>ff :Files /<CR>
-nnoremap <leader>fh :History<CR>
-nnoremap <leader>fr :Rg<CR>
-nnoremap <leader>fl :Lines<CR>
+nmap <space>fp :Files /<CR>
+nnoremap <space>gs :GFiles?<CR>
+nnoremap <space>pf :GFiles<CR>
+nnoremap <space>ff :Files .<CR>
+nnoremap <space>fh :History<CR>
+nnoremap <space>fL :Locate .<CR>
+nnoremap <space>sp :Rg<CR>
+nnoremap <space>sb :Lines<CR>
 nnoremap <space>bb :Buffers<CR>
-nnoremap <leader>hh :Helptags<CR>
+nnoremap <space>hh :Helptags<CR>
+nnoremap <space>hc :Maps<CR>
 
 " Nerdtree
-map <C-n> :NERDTreeToggle<CR>
+map <space>pt :NERDTreeToggle<CR>
 
 " Syntastic C checker 
   "let g:loaded_syntastic_c_gcc_checker = 1 

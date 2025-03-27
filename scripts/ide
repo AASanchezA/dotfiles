@@ -12,8 +12,8 @@ fi
 
 
 tmux rename-window "$(basename "$project_folder")"
-tmux send-keys "e ." Enter
+tmux send-keys "nvim -c \":terminal onefetch\" -c \":vsplit .\"" Enter
 tmux split-window  -v -l 20% -c "$project_folder"
-tmux send-keys "ll | nms -a" Enter
+tmux send-keys "ls -al | nms -a" Enter
 tmux split-window  -h -l 30% -c "$project_folder"
 tmux select-pane -t 1

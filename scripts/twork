@@ -1,22 +1,24 @@
 #!/usr/bin/env bash
 
+eval "$(ssh-agent)" && ssh-add ~/.ssh/id_rsa
+
 tmux new-session -s work -n work -d
 tmux new-session -s siemens -n siemens -d
 tmux new-session -s fun -n fun -d
-tmux new-session -s cdm -n cdm -d
+tmux new-session -s proj -n proj -d
 
 tmux select-window -t work:work
-tmux send-keys -t work:work "cd ~/Proj/code/industrialedgeperception/IEP && e README.md" Enter
-tmux split-window -t work:work -v -l 30%
-tmux split-window -t work:work -h -l 30%
+tmux send-keys -t work:work "cd ~/org && ec projects.org" Enter
+# tmux split-window -t work:work -v -l 30%
+# tmux split-window -t work:work -h -l 30%
 tmux send-keys -t fun:fun "curl wttr.in/munich" Enter
 
 tmux select-window -t siemens:siemens
 tmux split-window -t siemens:siemens -h -l 30%
 tmux send-keys -t siemens:siemens "echo Siemens Stuff" Enter
 
-tmux send-keys -t cdm:cdm "cd ~/Proj/code/cdm-ie/" Enter
-tmux send-keys -t cdm:cdm "cmatrix" Enter
+tmux send-keys -t proj:proj "cd ~/Proj" Enter
+tmux send-keys -t proj:proj "cmatrix" Enter
 
 tmux select-window -t work:work
 tmux -u attach -t work

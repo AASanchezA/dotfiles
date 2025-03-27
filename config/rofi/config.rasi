@@ -1,0 +1,28 @@
+/** Basic config file **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "Papirus";
+}
+
+* {
+  /* Default background color */
+  background-color: transparent;
+}
+
+window {
+  padding: 1em;
+
+  border:       10px;
+  border-radius:    20px 20px 20px 20px;
+  border-color: darkgreen;
+
+  width:  50%; 
+  height: 30%;
+
+  background: darkgreen;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, darkgreen, black);
+}
+
+@import "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
