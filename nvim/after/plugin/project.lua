@@ -5,6 +5,6 @@ require("project_nvim").setup ({
         enable = true,
         update_roou = true
     },
-    silent_chdir = false,
+    silent_chdir = true,
 })
 

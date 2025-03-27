@@ -8,7 +8,7 @@ tmux new-session -s fun -n fun -d
 tmux new-session -s proj -n proj -d
 
 tmux select-window -t work:work
-tmux send-keys -t work:work "cd ~/org && e projects.org" Enter
+tmux send-keys -t work:work "cd ~/org && ec projects.org" Enter
 # tmux split-window -t work:work -v -l 30%
 # tmux split-window -t work:work -h -l 30%
 tmux send-keys -t fun:fun "curl wttr.in/munich" Enter

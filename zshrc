@@ -199,9 +199,7 @@ test $(command -v fd) && true || echo "Please Install fd"
 # Exclude those directories even if not listed in .gitignore, or if .gitignore is missing
 FD_OPTIONS="--follow --exclude .git --exclude node_modules"
 
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-#source $HOME/go/packages/src/github.com/tomnomnom/gf/gf-completion.zsh
-# source $GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.zsh
+test $(command -v gf) && source $GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.zsh || echo "Please Install gf from https://github.com/tomnomnom/gf"
 
 # Change behavior of fzf dialogue
 export FZF_DEFAULT_OPTS="--no-mouse --height 20% -1 --reverse --multi --inline-info --preview='[[ \$(file --mime {}) =~ binary ]] && echo {} is a binary file || (bat --style=numbers --color=always {} || cat {}) 2> /dev/null | head -300' --preview-window='right:hidden:wrap' --bind='f3:execute(bat --style=numbers {} || less -f {}),f2:toggle-preview,ctrl-d:half-page-down,ctrl-u:half-page-up,ctrl-a:select-all+accept,ctrl-y:execute-silent(echo {+} | pbcopy)'"

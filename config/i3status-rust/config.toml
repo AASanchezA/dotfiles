@@ -33,9 +33,9 @@ chip = "*-isa-*"
 block = "uptime"
 interval = 3600 # update every hour
 
-[[block]]
-block = "xrandr"
-format = " $icon $brightness $resolution "
+# [[block]]
+# block = "xrandr"
+# format = " $brightness $resolution "
 
 # # [[block]]
 # # block = "custom"
@@ -89,11 +89,11 @@ interval = 1800
 format = "📡 $speed_down.eng(w:4, u:B) $speed_up.eng(w:4,u:B) "
 
 
-# [[block]]
-# block = "battery"
-# format = " $icon $percentage {$time |}"
-# device = "DisplayDevice"
-# driver = "upower"
+[[block]]
+block = "battery"
+format = "{$icon |} Bat $percentage {$time |}"
+device = "DisplayDevice"
+driver = "upower"
 
 [[block]]
 block = "notify"

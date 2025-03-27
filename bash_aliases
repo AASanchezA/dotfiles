@@ -43,6 +43,7 @@ then
 fi
 
 alias gut='git'
+unalias gf
 alias ll='ls -alF'
 alias la='ls -a'
 #alias l='ls -CF'
