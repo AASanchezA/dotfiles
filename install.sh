@@ -56,3 +56,6 @@ mkdir $dir/vim/vimtmp
 
 echo "Creating symlink for Reveal.js in opt folder"
 #ln -s $dir/reveal.js /opt/reveal.js
+
+echo "Creating symlink to oh-my-zsh autosuggestion folder"
+ln -s $dir/zsh-autosuggestions $dir/oh-my-zsh/custom/plugins/zsh-autosuggestions
