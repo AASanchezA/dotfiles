@@ -4,6 +4,7 @@ sudo apt-get install --yes zsh git \
 	emacs vim tmux ssh \
 	build-essential checkinstall \
 	cmake  cmake-curses-gui \
+    golang \
 	vifm \
 	nmap \
 	npm \

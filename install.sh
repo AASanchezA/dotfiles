@@ -40,8 +40,13 @@ echo "Creating symlink to Spacemacs folder and configuration file"
 ln -s $dir/spacemacs ~/.emacs.d
 ln -s $dir/spacemacsrc ~/.spacemacs
 
+if ! [ -d ~/.config ]; then mkdir ~/.config; fi
+
+echo "Creating symlink to nvim folder"
+ln -s $dir/nvim ~/.config/nvim
+
 echo "Creating symlink to vifm folder"
-ln -s $dir/vifm ~/.vifm
+ln -s $dir/config/vifm ~/.config/vifm
 
 echo "Create temp folder in vim dir"
 mkdir $dir/vim/vimtmp
