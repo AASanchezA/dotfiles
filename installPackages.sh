@@ -3,7 +3,8 @@
 sudo apt-get install --yes zsh git \
 	emacs vim tmux ssh \
 	build-essential checkinstall \
-	cmake  cmake-curses-gui \
+	cmake  cmake-curses-gui ninja-build \
+    gettext curl \
     golang \
 	vifm \
 	nmap \
