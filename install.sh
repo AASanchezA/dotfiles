@@ -59,3 +59,6 @@ echo "Creating symlink for Reveal.js in opt folder"
 
 echo "Creating symlink to oh-my-zsh autosuggestion folder"
 ln -s $dir/zsh-autosuggestions $dir/oh-my-zsh/custom/plugins/zsh-autosuggestions
+
+echo "Creating symlink to local scripts folder"
+ln -s $dir/scripts ~/bin

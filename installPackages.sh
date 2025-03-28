@@ -12,6 +12,7 @@ sudo apt-get install --yes zsh git \
 	htop pandoc \
 	tree \
 	ack-grep \
+    nload tcpdump \
    	exuberant-ctags \
 	xclip \
 	powertop
