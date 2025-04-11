@@ -153,7 +153,7 @@ zle -N edit-command-line
 bindkey -M vicmd v edit-command-line
 
 # Disable matching
-# unsetopt nomatch
+setopt +o nomatch
 
 # VIM mode 
 vim() STTY=-ixon command vim "$@" 

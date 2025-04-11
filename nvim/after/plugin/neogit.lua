@@ -1,6 +1,9 @@
 local neogit = require('neogit')
 neogit.setup {
-    kind = "vsplit"
+    kind = "vsplit",
+    integrations = {
+        diffview = nil,
+    }
 }
 -- vim.keymap.set("n", "<space>gs", vim.cmd.Neogit)
 vim.keymap.set("n", "<space>gs", function()

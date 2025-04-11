@@ -4,6 +4,22 @@ lsp.preset('recommended')
 
 
 local cmp = require('cmp')
+
+cmp.setup( {
+  sources = cmp.config.sources({
+    { name = 'nvim_lsp' },
+  }, {
+    { name = 'buffer' },
+  }, {
+    { name = 'path' },
+  }, {
+    { name = 'codecompanion_variables' },
+  }, {
+    { name = 'codecompanion_tools' },
+  }
+  )
+})
+
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
 local cmp_mappings = lsp.defaults.cmp_mappings({
     ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
