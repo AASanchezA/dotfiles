@@ -1,5 +1,7 @@
 vim.g.mapleader = ","
+-- vim.keymap.set("n", "<space>pt", function() vim.cmd.Lex vim.api.nvim_buf_get_name(0) end)
 vim.keymap.set("n", "<space>pt", vim.cmd.Lex)
+vim.keymap.set("n", "<space>ft", vim.cmd.Ex)
 
 -- Move blocks around
 vim.keymap.set("v", "<C-j>", ":m '>+1<CR>gv=gv")

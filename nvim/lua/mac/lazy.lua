@@ -35,12 +35,33 @@ require("lazy").setup({
         },
         config = true
     },
+    -- {
+    --     'VonHeikemen/lsp-zero.nvim',
+    --     tag = 'v3.x',
+    --     dependencies = {
+    --         -- LSP Support
+    --         { 'neovim/nvim-lspconfig' },
+    --         { 'williamboman/mason.nvim' },
+    --         { 'williamboman/mason-lspconfig.nvim' },
+    --
+    --         -- Autocompletion
+    --         { 'hrsh7th/nvim-cmp' },
+    --         { 'hrsh7th/cmp-buffer' },
+    --         { 'hrsh7th/cmp-path' },
+    --         { 'saadparwaiz1/cmp_luasnip' },
+    --         { 'hrsh7th/cmp-nvim-lsp' },
+    --         { 'hrsh7th/cmp-nvim-lua' },
+    --
+    --         -- Snippets
+    --         { 'L3MON4D3/LuaSnip' },
+    --         { 'rafamadriz/friendly-snippets' },
+    --     }
+    -- },
+    --
     {
-        'VonHeikemen/lsp-zero.nvim',
-        tag = 'v3.x',
+        'neovim/nvim-lspconfig',
         dependencies = {
             -- LSP Support
-            { 'neovim/nvim-lspconfig' },
             { 'williamboman/mason.nvim' },
             { 'williamboman/mason-lspconfig.nvim' },
 
@@ -55,9 +76,8 @@ require("lazy").setup({
             -- Snippets
             { 'L3MON4D3/LuaSnip' },
             { 'rafamadriz/friendly-snippets' },
-        }
+       }
     },
-
     {
         'numToStr/Comment.nvim',
         config = function()
@@ -100,58 +120,19 @@ require("lazy").setup({
     {
       'nvim-lualine/lualine.nvim',
       dependencies = { 'nvim-tree/nvim-web-devicons' }
+    },
+    {
+        "kawre/leetcode.nvim",
+        build = ":TSUpdate html", -- if you have `nvim-treesitter` installed
+        dependencies = {
+            "nvim-telescope/telescope.nvim",
+            -- "ibhagwan/fzf-lua",
+            "nvim-lua/plenary.nvim",
+            "MunifTanjim/nui.nvim",
+            "nvim-treesitter/nvim-treesitter",
+        },
+        opts = {
+            -- configuration goes here
+        },
     }
-
-
-    -- {
-    --   -- "jackMort/ChatGPT.nvim",
-    --     dir = "/data/p/github.com/jackMort/ChatGPT.nvim",
-    --     event = "VeryLazy",
-    --     config = function()
-    --       require("chatgpt").setup({
-    --           api_host_cmd = "echo https://api.siemens.com/llm",
-    --           api_key_cmd = "pass api.siemens.com/llm2",
-    --           -- this config assumes you have OPENAI_API_KEY environment variable set
-    --           openai_params = {
-    --             -- NOTE: model can be a function returning the model name
-    --             -- this is useful if you want to change the model on the fly
-    --             -- using commands
-    --             -- Example:
-    --             -- model = function()
-    --             --     if some_condition() then
-    --             --         return "gpt-4-1106-preview"
-    --             --     else
-    --             --         return "gpt-3.5-turbo"
-    --             --     end
-    --             -- end,
-    --             model = "starcoder2-3b",
-    --             frequency_penalty = 0,
-    --             presence_penalty = 0,
-    --             max_tokens = 4095,
-    --             temperature = 0.2,
-    --             top_p = 0.1,
-    --             n = 1,
-    --           },
-    --           openai_edit_params = {
-    --             model = "starcoder2-3b",
-    --             frequency_penalty = 0,
-    --             presence_penalty = 0,
-    --             temperature = 0,
-    --             top_p = 1,
-    --             n = 1,
-    --           }
-    --         })
-    --     end,
-    --     dependencies = {
-    --       "MunifTanjim/nui.nvim",
-    --       "nvim-lua/plenary.nvim",
-    --       "folke/trouble.nvim",
-    --       "nvim-telescope/telescope.nvim"
-    --     }
-    -- }
-    -- {
-    --   "zbirenbaum/copilot.lua",
-    --   cmd = "Copilot",
-    --   event = "insertenter",
-    -- }
 })
