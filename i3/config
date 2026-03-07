@@ -53,9 +53,6 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+Return exec alacritty --option "colors.primary.background='$(/home/$USER/bin/alacritty_color.sh)'"
 bindsym $mod+Shift+w exec google-chrome-stable
 bindsym $mod+Shift+t exec "source /home/$USER/.bash_aliases && move_to_center"
-bindsym $mod+Shift+f exec alacritty -e "vifm /home/$USER"
-bindsym $mod+Shift+a exec alacritty -e "nvim /home/$USER/.config/i3/config"
-bindsym $mod+Shift+e exec "emacsclient -c /home/$USER/org/notes.org"
 # TODO check flameshot
 bindsym $mod+Print exec "flameshot screen -c"
 
@@ -73,9 +70,14 @@ bindsym $mod+Shift+q kill
 
 # Get Help
 # TODO update script path for $HOME/.config/rofi
-bindsym $mod+Ctrl+h exec "rofi -show help -modi 'help:/home/andres/.config/rofi/bin/i3-bindings.sh'"
+bindsym $mod+Ctrl+f exec alacritty --command vifm /home/$USER/proj
+bindsym $mod+Ctrl+e exec "emacsclient -c /home/$USER/org/notes.org"
+bindsym $mod+Ctrl+h exec alacritty --command htop
+bindsym $mod+Ctrl+n exec alacritty --command nload -u H
+bindsym $mod+Ctrl+m exec alacritty --command "/home/$USER/bin/clock.sh"
+bindsym $mod+Ctrl+k exec "/home/$USER/bin/clonemonitor.sh"
 bindsym $mod+Ctrl+w exec "/home/$USER/bin/web-search.sh"
-
+bindsym Mod1+k exec "/home/$USER/bin/keyboard.sh"
 
 # Get Alt+Tab bevahior
 #bindsym Mod1+Tab workspace back_and_forth
@@ -91,7 +93,7 @@ exec --no-startup-id blueman-applet
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec --no-startup-id volumeicon
 exec --no-startup-id /usr/lib/gsd-xsettings
-exec --no-startup-id feh --bg-scale ~/.config/wallpapers/apocalyptic-hipster.jpg
+exec --no-startup-id feh --bg-center ~/.config/wallpapers/linux-logo.svg
 # Setup greenclip as clipboard manager
 # exec --no-startup-id greenclip daemon
 bindsym Ctrl+Shift+x exec --no-startup-id "copyq menu"
@@ -131,6 +133,10 @@ bindsym $mod+minus scratchpad show
 
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
+
+
+bindsym button2 workspace next
+bindsym button3 workspace prev
 
 # Workspace names
 # Eg: set $ws1 1:mail
@@ -196,6 +202,10 @@ for_window [class="SimpleScreenRecorder"] floating enable border normal
 for_window [class="MPlayer"] floating enable
 for_window [class="Spotify"] floating enable
 for_window [title="OpenCV*"] floating enable border normal
+for_window [title="FullOpenCV*"] fullscreen enable border normal
+
+for_window [class="Google-chrome"] move container to workspace $ws3, workspace $ws3
+for_window [class="firefox"] move container to workspace $ws2, workspace $ws2
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -339,7 +349,9 @@ bar {
     # font pango:DejaVu Sans Code 10
     position bottom
     #status_command path/to/i3status-rs path/to/your/config.toml
-    status_command i3status-rs
+    # status_command i3status-rs
+    status_command /home/andres/.cargo/bin/i3status-rs
+
 
     colors {
         separator $term_color3

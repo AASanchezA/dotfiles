@@ -3,11 +3,11 @@
 
 cleanup() {
  #do cleanup and exit
- echo "Cleaning up..." exit;
+ echo "Cleaning up..."; exit;
 
 }
 
-exitFunction() { echo "Exit function has been called..." exit 0; }
+exitFunction() { echo "Exit function has been called..."; exit 0; }
 
 waitForEscape()
 {

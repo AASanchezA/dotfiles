@@ -23,6 +23,9 @@ function browse {
     xdg-open $URL
 }
 
+# Let add autocompletion for uv
+eval "$(uv generate-shell-completion zsh)"
+
 # move and copy
 alias cp='cp -i'
 alias mv='mv -i'
@@ -111,7 +114,8 @@ alias listWireless='sudo iw dev wlp3s0 scan | grep SSID'
 alias x='xdg-open'
 
 # Some git aliases
-alias diffme='git difftool --tool=vimdiff'
+# alias diffme='git difftool --tool=vimdiff'
+alias diffme='git difftool'
 alias diffchanges='git diff @{1}..'
 alias gitLOC='git ls-files -z  | xargs -0 cat | wc -l'
 
@@ -181,6 +185,7 @@ debug_ssl_certificates()
 
 alias siemens_chrome_proxy='nice -n 10 google-chrome-stable --user-data-dir="${HOME}/chrome_crap/todelete"  --proxy-server="https=127.0.0.1:9999;http=127.0.0.1:9999"'
 alias siemens_chrome='nice -n 10 google-chrome-stable --user-data-dir="${HOME}/chrome_crap/todelete"'
+alias update_nvim_project="ghq list --full-path > ${HOME}/.local/share/nvim/project_nvim/project_history"
 
 function move_to_center() {
     eval "$(xdotool getactivewindow getwindowgeometry --shell)"
