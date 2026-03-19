@@ -134,5 +134,10 @@ require("lazy").setup({
         opts = {
             -- configuration goes here
         },
+    },
+    {
+        "folke/snacks.nvim",
+         priority = 1000,
+         lazy = false
     }
 })

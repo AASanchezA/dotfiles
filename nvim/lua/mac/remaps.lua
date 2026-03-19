@@ -69,3 +69,11 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank()
   end,
 })
+
+
+-- uncomment the following lines if you want to use vim.keymap.set instead
+vim.keymap.set('n', "<leader>gki", function() Snacks.picker.gh_issue() end, { desc = "github issues (open)" })
+vim.keymap.set('n', "<leader>gki", function() Snacks.picker.gh_issue({ state = "all" }) end, { desc = "github issues (all)" })
+vim.keymap.set('n', "<leader>gkp", function() Snacks.picker.gh_pr() end, { desc = "github pull requests (open)" })
+vim.keymap.set('n', "<leader>gkp", function() Snacks.picker.gh_pr({ state = "all" }) end, { desc = "github pull requests (all)" })
+

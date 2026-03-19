@@ -173,7 +173,7 @@ vim.diagnostic.config({
   float = true,
 })
 
-require'lspconfig'.lua_ls.setup {
+vim.lsp.config("lua_ls", {
   on_init = function(client)
     if client.workspace_folders then
       local path = client.workspace_folders[1].name
@@ -205,7 +205,7 @@ require'lspconfig'.lua_ls.setup {
   settings = {
     Lua = {}
   }
-}
+})
 
 -- require'lspconfig'.pyright.setup {
 --   on_init = function(client)
