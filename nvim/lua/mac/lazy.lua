@@ -136,6 +136,10 @@ require("lazy").setup({
         },
     },
     {
+        "milanglacier/minuet-ai.nvim",
+        dependencies = { "nvim-lua/plenary.nvim" }
+    },
+    {
         "folke/snacks.nvim",
          priority = 1000,
          lazy = false
