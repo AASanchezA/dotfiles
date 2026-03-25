@@ -1,14 +1,15 @@
 require('minuet').setup({
   virtualtext = {
-    -- Auto-trigger ghost text in these filetypes. You can add more as needed.
-    auto_trigger_ft = { 'lua', 'python', 'javascript', 'typescript', 'rust', 'go', 'c', 'cpp', 'html', 'css' },
+    -- Set to {} to disable auto-triggering for all filetypes.
+    -- You can then manually trigger using 'next' or 'prev' keys (e.g., <A-r>).
+    auto_trigger_ft = {},
     keymap = {
-      -- Use Alt+A to accept the entire completion
-      accept = '<A-A>',
-      -- Use Alt+a to accept only the current line
-      accept_line = '<A-a>',
-      -- Use Alt+] to cycle to the next suggestion
-      next = '<A-]>',
+      -- Use Alt+a to accept the entire completion
+      accept = '<A-a>',
+      -- Use Alt+A to accept only the current line
+      accept_line = '<A-A>',
+      -- Use Alt+r to cycle to the next suggestion (also manually triggers if none)
+      next = '<A-r>',
       -- Use Alt+[ to cycle to the previous suggestion
       prev = '<A-[>',
       -- Use Alt+e to dismiss the current suggestion

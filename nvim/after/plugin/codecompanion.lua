@@ -43,6 +43,20 @@ codecompanion.setup({
                         contains_code = true,
                     },
                 },
+                ["symbols"] = {
+                    callback = "strategies.chat.slash_commands.symbols",
+                    description = "Select symbols using Telescope",
+                    opts = {
+                        provider = "telescope",
+                    },
+                },
+                ["help"] = {
+                    callback = "strategies.chat.slash_commands.help",
+                    description = "Select help tags using Telescope",
+                    opts = {
+                        provider = "telescope",
+                    },
+                },
             },
         },
     },
@@ -57,12 +71,17 @@ codecompanion.setup({
                 show_default_prompt_library = true, -- Show the default prompt library in the action palette?
             },
         },
+        diff = {
+            provider = "default", -- default|mini_diff
+        },
     }
 })
 
--- vim.keymap.set({ "n", "v" }, "<space>xa", "<cmd>CodeCompanionActions<cr>", { noremap = true, silent = true })
-vim.keymap.set({ "n", "v" }, "<space>chat", "<cmd>CodeCompanionChat Toggle<cr>", { noremap = true, silent = true })
--- vim.keymap.set("v", "<space>xd", "<cmd>CodeCompanionChat Add<cr>", { noremap = true, silent = true })
---
--- -- Expand 'cc' into 'CodeCompanion' in the command line
--- vim.cmd([[cab ccc CodeCompanion]])
+-- Keymaps
+vim.keymap.set({ "n", "v" }, "<leader>gsa", "<cmd>CodeCompanionActions<cr>", { noremap = true, silent = true, desc = "CodeCompanion Actions" })
+vim.keymap.set({ "n", "v" }, "<leader>gsc", "<cmd>CodeCompanionChat Toggle<cr>", { noremap = true, silent = true, desc = "CodeCompanion Chat" })
+vim.keymap.set({ "n", "v" }, "<leader>gsi", "<cmd>CodeCompanion<cr>", { noremap = true, silent = true, desc = "CodeCompanion Inline" })
+vim.keymap.set("v", "ga", "<cmd>CodeCompanionChat Add<cr>", { noremap = true, silent = true, desc = "Add to CodeCompanion Chat" })
+
+-- Expand 'cc' into 'CodeCompanion' in the command line
+vim.cmd([[cab ccc CodeCompanion]])

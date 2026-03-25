@@ -9,8 +9,17 @@ local cmp = require('cmp')
 
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
 cmp.setup( {
+  performance = {
+    fetching_timeout = 2000,
+  },
+  snippet = {
+    expand = function(args)
+      require('luasnip').lsp_expand(args.body)
+    end,
+  },
   sources = cmp.config.sources({
     { name = 'nvim_lsp' },
+    { name = 'minuet' },
   }, {
     { name = 'buffer' },
   }, {
@@ -21,11 +30,20 @@ cmp.setup( {
     { name = 'codecompanion_tools' },
   }
   ),
+  formatting = {
+    format = function(entry, vim_item)
+      if entry.source.name == 'minuet' then
+        vim_item.kind = '󱜙 Minuet'
+      end
+      return vim_item
+    end,
+  },
   mapping = cmp.mapping.preset.insert({
     ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
     ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
     ['<C-y>'] = cmp.mapping.confirm({ select = true }),
-    ['<C-Space>'] = cmp.mapping.complete()
+    ['<C-Space>'] = cmp.mapping.complete(),
+    ['<A-y>'] = require('minuet').make_cmp_map(),
     })
 })
 
