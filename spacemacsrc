@@ -174,7 +174,7 @@ This function should only modify configuration layer settings."
    dotspacemacs-additional-packages
    '(fzf forge cheat-sh mermaid-mode atomic-chrome smtpmail-multi org-roam org-roam-ui org-roam-bibtex
          citar citar-org-roam highlight-indent-guides
-         org-noter org-noter-pdftools websocket simple-httpd f)
+         org-noter org-noter-pdftools websocket simple-httpd f djvu nov)
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -893,6 +893,24 @@ you should place your code here."
                         "You are a large language model and a conversation partner. Respond concisely."))
                 gptel-temperature 0.5
                 )
+
+  (use-package mcp-server
+    :load-path "/data/p/github.com/rhblind/emacs-mcp-server"
+    :config
+    (setq mcp-server-socket-directory (expand-file-name "~/.emacs.d"))
+    (setq mcp-server-emacs-tools-enabled
+          '(org-agenda org-search org-get-node org-list-templates org-list-tags
+                       org-capture org-update-node org-refile org-archive org-clock
+                       org-roam-search org-roam-get-node org-roam-capture))
+    (setq mcp-server-emacs-tools-org-allowed-roots (list (expand-file-name "~/org")))
+    (setq mcp-server-security-prompt-for-permissions t)
+    (add-hook 'emacs-startup-hook #'mcp-server-start-unix))
+
+  (with-eval-after-load 'gptel
+    (spacemacs/set-leader-keys-for-major-mode 'org-mode
+      "g" #'gptel-send)
+    (with-eval-after-load 'org-capture
+      (define-key org-capture-mode-map (kbd "C-c g") #'gptel-send)))
 
   (advice-add 'semantic-idle-scheduler-function
               :around #'ignore)
