@@ -207,3 +207,9 @@ function lookfor () {
     paru -Ss "$lookForPackage" | fzf | xargs -I{} echo paru -S {} || echo "Nothing to do"
 
 }
+
+alias got_what_changes_the_most='git log --format=format: --name-only --since="1 year ago" | sort | uniq -c | sort -nr | head -20'
+alias got_who_built_this='git shortlog -sn --no-merges'
+alias got_where_do_bugs_cluster='git log -i -E --grep=\"fix\|bug\|broken\" --name-only --format='' | sort | uniq -c | sort -nr | head -20'
+alias got_is_this_project_accelerating_or_dying='git log --format=\"%ad\" --date=format:\"%Y-%m\" | sort | uniq -c'
+alias got_how_often_is_the_team_firefighting='git log --oneline --since=\"1\ year\ ago\" | grep -iE \"revert\|hotfix\|emergency\|rollback\"'

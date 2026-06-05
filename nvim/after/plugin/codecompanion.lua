@@ -3,12 +3,10 @@ codecompanion.setup({
     adapters = {
         ollama = function()
             return require("codecompanion.adapters.http").extend("ollama", {
-                name = "qwen3:8b", -- Give this adapter a different name to differentiate it from the default ollama adapter
+                name = "qwen2.5-coder:7b", -- Give this adapter a different name to differentiate it from the default ollama adapter
                 schema = {
                     model = {
-                        default = "qwen3:8b",
-            -- default = "qwen2.5-coder:7b",
-                        -- default = "gemma3:4b",
+                        default = "qwen2.5-coder:7b",
                     },
                     num_ctx = {
                         default = 16384,
@@ -78,9 +76,9 @@ codecompanion.setup({
 })
 
 -- Keymaps
-vim.keymap.set({ "n", "v" }, "<leader>gsa", "<cmd>CodeCompanionActions<cr>", { noremap = true, silent = true, desc = "CodeCompanion Actions" })
-vim.keymap.set({ "n", "v" }, "<leader>gsc", "<cmd>CodeCompanionChat Toggle<cr>", { noremap = true, silent = true, desc = "CodeCompanion Chat" })
-vim.keymap.set({ "n", "v" }, "<leader>gsi", "<cmd>CodeCompanion<cr>", { noremap = true, silent = true, desc = "CodeCompanion Inline" })
+vim.keymap.set({ "n", "v" }, "<space>jsa", "<cmd>CodeCompanionActions<cr>", { noremap = true, silent = true, desc = "CodeCompanion Actions" })
+vim.keymap.set({ "n", "v" }, "<space>jsc", "<cmd>CodeCompanionChat Toggle<cr>", { noremap = true, silent = true, desc = "CodeCompanion Chat" })
+vim.keymap.set({ "n", "v" }, "<space>jsi", "<cmd>CodeCompanion<cr>", { noremap = true, silent = true, desc = "CodeCompanion Inline" })
 vim.keymap.set("v", "ga", "<cmd>CodeCompanionChat Add<cr>", { noremap = true, silent = true, desc = "Add to CodeCompanion Chat" })
 
 -- Expand 'cc' into 'CodeCompanion' in the command line

@@ -34,4 +34,8 @@ require('nvim-treesitter').setup {
         additional_vim_regex_highlighting = false,
     },
 }
+
+-- Remember to run 
+vim.opt.runtimepath:append(vim.fn.stdpath('data') .. '/site')
+
 require('nvim-treesitter').install { "javascript", "typescript", "cpp", "c", "lua", "rust", "python", "bash", "yaml", "json" }

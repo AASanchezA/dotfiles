@@ -11,7 +11,7 @@ print("Python...", end=" ")
 print(f"{sys.version}", end=" ")
 print(f"on {platform.platform()}", end=" ")
 print(f"by {expanduser('~')}", end=" ")
-print(";-)")
+print(":-(")
 
 
 

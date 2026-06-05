@@ -76,7 +76,7 @@ require("lazy").setup({
             -- Snippets
             { 'L3MON4D3/LuaSnip' },
             { 'rafamadriz/friendly-snippets' },
-       }
+        }
     },
     {
         'numToStr/Comment.nvim',
@@ -98,28 +98,28 @@ require("lazy").setup({
         end
 
     },
-    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    { "catppuccin/nvim",         name = "catppuccin", priority = 1000 },
     { "sainnhe/everforest" },
     { "sainnhe/gruvbox-material" },
     {
-      "olimorris/codecompanion.nvim",
-      config = true,
-      dependencies = {
-        "nvim-lua/plenary.nvim",
-        "nvim-treesitter/nvim-treesitter",
-      },
+        "olimorris/codecompanion.nvim",
+        config = true,
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+            "nvim-treesitter/nvim-treesitter",
+        },
     },
     {
-      'claydugo/browsher.nvim',
-      event = "VeryLazy",
-      config = function()
-        -- Specify empty to use below default options
-        require('browsher').setup()
-      end
+        'claydugo/browsher.nvim',
+        event = "VeryLazy",
+        config = function()
+            -- Specify empty to use below default options
+            require('browsher').setup()
+        end
     },
     {
-      'nvim-lualine/lualine.nvim',
-      dependencies = { 'nvim-tree/nvim-web-devicons' }
+        'nvim-lualine/lualine.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
     },
     {
         "kawre/leetcode.nvim",
@@ -141,7 +141,23 @@ require("lazy").setup({
     },
     {
         "folke/snacks.nvim",
-         priority = 1000,
-         lazy = false
+        priority = 1000,
+        lazy = false
+    },
+    {
+        'nvim-orgmode/orgmode',
+        event = 'VeryLazy',
+        ft = { 'org' },
+        config = function()
+            -- Setup orgmode
+            require('orgmode').setup({
+                org_agenda_files = '~/org/**/*',
+                org_default_notes_file = '~/org/refile.org',
+            })
+
+            -- Experimental LSP support
+            vim.lsp.enable('org')
+        end,
     }
+
 })

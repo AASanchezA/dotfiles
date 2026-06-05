@@ -112,6 +112,7 @@ plugins=(
   web-search
   systemadmin
   tmux
+  archlinux
   # ubuntu
   # kubectl
   docker
@@ -198,6 +199,7 @@ test $(command -v fd) && true || echo "Please Install fd"
 
 # Exclude those directories even if not listed in .gitignore, or if .gitignore is missing
 FD_OPTIONS="--follow --exclude .git --exclude node_modules"
+# FD_OPTIONS="--follow --exclude .git --exclude node_modules $(ls / |grep -P "home|usr|etc" -v | awk '{print "--exclude "$1}'| paste -d " " -s )"
 
 test $(command -v gf) && source $GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.zsh || echo "Please Install gf from https://github.com/tomnomnom/gf"
 

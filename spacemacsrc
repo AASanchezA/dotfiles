@@ -27,42 +27,65 @@ This function should only modify configuration layer settings."
    dotspacemacs-ask-for-lazy-installation t
 
    ;; List of additional paths where to look for configuration layers.
-   ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
+   ;; Paths must have a trailing slash (i.e. "~/.mycontribs/")
    dotspacemacs-configuration-layer-path '()
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(react
+   '(
+     nginx
+     graphviz
+     asciidoc
+     protobuf
+     xclipboard
      csv
      yaml
+     tree-sitter
+     (tree-sitter :variables spacemacs-tree-sitter-hl-black-list'(js2-mode rjsx-mode)
+                  tree-sitter-syntax-highlight-enable
+                  t
+                  tree-sitter-fold-enable
+                  t
+                  tree-sitter-fold-indicators-enable
+                  nil)
      shell
+     emoji
+     shell-scripts
+     llm-client
+     (llm-client :variables
+                 llm-client-enable-gptel t
+                 )
+     ;; (shell-scripts :variables
+     ;;                shell-scripts-backend 'lsp)
      search-engine
      rust
+     (rust :variables rust-backend'lsp)
      typescript
+     (typescript :variables typescript-backend'lsp)
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press `SPC f e R' (Vim style) or
      ;; `M-m f e R' (Emacs style) to install them.
      ;; ----------------------------------------------------------------
      plantuml
-     (plantuml :variables
-               plantuml-jar-path "/usr/share/java/plantuml/plantuml.jar"
-               org-plantuml-jar-path "/usr/share/java/plantuml/plantuml.jar")
+     (plantuml :variables plantuml-jar-path
+               "/usr/share/java/plantuml/plantuml.jar" org-plantuml-jar-path
+               "/usr/share/java/plantuml/plantuml.jar")
      themes-megapack
-     auto-completion
      better-defaults
+     lua
+     (lua :variables lua-backend'lsp)
      semantic
      syntax-checking
-     (syntax-checking :variables
-                      syntax-checking-enable-tooltips t
-                      )
+     (syntax-checking :variables syntax-checking-enable-tooltips
+                      t)
      auto-completion
-     (auto-completion :variables
-                      auto-completion-enable-help-tooltip t
-                      auto-completion-enable-snippets-in-popup t)
+     (auto-completion :variables auto-completion-enable-help-tooltip
+                      t auto-completion-enable-snippets-in-popup
+                      t)
      elfeed
-     (elfeed :variables rmh-elfeed-org-files (list "~/Nextcloud/org/elfeed.org"))
-     chrome
+     (elfeed :variables rmh-elfeed-org-files
+             (list "~/org/elfeed.org"))
      systemd
      go
      (go :variables
@@ -72,44 +95,44 @@ This function should only modify configuration layer settings."
          gofmt-command "goimports"
          godoc-at-point-function 'godoc-gogetdoc)
      html
-     haskell
-     (haskell :variables
-              haskell-completion-backend 'lsp)
      markdown
-     (markdown :variables
-               markdown-live-preview-engine 'vmd)
+     (markdown :variables markdown-open-command
+               "/usr/bin/markdown" markdown-live-preview-engine
+               'vmd)
      latex
      javascript
      emacs-lisp
      command-log
      git
      cmake
-     (cmake :variables
-            cmake-enable-cmake-ide-support t
-            cmake-ide-project-dir "~/Proj/github/zeromq/libzmq/"
-            cmake-ide-build-dir  "~/Proj/github/zeromq/libzmq/builds/"
-            cmake-ide-cmake-opts "-DCMAKE_BUILD_TYPE=Release"
-            helm-make-build-dir "build"
-            helm-make-arguments "-j8"
-            helm-ctest-dir "~/Proj/github/zeromq/libzmq/builds/")
+     (cmake :variables cmake-enable-cmake-ide-support
+            t cmake-backend 'lsp
+            ;; cmake-ide-project-dir "~/Proj/github/opencv/opencv"
+            ;; cmake-ide-build-dir  "~/Proj/github/opencv/opencv/build"
+            ;; cmake-ide-cmake-opts "-DCMAKE_BUILD_TYPE=Release"
+            ;; helm-make-build-dir "build"
+            ;; helm-make-arguments "-j8"
+            ;; helm-ctest-dir "~/Proj/github/opencv/opencv/build")
+            )
      c-c++
      (c-c++ :variables
             c-c++-backend 'lsp-ccls
             c-c++-lsp-executable "/usr/bin/ccls"
             c-c++-default-mode-for-headers 'c++-mode)
-            ;; c-c++-enable-clang-support t)
-     dap
+     ;; c-c++-enable-clang-support t)
      lsp
+     (lsp :variables lsp-code-lens
+          t lsp-modeline-diagnostics-mode :file lsp-headerline-breadcrumb-enable
+          t)
      conda
-     (conda :variables
-            conda-anaconda-home "/home/andres/miniconda3")
+     (conda :variables conda-anaconda-home
+            "/home/andres/miniconda3")
      python
-     (python :variables
-             python-formatter 'black
+     (python :variables python-formatter'black
              ;; python-format-on-save t
-             python-backend 'anaconda)
-             ;; python-backend 'lsp)
-             ;; python-lsp-server 'pyls)
+             ;; python-backend 'anaconda)
+             python-format-on-save nil python-backend 'lsp
+             python-lsp-server 'pyright)
      markdown
      org
      (org :variables
@@ -120,21 +143,22 @@ This function should only modify configuration layer settings."
           org-re-reveal-root "file:///home/andres/dotfiles/reveal.js"
           org-enable-bootstrap-support t)
      spell-checking
-     (spell-checking :variables
-                     spell-checking-enable-by-default nil
-                     spell-checking-enable-auto-dictionary nil
-                     )
+     (spell-checking :variables spell-checking-enable-by-default
+                     nil spell-checking-enable-auto-dictionary
+                     nil)
      ;; treemacs
-     docker
      neotree
+     docker
+     json
+     (json :variables json-fmt-tool'web-beautify
+           json-backend 'lsp)
      version-control
      mu4e
      (mu4e :variables
            mu4e-use-maildirs-extension t
-           mu4e-installation-path "/usr/share/emacs/site-lisp")
-     twitter
+           mu4e-installation-path "/usr/share/emacs/site-lisp/mu4e")
+     bibtex
      )
-
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
@@ -143,7 +167,9 @@ This function should only modify configuration layer settings."
    ;; '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
    dotspacemacs-additional-packages
-   '(fzf forge cheat-sh mermaid-mode gptel atomic-chrome)
+   '(fzf forge cheat-sh mermaid-mode atomic-chrome smtpmail-multi org-roam org-roam-ui org-roam-bibtex
+         org-noter org-noter-pdftools websocket simple-httpd f)
+
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
 
@@ -288,7 +314,7 @@ It should only modify the values of Spacemacs settings."
    dotspacemacs-startup-buffer-multi-digit-delay 0.4
 
    ;; If non-nil, show file icons for entries and headings on Spacemacs home buffer.
-   ;; This has no effect in terminal or if "all-the-icons" package or the font
+   ;; This has no effect in terminal or if "nerd-icons" package or the font
    ;; is not installed. (default nil)
    dotspacemacs-startup-buffer-show-icons nil
 
@@ -314,9 +340,16 @@ It should only modify the values of Spacemacs settings."
 
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press `SPC T n' to cycle to the next theme in the list (works great
-   ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes
-   '(gruvbox monokai spacemacs-dark spacemacs-light)
+   ;; Press `SPC T n' to cycle to the next theme in the list (works great
+   ;; with 2 themes variants, one dark and one light). A theme from external
+   ;; package can be defined with `:package', or a theme can be defined with
+   ;; `:location' to download the theme package, refer the themes section in
+   ;; DOCUMENTATION.org for the full theme specifications.
+   dotspacemacs-themes '(gruvbox
+                         monokai
+                         spacemacs-dark
+                         spacemacs-light)
+
    ;; Set the theme for the Spaceline. Supported themes are `spacemacs',
    ;; `all-the-icons', `custom', `doom', `vim-powerline' and `vanilla'. The
    ;; first three are spaceline themes. `doom' is the doom-emacs mode-line.
@@ -324,9 +357,8 @@ It should only modify the values of Spacemacs settings."
    ;; refer to the DOCUMENTATION.org for more info on how to create your own
    ;; spaceline theme. Value can be a symbol or list with additional properties.
    ;; (default '(spacemacs :separator wave :separator-scale 1.5))
-   dotspacemacs-mode-line-theme
-   '(spacemacs :separator wave
-               :separator-scale 1.5)
+   dotspacemacs-mode-line-theme '(spacemacs :separator wave :separator-scale 1.5)
+
    ;; If non-nil the cursor color matches the state color in GUI Emacs.
    ;; (default t)
    dotspacemacs-colorize-cursor-according-to-state t
@@ -360,7 +392,7 @@ It should only modify the values of Spacemacs settings."
    dotspacemacs-major-mode-leader-key ","
 
    ;; Major mode leader key accessible in `emacs state' and `insert state'.
-   ;; (default "C-M-m" for terminal mode, "<M-return>" for GUI mode).
+   ;; (default "C-M-m" for terminal mode, "M-<return>" for GUI mode).
    ;; Thus M-RET should work as leader key in both GUI and terminal modes.
    ;; C-M-m also should work in terminal mode, but not in GUI mode.
    dotspacemacs-major-mode-emacs-leader-key (if window-system "<M-return>" "C-M-m")
@@ -427,6 +459,22 @@ It should only modify the values of Spacemacs settings."
    ;; displays the buffer in a same-purpose window even if the buffer can be
    ;; displayed in the current window. (default nil)
    dotspacemacs-switch-to-buffer-prefers-purpose nil
+
+   ;; Whether side windows (such as those created by treemacs or neotree)
+   ;; are kept or minimized by `spacemacs/toggle-maximize-window' (SPC w m).
+   ;; (default t)
+   dotspacemacs-maximize-window-keep-side-windows t
+
+   ;; If nil, no load-hints enabled. If t, enable the `load-hints' which will
+   ;; put the most likely path on the top of `load-path' to reduce walking
+   ;; through the whole `load-path'. It's an experimental feature to speedup
+   ;; Spacemacs on Windows. Refer the FAQ.org "load-hints" session for details.
+   dotspacemacs-enable-load-hints nil
+
+   ;; If t, enable the `package-quickstart' feature to avoid full package
+   ;; loading, otherwise no `package-quickstart' attemption (default nil).
+   ;; Refer the FAQ.org "package-quickstart" section for details.
+   dotspacemacs-enable-package-quickstart nil
 
    ;; If non-nil a progress bar is displayed when spacemacs is loading. This
    ;; may increase the boot time on some systems and emacs builds, set it to
@@ -504,8 +552,7 @@ It should only modify the values of Spacemacs settings."
    ;;   :size-limit-kb 1000)
    ;; When used in a plist, `visual' takes precedence over `relative'.
    ;; (default nil)
-   dotspacemacs-line-numbers
-   'visual
+   dotspacemacs-line-numbers 't
    ;; Code folding method. Possible values are `evil', `origami' and `vimish'.
    ;; (default 'evil)
    dotspacemacs-folding-method
@@ -627,7 +674,7 @@ default it calls `spacemacs/load-spacemacs-env' which loads the environment
 variables declared in `~/.spacemacs.env' or `~/.spacemacs.d/.spacemacs.env'.
 See the header of this file for more information."
   (spacemacs/load-spacemacs-env)
-)
+  )
 
 (defun dotspacemacs/user-init ()
   "Initialization for user code:
@@ -635,7 +682,7 @@ This function is called immediately after `dotspacemacs/init', before layer
 configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
-)
+  )
 
 
 (defun dotspacemacs/user-load ()
@@ -643,7 +690,7 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
 This function is called only while dumping Spacemacs configuration. You can
 `require' or `load' the libraries of your choice that will be included in the
 dump."
-)
+  )
 
 (defun andres-page-up-center ()
   "Try to scroll up and the center"
@@ -664,108 +711,254 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  ;; (server-start)
-  (setq backup-directory-alist
-        `((".*" . ,temporary-file-directory)))
-  (setq auto-save-file-name-transforms
-        `((".*" ,temporary-file-directory t)))
-
-  (setq evil-emacs-state-cursor '("red" box))
-  (setq evil-normal-state-cursor '("green" box))
-  (setq evil-visual-state-cursor '("orange" box))
-  (setq evil-insert-state-cursor '("red" bar))
-  (setq evil-replace-state-cursor '("red" bar))
-  (setq evil-operator-state-cursor '("red" hollow))
-
-  (setq twittering-use-master-password t)
-
+  (setq backup-directory-alist `((".*" . ,temporary-file-directory)))
+  (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
+  (with-eval-after-load 'evil
+    (setq evil-emacs-state-cursor '("red" box))
+    (setq evil-normal-state-cursor '("green" box))
+    (setq evil-visual-state-cursor '("orange" box))
+    (setq evil-insert-state-cursor '("red" bar))
+    (setq evil-replace-state-cursor '("red" bar))
+    (setq evil-operator-state-cursor '("red" hollow)))
+  (with-eval-after-load 'evil-maps
+    ;; (evil-define-key 'normal 'global (kbd "C-u") 'andres-page-up-center)
+    ;; (define-key evil-normal-state-map (kbd "C-u") 'andres-page-up-center)
+    ;; (define-key evil-normal-state-map (kbd "C-u") (lambda () (interactive) (evil-scroll-up) (evil-scroll-line-to-center)))
+    ;; (define-key evil-normal-state-map (kbd "C-d") (kbd "C-d zz"))
+    ;; (define-key evil-normal-state-map (kbd "C-d") 'evil-scroll-down)
+    ;; (define-key key-translation-map (kbd "C-u") (kbd "C-uzz"))
+    ;; (define-key key-translation-map (kbd "C-d") (kbd "C-dzz"))
+    )
+  ;; (with-eval-after-load 'twitter
+  ;;   (setq twittering-use-master-password t)
+  ;;   (setq twittering-allow-insecure-server-cert t)
+  ;; )
   (setq-default helm-make-build-dir "build")
-
   ;; Set default tab
   (setq default-tab-width 4)
-
   ;; White space
   (require 'whitespace)
   ;; TODO cleaner tab visualization
   (setq whitespace-style '(face empty tabs spaces lines-tail trailing))
   ;; (setq whitespace-style '(face tabs spaces trailing lines-tail space-before-tab empty space-after-tab space-mark tab-mark))
+  ;; (setq whitespace-stype '(face tabs spaces trailing lines space-before-tab newline indentation empty space-after-tab space-mark tab-mark newline-mark missing-newline-at-eof))
   (global-whitespace-mode t)
-
   (add-hook 'doc-view-mode-hook 'auto-revert-mode)
   (spacemacs/toggle-indent-guide-globally-on)
-
   (with-eval-after-load 'mu4e
-    ;; tell message-mode how to send mail
-    (setq message-send-mail-function 'smtpmail-send-it)
-    ;; if our mail server lives at smtp.example.org; if you have a local
-    ;; mail-server, simply use 'localhost' here.
-    ;; mail.gmx.net/ssl/user=andres-sanchez@gmx.net
-    (setq smtpmail-smtp-server "mail.gmx.net/ssl/user=andres-sanchez@gmx.net")
+    (setq mu4e-context-policy 'always-ask)
+    (setq mu4e-compose-context-policy 'always-ask)
+    (setq mu4e-contexts `(,(make-mu4e-context :name "Private"
+                                              :enter-func (lambda ()
+                                                            (mu4e-message "Switch to the Private context")):leave-func
+                                              (lambda ()
+                                                (mu4e-message "Leaving Private context"))
+                                              :match-func (lambda (msg)
+                                                            (when msg
+                                                              (mu4e-message-contact-field-matches msg :to "andres-sanchez@gmx.net"))):vars'((user-mail-address . "andres-sanchez@gmx.net")
+                                                            (user-full-name . "Andres Sanchez")
+                                                            (mu4e-compose-signature . (concat "Andres Sanchez \n" "Emacs, Linux\n"
+                                                                                              "https://aasancheza.gitlab.io/blog\n"))
+                                                            (mu4e-bookmarks . ((:name "Inbox" :query "maildir:/Gmx/INBOX"
+                                                                                      :key 105)
+                                                                               (:name "Unread messages" :query "maildir:/Gmx/* AND flag:unread AND NOT flag:trashed"
+                                                                                      :key 117)
+                                                                               (:name "Today's messages" :query "maildir:/Gmx/* AND date:today..now"
+                                                                                      :key 116)
+                                                                               (:name "Last 7 days" :query "maildir:/Gmx/* AND date:7d..now"
+                                                                                      :hide-unread t
+                                                                                      :key 119)
+                                                                               (:name "Messages with images" :query "maildir:/Gmx/* AND mime:image/*"
+                                                                                      :key 112)
+                                                                               (:name "Messages in Gesendet" :query "maildir:/Gmx/Gesendet"
+                                                                                      :key 114)
+                                                                               (:name "Messages in Archiv" :query "maildir:/Gmx/Archiv"
+                                                                                      :key 113)
+                                                                               ))
+                                                            (mu4e-sent-folder . "/Gmx/Sent")
+                                                            (mu4e-trash-folder . "/Gmx/Trash")
+                                                            (mu4e-drafts-folder . "/Gmx/Drafts")
+                                                            (mu4e-refile-folder . "/Gmx/Archiv")
+                                                            ;; tell message-mode how to send mail
+                                                            (message-send-mail-function . message-smtpmail-send-it)
+                                                            ;; if our mail server lives at smtp.example.org; if you have a local
+                                                            ;; mail-server, simply use 'localhost' here.
+                                                            ;; mail.gmx.net/ssl/user=andres-sanchez@gmx.net
+                                                            ;; (smtpmail-smtp-server . "mail.gmx.net/ssl/user=andres-sanchez@gmx.net")
+                                                            (starttls-use-gnutls t)
+                                                            (smtpmail-smtp-server . "mail.gmx.net")
+                                                            (smtpmail-stream-type . starttls)
+                                                            (smtpmail-smtp-service . 587)))
+                          )))
+  (with-eval-after-load 'gdb
+    ;; Show main source buffer when using GDB
+    (setq gdb-show-main t)
+    (setq gdb-many-windows t)
     )
+  (with-eval-after-load 'magit
+    (require 'forge)
+    (setq auth-sources '("~/.authinfo")))
+  (with-eval-after-load 'forge
+    (setq forge-add-default-bindings nil))
   (with-eval-after-load 'org
-    (setq org-agenda-files (list "~/org/work.org" "~/org/hobby.org"))
+    (setq org-agenda-files (list "~/org/work.org" "~/org/hobby.org" "~/org/projects.org"
+                                 "~/org/gtd.org"))
     (setq org-default-notes-file "~/org/notes.org")
     (setq org-todo-keywords '((sequence "TODO" "DOING" "|" "DONE" "WONTFIX")))
     (setq org-projectile-file "~/org/projects.org")
     (setq org-pomodoro-length 35)
+    (setq org-hugo-base-dir "~/Proj/gitlab.com/AASanchoezA/blog")
+    (setq org-default-notes-file (concat org-directory "/inbox.org"))
+    (setq org-enable-roam-support t)
+    (setq org-roam-directory (concat org-directory "/roam"))
+    (setq org-roam-db-location (concat org-roam-directory "/db/org-roam.db"))
     (require 'ox-beamer)
     ;; (setq org-export-backends '(beamer html latex md gfm qmd))
-
-    ;; (require 'org-capture)
-    ;; (setq org-default-notes-file (concat org-directory "/notes"))
-    ;; (setq org-capture-templates
-    ;;       '(("b" "Blog idea"
-    ;;          entry
-    ;;          (file (org-file-path "blog-ideas.org"))
-    ;;          "* %?\n")
-
-    ;;         ("e" "Email" entry
-    ;;          (file+headline org-index-file "Inbox")
-    ;;          "* TODO %?\n\n%a\n\n")
-
-    ;;         ("f" "Finished book"
-    ;;          table-line (file "~/documents/notes/books-read.org")
-    ;;          "| %^{Title} | %^{Author} | %u |")
-
-    ;;         ("r" "Reading"
-    ;;          checkitem
-    ;;          (file (org-file-path "to-read.org")))
-
-    ;;         ("s" "Subscribe to an RSS feed"
-    ;;          plain
-    ;;          (file "~/documents/rss/urls")
-    ;;          "%^{Feed URL} \"~%^{Feed name}\"")
-
-    ;;         ("t" "Todo"
-    ;;          entry
-    ;;          (file+headline org-index-file "Inbox")
-    ;;          "* TODO %?\n")))
-    )
-
-  ;; Engine mode 
+    (require 'org-capture)
+    (setq org-default-notes-file (concat org-directory "/notes"))
+    (setq org-capture-templates '(
+                                  ;; ("b" "Blog idea"
+                                  ;;          entry
+                                  ;;          (file (org-file-path "blog-ideas.org"))
+                                  ;;          "* %?\n")
+                                  ("t" "Todo"
+                                   entry
+                                   (file+headline "~/org/gtd.org" "Tasks")
+                                   "* TODO %?\n  %i\n  %a")
+                                  ("j" "Journal"
+                                   entry
+                                   (file+olp+datetree "~/org/journal.org")
+                                   "* %?\nEntered on %U\n  %i\n  %a")
+                                  ("e" "Email"
+                                   entry
+                                   (file+headline org-index-file "Inbox")
+                                   "* TODO %?\n\n%a\n\n"))))
+  ;; Engine mode
   ;;(setq browse-url-browser-function 'browse-url-generic
   ;;      engine/browser-function 'browse-url-generic
   ;;      browse-url-generic-program "google-chrome")
+  (require 'atomic-chrome)
+  (atomic-chrome-start-server)
+  (setq atomic-chrome-buffer-open-style 'frame
+        atomic-chrome-default-major-mode 'markdown-mode)
+  ;; TODO check if breaks something else
 
-  ;; (require 'atomic-chrome)
-  ;; (atomic-chrome-start-server)
-  ;; (setq atomic-chrome-buffer-open-style 'frame)
+  ;; GPTEL
+  ;; OPTIONAL configuration
+  (setq-default gptel--debug t)
+  (setq-default gptel-default-mode 'org-mode
+                ;; gptel-model "andres:latest"
+                gptel-backend
+                (gptel-make-ollama "Ollama"
+                  :host "localhost:11434"
+                  :stream t
+                  :models '("qwen2.5-coder:7b"))
+                gptel-directives
+                '((andres .
+                          "You are a large language model living and a careful and friendly programmer. Respond concisely, Provide code as output with the minimum amount of extra text, prompt or note.")
+                  (default .
+                           "You are a large language model living in Emacs and a helpful assistant. Respond concisely.")
+                  (programming .
+                               "You are a large language model and a careful programmer. Provide code and only code as output without any additional text, prompt or note.")
+                  (writing .
+                           "You are a large language model and a writing assistant. Respond concisely.")
+                  (chat .
+                        "You are a large language model and a conversation partner. Respond concisely."))
+                gptel-temperature 0.5
+                )
 
-  ;; React js setting
-  (setq-default
-   ;; js2-mode
-   js2-basic-offset 2
-   ;; web-mode
-   css-indent-offset 2
-   web-mode-markup-indent-offset 2
-   web-mode-css-indent-offset 2
-   web-mode-code-indent-offset 2
-   web-mode-attr-indent-offset 2)
-  (with-eval-after-load 'web-mode
-    (add-to-list 'web-mode-indentation-params '("lineup-args" . nil))
-    (add-to-list 'web-mode-indentation-params '("lineup-concats" . nil))
-    (add-to-list 'web-mode-indentation-params '("lineup-calls" . nil)))
-)
+  (advice-add 'semantic-idle-scheduler-function
+              :around #'ignore)
+  (bibtex
+   :variables
+   bibtex-completion-bibliography (expand-file-name "~/org/zotero/zotero.bib")
+   bibtex-completion-pdf-field "file"
+   ;; org-ref  stuff (but used by bibtex layer)
+   org-ref-default-biblography (list bibtex-completion-bibliography)
+   org-ref-get-pdf-filename-function 'org-ref-get-filename-helm-bibtex)
 
+  ;; (use-package org-roam
+  ;;   :ensure t
+  ;;   ;; :custom
+  ;;   ;; (org-roam-directory (file-truename "/path/to/org-files/"))
+  ;;   :custom
+  ;;   (org-roam-directory (concat org-directory "/roam"))
+  ;;   (org-roam-db-location (concat org-roam-directory "/db/org-roam.db"))
+  ;;   :bind (("C-c n l" . org-roam-buffer-toggle)
+  ;;          ("C-c n f" . org-roam-node-find)
+  ;;          ("C-c n g" . org-roam-graph)
+  ;;          ("C-c n i" . org-roam-node-insert)
+  ;;          ("C-c n c" . org-roam-capture)
+  ;;          ;; Dailies
+  ;;          ("C-c n j" . org-roam-dailies-capture-today))
+  ;;   :config
+  ;;   ;; If you're using a vertical completion framework, you might want a more informative completion interface
+  ;;   (setq org-roam-node-display-template (concat "${title:*} " (propertize "${tags:10}" 'face 'org-tag)))
+  ;;   (org-roam-db-autosync-mode)
+  ;;   ;; If using org-roam-protocol
+  ;;   (require 'org-roam-protocol))
+
+  (use-package org-roam-bibtex
+    :after org-roam
+    :hook (org-roam-mode . org-roam-bibtex-mode)
+    :custom
+    (orb-preformat-keywords '("citekey" "title" "url" "author-or-editor" "keywords" "file"))
+    (orb-process-file-keyword t)
+    (orb-file-field-extensions '("pdf" "epub" "html"))
+
+    (orb-templates
+     '(("r" "ref" plain (function org-roam-capture--get-point)
+        ""
+        :file-name "${citekey}"
+        :head "#+TITLE: ${citekey}: ${title}
+#+ROAM_KEY: ${ref}
+
+- tags ::
+- keywords :: ${keywords}
+
+* ${title}
+  :PROPERTIES:
+  :Custom_ID: ${citekey}
+  :URL: ${url}
+  :AUTHOR: ${author-or-editor}
+  :NOTER_DOCUMENT: ${file}
+  :NOTER_PAGE:
+  :END:"))))
+
+  (use-package org-pdftools
+    :hook (org-load . org-pdftools-setup-link))
+
+  (use-package org-noter
+    :after (:any org pdf-view)
+    :custom (org-noter-always-create-frame nil))
+
+  (use-package org-noter-pdftools
+    :after org-noter
+    :config
+    (with-eval-after-load 'pdf-annot
+      (add-hook 'pdf-annot-activate-handler-functions #'org-noter-pdftools-jump-to-note)))
+
+  )
+
+
+;; (custom-set-faces
+;;  ;; custom-set-faces was added by Custom.
+;;  ;; If you edit it by hand, you could mess it up, so be careful.
+;;  ;; Your init file should contain only one such instance.
+;;  ;; If there is more than one, they won't work right.
+;;  '(default ((t (:background nil)))))
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
+
+
+```json
+{
+"custom-set-faces": {
+"default": {
+"t": {
+"background": null
+}
+}
+}
+}
+```
