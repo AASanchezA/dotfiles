@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+exists() {
+	type $1 >/dev/null 2>/dev/null
+	return $?
+}
+
+wayland=`loginctl show-session $(awk '/tty/ {print $1}' <(loginctl)) -p Type | awk -F= '{print $2}'`
+if [[ $wayland = wayland ]] ; then
+	exists fuzzel && dmenu="fuzzel -d"
+else
+	exists rofi && dmenu="rofi -dmenu"
+	# exists dmenu && dmenu="dmenu"
+fi
+
+[[ -z $dmenu ]] && echo No dmenu-like program is installed. Install dmenu or rofi for X, fuzzel for wayland
+
+# opener=xdg-open
+# type $opener >/dev/null || opener=surf
+# opener=emacsclient --alternate-editor="" -t --eval 
+opener="emacsclient --alternate-editor=\"\" -c --eval "
+
+WIKI_PATH=/usr/share/doc/arch-wiki/html/en
+
+WIKI_SEARCH=$(du -a $WIKI_PATH | cut -f2 | cut -d/ -f8 | sed 's/.html//g' | $dmenu -i)
+WIKI="$WIKI_PATH/$WIKI_SEARCH.html"
+
+if [ -n "$WIKI_SEARCH" ]; then
+	$opener "(eww-open-file \"$WIKI\")"
+	# $opener $WIKI
+fi
