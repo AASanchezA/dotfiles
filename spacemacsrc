@@ -136,6 +136,7 @@ This function should only modify configuration layer settings."
      markdown
      org
      (org :variables
+          org-directory (expand-file-name "~/org")
           org-enable-github-support t
           org-enable-hugo-support t
           org-enable-reveal-js-support t
@@ -157,7 +158,11 @@ This function should only modify configuration layer settings."
      (mu4e :variables
            mu4e-use-maildirs-extension t
            mu4e-installation-path "/usr/share/emacs/site-lisp/mu4e")
-     bibtex
+     (bibtex :variables
+             bibtex-completion-bibliography (expand-file-name "~/org/zotero/zotero.bib")
+             bibtex-completion-pdf-field "file"
+             org-ref-default-bibliography (list (expand-file-name "~/org/zotero/zotero.bib"))
+             org-ref-get-pdf-filename-function 'org-ref-get-filename-helm-bibtex)
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -168,6 +173,7 @@ This function should only modify configuration layer settings."
    ;; Also include the dependencies as they will not be resolved automatically.
    dotspacemacs-additional-packages
    '(fzf forge cheat-sh mermaid-mode atomic-chrome smtpmail-multi org-roam org-roam-ui org-roam-bibtex
+         citar citar-org-roam highlight-indent-guides
          org-noter org-noter-pdftools websocket simple-httpd f)
 
    ;; A list of packages that cannot be updated.
@@ -704,6 +710,22 @@ dump."
   (evil-scroll-down)
   (evil-scroll-line-to-center))
 
+(defun andres/org-roam-capture-idea ()
+  "Capture org-roam idea template."
+  (interactive)
+  (require 'org-roam)
+  (let ((title (read-string "Idea title: ")))
+    (org-roam-capture- :node (org-roam-node-create :title title)
+                       :templates (list (assoc "i" org-roam-capture-templates)))))
+
+(defun andres/org-roam-capture-journal ()
+  "Capture org-roam journal template."
+  (interactive)
+  (require 'org-roam)
+  (let ((title (format-time-string "%Y-%m-%d")))
+    (org-roam-capture- :node (org-roam-node-create :title title)
+                       :templates (list (assoc "j" org-roam-capture-templates)))))
+
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
 This function is called at the very end of Spacemacs initialization after
@@ -744,7 +766,12 @@ you should place your code here."
   ;; (setq whitespace-stype '(face tabs spaces trailing lines space-before-tab newline indentation empty space-after-tab space-mark tab-mark newline-mark missing-newline-at-eof))
   (global-whitespace-mode t)
   (add-hook 'doc-view-mode-hook 'auto-revert-mode)
-  (spacemacs/toggle-indent-guide-globally-on)
+  (use-package highlight-indent-guides
+    :hook (prog-mode . highlight-indent-guides-mode)
+    :custom
+    (highlight-indent-guides-method 'character)
+    (highlight-indent-guides-responsive 'top)
+    (highlight-indent-guides-delay 0))
   (with-eval-after-load 'mu4e
     (setq mu4e-context-policy 'always-ask)
     (setq mu4e-compose-context-policy 'always-ask)
@@ -869,14 +896,6 @@ you should place your code here."
 
   (advice-add 'semantic-idle-scheduler-function
               :around #'ignore)
-  (bibtex
-   :variables
-   bibtex-completion-bibliography (expand-file-name "~/org/zotero/zotero.bib")
-   bibtex-completion-pdf-field "file"
-   ;; org-ref  stuff (but used by bibtex layer)
-   org-ref-default-biblography (list bibtex-completion-bibliography)
-   org-ref-get-pdf-filename-function 'org-ref-get-filename-helm-bibtex)
-
   ;; (use-package org-roam
   ;;   :ensure t
   ;;   ;; :custom
@@ -897,33 +916,86 @@ you should place your code here."
   ;;   (org-roam-db-autosync-mode)
   ;;   ;; If using org-roam-protocol
   ;;   (require 'org-roam-protocol))
+  (setq pdf-info-epdfinfo-program
+        "/home/andres/.emacs.d/elpa/30.2/develop/pdf-tools-20260102.1101/epdfinfo")
+
+  (with-eval-after-load 'org
+    (setq org-cite-global-bibliography (list "~/org/zotero/zotero.bib")
+          org-cite-insert-processor 'citar
+          org-cite-follow-processor 'citar
+          org-cite-activate-processor 'citar))
+
+  (use-package citar
+    :custom
+    (citar-bibliography org-cite-global-bibliography))
+
+  (use-package citar-org-roam
+    :after (citar org-roam)
+    :config
+    (citar-org-roam-mode 1))
+
+  (with-eval-after-load 'org-roam
+    (setq org-roam-dailies-directory "daily/"
+          org-roam-dailies-capture-templates
+          '(("d" "daily" entry
+             "* %<%H:%M> %?"
+             :if-new (file+head "%<%Y-%m-%d>.org"
+                                "#+title: %<%Y-%m-%d>\n#+filetags: daily\n\n* Tasks\n* Log\n")
+             :empty-lines 1)))
+    (setq org-roam-capture-templates
+          '(("d" "default" plain "%?"
+             :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org"
+                                "#+title: ${title}\n")
+             :unnarrowed t)
+            ("i" "idea" plain "%?"
+             :if-new (file+head "ideas/${slug}.org"
+                                "#+title: ${title}\n#+filetags: idea\n\n* Summary\n* Next\n")
+             :unnarrowed t)
+            ("j" "journal" plain "%?"
+             :if-new (file+head "journal/%<%Y-%m-%d>.org"
+                                "#+title: %<%Y-%m-%d>\n#+filetags: journal\n")
+             :unnarrowed t)
+            ("r" "reference" plain
+             "* ${title}\n:PROPERTIES:\n:Custom_ID: ${citekey}\n:URL: ${url}\n:AUTHOR: ${author-or-editor}\n:NOTER_DOCUMENT: ${file}\n:NOTER_PAGE:\n:END:\n\n- keywords :: ${keywords}\n\n%?"
+             :if-new (file+head "references/${citekey}.org"
+                                "#+title: ${title}\n#+ROAM_REFS: ${ref}\n")
+             :unnarrowed t)))
+    (org-roam-db-autosync-mode 1))
 
   (use-package org-roam-bibtex
     :after org-roam
-    :hook (org-roam-mode . org-roam-bibtex-mode)
+    :config
+    (org-roam-bibtex-mode 1)
     :custom
+    (orb-roam-ref-format 'org-cite)
     (orb-preformat-keywords '("citekey" "title" "url" "author-or-editor" "keywords" "file"))
     (orb-process-file-keyword t)
-    (orb-file-field-extensions '("pdf" "epub" "html"))
+    (orb-attached-file-extensions '("pdf"))
+    (orb-insert-interface 'helm-bibtex)
+    (orb-note-actions-interface 'helm-bibtex))
 
-    (orb-templates
-     '(("r" "ref" plain (function org-roam-capture--get-point)
-        ""
-        :file-name "${citekey}"
-        :head "#+TITLE: ${citekey}: ${title}
-#+ROAM_KEY: ${ref}
-
-- tags ::
-- keywords :: ${keywords}
-
-* ${title}
-  :PROPERTIES:
-  :Custom_ID: ${citekey}
-  :URL: ${url}
-  :AUTHOR: ${author-or-editor}
-  :NOTER_DOCUMENT: ${file}
-  :NOTER_PAGE:
-  :END:"))))
+  (spacemacs/set-leader-keys
+    "aonb" #'org-roam-buffer-toggle
+    "aonc" #'org-roam-capture
+    "aonf" #'org-roam-node-find
+    "aoni" #'org-roam-node-insert
+    "aong" #'org-roam-graph
+    "aonI" #'andres/org-roam-capture-idea
+    "aonJ" #'andres/org-roam-capture-journal
+    "aondt" #'org-roam-dailies-capture-today
+    "aondy" #'org-roam-dailies-capture-yesterday
+    "aondd" #'org-roam-dailies-goto-date)
+  (spacemacs/set-leader-keys-for-major-mode 'org-mode
+    "nb" #'org-roam-buffer-toggle
+    "nc" #'org-roam-capture
+    "nf" #'org-roam-node-find
+    "ni" #'org-roam-node-insert
+    "ng" #'org-roam-graph
+    "nI" #'andres/org-roam-capture-idea
+    "nJ" #'andres/org-roam-capture-journal
+    "ndt" #'org-roam-dailies-capture-today
+    "ndy" #'org-roam-dailies-capture-yesterday
+    "ndd" #'org-roam-dailies-goto-date)
 
   (use-package org-pdftools
     :hook (org-load . org-pdftools-setup-link))
@@ -949,16 +1021,3 @@ you should place your code here."
 ;;  '(default ((t (:background nil)))))
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
-
-
-```json
-{
-"custom-set-faces": {
-"default": {
-"t": {
-"background": null
-}
-}
-}
-}
-```
