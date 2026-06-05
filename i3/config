@@ -66,6 +66,7 @@ bindsym $mod+Print --release exec --no-startup-id flameshot gui
 
 # Category: Navigation
 bindsym $mod+d --release exec "rofi -combi-modi drun,window,ssh -show combi -modi combi"
+bindsym $mod+Shift+d --release exec --no-startup-id "/home/$USER/bin/org-roam-rofi.sh"
 bindsym $mod+Shift+q kill
 
 # Get Help
