@@ -962,6 +962,14 @@ you should place your code here."
              :unnarrowed t)))
     (org-roam-db-autosync-mode 1))
 
+  (use-package org-roam-ui
+    :after org-roam
+    :custom
+    (org-roam-ui-sync-theme t)
+    (org-roam-ui-follow t)
+    (org-roam-ui-update-on-save t)
+    (org-roam-ui-open-on-start nil))
+
   (use-package org-roam-bibtex
     :after org-roam
     :config
@@ -980,6 +988,7 @@ you should place your code here."
     "aonf" #'org-roam-node-find
     "aoni" #'org-roam-node-insert
     "aong" #'org-roam-graph
+    "aonu" #'org-roam-ui-mode
     "aonI" #'andres/org-roam-capture-idea
     "aonJ" #'andres/org-roam-capture-journal
     "aondt" #'org-roam-dailies-capture-today
@@ -991,6 +1000,7 @@ you should place your code here."
     "nf" #'org-roam-node-find
     "ni" #'org-roam-node-insert
     "ng" #'org-roam-graph
+    "nu" #'org-roam-ui-mode
     "nI" #'andres/org-roam-capture-idea
     "nJ" #'andres/org-roam-capture-journal
     "ndt" #'org-roam-dailies-capture-today
