@@ -973,6 +973,11 @@ you should place your code here."
              :if-new (file+head "journal/%<%Y-%m-%d>.org"
                                 "#+title: %<%Y-%m-%d>\n#+filetags: journal\n")
              :unnarrowed t)
+            ("R" "research-topic" plain
+             "* Question\n%^{Question}\n\n* Why it matters\n%?\n\n* Sub-questions\n- \n\n* Key papers\n- \n\n* Methods\n- \n\n* Experiments\n- \n\n* Open problems\n- \n\n* Next actions\n** TODO \n\n* Links\n- "
+             :if-new (file+head "research/${slug}.org"
+                                "#+title: ${title}\n#+filetags: research %^{Domain tags}\n")
+             :unnarrowed t)
             ("r" "reference" plain
              "* ${title}\n:PROPERTIES:\n:Custom_ID: ${citekey}\n:URL: ${url}\n:AUTHOR: ${author-or-editor}\n:NOTER_DOCUMENT: ${file}\n:NOTER_PAGE:\n:END:\n\n- keywords :: ${keywords}\n\n%?"
              :if-new (file+head "references/${citekey}.org"

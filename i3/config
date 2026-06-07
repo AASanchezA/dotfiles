@@ -79,6 +79,7 @@ bindsym $mod+Ctrl+n exec alacritty --command nload -u H
 bindsym $mod+Ctrl+m exec alacritty --command "/home/$USER/bin/arch-wiki-dmenu.sh"
 bindsym $mod+Ctrl+k exec "/home/$USER/bin/clonemonitor.sh"
 bindsym $mod+Ctrl+w exec "/home/$USER/bin/web-search.sh"
+bindsym $mod+Ctrl+o exec --no-startup-id "/home/$USER/bin/i3-keybinds-rofi.sh"
 bindsym Mod1+k exec "/home/$USER/bin/keyboard.sh"
 
 # Get Alt+Tab bevahior

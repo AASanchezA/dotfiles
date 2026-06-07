@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-choice=$(printf "daily\njournal\nidea" | rofi -dmenu -p "org-roam")
+choice=$(printf "daily\njournal\nidea\nresearch" | rofi -dmenu -p "org-roam")
 
 case "${choice}" in
   daily)
@@ -10,6 +10,8 @@ case "${choice}" in
     emacsclient -n -c -e "(andres/org-roam-capture-journal)" ;;
   idea)
     emacsclient -n -c -e "(andres/org-roam-capture-idea)" ;;
+  research)
+    emacsclient -n -c -e "(org-roam-capture nil \"R\")" ;;
   *)
     exit 0 ;;
 esac
