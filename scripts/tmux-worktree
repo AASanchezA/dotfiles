@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+force=false
+branch=""
+
+for arg in "$@"; do
+    case $arg in
+        --force) force=true ;;
+        *) branch=$arg ;;
+    esac
+done
+
+if [[ -z $branch ]]; then
+    branch=$(git ls-remote --heads origin | sed 's|.*refs/heads/||' | fzf)
+fi
+
+if [[ -z $branch ]]; then
+    echo "skipping"
+    exit 1
+fi
+
+worktree_path="wt/$branch"
+clean_name=$(echo "$branch" | tr "./" "__")
+session_name=$(tmux display-message -p "#S")
+target="$session_name:$clean_name"
+
+if [[ -d $worktree_path ]]; then
+    if [[ $force == true ]]; then
+        git worktree remove --force "$worktree_path" &&
+        git branch -D "$branch" &&
+        git fetch origin "$branch":"$branch" &&
+        git worktree add "$worktree_path" "$branch"
+    else
+        echo "worktree already exists at $worktree_path (use --force to recreate)"
+    fi
+else
+    git fetch origin "$branch":"$branch"
+    git worktree add "$worktree_path" "$branch"
+fi
+
+if tmux list-windows -t "$session_name" -F '#W' | grep -q "^${clean_name}$"; then
+    tmux select-window -t "$target"
+else
+    tmux neww -n "$clean_name" -c "$PWD/$worktree_path"
+fi
