@@ -814,6 +814,8 @@ you should place your code here."
                                                             ;; (smtpmail-smtp-server . "mail.gmx.net/ssl/user=andres-sanchez@gmx.net")
                                                             (starttls-use-gnutls t)
                                                             (smtpmail-smtp-server . "mail.gmx.net")
+                                                            (smtpmail-smtp-user . "andres-sanchez@gmx.net")
+                                                            (smtpmail-auth-supported . (login plain))
                                                             (smtpmail-stream-type . starttls)
                                                             (smtpmail-smtp-service . 587)))
                           )))
@@ -822,14 +824,17 @@ you should place your code here."
     (setq gdb-show-main t)
     (setq gdb-many-windows t)
     )
+  (setq auth-sources '("~/.authinfo"))
   (with-eval-after-load 'magit
-    (require 'forge)
-    (setq auth-sources '("~/.authinfo")))
+    (require 'forge))
   (with-eval-after-load 'forge
     (setq forge-add-default-bindings nil))
   (with-eval-after-load 'org
-    (setq org-agenda-files (list "~/org/work.org" "~/org/hobby.org" "~/org/projects.org"
-                                 "~/org/gtd.org"))
+    (setq org-agenda-files
+          (delete-dups
+           (append (list "~/org/work.org" "~/org/hobby.org" "~/org/projects.org"
+                         "~/org/gtd.org")
+                   (directory-files-recursively "~/org/roam" "\\.org$"))))
     (setq org-default-notes-file "~/org/notes.org")
     (setq org-todo-keywords '((sequence "TODO" "DOING" "|" "DONE" "WONTFIX")))
     (setq org-projectile-file "~/org/projects.org")
