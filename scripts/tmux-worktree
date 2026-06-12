@@ -29,13 +29,15 @@ if [[ -d $worktree_path ]]; then
         git worktree remove --force "$worktree_path" &&
         git branch -D "$branch" &&
         git fetch origin "$branch":"$branch" &&
-        git worktree add "$worktree_path" "$branch"
+        git worktree add "$worktree_path" "$branch" &&
+        git -C "$worktree_path" branch --set-upstream-to="origin/$branch"
     else
         echo "worktree already exists at $worktree_path (use --force to recreate)"
     fi
 else
-    git fetch origin "$branch":"$branch"
-    git worktree add "$worktree_path" "$branch"
+    git fetch origin "$branch":"$branch" &&
+    git worktree add "$worktree_path" "$branch" &&
+    git -C "$worktree_path" branch --set-upstream-to="origin/$branch"
 fi
 
 if tmux list-windows -t "$session_name" -F '#W' | grep -q "^${clean_name}$"; then
